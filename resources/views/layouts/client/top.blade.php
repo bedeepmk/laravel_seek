@@ -14,7 +14,8 @@
 <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet">
 
 <!-- 공통스타일 -->
-<script src="/css/app.css{{$invalidatingCacheStr}}"></script>
+{{-- <script src="/css/app.css{{$invalidatingCacheStr}}"></script> --}}
+<script src="/css/common.css{{$invalidatingCacheStr}}"></script>
 
 <!-- 공통스크립트 -->
 <script src="/js/app.js{{$invalidatingCacheStr}}"></script>
