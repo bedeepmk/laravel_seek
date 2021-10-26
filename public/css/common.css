@@ -9,6 +9,13 @@
 	border: none;
 	position: relative;
 	display: block;
+	box-sizing:content-box;
+}
+ol, ul {
+    padding:0;
+}
+p {
+	margin:0;
 }
 script,
 style {
@@ -73,6 +80,10 @@ tr {
 .layout-100 {
 	width: 1180px;
 	margin: 0 auto;
+}
+container {
+	position: static;
+	display: unset;
 }
 article {
 	height: auto;
