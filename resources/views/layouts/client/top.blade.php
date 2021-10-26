@@ -17,8 +17,8 @@
 
 <!-- 공통스타일 -->
 {{-- <script src="/css/app.css{{$invalidatingCacheStr}}"></script> --}}
-<script src="/css/common.css{{$invalidatingCacheStr}}"></script>
-<link type="text/css" href="{{ asset('css/common.css') }}">
+{{-- <script src="/css/common.css{{$invalidatingCacheStr}}"></script> --}}
+<link type="text/css" href="/css/common.css{{$invalidatingCacheStr}}">
 
 <!-- 공통스크립트 -->
 <script src="/js/app.js{{$invalidatingCacheStr}}"></script>
