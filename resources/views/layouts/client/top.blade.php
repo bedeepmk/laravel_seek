@@ -6,8 +6,10 @@
 <!DOCTYPE html>
 <html lang="{{ str_replace('_', '-', app()->getLocale()) }}">
 <head>
-<meta charset="UTF-8">
-<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta http-equiv="Content-Type" content="text/html" charset="utf-8" />
+<meta name="viewport" content="width=device-width, height=device-height, initial-scale=1.0, user-scalable=0, minimum-scale=1.0, maximum-scale=1.0">
+<meta name="title" content="farmnjobs" />
+<meta name="format-detection" content="telephone=no" />
 <title>Client @yield('title')</title>
 <!-- 공통폰트 -->
 <link href="https://fonts.googleapis.com/css2?family=Nunito:wght@400;600;700&display=swap" rel="stylesheet">
@@ -16,8 +18,11 @@
 <!-- 공통스타일 -->
 {{-- <script src="/css/app.css{{$invalidatingCacheStr}}"></script> --}}
 <script src="/css/common.css{{$invalidatingCacheStr}}"></script>
+<link type="text/css" href="{{ asset('css/common.css') }}">
 
 <!-- 공통스크립트 -->
 <script src="/js/app.js{{$invalidatingCacheStr}}"></script>
 <script src="/js/common.js{{$invalidatingCacheStr}}"></script>
+<script type="text/javascript" src="https://code.jquery.com/jquery-3.5.1.min.js"></script>
+<script type="text/javascript" src="{{ asset('/js/jquery-ui.min.js') }}"></script>
 </head>

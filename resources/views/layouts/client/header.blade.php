@@ -382,6 +382,7 @@
             </div>
         </div>
     </nav>
+@elseif (Route::has('mobile'))
     <nav class="isMobile">
         <div class="image-back-drop"></div>
         <ul class="container-5">
