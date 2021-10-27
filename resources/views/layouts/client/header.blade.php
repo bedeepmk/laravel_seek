@@ -59,7 +59,7 @@
             <li class="selected"><a href="">Job Search</a></li>
             <li><a href="">Profile</a></li>
             <li><a href="">Seekcruit Guide</a></li>
-            <li class="isMarket"><a>Market</a></li>
+            <li class="isMarket"><a href="">Market</a></li>
             <li><a href="">Community</a></li>
         </ul>
         <div class="layer-menu-market">
@@ -702,6 +702,8686 @@
                     <li>Last 14 days</li>
                 </ul>
             </div>
+        </div>
+        <div class="button-mobile-search">
+            <div class="icon stylesheet"></div>
+        </div>
+        <div class="button-mobile-menu">
+            <div class="bar"></div>
+            <div class="bar"></div>
+            <div class="bar"></div>
+            <div class="bar"></div>
+            <div class="bar"></div>
+            <div class="bar"></div>
+            <div class="bar"></div>
+            <div class="bar"></div>
+            <div class="bar"></div>
+        </div>
+    </nav>
+@elseif (Route::has('contact'))
+    <nav class="guide-nav">
+        <div class="nav-back">
+            <a href="/"><h1 class="logo-white">seekcruit</h1></a>
+            <p class="text-1">Advertiser</p>
+        </div>
+    </nav>
+@elseif (Route::has('guide'))
+    <nav class="guide-nav">
+        <div class="nav-back">
+            <a href="/"><h1 class="logo-white">seekcruit</h1></a>
+            <p class="text-1">Advertiser</p>
+            <button class="nav-Contact-btn" onClick="contactPage()">Contact Us</button>
+        </div>
+    </nav>
+    <nav class="isMobile guide-mobile-nav">
+        <div class="image-back-drop"></div>
+        <ul class="container-5">
+            <li class="selected"><a href="">Job Search</a></li>
+            <li><a href="">Profile</a></li>
+            <li><a href="">Seekcruit Guide</a></li>
+            <li class="isMarket"><a>Market</a></li>
+            <li><a href="">Community</a></li>
+            <li class="underline"></li>
+            <li class="outside"><a href="">Sign in or Register</a></li>
+            <li class="outside"><a href="">Employer site</a></li>
+            <li class="underline"></li>
+            <li class="outside"><a href="">Advertiser page</a></li>
+        </ul>
+    </nav>
+@elseif (Route::has('applicant-information'))
+    <nav class="employer isPC">
+        <div class="container-0">
+            <a href="/"><h1 class="stylesheet">seekcruit</h1></a>
+            <p class="text-1">Employer</p>
+            <p class="text-0">
+                <a class="isMypage" href="/login">nora yoon<span></span>
+                <a class="isSignOut" href="/employer">Sign out</a>
+            </p>
+        </div>
+        <ul class="container-1 layout-100">
+            <li><a href="">Home</a></li>
+            <li class="selected"><a href="">Recruit</a></li>
+            <li><a href="">Job AD</a></li>
+            <li><a href="">Seekcruit Guide</a></li>
+            <li><a href="">Products</a></li>
+        </ul>
+        <div class="container-2">
+            <form class="layout-100">
+                <button type="button" class="button-category form-unit stylesheet">All Categories<span class="icon stylesheet"></span></button>
+                <input type="text" name="keyword" class="input-keyword form-unit" placeholder="Job title, company, keyword">
+                <input type="text" class="select-map form-unit stylesheet" value="Australia"></input>
+                <input type="submit" class="button-submit form-unit stylesheet"></input>
+            </form>
+            <div class="layer-menu-category">
+                <div class="back-0"></div>
+                <div class="back-1"></div>
+                <div class="back-2"></div>
+                <div class="container-4">
+                    <ul class="depth-0 parent">
+                        <li class="depth-0 child">
+                            <div class="view-menu-category">
+                                <input type="checkbox" id="horns" name="horns">
+                                <label>Proffesionals</label>
+                            </div>
+                            <ul class="depth-1 parent">
+                                <li class="depth-1 child">
+                                    <div class="view-menu-category">
+                                        <input type="checkbox" id="horns" name="horns">
+                                        <label>Arts and Media Professionals</label>
+                                    </div>
+                                    <ul class="depth-2 parent">
+                                        <li class="depth-2 child">
+                                            <div class="view-menu-category">
+                                                <input type="checkbox" id="horns" name="horns">
+                                                <label>Business, Human Resource and Marketing Professionals</label>
+                                            </div>
+                                        </li>
+                                        <li class="depth-2 child">
+                                            <div class="view-menu-category">
+                                                <input type="checkbox" id="horns" name="horns">
+                                                <label>design, engineering, science and transport professionals</label>
+                                            </div>
+                                        </li>
+                                        <li class="depth-2 child">
+                                            <div class="view-menu-category">
+                                                <input type="checkbox" id="horns" name="horns">
+                                                <label>education professionals</label>
+                                            </div>
+                                        </li>
+                                    </ul>
+                                </li>
+                                <li class="depth-1 child">
+                                    <div class="view-menu-category">
+                                        <input type="checkbox" id="horns" name="horns">
+                                        <label>Arts and Media Professionals</label>
+                                    </div>
+                                    <ul class="depth-2 parent">
+                                        <li class="depth-2 child">
+                                            <div class="view-menu-category">
+                                                <input type="checkbox" id="horns" name="horns">
+                                                <label>Business, Human Resource and Marketing Professionals</label>
+                                            </div>
+                                        </li>
+                                        <li class="depth-2 child">
+                                            <div class="view-menu-category">
+                                                <input type="checkbox" id="horns" name="horns">
+                                                <label>design, engineering, science and transport professionals</label>
+                                            </div>
+                                        </li>
+                                        <li class="depth-2 child">
+                                            <div class="view-menu-category">
+                                                <input type="checkbox" id="horns" name="horns">
+                                                <label>education professionals</label>
+                                            </div>
+                                        </li>
+                                    </ul>
+                                </li>
+                                <li class="depth-1 child">
+                                    <div class="view-menu-category">
+                                        <input type="checkbox" id="horns" name="horns">
+                                        <label>Arts and Media Professionals</label>
+                                    </div>
+                                    <ul class="depth-2 parent">
+                                        <li class="depth-2 child">
+                                            <div class="view-menu-category">
+                                                <input type="checkbox" id="horns" name="horns">
+                                                <label>Business, Human Resource and Marketing Professionals</label>
+                                            </div>
+                                        </li>
+                                        <li class="depth-2 child">
+                                            <div class="view-menu-category">
+                                                <input type="checkbox" id="horns" name="horns">
+                                                <label>design, engineering, science and transport professionals</label>
+                                            </div>
+                                        </li>
+                                        <li class="depth-2 child">
+                                            <div class="view-menu-category">
+                                                <input type="checkbox" id="horns" name="horns">
+                                                <label>education professionals</label>
+                                            </div>
+                                        </li>
+                                    </ul>
+                                </li>
+                            </ul>
+                        </li>
+                        <li class="depth-0 child">
+                            <div class="view-menu-category">
+                                <input type="checkbox" id="horns" name="horns">
+                                <label>Proffesionals</label>
+                            </div>
+                            <ul class="depth-1 parent">
+                                <li class="depth-1 child">
+                                    <div class="view-menu-category">
+                                        <input type="checkbox" id="horns" name="horns">
+                                        <label>Arts and Media Professionals</label>
+                                    </div>
+                                    <ul class="depth-2 parent">
+                                        <li class="depth-2 child">
+                                            <div class="view-menu-category">
+                                                <input type="checkbox" id="horns" name="horns">
+                                                <label>Business, Human Resource and Marketing Professionals</label>
+                                            </div>
+                                        </li>
+                                        <li class="depth-2 child">
+                                            <div class="view-menu-category">
+                                                <input type="checkbox" id="horns" name="horns">
+                                                <label>design, engineering, science and transport professionals</label>
+                                            </div>
+                                        </li>
+                                        <li class="depth-2 child">
+                                            <div class="view-menu-category">
+                                                <input type="checkbox" id="horns" name="horns">
+                                                <label>education professionals</label>
+                                            </div>
+                                        </li>
+                                    </ul>
+                                </li>
+                                <li class="depth-1 child">
+                                    <div class="view-menu-category">
+                                        <input type="checkbox" id="horns" name="horns">
+                                        <label>Arts and Media Professionals</label>
+                                    </div>
+                                    <ul class="depth-2 parent">
+                                        <li class="depth-2 child">
+                                            <div class="view-menu-category">
+                                                <input type="checkbox" id="horns" name="horns">
+                                                <label>Business, Human Resource and Marketing Professionals</label>
+                                            </div>
+                                        </li>
+                                        <li class="depth-2 child">
+                                            <div class="view-menu-category">
+                                                <input type="checkbox" id="horns" name="horns">
+                                                <label>design, engineering, science and transport professionals</label>
+                                            </div>
+                                        </li>
+                                        <li class="depth-2 child">
+                                            <div class="view-menu-category">
+                                                <input type="checkbox" id="horns" name="horns">
+                                                <label>education professionals</label>
+                                            </div>
+                                        </li>
+                                    </ul>
+                                </li>
+                                <li class="depth-1 child">
+                                    <div class="view-menu-category">
+                                        <input type="checkbox" id="horns" name="horns">
+                                        <label>Arts and Media Professionals</label>
+                                    </div>
+                                    <ul class="depth-2 parent">
+                                        <li class="depth-2 child">
+                                            <div class="view-menu-category">
+                                                <input type="checkbox" id="horns" name="horns">
+                                                <label>Business, Human Resource and Marketing Professionals</label>
+                                            </div>
+                                        </li>
+                                        <li class="depth-2 child">
+                                            <div class="view-menu-category">
+                                                <input type="checkbox" id="horns" name="horns">
+                                                <label>design, engineering, science and transport professionals</label>
+                                            </div>
+                                        </li>
+                                        <li class="depth-2 child">
+                                            <div class="view-menu-category">
+                                                <input type="checkbox" id="horns" name="horns">
+                                                <label>education professionals</label>
+                                            </div>
+                                        </li>
+                                    </ul>
+                                </li>
+                            </ul>
+                        </li>
+                        <li class="depth-0 child">
+                            <div class="view-menu-category">
+                                <input type="checkbox" id="horns" name="horns">
+                                <label>Proffesionals</label>
+                            </div>
+                            <ul class="depth-1 parent">
+                                <li class="depth-1 child">
+                                    <div class="view-menu-category">
+                                        <input type="checkbox" id="horns" name="horns">
+                                        <label>Arts and Media Professionals</label>
+                                    </div>
+                                    <ul class="depth-2 parent">
+                                        <li class="depth-2 child">
+                                            <div class="view-menu-category">
+                                                <input type="checkbox" id="horns" name="horns">
+                                                <label>Business, Human Resource and Marketing Professionals</label>
+                                            </div>
+                                        </li>
+                                        <li class="depth-2 child">
+                                            <div class="view-menu-category">
+                                                <input type="checkbox" id="horns" name="horns">
+                                                <label>design, engineering, science and transport professionals</label>
+                                            </div>
+                                        </li>
+                                        <li class="depth-2 child">
+                                            <div class="view-menu-category">
+                                                <input type="checkbox" id="horns" name="horns">
+                                                <label>education professionals</label>
+                                            </div>
+                                        </li>
+                                    </ul>
+                                </li>
+                                <li class="depth-1 child">
+                                    <div class="view-menu-category">
+                                        <input type="checkbox" id="horns" name="horns">
+                                        <label>Arts and Media Professionals</label>
+                                    </div>
+                                    <ul class="depth-2 parent">
+                                        <li class="depth-2 child">
+                                            <div class="view-menu-category">
+                                                <input type="checkbox" id="horns" name="horns">
+                                                <label>Business, Human Resource and Marketing Professionals</label>
+                                            </div>
+                                        </li>
+                                        <li class="depth-2 child">
+                                            <div class="view-menu-category">
+                                                <input type="checkbox" id="horns" name="horns">
+                                                <label>design, engineering, science and transport professionals</label>
+                                            </div>
+                                        </li>
+                                        <li class="depth-2 child">
+                                            <div class="view-menu-category">
+                                                <input type="checkbox" id="horns" name="horns">
+                                                <label>education professionals</label>
+                                            </div>
+                                        </li>
+                                    </ul>
+                                </li>
+                                <li class="depth-1 child">
+                                    <div class="view-menu-category">
+                                        <input type="checkbox" id="horns" name="horns">
+                                        <label>Arts and Media Professionals</label>
+                                    </div>
+                                    <ul class="depth-2 parent">
+                                        <li class="depth-2 child">
+                                            <div class="view-menu-category">
+                                                <input type="checkbox" id="horns" name="horns">
+                                                <label>Business, Human Resource and Marketing Professionals</label>
+                                            </div>
+                                        </li>
+                                        <li class="depth-2 child">
+                                            <div class="view-menu-category">
+                                                <input type="checkbox" id="horns" name="horns">
+                                                <label>design, engineering, science and transport professionals</label>
+                                            </div>
+                                        </li>
+                                        <li class="depth-2 child">
+                                            <div class="view-menu-category">
+                                                <input type="checkbox" id="horns" name="horns">
+                                                <label>education professionals</label>
+                                            </div>
+                                        </li>
+                                    </ul>
+                                </li>
+                            </ul>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </nav>
+    <nav class="employer isMobile">
+        <div class="image-back-drop"></div>
+        <ul class="container-5">
+            <li class="portrait"><a href=""></a></li>
+            <li class="outside"><a href="">My Profile</a></li>
+            <li class="outside"><a href="">My Account</a></li>
+            <li class="underline"></li>
+            <li class="selected"><a href="">Job Search</a></li>
+            <li><a href="">Seekcruit Guide</a></li>
+            <li class="isMarket"><a>Market</a></li>
+            <li><a href="">Community</a></li>
+            <li class="underline"></li>
+            <li class="outside"><a href="">Sign out</a></li>
+            <li class="underline"></li>
+            <li class="outside"><a href="">Advertiser page</a></li>
+        </ul>
+        <div class="container-6">
+            <form class="layer-menu-category">
+                <div class="container-7">
+                    <ul class="depth-0 parent">
+                        <li class="depth-0 child">
+                            <div class="view-menu-category">
+                                <input type="checkbox" id="horns" name="horns">
+                                <label>Proffesionals</label>
+                            </div>
+                            <ul class="depth-1 parent">
+                                <li class="depth-1 child">
+                                    <div class="view-menu-category">
+                                        <input type="checkbox" id="horns" name="horns">
+                                        <label>Arts and Media Professionals</label>
+                                    </div>
+                                    <ul class="depth-2 parent">
+                                        <li class="depth-2 child">
+                                            <div class="view-menu-category">
+                                                <input type="checkbox" id="horns" name="horns">
+                                                <label>Business, Human Resource and Marketing Professionals</label>
+                                            </div>
+                                        </li>
+                                        <li class="depth-2 child">
+                                            <div class="view-menu-category">
+                                                <input type="checkbox" id="horns" name="horns">
+                                                <label>design, engineering, science and transport professionals</label>
+                                            </div>
+                                        </li>
+                                        <li class="depth-2 child">
+                                            <div class="view-menu-category">
+                                                <input type="checkbox" id="horns" name="horns">
+                                                <label>education professionals</label>
+                                            </div>
+                                        </li>
+                                    </ul>
+                                </li>
+                                <li class="depth-1 child">
+                                    <div class="view-menu-category">
+                                        <input type="checkbox" id="horns" name="horns">
+                                        <label>Arts and Media Professionals</label>
+                                    </div>
+                                    <ul class="depth-2 parent">
+                                        <li class="depth-2 child">
+                                            <div class="view-menu-category">
+                                                <input type="checkbox" id="horns" name="horns">
+                                                <label>Business, Human Resource and Marketing Professionals</label>
+                                            </div>
+                                        </li>
+                                        <li class="depth-2 child">
+                                            <div class="view-menu-category">
+                                                <input type="checkbox" id="horns" name="horns">
+                                                <label>design, engineering, science and transport professionals</label>
+                                            </div>
+                                        </li>
+                                        <li class="depth-2 child">
+                                            <div class="view-menu-category">
+                                                <input type="checkbox" id="horns" name="horns">
+                                                <label>education professionals</label>
+                                            </div>
+                                        </li>
+                                    </ul>
+                                </li>
+                                <li class="depth-1 child">
+                                    <div class="view-menu-category">
+                                        <input type="checkbox" id="horns" name="horns">
+                                        <label>Arts and Media Professionals</label>
+                                    </div>
+                                    <ul class="depth-2 parent">
+                                        <li class="depth-2 child">
+                                            <div class="view-menu-category">
+                                                <input type="checkbox" id="horns" name="horns">
+                                                <label>Business, Human Resource and Marketing Professionals</label>
+                                            </div>
+                                        </li>
+                                        <li class="depth-2 child">
+                                            <div class="view-menu-category">
+                                                <input type="checkbox" id="horns" name="horns">
+                                                <label>design, engineering, science and transport professionals</label>
+                                            </div>
+                                        </li>
+                                        <li class="depth-2 child">
+                                            <div class="view-menu-category">
+                                                <input type="checkbox" id="horns" name="horns">
+                                                <label>education professionals</label>
+                                            </div>
+                                        </li>
+                                    </ul>
+                                </li>
+                            </ul>
+                        </li>
+                        <li class="depth-0 child">
+                            <div class="view-menu-category">
+                                <input type="checkbox" id="horns" name="horns">
+                                <label>Proffesionals</label>
+                            </div>
+                            <ul class="depth-1 parent">
+                                <li class="depth-1 child">
+                                    <div class="view-menu-category">
+                                        <input type="checkbox" id="horns" name="horns">
+                                        <label>Arts and Media Professionals</label>
+                                    </div>
+                                    <ul class="depth-2 parent">
+                                        <li class="depth-2 child">
+                                            <div class="view-menu-category">
+                                                <input type="checkbox" id="horns" name="horns">
+                                                <label>Business, Human Resource and Marketing Professionals</label>
+                                            </div>
+                                        </li>
+                                        <li class="depth-2 child">
+                                            <div class="view-menu-category">
+                                                <input type="checkbox" id="horns" name="horns">
+                                                <label>design, engineering, science and transport professionals</label>
+                                            </div>
+                                        </li>
+                                        <li class="depth-2 child">
+                                            <div class="view-menu-category">
+                                                <input type="checkbox" id="horns" name="horns">
+                                                <label>education professionals</label>
+                                            </div>
+                                        </li>
+                                    </ul>
+                                </li>
+                                <li class="depth-1 child">
+                                    <div class="view-menu-category">
+                                        <input type="checkbox" id="horns" name="horns">
+                                        <label>Arts and Media Professionals</label>
+                                    </div>
+                                    <ul class="depth-2 parent">
+                                        <li class="depth-2 child">
+                                            <div class="view-menu-category">
+                                                <input type="checkbox" id="horns" name="horns">
+                                                <label>Business, Human Resource and Marketing Professionals</label>
+                                            </div>
+                                        </li>
+                                        <li class="depth-2 child">
+                                            <div class="view-menu-category">
+                                                <input type="checkbox" id="horns" name="horns">
+                                                <label>design, engineering, science and transport professionals</label>
+                                            </div>
+                                        </li>
+                                        <li class="depth-2 child">
+                                            <div class="view-menu-category">
+                                                <input type="checkbox" id="horns" name="horns">
+                                                <label>education professionals</label>
+                                            </div>
+                                        </li>
+                                    </ul>
+                                </li>
+                                <li class="depth-1 child">
+                                    <div class="view-menu-category">
+                                        <input type="checkbox" id="horns" name="horns">
+                                        <label>Arts and Media Professionals</label>
+                                    </div>
+                                    <ul class="depth-2 parent">
+                                        <li class="depth-2 child">
+                                            <div class="view-menu-category">
+                                                <input type="checkbox" id="horns" name="horns">
+                                                <label>Business, Human Resource and Marketing Professionals</label>
+                                            </div>
+                                        </li>
+                                        <li class="depth-2 child">
+                                            <div class="view-menu-category">
+                                                <input type="checkbox" id="horns" name="horns">
+                                                <label>design, engineering, science and transport professionals</label>
+                                            </div>
+                                        </li>
+                                        <li class="depth-2 child">
+                                            <div class="view-menu-category">
+                                                <input type="checkbox" id="horns" name="horns">
+                                                <label>education professionals</label>
+                                            </div>
+                                        </li>
+                                    </ul>
+                                </li>
+                            </ul>
+                        </li>
+                        <li class="depth-0 child">
+                            <div class="view-menu-category">
+                                <input type="checkbox" id="horns" name="horns">
+                                <label>Proffesionals</label>
+                            </div>
+                            <ul class="depth-1 parent">
+                                <li class="depth-1 child">
+                                    <div class="view-menu-category">
+                                        <input type="checkbox" id="horns" name="horns">
+                                        <label>Arts and Media Professionals</label>
+                                    </div>
+                                    <ul class="depth-2 parent">
+                                        <li class="depth-2 child">
+                                            <div class="view-menu-category">
+                                                <input type="checkbox" id="horns" name="horns">
+                                                <label>Business, Human Resource and Marketing Professionals</label>
+                                            </div>
+                                        </li>
+                                        <li class="depth-2 child">
+                                            <div class="view-menu-category">
+                                                <input type="checkbox" id="horns" name="horns">
+                                                <label>design, engineering, science and transport professionals</label>
+                                            </div>
+                                        </li>
+                                        <li class="depth-2 child">
+                                            <div class="view-menu-category">
+                                                <input type="checkbox" id="horns" name="horns">
+                                                <label>education professionals</label>
+                                            </div>
+                                        </li>
+                                    </ul>
+                                </li>
+                                <li class="depth-1 child">
+                                    <div class="view-menu-category">
+                                        <input type="checkbox" id="horns" name="horns">
+                                        <label>Arts and Media Professionals</label>
+                                    </div>
+                                    <ul class="depth-2 parent">
+                                        <li class="depth-2 child">
+                                            <div class="view-menu-category">
+                                                <input type="checkbox" id="horns" name="horns">
+                                                <label>Business, Human Resource and Marketing Professionals</label>
+                                            </div>
+                                        </li>
+                                        <li class="depth-2 child">
+                                            <div class="view-menu-category">
+                                                <input type="checkbox" id="horns" name="horns">
+                                                <label>design, engineering, science and transport professionals</label>
+                                            </div>
+                                        </li>
+                                        <li class="depth-2 child">
+                                            <div class="view-menu-category">
+                                                <input type="checkbox" id="horns" name="horns">
+                                                <label>education professionals</label>
+                                            </div>
+                                        </li>
+                                    </ul>
+                                </li>
+                                <li class="depth-1 child">
+                                    <div class="view-menu-category">
+                                        <input type="checkbox" id="horns" name="horns">
+                                        <label>Arts and Media Professionals</label>
+                                    </div>
+                                    <ul class="depth-2 parent">
+                                        <li class="depth-2 child">
+                                            <div class="view-menu-category">
+                                                <input type="checkbox" id="horns" name="horns">
+                                                <label>Business, Human Resource and Marketing Professionals</label>
+                                            </div>
+                                        </li>
+                                        <li class="depth-2 child">
+                                            <div class="view-menu-category">
+                                                <input type="checkbox" id="horns" name="horns">
+                                                <label>design, engineering, science and transport professionals</label>
+                                            </div>
+                                        </li>
+                                        <li class="depth-2 child">
+                                            <div class="view-menu-category">
+                                                <input type="checkbox" id="horns" name="horns">
+                                                <label>education professionals</label>
+                                            </div>
+                                        </li>
+                                    </ul>
+                                </li>
+                            </ul>
+                        </li>
+                    </ul>
+                </div>
+                <input type="text" name="keyword" class="input-keyword form-unit" placeholder="Job title, company, keyword">
+                <input type="text" class="select-map form-unit stylesheet" value="Australia"></input>
+                <input type="submit" class="button-submit form-unit stylesheet" value="Search"></input>
+            </form>
+        </div>
+        <div class="container-0">
+            <a href="/"><h1 class="stylesheet">seekcruit</h1></a>
+            <p class="text-1">Employer</p>
+        </div>
+        <div class="button-mobile-search">
+            <div class="icon stylesheet"></div>
+        </div>
+        <div class="button-mobile-menu">
+            <div class="bar"></div>
+            <div class="bar"></div>
+            <div class="bar"></div>
+            <div class="bar"></div>
+            <div class="bar"></div>
+            <div class="bar"></div>
+            <div class="bar"></div>
+            <div class="bar"></div>
+            <div class="bar"></div>
+        </div>
+    </nav>
+@elseif (Route::has('applied-candidates'))
+    <nav class="employer isPC">
+        <div class="container-0">
+            <a href="/"><h1 class="stylesheet">seekcruit</h1></a>
+            <p class="text-1">Employer</p>
+            <p class="text-0">
+                <a class="isMypage" href="/login">nora yoon<span></span>
+                <a class="isSignOut" href="/employer">Sign out</a>
+            </p>
+        </div>
+        <ul class="container-1 layout-100">
+            <li><a href="">Home</a></li>
+            <li><a href="">Recruit</a></li>
+            <li class="selected"><a href="">Job AD</a></li>
+            <li><a href="">Seekcruit Guide</a></li>
+            <li><a href="">Products</a></li>
+        </ul>
+    </nav>
+    <nav class="employer isMobile">
+        <div class="image-back-drop"></div>
+        <ul class="container-5">
+            <li class="portrait"><a href=""></a></li>
+            <li class="outside"><a href="">My Profile</a></li>
+            <li class="outside"><a href="">My Account</a></li>
+            <li class="underline"></li>
+            <li class="selected"><a href="">Job Search</a></li>
+            <li><a href="">Seekcruit Guide</a></li>
+            <li class="isMarket"><a>Market</a></li>
+            <li><a href="">Community</a></li>
+            <li class="underline"></li>
+            <li class="outside"><a href="">Sign out</a></li>
+            <li class="underline"></li>
+            <li class="outside"><a href="">Advertiser page</a></li>
+        </ul>
+        <div class="container-6">
+            <form class="layer-menu-category">
+                <div class="container-7">
+                    <ul class="depth-0 parent">
+                        <li class="depth-0 child">
+                            <div class="view-menu-category">
+                                <input type="checkbox" id="horns" name="horns">
+                                <label>Proffesionals</label>
+                            </div>
+                            <ul class="depth-1 parent">
+                                <li class="depth-1 child">
+                                    <div class="view-menu-category">
+                                        <input type="checkbox" id="horns" name="horns">
+                                        <label>Arts and Media Professionals</label>
+                                    </div>
+                                    <ul class="depth-2 parent">
+                                        <li class="depth-2 child">
+                                            <div class="view-menu-category">
+                                                <input type="checkbox" id="horns" name="horns">
+                                                <label>Business, Human Resource and Marketing Professionals</label>
+                                            </div>
+                                        </li>
+                                        <li class="depth-2 child">
+                                            <div class="view-menu-category">
+                                                <input type="checkbox" id="horns" name="horns">
+                                                <label>design, engineering, science and transport professionals</label>
+                                            </div>
+                                        </li>
+                                        <li class="depth-2 child">
+                                            <div class="view-menu-category">
+                                                <input type="checkbox" id="horns" name="horns">
+                                                <label>education professionals</label>
+                                            </div>
+                                        </li>
+                                    </ul>
+                                </li>
+                                <li class="depth-1 child">
+                                    <div class="view-menu-category">
+                                        <input type="checkbox" id="horns" name="horns">
+                                        <label>Arts and Media Professionals</label>
+                                    </div>
+                                    <ul class="depth-2 parent">
+                                        <li class="depth-2 child">
+                                            <div class="view-menu-category">
+                                                <input type="checkbox" id="horns" name="horns">
+                                                <label>Business, Human Resource and Marketing Professionals</label>
+                                            </div>
+                                        </li>
+                                        <li class="depth-2 child">
+                                            <div class="view-menu-category">
+                                                <input type="checkbox" id="horns" name="horns">
+                                                <label>design, engineering, science and transport professionals</label>
+                                            </div>
+                                        </li>
+                                        <li class="depth-2 child">
+                                            <div class="view-menu-category">
+                                                <input type="checkbox" id="horns" name="horns">
+                                                <label>education professionals</label>
+                                            </div>
+                                        </li>
+                                    </ul>
+                                </li>
+                                <li class="depth-1 child">
+                                    <div class="view-menu-category">
+                                        <input type="checkbox" id="horns" name="horns">
+                                        <label>Arts and Media Professionals</label>
+                                    </div>
+                                    <ul class="depth-2 parent">
+                                        <li class="depth-2 child">
+                                            <div class="view-menu-category">
+                                                <input type="checkbox" id="horns" name="horns">
+                                                <label>Business, Human Resource and Marketing Professionals</label>
+                                            </div>
+                                        </li>
+                                        <li class="depth-2 child">
+                                            <div class="view-menu-category">
+                                                <input type="checkbox" id="horns" name="horns">
+                                                <label>design, engineering, science and transport professionals</label>
+                                            </div>
+                                        </li>
+                                        <li class="depth-2 child">
+                                            <div class="view-menu-category">
+                                                <input type="checkbox" id="horns" name="horns">
+                                                <label>education professionals</label>
+                                            </div>
+                                        </li>
+                                    </ul>
+                                </li>
+                            </ul>
+                        </li>
+                        <li class="depth-0 child">
+                            <div class="view-menu-category">
+                                <input type="checkbox" id="horns" name="horns">
+                                <label>Proffesionals</label>
+                            </div>
+                            <ul class="depth-1 parent">
+                                <li class="depth-1 child">
+                                    <div class="view-menu-category">
+                                        <input type="checkbox" id="horns" name="horns">
+                                        <label>Arts and Media Professionals</label>
+                                    </div>
+                                    <ul class="depth-2 parent">
+                                        <li class="depth-2 child">
+                                            <div class="view-menu-category">
+                                                <input type="checkbox" id="horns" name="horns">
+                                                <label>Business, Human Resource and Marketing Professionals</label>
+                                            </div>
+                                        </li>
+                                        <li class="depth-2 child">
+                                            <div class="view-menu-category">
+                                                <input type="checkbox" id="horns" name="horns">
+                                                <label>design, engineering, science and transport professionals</label>
+                                            </div>
+                                        </li>
+                                        <li class="depth-2 child">
+                                            <div class="view-menu-category">
+                                                <input type="checkbox" id="horns" name="horns">
+                                                <label>education professionals</label>
+                                            </div>
+                                        </li>
+                                    </ul>
+                                </li>
+                                <li class="depth-1 child">
+                                    <div class="view-menu-category">
+                                        <input type="checkbox" id="horns" name="horns">
+                                        <label>Arts and Media Professionals</label>
+                                    </div>
+                                    <ul class="depth-2 parent">
+                                        <li class="depth-2 child">
+                                            <div class="view-menu-category">
+                                                <input type="checkbox" id="horns" name="horns">
+                                                <label>Business, Human Resource and Marketing Professionals</label>
+                                            </div>
+                                        </li>
+                                        <li class="depth-2 child">
+                                            <div class="view-menu-category">
+                                                <input type="checkbox" id="horns" name="horns">
+                                                <label>design, engineering, science and transport professionals</label>
+                                            </div>
+                                        </li>
+                                        <li class="depth-2 child">
+                                            <div class="view-menu-category">
+                                                <input type="checkbox" id="horns" name="horns">
+                                                <label>education professionals</label>
+                                            </div>
+                                        </li>
+                                    </ul>
+                                </li>
+                                <li class="depth-1 child">
+                                    <div class="view-menu-category">
+                                        <input type="checkbox" id="horns" name="horns">
+                                        <label>Arts and Media Professionals</label>
+                                    </div>
+                                    <ul class="depth-2 parent">
+                                        <li class="depth-2 child">
+                                            <div class="view-menu-category">
+                                                <input type="checkbox" id="horns" name="horns">
+                                                <label>Business, Human Resource and Marketing Professionals</label>
+                                            </div>
+                                        </li>
+                                        <li class="depth-2 child">
+                                            <div class="view-menu-category">
+                                                <input type="checkbox" id="horns" name="horns">
+                                                <label>design, engineering, science and transport professionals</label>
+                                            </div>
+                                        </li>
+                                        <li class="depth-2 child">
+                                            <div class="view-menu-category">
+                                                <input type="checkbox" id="horns" name="horns">
+                                                <label>education professionals</label>
+                                            </div>
+                                        </li>
+                                    </ul>
+                                </li>
+                            </ul>
+                        </li>
+                        <li class="depth-0 child">
+                            <div class="view-menu-category">
+                                <input type="checkbox" id="horns" name="horns">
+                                <label>Proffesionals</label>
+                            </div>
+                            <ul class="depth-1 parent">
+                                <li class="depth-1 child">
+                                    <div class="view-menu-category">
+                                        <input type="checkbox" id="horns" name="horns">
+                                        <label>Arts and Media Professionals</label>
+                                    </div>
+                                    <ul class="depth-2 parent">
+                                        <li class="depth-2 child">
+                                            <div class="view-menu-category">
+                                                <input type="checkbox" id="horns" name="horns">
+                                                <label>Business, Human Resource and Marketing Professionals</label>
+                                            </div>
+                                        </li>
+                                        <li class="depth-2 child">
+                                            <div class="view-menu-category">
+                                                <input type="checkbox" id="horns" name="horns">
+                                                <label>design, engineering, science and transport professionals</label>
+                                            </div>
+                                        </li>
+                                        <li class="depth-2 child">
+                                            <div class="view-menu-category">
+                                                <input type="checkbox" id="horns" name="horns">
+                                                <label>education professionals</label>
+                                            </div>
+                                        </li>
+                                    </ul>
+                                </li>
+                                <li class="depth-1 child">
+                                    <div class="view-menu-category">
+                                        <input type="checkbox" id="horns" name="horns">
+                                        <label>Arts and Media Professionals</label>
+                                    </div>
+                                    <ul class="depth-2 parent">
+                                        <li class="depth-2 child">
+                                            <div class="view-menu-category">
+                                                <input type="checkbox" id="horns" name="horns">
+                                                <label>Business, Human Resource and Marketing Professionals</label>
+                                            </div>
+                                        </li>
+                                        <li class="depth-2 child">
+                                            <div class="view-menu-category">
+                                                <input type="checkbox" id="horns" name="horns">
+                                                <label>design, engineering, science and transport professionals</label>
+                                            </div>
+                                        </li>
+                                        <li class="depth-2 child">
+                                            <div class="view-menu-category">
+                                                <input type="checkbox" id="horns" name="horns">
+                                                <label>education professionals</label>
+                                            </div>
+                                        </li>
+                                    </ul>
+                                </li>
+                                <li class="depth-1 child">
+                                    <div class="view-menu-category">
+                                        <input type="checkbox" id="horns" name="horns">
+                                        <label>Arts and Media Professionals</label>
+                                    </div>
+                                    <ul class="depth-2 parent">
+                                        <li class="depth-2 child">
+                                            <div class="view-menu-category">
+                                                <input type="checkbox" id="horns" name="horns">
+                                                <label>Business, Human Resource and Marketing Professionals</label>
+                                            </div>
+                                        </li>
+                                        <li class="depth-2 child">
+                                            <div class="view-menu-category">
+                                                <input type="checkbox" id="horns" name="horns">
+                                                <label>design, engineering, science and transport professionals</label>
+                                            </div>
+                                        </li>
+                                        <li class="depth-2 child">
+                                            <div class="view-menu-category">
+                                                <input type="checkbox" id="horns" name="horns">
+                                                <label>education professionals</label>
+                                            </div>
+                                        </li>
+                                    </ul>
+                                </li>
+                            </ul>
+                        </li>
+                    </ul>
+                </div>
+                <input type="text" name="keyword" class="input-keyword form-unit" placeholder="Job title, company, keyword">
+                <input type="text" class="select-map form-unit stylesheet" value="Australia"></input>
+                <input type="submit" class="button-submit form-unit stylesheet" value="Search"></input>
+            </form>
+        </div>
+        <div class="container-0">
+            <a href="/"><h1 class="stylesheet">seekcruit</h1></a>
+            <p class="text-1">Employer</p>
+        </div>
+        <div class="button-mobile-search">
+            <div class="icon stylesheet"></div>
+        </div>
+        <div class="button-mobile-menu">
+            <div class="bar"></div>
+            <div class="bar"></div>
+            <div class="bar"></div>
+            <div class="bar"></div>
+            <div class="bar"></div>
+            <div class="bar"></div>
+            <div class="bar"></div>
+            <div class="bar"></div>
+            <div class="bar"></div>
+        </div>
+    </nav>
+@elseif (Route::has('apply-history'))
+    <nav class="my-history-nav">
+        <div class="container-0">
+            <a href="/"><h1 class="stylesheet">seekcruit</h1></a>
+            <p class="text-0">
+                <a href="/login">nora yoon<span></span>
+                <a href="#">Sign out</a>
+            </p>
+        </div>
+        <ul class="container-1 layout-100">
+            <li><a href="">Job Search</a></li>
+            <li class="selected"><a href="">Profile</a></li>
+            <li><a href="">Seekcruit Guide</a></li>
+            <li><a href="">Market</a></li>
+            <li><a href="">Community</a></li>
+        </ul>
+    </nav>
+@elseif (Route::has('candidates-search'))
+    <nav class="employer isPC">
+        <div class="container-0">
+            <a href="/"><h1 class="stylesheet">seekcruit</h1></a>
+            <p class="text-1">Employer</p>
+            <p class="text-0">
+                <a href="/login">nora yoon<span></span>
+                <a href="#">Sign out</a>
+            </p>
+        </div>
+        <ul class="container-1 layout-100">
+            <li><a href="">Home</a></li>
+            <li class="selected"><a href="">Recruit</a></li>
+            <li><a href="">Job AD</a></li>
+            <li><a href="">Seekcruit Guide</a></li>
+            <li><a href="">Products</a></li>
+        </ul>
+        <div class="container-2">
+            <form class="layout-100">
+                <button type="button" class="button-category form-unit stylesheet">All Categories<span class="icon stylesheet"></span></button>
+                <input type="text" name="keyword" class="input-keyword form-unit" placeholder="Job title, company, keyword">
+                <input type="text" class="select-map form-unit stylesheet" value="Australia"></input>
+                <input type="submit" class="button-submit form-unit stylesheet"></input>
+            </form>
+            <div class="layer-menu-category">
+                <div class="back-0"></div>
+                <div class="back-1"></div>
+                <div class="back-2"></div>
+                <div class="container-4">
+                    <ul class="depth-0 parent">
+                        <li class="depth-0 child">
+                            <div class="view-menu-category">
+                                <input type="checkbox" id="horns" name="horns">
+                                <label>Proffesionals</label>
+                            </div>
+                            <ul class="depth-1 parent">
+                                <li class="depth-1 child">
+                                    <div class="view-menu-category">
+                                        <input type="checkbox" id="horns" name="horns">
+                                        <label>Arts and Media Professionals</label>
+                                    </div>
+                                    <ul class="depth-2 parent">
+                                        <li class="depth-2 child">
+                                            <div class="view-menu-category">
+                                                <input type="checkbox" id="horns" name="horns">
+                                                <label>Business, Human Resource and Marketing Professionals</label>
+                                            </div>
+                                        </li>
+                                        <li class="depth-2 child">
+                                            <div class="view-menu-category">
+                                                <input type="checkbox" id="horns" name="horns">
+                                                <label>design, engineering, science and transport professionals</label>
+                                            </div>
+                                        </li>
+                                        <li class="depth-2 child">
+                                            <div class="view-menu-category">
+                                                <input type="checkbox" id="horns" name="horns">
+                                                <label>education professionals</label>
+                                            </div>
+                                        </li>
+                                    </ul>
+                                </li>
+                                <li class="depth-1 child">
+                                    <div class="view-menu-category">
+                                        <input type="checkbox" id="horns" name="horns">
+                                        <label>Arts and Media Professionals</label>
+                                    </div>
+                                    <ul class="depth-2 parent">
+                                        <li class="depth-2 child">
+                                            <div class="view-menu-category">
+                                                <input type="checkbox" id="horns" name="horns">
+                                                <label>Business, Human Resource and Marketing Professionals</label>
+                                            </div>
+                                        </li>
+                                        <li class="depth-2 child">
+                                            <div class="view-menu-category">
+                                                <input type="checkbox" id="horns" name="horns">
+                                                <label>design, engineering, science and transport professionals</label>
+                                            </div>
+                                        </li>
+                                        <li class="depth-2 child">
+                                            <div class="view-menu-category">
+                                                <input type="checkbox" id="horns" name="horns">
+                                                <label>education professionals</label>
+                                            </div>
+                                        </li>
+                                    </ul>
+                                </li>
+                                <li class="depth-1 child">
+                                    <div class="view-menu-category">
+                                        <input type="checkbox" id="horns" name="horns">
+                                        <label>Arts and Media Professionals</label>
+                                    </div>
+                                    <ul class="depth-2 parent">
+                                        <li class="depth-2 child">
+                                            <div class="view-menu-category">
+                                                <input type="checkbox" id="horns" name="horns">
+                                                <label>Business, Human Resource and Marketing Professionals</label>
+                                            </div>
+                                        </li>
+                                        <li class="depth-2 child">
+                                            <div class="view-menu-category">
+                                                <input type="checkbox" id="horns" name="horns">
+                                                <label>design, engineering, science and transport professionals</label>
+                                            </div>
+                                        </li>
+                                        <li class="depth-2 child">
+                                            <div class="view-menu-category">
+                                                <input type="checkbox" id="horns" name="horns">
+                                                <label>education professionals</label>
+                                            </div>
+                                        </li>
+                                    </ul>
+                                </li>
+                            </ul>
+                        </li>
+                        <li class="depth-0 child">
+                            <div class="view-menu-category">
+                                <input type="checkbox" id="horns" name="horns">
+                                <label>Proffesionals</label>
+                            </div>
+                            <ul class="depth-1 parent">
+                                <li class="depth-1 child">
+                                    <div class="view-menu-category">
+                                        <input type="checkbox" id="horns" name="horns">
+                                        <label>Arts and Media Professionals</label>
+                                    </div>
+                                    <ul class="depth-2 parent">
+                                        <li class="depth-2 child">
+                                            <div class="view-menu-category">
+                                                <input type="checkbox" id="horns" name="horns">
+                                                <label>Business, Human Resource and Marketing Professionals</label>
+                                            </div>
+                                        </li>
+                                        <li class="depth-2 child">
+                                            <div class="view-menu-category">
+                                                <input type="checkbox" id="horns" name="horns">
+                                                <label>design, engineering, science and transport professionals</label>
+                                            </div>
+                                        </li>
+                                        <li class="depth-2 child">
+                                            <div class="view-menu-category">
+                                                <input type="checkbox" id="horns" name="horns">
+                                                <label>education professionals</label>
+                                            </div>
+                                        </li>
+                                    </ul>
+                                </li>
+                                <li class="depth-1 child">
+                                    <div class="view-menu-category">
+                                        <input type="checkbox" id="horns" name="horns">
+                                        <label>Arts and Media Professionals</label>
+                                    </div>
+                                    <ul class="depth-2 parent">
+                                        <li class="depth-2 child">
+                                            <div class="view-menu-category">
+                                                <input type="checkbox" id="horns" name="horns">
+                                                <label>Business, Human Resource and Marketing Professionals</label>
+                                            </div>
+                                        </li>
+                                        <li class="depth-2 child">
+                                            <div class="view-menu-category">
+                                                <input type="checkbox" id="horns" name="horns">
+                                                <label>design, engineering, science and transport professionals</label>
+                                            </div>
+                                        </li>
+                                        <li class="depth-2 child">
+                                            <div class="view-menu-category">
+                                                <input type="checkbox" id="horns" name="horns">
+                                                <label>education professionals</label>
+                                            </div>
+                                        </li>
+                                    </ul>
+                                </li>
+                                <li class="depth-1 child">
+                                    <div class="view-menu-category">
+                                        <input type="checkbox" id="horns" name="horns">
+                                        <label>Arts and Media Professionals</label>
+                                    </div>
+                                    <ul class="depth-2 parent">
+                                        <li class="depth-2 child">
+                                            <div class="view-menu-category">
+                                                <input type="checkbox" id="horns" name="horns">
+                                                <label>Business, Human Resource and Marketing Professionals</label>
+                                            </div>
+                                        </li>
+                                        <li class="depth-2 child">
+                                            <div class="view-menu-category">
+                                                <input type="checkbox" id="horns" name="horns">
+                                                <label>design, engineering, science and transport professionals</label>
+                                            </div>
+                                        </li>
+                                        <li class="depth-2 child">
+                                            <div class="view-menu-category">
+                                                <input type="checkbox" id="horns" name="horns">
+                                                <label>education professionals</label>
+                                            </div>
+                                        </li>
+                                    </ul>
+                                </li>
+                            </ul>
+                        </li>
+                        <li class="depth-0 child">
+                            <div class="view-menu-category">
+                                <input type="checkbox" id="horns" name="horns">
+                                <label>Proffesionals</label>
+                            </div>
+                            <ul class="depth-1 parent">
+                                <li class="depth-1 child">
+                                    <div class="view-menu-category">
+                                        <input type="checkbox" id="horns" name="horns">
+                                        <label>Arts and Media Professionals</label>
+                                    </div>
+                                    <ul class="depth-2 parent">
+                                        <li class="depth-2 child">
+                                            <div class="view-menu-category">
+                                                <input type="checkbox" id="horns" name="horns">
+                                                <label>Business, Human Resource and Marketing Professionals</label>
+                                            </div>
+                                        </li>
+                                        <li class="depth-2 child">
+                                            <div class="view-menu-category">
+                                                <input type="checkbox" id="horns" name="horns">
+                                                <label>design, engineering, science and transport professionals</label>
+                                            </div>
+                                        </li>
+                                        <li class="depth-2 child">
+                                            <div class="view-menu-category">
+                                                <input type="checkbox" id="horns" name="horns">
+                                                <label>education professionals</label>
+                                            </div>
+                                        </li>
+                                    </ul>
+                                </li>
+                                <li class="depth-1 child">
+                                    <div class="view-menu-category">
+                                        <input type="checkbox" id="horns" name="horns">
+                                        <label>Arts and Media Professionals</label>
+                                    </div>
+                                    <ul class="depth-2 parent">
+                                        <li class="depth-2 child">
+                                            <div class="view-menu-category">
+                                                <input type="checkbox" id="horns" name="horns">
+                                                <label>Business, Human Resource and Marketing Professionals</label>
+                                            </div>
+                                        </li>
+                                        <li class="depth-2 child">
+                                            <div class="view-menu-category">
+                                                <input type="checkbox" id="horns" name="horns">
+                                                <label>design, engineering, science and transport professionals</label>
+                                            </div>
+                                        </li>
+                                        <li class="depth-2 child">
+                                            <div class="view-menu-category">
+                                                <input type="checkbox" id="horns" name="horns">
+                                                <label>education professionals</label>
+                                            </div>
+                                        </li>
+                                    </ul>
+                                </li>
+                                <li class="depth-1 child">
+                                    <div class="view-menu-category">
+                                        <input type="checkbox" id="horns" name="horns">
+                                        <label>Arts and Media Professionals</label>
+                                    </div>
+                                    <ul class="depth-2 parent">
+                                        <li class="depth-2 child">
+                                            <div class="view-menu-category">
+                                                <input type="checkbox" id="horns" name="horns">
+                                                <label>Business, Human Resource and Marketing Professionals</label>
+                                            </div>
+                                        </li>
+                                        <li class="depth-2 child">
+                                            <div class="view-menu-category">
+                                                <input type="checkbox" id="horns" name="horns">
+                                                <label>design, engineering, science and transport professionals</label>
+                                            </div>
+                                        </li>
+                                        <li class="depth-2 child">
+                                            <div class="view-menu-category">
+                                                <input type="checkbox" id="horns" name="horns">
+                                                <label>education professionals</label>
+                                            </div>
+                                        </li>
+                                    </ul>
+                                </li>
+                            </ul>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </nav>
+    <nav class="employer isMobile">
+        <div class="image-back-drop"></div>
+        <ul class="container-5">
+            <li class="portrait"><a href=""></a></li>
+            <li class="outside"><a href="">My Profile</a></li>
+            <li class="outside"><a href="">My Account</a></li>
+            <li class="underline"></li>
+            <li class="selected"><a href="">Job Search</a></li>
+            <li><a href="">Seekcruit Guide</a></li>
+            <li class="isMarket"><a>Market</a></li>
+            <li><a href="">Community</a></li>
+            <li class="underline"></li>
+            <li class="outside"><a href="">Sign out</a></li>
+            <li class="underline"></li>
+            <li class="outside"><a href="">Advertiser page</a></li>
+        </ul>
+        <div class="container-6">
+            <form class="layer-menu-category">
+                <div class="container-7">
+                    <ul class="depth-0 parent">
+                        <li class="depth-0 child">
+                            <div class="view-menu-category">
+                                <input type="checkbox" id="horns" name="horns">
+                                <label>Proffesionals</label>
+                            </div>
+                            <ul class="depth-1 parent">
+                                <li class="depth-1 child">
+                                    <div class="view-menu-category">
+                                        <input type="checkbox" id="horns" name="horns">
+                                        <label>Arts and Media Professionals</label>
+                                    </div>
+                                    <ul class="depth-2 parent">
+                                        <li class="depth-2 child">
+                                            <div class="view-menu-category">
+                                                <input type="checkbox" id="horns" name="horns">
+                                                <label>Business, Human Resource and Marketing Professionals</label>
+                                            </div>
+                                        </li>
+                                        <li class="depth-2 child">
+                                            <div class="view-menu-category">
+                                                <input type="checkbox" id="horns" name="horns">
+                                                <label>design, engineering, science and transport professionals</label>
+                                            </div>
+                                        </li>
+                                        <li class="depth-2 child">
+                                            <div class="view-menu-category">
+                                                <input type="checkbox" id="horns" name="horns">
+                                                <label>education professionals</label>
+                                            </div>
+                                        </li>
+                                    </ul>
+                                </li>
+                                <li class="depth-1 child">
+                                    <div class="view-menu-category">
+                                        <input type="checkbox" id="horns" name="horns">
+                                        <label>Arts and Media Professionals</label>
+                                    </div>
+                                    <ul class="depth-2 parent">
+                                        <li class="depth-2 child">
+                                            <div class="view-menu-category">
+                                                <input type="checkbox" id="horns" name="horns">
+                                                <label>Business, Human Resource and Marketing Professionals</label>
+                                            </div>
+                                        </li>
+                                        <li class="depth-2 child">
+                                            <div class="view-menu-category">
+                                                <input type="checkbox" id="horns" name="horns">
+                                                <label>design, engineering, science and transport professionals</label>
+                                            </div>
+                                        </li>
+                                        <li class="depth-2 child">
+                                            <div class="view-menu-category">
+                                                <input type="checkbox" id="horns" name="horns">
+                                                <label>education professionals</label>
+                                            </div>
+                                        </li>
+                                    </ul>
+                                </li>
+                                <li class="depth-1 child">
+                                    <div class="view-menu-category">
+                                        <input type="checkbox" id="horns" name="horns">
+                                        <label>Arts and Media Professionals</label>
+                                    </div>
+                                    <ul class="depth-2 parent">
+                                        <li class="depth-2 child">
+                                            <div class="view-menu-category">
+                                                <input type="checkbox" id="horns" name="horns">
+                                                <label>Business, Human Resource and Marketing Professionals</label>
+                                            </div>
+                                        </li>
+                                        <li class="depth-2 child">
+                                            <div class="view-menu-category">
+                                                <input type="checkbox" id="horns" name="horns">
+                                                <label>design, engineering, science and transport professionals</label>
+                                            </div>
+                                        </li>
+                                        <li class="depth-2 child">
+                                            <div class="view-menu-category">
+                                                <input type="checkbox" id="horns" name="horns">
+                                                <label>education professionals</label>
+                                            </div>
+                                        </li>
+                                    </ul>
+                                </li>
+                            </ul>
+                        </li>
+                        <li class="depth-0 child">
+                            <div class="view-menu-category">
+                                <input type="checkbox" id="horns" name="horns">
+                                <label>Proffesionals</label>
+                            </div>
+                            <ul class="depth-1 parent">
+                                <li class="depth-1 child">
+                                    <div class="view-menu-category">
+                                        <input type="checkbox" id="horns" name="horns">
+                                        <label>Arts and Media Professionals</label>
+                                    </div>
+                                    <ul class="depth-2 parent">
+                                        <li class="depth-2 child">
+                                            <div class="view-menu-category">
+                                                <input type="checkbox" id="horns" name="horns">
+                                                <label>Business, Human Resource and Marketing Professionals</label>
+                                            </div>
+                                        </li>
+                                        <li class="depth-2 child">
+                                            <div class="view-menu-category">
+                                                <input type="checkbox" id="horns" name="horns">
+                                                <label>design, engineering, science and transport professionals</label>
+                                            </div>
+                                        </li>
+                                        <li class="depth-2 child">
+                                            <div class="view-menu-category">
+                                                <input type="checkbox" id="horns" name="horns">
+                                                <label>education professionals</label>
+                                            </div>
+                                        </li>
+                                    </ul>
+                                </li>
+                                <li class="depth-1 child">
+                                    <div class="view-menu-category">
+                                        <input type="checkbox" id="horns" name="horns">
+                                        <label>Arts and Media Professionals</label>
+                                    </div>
+                                    <ul class="depth-2 parent">
+                                        <li class="depth-2 child">
+                                            <div class="view-menu-category">
+                                                <input type="checkbox" id="horns" name="horns">
+                                                <label>Business, Human Resource and Marketing Professionals</label>
+                                            </div>
+                                        </li>
+                                        <li class="depth-2 child">
+                                            <div class="view-menu-category">
+                                                <input type="checkbox" id="horns" name="horns">
+                                                <label>design, engineering, science and transport professionals</label>
+                                            </div>
+                                        </li>
+                                        <li class="depth-2 child">
+                                            <div class="view-menu-category">
+                                                <input type="checkbox" id="horns" name="horns">
+                                                <label>education professionals</label>
+                                            </div>
+                                        </li>
+                                    </ul>
+                                </li>
+                                <li class="depth-1 child">
+                                    <div class="view-menu-category">
+                                        <input type="checkbox" id="horns" name="horns">
+                                        <label>Arts and Media Professionals</label>
+                                    </div>
+                                    <ul class="depth-2 parent">
+                                        <li class="depth-2 child">
+                                            <div class="view-menu-category">
+                                                <input type="checkbox" id="horns" name="horns">
+                                                <label>Business, Human Resource and Marketing Professionals</label>
+                                            </div>
+                                        </li>
+                                        <li class="depth-2 child">
+                                            <div class="view-menu-category">
+                                                <input type="checkbox" id="horns" name="horns">
+                                                <label>design, engineering, science and transport professionals</label>
+                                            </div>
+                                        </li>
+                                        <li class="depth-2 child">
+                                            <div class="view-menu-category">
+                                                <input type="checkbox" id="horns" name="horns">
+                                                <label>education professionals</label>
+                                            </div>
+                                        </li>
+                                    </ul>
+                                </li>
+                            </ul>
+                        </li>
+                        <li class="depth-0 child">
+                            <div class="view-menu-category">
+                                <input type="checkbox" id="horns" name="horns">
+                                <label>Proffesionals</label>
+                            </div>
+                            <ul class="depth-1 parent">
+                                <li class="depth-1 child">
+                                    <div class="view-menu-category">
+                                        <input type="checkbox" id="horns" name="horns">
+                                        <label>Arts and Media Professionals</label>
+                                    </div>
+                                    <ul class="depth-2 parent">
+                                        <li class="depth-2 child">
+                                            <div class="view-menu-category">
+                                                <input type="checkbox" id="horns" name="horns">
+                                                <label>Business, Human Resource and Marketing Professionals</label>
+                                            </div>
+                                        </li>
+                                        <li class="depth-2 child">
+                                            <div class="view-menu-category">
+                                                <input type="checkbox" id="horns" name="horns">
+                                                <label>design, engineering, science and transport professionals</label>
+                                            </div>
+                                        </li>
+                                        <li class="depth-2 child">
+                                            <div class="view-menu-category">
+                                                <input type="checkbox" id="horns" name="horns">
+                                                <label>education professionals</label>
+                                            </div>
+                                        </li>
+                                    </ul>
+                                </li>
+                                <li class="depth-1 child">
+                                    <div class="view-menu-category">
+                                        <input type="checkbox" id="horns" name="horns">
+                                        <label>Arts and Media Professionals</label>
+                                    </div>
+                                    <ul class="depth-2 parent">
+                                        <li class="depth-2 child">
+                                            <div class="view-menu-category">
+                                                <input type="checkbox" id="horns" name="horns">
+                                                <label>Business, Human Resource and Marketing Professionals</label>
+                                            </div>
+                                        </li>
+                                        <li class="depth-2 child">
+                                            <div class="view-menu-category">
+                                                <input type="checkbox" id="horns" name="horns">
+                                                <label>design, engineering, science and transport professionals</label>
+                                            </div>
+                                        </li>
+                                        <li class="depth-2 child">
+                                            <div class="view-menu-category">
+                                                <input type="checkbox" id="horns" name="horns">
+                                                <label>education professionals</label>
+                                            </div>
+                                        </li>
+                                    </ul>
+                                </li>
+                                <li class="depth-1 child">
+                                    <div class="view-menu-category">
+                                        <input type="checkbox" id="horns" name="horns">
+                                        <label>Arts and Media Professionals</label>
+                                    </div>
+                                    <ul class="depth-2 parent">
+                                        <li class="depth-2 child">
+                                            <div class="view-menu-category">
+                                                <input type="checkbox" id="horns" name="horns">
+                                                <label>Business, Human Resource and Marketing Professionals</label>
+                                            </div>
+                                        </li>
+                                        <li class="depth-2 child">
+                                            <div class="view-menu-category">
+                                                <input type="checkbox" id="horns" name="horns">
+                                                <label>design, engineering, science and transport professionals</label>
+                                            </div>
+                                        </li>
+                                        <li class="depth-2 child">
+                                            <div class="view-menu-category">
+                                                <input type="checkbox" id="horns" name="horns">
+                                                <label>education professionals</label>
+                                            </div>
+                                        </li>
+                                    </ul>
+                                </li>
+                            </ul>
+                        </li>
+                    </ul>
+                </div>
+                <input type="text" name="keyword" class="input-keyword form-unit" placeholder="Job title, company, keyword">
+                <input type="text" class="select-map form-unit stylesheet" value="Australia"></input>
+                <input type="submit" class="button-submit form-unit stylesheet" value="Search"></input>
+            </form>
+        </div>
+        <div class="container-0">
+            <a href="/"><h1 class="stylesheet">seekcruit</h1></a>
+            <p class="text-1">Employer</p>
+        </div>
+        <div class="button-mobile-search">
+            <div class="icon stylesheet"></div>
+        </div>
+        <div class="button-mobile-menu">
+            <div class="bar"></div>
+            <div class="bar"></div>
+            <div class="bar"></div>
+            <div class="bar"></div>
+            <div class="bar"></div>
+            <div class="bar"></div>
+            <div class="bar"></div>
+            <div class="bar"></div>
+            <div class="bar"></div>
+        </div>
+    </nav>
+@elseif (Route::has('classify-role'))
+    <nav class="employer-create-job-nav">
+        <div class="container-0">
+            <a href="/"><h1 class="stylesheet">seekcruit</h1></a>
+            <p class="text-1">Employer</p>
+            <p class="text-0">
+                <a class="isMypage" href="/login">nora yoon<span></span>
+                <a class="isSignOut" href="/employer">Sign out</a>
+            </p>
+        </div>
+        <ul class="container-1 layout-100">
+            <li><a href="">Home</a></li>
+            <li><a href="">Recruit</a></li>
+            <li class="selected"><a href="">Job AD</a></li>
+            <li><a href="">Seekcruit Guide</a></li>
+            <li><a href="">Products</a></li>
+        </ul>
+    </nav>
+@elseif (Route::has('community'))
+    <nav class="isPC">
+        <div class="container-0">
+            <a href="/"><h1 class="stylesheet">seekcruit</h1></a>
+            <p class="text-0">
+                <a href="/login">Sign in</a> or <a href="/register">Register</a> <span></span> <a href="/employer">Employer site</a>
+            </p>
+        </div>
+        <ul class="container-1 layout-100">
+            <li><a href="">Job Search</a></li>
+            <li><a href="">Profile</a></li>
+            <li><a href="">Seekcruit Guide</a></li>
+            <li class="isMarket"><a>Market</a></li>
+            <li class="selected"><a href="">Community</a></li>
+        </ul>
+        <div class="layer-menu-market">
+            <div class="back-0"></div>
+            <div class="back-1"></div>
+            <div class="back-2"></div>
+            <ul>
+                <li><a href="">Beauty and personal care</a></li>
+                <li><a href="">Health and Household</a></li>
+                <li><a href="">Tools & Home Improvement</a></li>
+            </ul>
+        </div>
+        <div class="container-2">
+            <form class="layout-100">
+                <button type="button" class="button-category form-unit stylesheet">All Categories<span class="icon stylesheet"></span></button>
+                <input type="text" name="keyword" class="input-keyword form-unit" placeholder="Job title, company, keyword">
+                <input type="text" class="select-map form-unit stylesheet" placeholder="Enter suburb, city, or region" value="Australia"></input>
+                <input type="submit" class="button-submit form-unit stylesheet"></input>
+            </form>
+            <div class="layer-menu-category">
+                <div class="back-0"></div>
+                <div class="back-1"></div>
+                <div class="back-2"></div>
+                <div class="container-4">
+                    <ul class="depth-0 parent">
+                        <li class="depth-0 child">
+                            <div class="view-menu-category">
+                                <input type="checkbox" id="horns" name="horns">
+                                <label>Proffesionals</label>
+                            </div>
+                            <ul class="depth-1 parent">
+                                <li class="depth-1 child">
+                                    <div class="view-menu-category">
+                                        <input type="checkbox" id="horns" name="horns">
+                                        <label>Arts and Media Professionals</label>
+                                    </div>
+                                    <ul class="depth-2 parent">
+                                        <li class="depth-2 child">
+                                            <div class="view-menu-category">
+                                                <input type="checkbox" id="horns" name="horns">
+                                                <label>Business, Human Resource and Marketing Professionals</label>
+                                            </div>
+                                        </li>
+                                        <li class="depth-2 child">
+                                            <div class="view-menu-category">
+                                                <input type="checkbox" id="horns" name="horns">
+                                                <label>design, engineering, science and transport professionals</label>
+                                            </div>
+                                        </li>
+                                        <li class="depth-2 child">
+                                            <div class="view-menu-category">
+                                                <input type="checkbox" id="horns" name="horns">
+                                                <label>education professionals</label>
+                                            </div>
+                                        </li>
+                                    </ul>
+                                </li>
+                                <li class="depth-1 child">
+                                    <div class="view-menu-category">
+                                        <input type="checkbox" id="horns" name="horns">
+                                        <label>Arts and Media Professionals</label>
+                                    </div>
+                                    <ul class="depth-2 parent">
+                                        <li class="depth-2 child">
+                                            <div class="view-menu-category">
+                                                <input type="checkbox" id="horns" name="horns">
+                                                <label>Business, Human Resource and Marketing Professionals</label>
+                                            </div>
+                                        </li>
+                                        <li class="depth-2 child">
+                                            <div class="view-menu-category">
+                                                <input type="checkbox" id="horns" name="horns">
+                                                <label>design, engineering, science and transport professionals</label>
+                                            </div>
+                                        </li>
+                                        <li class="depth-2 child">
+                                            <div class="view-menu-category">
+                                                <input type="checkbox" id="horns" name="horns">
+                                                <label>education professionals</label>
+                                            </div>
+                                        </li>
+                                    </ul>
+                                </li>
+                                <li class="depth-1 child">
+                                    <div class="view-menu-category">
+                                        <input type="checkbox" id="horns" name="horns">
+                                        <label>Arts and Media Professionals</label>
+                                    </div>
+                                    <ul class="depth-2 parent">
+                                        <li class="depth-2 child">
+                                            <div class="view-menu-category">
+                                                <input type="checkbox" id="horns" name="horns">
+                                                <label>Business, Human Resource and Marketing Professionals</label>
+                                            </div>
+                                        </li>
+                                        <li class="depth-2 child">
+                                            <div class="view-menu-category">
+                                                <input type="checkbox" id="horns" name="horns">
+                                                <label>design, engineering, science and transport professionals</label>
+                                            </div>
+                                        </li>
+                                        <li class="depth-2 child">
+                                            <div class="view-menu-category">
+                                                <input type="checkbox" id="horns" name="horns">
+                                                <label>education professionals</label>
+                                            </div>
+                                        </li>
+                                    </ul>
+                                </li>
+                            </ul>
+                        </li>
+                        <li class="depth-0 child">
+                            <div class="view-menu-category">
+                                <input type="checkbox" id="horns" name="horns">
+                                <label>Proffesionals</label>
+                            </div>
+                            <ul class="depth-1 parent">
+                                <li class="depth-1 child">
+                                    <div class="view-menu-category">
+                                        <input type="checkbox" id="horns" name="horns">
+                                        <label>Arts and Media Professionals</label>
+                                    </div>
+                                    <ul class="depth-2 parent">
+                                        <li class="depth-2 child">
+                                            <div class="view-menu-category">
+                                                <input type="checkbox" id="horns" name="horns">
+                                                <label>Business, Human Resource and Marketing Professionals</label>
+                                            </div>
+                                        </li>
+                                        <li class="depth-2 child">
+                                            <div class="view-menu-category">
+                                                <input type="checkbox" id="horns" name="horns">
+                                                <label>design, engineering, science and transport professionals</label>
+                                            </div>
+                                        </li>
+                                        <li class="depth-2 child">
+                                            <div class="view-menu-category">
+                                                <input type="checkbox" id="horns" name="horns">
+                                                <label>education professionals</label>
+                                            </div>
+                                        </li>
+                                    </ul>
+                                </li>
+                                <li class="depth-1 child">
+                                    <div class="view-menu-category">
+                                        <input type="checkbox" id="horns" name="horns">
+                                        <label>Arts and Media Professionals</label>
+                                    </div>
+                                    <ul class="depth-2 parent">
+                                        <li class="depth-2 child">
+                                            <div class="view-menu-category">
+                                                <input type="checkbox" id="horns" name="horns">
+                                                <label>Business, Human Resource and Marketing Professionals</label>
+                                            </div>
+                                        </li>
+                                        <li class="depth-2 child">
+                                            <div class="view-menu-category">
+                                                <input type="checkbox" id="horns" name="horns">
+                                                <label>design, engineering, science and transport professionals</label>
+                                            </div>
+                                        </li>
+                                        <li class="depth-2 child">
+                                            <div class="view-menu-category">
+                                                <input type="checkbox" id="horns" name="horns">
+                                                <label>education professionals</label>
+                                            </div>
+                                        </li>
+                                    </ul>
+                                </li>
+                                <li class="depth-1 child">
+                                    <div class="view-menu-category">
+                                        <input type="checkbox" id="horns" name="horns">
+                                        <label>Arts and Media Professionals</label>
+                                    </div>
+                                    <ul class="depth-2 parent">
+                                        <li class="depth-2 child">
+                                            <div class="view-menu-category">
+                                                <input type="checkbox" id="horns" name="horns">
+                                                <label>Business, Human Resource and Marketing Professionals</label>
+                                            </div>
+                                        </li>
+                                        <li class="depth-2 child">
+                                            <div class="view-menu-category">
+                                                <input type="checkbox" id="horns" name="horns">
+                                                <label>design, engineering, science and transport professionals</label>
+                                            </div>
+                                        </li>
+                                        <li class="depth-2 child">
+                                            <div class="view-menu-category">
+                                                <input type="checkbox" id="horns" name="horns">
+                                                <label>education professionals</label>
+                                            </div>
+                                        </li>
+                                    </ul>
+                                </li>
+                            </ul>
+                        </li>
+                        <li class="depth-0 child">
+                            <div class="view-menu-category">
+                                <input type="checkbox" id="horns" name="horns">
+                                <label>Proffesionals</label>
+                            </div>
+                            <ul class="depth-1 parent">
+                                <li class="depth-1 child">
+                                    <div class="view-menu-category">
+                                        <input type="checkbox" id="horns" name="horns">
+                                        <label>Arts and Media Professionals</label>
+                                    </div>
+                                    <ul class="depth-2 parent">
+                                        <li class="depth-2 child">
+                                            <div class="view-menu-category">
+                                                <input type="checkbox" id="horns" name="horns">
+                                                <label>Business, Human Resource and Marketing Professionals</label>
+                                            </div>
+                                        </li>
+                                        <li class="depth-2 child">
+                                            <div class="view-menu-category">
+                                                <input type="checkbox" id="horns" name="horns">
+                                                <label>design, engineering, science and transport professionals</label>
+                                            </div>
+                                        </li>
+                                        <li class="depth-2 child">
+                                            <div class="view-menu-category">
+                                                <input type="checkbox" id="horns" name="horns">
+                                                <label>education professionals</label>
+                                            </div>
+                                        </li>
+                                    </ul>
+                                </li>
+                                <li class="depth-1 child">
+                                    <div class="view-menu-category">
+                                        <input type="checkbox" id="horns" name="horns">
+                                        <label>Arts and Media Professionals</label>
+                                    </div>
+                                    <ul class="depth-2 parent">
+                                        <li class="depth-2 child">
+                                            <div class="view-menu-category">
+                                                <input type="checkbox" id="horns" name="horns">
+                                                <label>Business, Human Resource and Marketing Professionals</label>
+                                            </div>
+                                        </li>
+                                        <li class="depth-2 child">
+                                            <div class="view-menu-category">
+                                                <input type="checkbox" id="horns" name="horns">
+                                                <label>design, engineering, science and transport professionals</label>
+                                            </div>
+                                        </li>
+                                        <li class="depth-2 child">
+                                            <div class="view-menu-category">
+                                                <input type="checkbox" id="horns" name="horns">
+                                                <label>education professionals</label>
+                                            </div>
+                                        </li>
+                                    </ul>
+                                </li>
+                                <li class="depth-1 child">
+                                    <div class="view-menu-category">
+                                        <input type="checkbox" id="horns" name="horns">
+                                        <label>Arts and Media Professionals</label>
+                                    </div>
+                                    <ul class="depth-2 parent">
+                                        <li class="depth-2 child">
+                                            <div class="view-menu-category">
+                                                <input type="checkbox" id="horns" name="horns">
+                                                <label>Business, Human Resource and Marketing Professionals</label>
+                                            </div>
+                                        </li>
+                                        <li class="depth-2 child">
+                                            <div class="view-menu-category">
+                                                <input type="checkbox" id="horns" name="horns">
+                                                <label>design, engineering, science and transport professionals</label>
+                                            </div>
+                                        </li>
+                                        <li class="depth-2 child">
+                                            <div class="view-menu-category">
+                                                <input type="checkbox" id="horns" name="horns">
+                                                <label>education professionals</label>
+                                            </div>
+                                        </li>
+                                    </ul>
+                                </li>
+                            </ul>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+        <div class="container-3">
+            <div class="container-11">
+                <ul class="container-8 layout-100">
+                    <li class="work-type">
+                        <p class="text-1">Part time</p>
+                        <div class="arrow"></div>
+                    </li>
+                    <li class="paying-from">
+                        <p class="text-1"><span>paying</span>$0</p>
+                        <div class="arrow"></div>
+                    </li>
+                    <li class="paying-to">
+                        <p class="text-1"><span>to</span>$200k+</p>
+                        <div class="arrow"></div>
+                    </li>
+                    <li class="listed">
+                        <p class="text-1"><span>listed in</span>Last 7 days</p>
+                        <div class="arrow"></div>
+                    </li>
+                </ul>
+            </div>
+            <div class="container-9">
+                <ul class="container-10 layout-100">
+                    <li>Full time</li>
+                    <li>Casual/Vacation</li>
+                    <li>$0</li>
+                    <li>$100k</li>
+                    <li>$200k+</li>
+                    <li>Any time</li>
+                    <li>Today</li>
+                    <li>Last 14 days</li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+    <nav class="isMobile">
+        <div class="image-back-drop"></div>
+        <ul class="container-5">
+            <li class="selected"><a href="">Job Search</a></li>
+            <li><a href="">Profile</a></li>
+            <li><a href="">Seekcruit Guide</a></li>
+            <li class="isMarket"><a>Market</a></li>
+            <li><a href="">Community</a></li>
+            <li class="underline"></li>
+            <li class="outside"><a href="">Sign in or Register</a></li>
+            <li class="outside"><a href="">Employer site</a></li>
+            <li class="underline"></li>
+            <li class="outside"><a href="">Advertiser page</a></li>
+        </ul>
+        <div class="container-6">
+            <form class="layer-menu-category">
+                <div class="container-7">
+                    <ul class="depth-0 parent">
+                        <li class="depth-0 child">
+                            <div class="view-menu-category">
+                                <input type="checkbox" id="horns" name="horns">
+                                <label>Proffesionals</label>
+                            </div>
+                            <ul class="depth-1 parent">
+                                <li class="depth-1 child">
+                                    <div class="view-menu-category">
+                                        <input type="checkbox" id="horns" name="horns">
+                                        <label>Arts and Media Professionals</label>
+                                    </div>
+                                    <ul class="depth-2 parent">
+                                        <li class="depth-2 child">
+                                            <div class="view-menu-category">
+                                                <input type="checkbox" id="horns" name="horns">
+                                                <label>Business, Human Resource and Marketing Professionals</label>
+                                            </div>
+                                        </li>
+                                        <li class="depth-2 child">
+                                            <div class="view-menu-category">
+                                                <input type="checkbox" id="horns" name="horns">
+                                                <label>design, engineering, science and transport professionals</label>
+                                            </div>
+                                        </li>
+                                        <li class="depth-2 child">
+                                            <div class="view-menu-category">
+                                                <input type="checkbox" id="horns" name="horns">
+                                                <label>education professionals</label>
+                                            </div>
+                                        </li>
+                                    </ul>
+                                </li>
+                                <li class="depth-1 child">
+                                    <div class="view-menu-category">
+                                        <input type="checkbox" id="horns" name="horns">
+                                        <label>Arts and Media Professionals</label>
+                                    </div>
+                                    <ul class="depth-2 parent">
+                                        <li class="depth-2 child">
+                                            <div class="view-menu-category">
+                                                <input type="checkbox" id="horns" name="horns">
+                                                <label>Business, Human Resource and Marketing Professionals</label>
+                                            </div>
+                                        </li>
+                                        <li class="depth-2 child">
+                                            <div class="view-menu-category">
+                                                <input type="checkbox" id="horns" name="horns">
+                                                <label>design, engineering, science and transport professionals</label>
+                                            </div>
+                                        </li>
+                                        <li class="depth-2 child">
+                                            <div class="view-menu-category">
+                                                <input type="checkbox" id="horns" name="horns">
+                                                <label>education professionals</label>
+                                            </div>
+                                        </li>
+                                    </ul>
+                                </li>
+                                <li class="depth-1 child">
+                                    <div class="view-menu-category">
+                                        <input type="checkbox" id="horns" name="horns">
+                                        <label>Arts and Media Professionals</label>
+                                    </div>
+                                    <ul class="depth-2 parent">
+                                        <li class="depth-2 child">
+                                            <div class="view-menu-category">
+                                                <input type="checkbox" id="horns" name="horns">
+                                                <label>Business, Human Resource and Marketing Professionals</label>
+                                            </div>
+                                        </li>
+                                        <li class="depth-2 child">
+                                            <div class="view-menu-category">
+                                                <input type="checkbox" id="horns" name="horns">
+                                                <label>design, engineering, science and transport professionals</label>
+                                            </div>
+                                        </li>
+                                        <li class="depth-2 child">
+                                            <div class="view-menu-category">
+                                                <input type="checkbox" id="horns" name="horns">
+                                                <label>education professionals</label>
+                                            </div>
+                                        </li>
+                                    </ul>
+                                </li>
+                            </ul>
+                        </li>
+                        <li class="depth-0 child">
+                            <div class="view-menu-category">
+                                <input type="checkbox" id="horns" name="horns">
+                                <label>Proffesionals</label>
+                            </div>
+                            <ul class="depth-1 parent">
+                                <li class="depth-1 child">
+                                    <div class="view-menu-category">
+                                        <input type="checkbox" id="horns" name="horns">
+                                        <label>Arts and Media Professionals</label>
+                                    </div>
+                                    <ul class="depth-2 parent">
+                                        <li class="depth-2 child">
+                                            <div class="view-menu-category">
+                                                <input type="checkbox" id="horns" name="horns">
+                                                <label>Business, Human Resource and Marketing Professionals</label>
+                                            </div>
+                                        </li>
+                                        <li class="depth-2 child">
+                                            <div class="view-menu-category">
+                                                <input type="checkbox" id="horns" name="horns">
+                                                <label>design, engineering, science and transport professionals</label>
+                                            </div>
+                                        </li>
+                                        <li class="depth-2 child">
+                                            <div class="view-menu-category">
+                                                <input type="checkbox" id="horns" name="horns">
+                                                <label>education professionals</label>
+                                            </div>
+                                        </li>
+                                    </ul>
+                                </li>
+                                <li class="depth-1 child">
+                                    <div class="view-menu-category">
+                                        <input type="checkbox" id="horns" name="horns">
+                                        <label>Arts and Media Professionals</label>
+                                    </div>
+                                    <ul class="depth-2 parent">
+                                        <li class="depth-2 child">
+                                            <div class="view-menu-category">
+                                                <input type="checkbox" id="horns" name="horns">
+                                                <label>Business, Human Resource and Marketing Professionals</label>
+                                            </div>
+                                        </li>
+                                        <li class="depth-2 child">
+                                            <div class="view-menu-category">
+                                                <input type="checkbox" id="horns" name="horns">
+                                                <label>design, engineering, science and transport professionals</label>
+                                            </div>
+                                        </li>
+                                        <li class="depth-2 child">
+                                            <div class="view-menu-category">
+                                                <input type="checkbox" id="horns" name="horns">
+                                                <label>education professionals</label>
+                                            </div>
+                                        </li>
+                                    </ul>
+                                </li>
+                                <li class="depth-1 child">
+                                    <div class="view-menu-category">
+                                        <input type="checkbox" id="horns" name="horns">
+                                        <label>Arts and Media Professionals</label>
+                                    </div>
+                                    <ul class="depth-2 parent">
+                                        <li class="depth-2 child">
+                                            <div class="view-menu-category">
+                                                <input type="checkbox" id="horns" name="horns">
+                                                <label>Business, Human Resource and Marketing Professionals</label>
+                                            </div>
+                                        </li>
+                                        <li class="depth-2 child">
+                                            <div class="view-menu-category">
+                                                <input type="checkbox" id="horns" name="horns">
+                                                <label>design, engineering, science and transport professionals</label>
+                                            </div>
+                                        </li>
+                                        <li class="depth-2 child">
+                                            <div class="view-menu-category">
+                                                <input type="checkbox" id="horns" name="horns">
+                                                <label>education professionals</label>
+                                            </div>
+                                        </li>
+                                    </ul>
+                                </li>
+                            </ul>
+                        </li>
+                        <li class="depth-0 child">
+                            <div class="view-menu-category">
+                                <input type="checkbox" id="horns" name="horns">
+                                <label>Proffesionals</label>
+                            </div>
+                            <ul class="depth-1 parent">
+                                <li class="depth-1 child">
+                                    <div class="view-menu-category">
+                                        <input type="checkbox" id="horns" name="horns">
+                                        <label>Arts and Media Professionals</label>
+                                    </div>
+                                    <ul class="depth-2 parent">
+                                        <li class="depth-2 child">
+                                            <div class="view-menu-category">
+                                                <input type="checkbox" id="horns" name="horns">
+                                                <label>Business, Human Resource and Marketing Professionals</label>
+                                            </div>
+                                        </li>
+                                        <li class="depth-2 child">
+                                            <div class="view-menu-category">
+                                                <input type="checkbox" id="horns" name="horns">
+                                                <label>design, engineering, science and transport professionals</label>
+                                            </div>
+                                        </li>
+                                        <li class="depth-2 child">
+                                            <div class="view-menu-category">
+                                                <input type="checkbox" id="horns" name="horns">
+                                                <label>education professionals</label>
+                                            </div>
+                                        </li>
+                                    </ul>
+                                </li>
+                                <li class="depth-1 child">
+                                    <div class="view-menu-category">
+                                        <input type="checkbox" id="horns" name="horns">
+                                        <label>Arts and Media Professionals</label>
+                                    </div>
+                                    <ul class="depth-2 parent">
+                                        <li class="depth-2 child">
+                                            <div class="view-menu-category">
+                                                <input type="checkbox" id="horns" name="horns">
+                                                <label>Business, Human Resource and Marketing Professionals</label>
+                                            </div>
+                                        </li>
+                                        <li class="depth-2 child">
+                                            <div class="view-menu-category">
+                                                <input type="checkbox" id="horns" name="horns">
+                                                <label>design, engineering, science and transport professionals</label>
+                                            </div>
+                                        </li>
+                                        <li class="depth-2 child">
+                                            <div class="view-menu-category">
+                                                <input type="checkbox" id="horns" name="horns">
+                                                <label>education professionals</label>
+                                            </div>
+                                        </li>
+                                    </ul>
+                                </li>
+                                <li class="depth-1 child">
+                                    <div class="view-menu-category">
+                                        <input type="checkbox" id="horns" name="horns">
+                                        <label>Arts and Media Professionals</label>
+                                    </div>
+                                    <ul class="depth-2 parent">
+                                        <li class="depth-2 child">
+                                            <div class="view-menu-category">
+                                                <input type="checkbox" id="horns" name="horns">
+                                                <label>Business, Human Resource and Marketing Professionals</label>
+                                            </div>
+                                        </li>
+                                        <li class="depth-2 child">
+                                            <div class="view-menu-category">
+                                                <input type="checkbox" id="horns" name="horns">
+                                                <label>design, engineering, science and transport professionals</label>
+                                            </div>
+                                        </li>
+                                        <li class="depth-2 child">
+                                            <div class="view-menu-category">
+                                                <input type="checkbox" id="horns" name="horns">
+                                                <label>education professionals</label>
+                                            </div>
+                                        </li>
+                                    </ul>
+                                </li>
+                            </ul>
+                        </li>
+                    </ul>
+                </div>
+                <input type="text" name="keyword" class="input-keyword form-unit" placeholder="Job title, company, keyword">
+                <input type="text" class="select-map form-unit stylesheet" value="Australia"></input>
+                <input type="submit" class="button-submit form-unit stylesheet" value="Search"></input>
+            </form>
+        </div>
+        <div class="container-0">
+            <a href="/"><h1 class="stylesheet">seekcruit</h1></a>
+        </div>
+        <div class="container-3">
+            <div class="container-11">
+                <ul class="container-8 layout-100">
+                    <li class="work-type">
+                        <p class="text-1">Part time</p>
+                        <div class="arrow"></div>
+                    </li>
+                    <li class="paying-from">
+                        <p class="text-1"><span>paying</span>$0</p>
+                        <div class="arrow"></div>
+                    </li>
+                    <li class="paying-to">
+                        <p class="text-1"><span>to</span>$200k+</p>
+                        <div class="arrow"></div>
+                    </li>
+                    <li class="listed">
+                        <p class="text-1"><span>listed in</span>Last 7 days</p>
+                        <div class="arrow"></div>
+                    </li>
+                </ul>
+            </div>
+            <div class="container-9">
+                <ul class="container-10 layout-100">
+                    <li>Full time</li>
+                    <li>Casual/Vacation</li>
+                    <li>$0</li>
+                    <li>$100k</li>
+                    <li>$200k+</li>
+                    <li>Any time</li>
+                    <li>Today</li>
+                    <li>Last 14 days</li>
+                </ul>
+            </div>
+        </div>
+        <div class="button-mobile-search">
+            <div class="icon stylesheet"></div>
+        </div>
+        <div class="button-mobile-menu">
+            <div class="bar"></div>
+            <div class="bar"></div>
+            <div class="bar"></div>
+            <div class="bar"></div>
+            <div class="bar"></div>
+            <div class="bar"></div>
+            <div class="bar"></div>
+            <div class="bar"></div>
+            <div class="bar"></div>
+        </div>
+    </nav>
+@elseif (Route::has('employer-my-account'))
+    <nav class="employer isPC">
+        <div class="container-0">
+            <a href="/"><h1 class="stylesheet">seekcruit</h1></a>
+            <p class="text-1">Employer</p>
+            <p class="text-0">
+                <a class="isMypage" href="/login">nora yoon<span></span>
+                <a class="isSignOut" href="/employer">Sign out</a>
+            </p>
+        </div>
+        <ul class="container-1 layout-100">
+            <li class="selected"><a href="">Home</a></li>
+            <li><a href="">Recruit</a></li>
+            <li><a href="">Job AD</a></li>
+            <li><a href="">Seekcruit Guide</a></li>
+            <li><a href="">Products</a></li>
+        </ul>
+    </nav>
+    <nav class="employer isMobile">
+        <div class="image-back-drop"></div>
+        <ul class="container-5">
+            <li class="portrait"><a href=""></a></li>
+            <li class="outside"><a href="">My Profile</a></li>
+            <li class="outside"><a href="">My Account</a></li>
+            <li class="underline"></li>
+            <li class="selected"><a href="">Job Search</a></li>
+            <li><a href="">Seekcruit Guide</a></li>
+            <li class="isMarket"><a>Market</a></li>
+            <li><a href="">Community</a></li>
+            <li class="underline"></li>
+            <li class="outside"><a href="">Sign out</a></li>
+            <li class="underline"></li>
+            <li class="outside"><a href="">Advertiser page</a></li>
+        </ul>
+        <div class="container-6">
+            <form class="layer-menu-category">
+                <div class="container-7">
+                    <ul class="depth-0 parent">
+                        <li class="depth-0 child">
+                            <div class="view-menu-category">
+                                <input type="checkbox" id="horns" name="horns">
+                                <label>Proffesionals</label>
+                            </div>
+                            <ul class="depth-1 parent">
+                                <li class="depth-1 child">
+                                    <div class="view-menu-category">
+                                        <input type="checkbox" id="horns" name="horns">
+                                        <label>Arts and Media Professionals</label>
+                                    </div>
+                                    <ul class="depth-2 parent">
+                                        <li class="depth-2 child">
+                                            <div class="view-menu-category">
+                                                <input type="checkbox" id="horns" name="horns">
+                                                <label>Business, Human Resource and Marketing Professionals</label>
+                                            </div>
+                                        </li>
+                                        <li class="depth-2 child">
+                                            <div class="view-menu-category">
+                                                <input type="checkbox" id="horns" name="horns">
+                                                <label>design, engineering, science and transport professionals</label>
+                                            </div>
+                                        </li>
+                                        <li class="depth-2 child">
+                                            <div class="view-menu-category">
+                                                <input type="checkbox" id="horns" name="horns">
+                                                <label>education professionals</label>
+                                            </div>
+                                        </li>
+                                    </ul>
+                                </li>
+                                <li class="depth-1 child">
+                                    <div class="view-menu-category">
+                                        <input type="checkbox" id="horns" name="horns">
+                                        <label>Arts and Media Professionals</label>
+                                    </div>
+                                    <ul class="depth-2 parent">
+                                        <li class="depth-2 child">
+                                            <div class="view-menu-category">
+                                                <input type="checkbox" id="horns" name="horns">
+                                                <label>Business, Human Resource and Marketing Professionals</label>
+                                            </div>
+                                        </li>
+                                        <li class="depth-2 child">
+                                            <div class="view-menu-category">
+                                                <input type="checkbox" id="horns" name="horns">
+                                                <label>design, engineering, science and transport professionals</label>
+                                            </div>
+                                        </li>
+                                        <li class="depth-2 child">
+                                            <div class="view-menu-category">
+                                                <input type="checkbox" id="horns" name="horns">
+                                                <label>education professionals</label>
+                                            </div>
+                                        </li>
+                                    </ul>
+                                </li>
+                                <li class="depth-1 child">
+                                    <div class="view-menu-category">
+                                        <input type="checkbox" id="horns" name="horns">
+                                        <label>Arts and Media Professionals</label>
+                                    </div>
+                                    <ul class="depth-2 parent">
+                                        <li class="depth-2 child">
+                                            <div class="view-menu-category">
+                                                <input type="checkbox" id="horns" name="horns">
+                                                <label>Business, Human Resource and Marketing Professionals</label>
+                                            </div>
+                                        </li>
+                                        <li class="depth-2 child">
+                                            <div class="view-menu-category">
+                                                <input type="checkbox" id="horns" name="horns">
+                                                <label>design, engineering, science and transport professionals</label>
+                                            </div>
+                                        </li>
+                                        <li class="depth-2 child">
+                                            <div class="view-menu-category">
+                                                <input type="checkbox" id="horns" name="horns">
+                                                <label>education professionals</label>
+                                            </div>
+                                        </li>
+                                    </ul>
+                                </li>
+                            </ul>
+                        </li>
+                        <li class="depth-0 child">
+                            <div class="view-menu-category">
+                                <input type="checkbox" id="horns" name="horns">
+                                <label>Proffesionals</label>
+                            </div>
+                            <ul class="depth-1 parent">
+                                <li class="depth-1 child">
+                                    <div class="view-menu-category">
+                                        <input type="checkbox" id="horns" name="horns">
+                                        <label>Arts and Media Professionals</label>
+                                    </div>
+                                    <ul class="depth-2 parent">
+                                        <li class="depth-2 child">
+                                            <div class="view-menu-category">
+                                                <input type="checkbox" id="horns" name="horns">
+                                                <label>Business, Human Resource and Marketing Professionals</label>
+                                            </div>
+                                        </li>
+                                        <li class="depth-2 child">
+                                            <div class="view-menu-category">
+                                                <input type="checkbox" id="horns" name="horns">
+                                                <label>design, engineering, science and transport professionals</label>
+                                            </div>
+                                        </li>
+                                        <li class="depth-2 child">
+                                            <div class="view-menu-category">
+                                                <input type="checkbox" id="horns" name="horns">
+                                                <label>education professionals</label>
+                                            </div>
+                                        </li>
+                                    </ul>
+                                </li>
+                                <li class="depth-1 child">
+                                    <div class="view-menu-category">
+                                        <input type="checkbox" id="horns" name="horns">
+                                        <label>Arts and Media Professionals</label>
+                                    </div>
+                                    <ul class="depth-2 parent">
+                                        <li class="depth-2 child">
+                                            <div class="view-menu-category">
+                                                <input type="checkbox" id="horns" name="horns">
+                                                <label>Business, Human Resource and Marketing Professionals</label>
+                                            </div>
+                                        </li>
+                                        <li class="depth-2 child">
+                                            <div class="view-menu-category">
+                                                <input type="checkbox" id="horns" name="horns">
+                                                <label>design, engineering, science and transport professionals</label>
+                                            </div>
+                                        </li>
+                                        <li class="depth-2 child">
+                                            <div class="view-menu-category">
+                                                <input type="checkbox" id="horns" name="horns">
+                                                <label>education professionals</label>
+                                            </div>
+                                        </li>
+                                    </ul>
+                                </li>
+                                <li class="depth-1 child">
+                                    <div class="view-menu-category">
+                                        <input type="checkbox" id="horns" name="horns">
+                                        <label>Arts and Media Professionals</label>
+                                    </div>
+                                    <ul class="depth-2 parent">
+                                        <li class="depth-2 child">
+                                            <div class="view-menu-category">
+                                                <input type="checkbox" id="horns" name="horns">
+                                                <label>Business, Human Resource and Marketing Professionals</label>
+                                            </div>
+                                        </li>
+                                        <li class="depth-2 child">
+                                            <div class="view-menu-category">
+                                                <input type="checkbox" id="horns" name="horns">
+                                                <label>design, engineering, science and transport professionals</label>
+                                            </div>
+                                        </li>
+                                        <li class="depth-2 child">
+                                            <div class="view-menu-category">
+                                                <input type="checkbox" id="horns" name="horns">
+                                                <label>education professionals</label>
+                                            </div>
+                                        </li>
+                                    </ul>
+                                </li>
+                            </ul>
+                        </li>
+                        <li class="depth-0 child">
+                            <div class="view-menu-category">
+                                <input type="checkbox" id="horns" name="horns">
+                                <label>Proffesionals</label>
+                            </div>
+                            <ul class="depth-1 parent">
+                                <li class="depth-1 child">
+                                    <div class="view-menu-category">
+                                        <input type="checkbox" id="horns" name="horns">
+                                        <label>Arts and Media Professionals</label>
+                                    </div>
+                                    <ul class="depth-2 parent">
+                                        <li class="depth-2 child">
+                                            <div class="view-menu-category">
+                                                <input type="checkbox" id="horns" name="horns">
+                                                <label>Business, Human Resource and Marketing Professionals</label>
+                                            </div>
+                                        </li>
+                                        <li class="depth-2 child">
+                                            <div class="view-menu-category">
+                                                <input type="checkbox" id="horns" name="horns">
+                                                <label>design, engineering, science and transport professionals</label>
+                                            </div>
+                                        </li>
+                                        <li class="depth-2 child">
+                                            <div class="view-menu-category">
+                                                <input type="checkbox" id="horns" name="horns">
+                                                <label>education professionals</label>
+                                            </div>
+                                        </li>
+                                    </ul>
+                                </li>
+                                <li class="depth-1 child">
+                                    <div class="view-menu-category">
+                                        <input type="checkbox" id="horns" name="horns">
+                                        <label>Arts and Media Professionals</label>
+                                    </div>
+                                    <ul class="depth-2 parent">
+                                        <li class="depth-2 child">
+                                            <div class="view-menu-category">
+                                                <input type="checkbox" id="horns" name="horns">
+                                                <label>Business, Human Resource and Marketing Professionals</label>
+                                            </div>
+                                        </li>
+                                        <li class="depth-2 child">
+                                            <div class="view-menu-category">
+                                                <input type="checkbox" id="horns" name="horns">
+                                                <label>design, engineering, science and transport professionals</label>
+                                            </div>
+                                        </li>
+                                        <li class="depth-2 child">
+                                            <div class="view-menu-category">
+                                                <input type="checkbox" id="horns" name="horns">
+                                                <label>education professionals</label>
+                                            </div>
+                                        </li>
+                                    </ul>
+                                </li>
+                                <li class="depth-1 child">
+                                    <div class="view-menu-category">
+                                        <input type="checkbox" id="horns" name="horns">
+                                        <label>Arts and Media Professionals</label>
+                                    </div>
+                                    <ul class="depth-2 parent">
+                                        <li class="depth-2 child">
+                                            <div class="view-menu-category">
+                                                <input type="checkbox" id="horns" name="horns">
+                                                <label>Business, Human Resource and Marketing Professionals</label>
+                                            </div>
+                                        </li>
+                                        <li class="depth-2 child">
+                                            <div class="view-menu-category">
+                                                <input type="checkbox" id="horns" name="horns">
+                                                <label>design, engineering, science and transport professionals</label>
+                                            </div>
+                                        </li>
+                                        <li class="depth-2 child">
+                                            <div class="view-menu-category">
+                                                <input type="checkbox" id="horns" name="horns">
+                                                <label>education professionals</label>
+                                            </div>
+                                        </li>
+                                    </ul>
+                                </li>
+                            </ul>
+                        </li>
+                    </ul>
+                </div>
+                <input type="text" name="keyword" class="input-keyword form-unit" placeholder="Job title, company, keyword">
+                <input type="text" class="select-map form-unit stylesheet" value="Australia"></input>
+                <input type="submit" class="button-submit form-unit stylesheet" value="Search"></input>
+            </form>
+        </div>
+        <div class="container-0">
+            <a href="/"><h1 class="stylesheet">seekcruit</h1></a>
+            <p class="text-1">Employer</p>
+        </div>
+        <div class="button-mobile-search">
+            <div class="icon stylesheet"></div>
+        </div>
+        <div class="button-mobile-menu">
+            <div class="bar"></div>
+            <div class="bar"></div>
+            <div class="bar"></div>
+            <div class="bar"></div>
+            <div class="bar"></div>
+            <div class="bar"></div>
+            <div class="bar"></div>
+            <div class="bar"></div>
+            <div class="bar"></div>
+        </div>
+    </nav>
+@elseif (Route::has('employer-products'))
+    <nav class="employer isPC">
+        <div class="container-0">
+            <a href="/"><h1 class="stylesheet">seekcruit</h1></a>
+            <p class="text-1">Employer</p>
+            <div class="text-0">
+                <a class="isMypage">norah yoon</a>
+                <span class="stylesheet arrow"></span>
+                <span></span>
+                <a class="isSignOut" href="/employer">Sign out</a>
+                <div class="layer-menu-mypage">
+                    <div class="back-0"></div>
+                    <div class="back-1"></div>
+                    <div class="back-2"></div>
+                    <div class="container-5">
+                        <div class="portrait"></div>
+                        <p class="text-4">norah yoon</p>
+                    </div>
+                    <ul>
+                        <li><a href="">my profile</a></li>
+                        <li><a href="">my career</a></li>
+                        <li><a href="">application history</a></li>
+                        <li><a href="">suggested jobs</a></li>
+                        <li><a href="">resume archive</a></li>
+                    </ul>
+                    <a class="button-sign-out" href="">sign out</a>
+                </div>
+            </div>
+        </div>
+        <ul class="container-1 layout-100">
+            <li class="selected"><a href="">Job Search</a></li>
+            <li><a href="">Profile</a></li>
+            <li><a href="">Seekcruit Guide</a></li>
+            <li class="isMarket"><a>Market</a></li>
+            <li><a href="">Community</a></li>
+        </ul>
+        <div class="layer-menu-market">
+            <div class="back-0"></div>
+            <div class="back-1"></div>
+            <div class="back-2"></div>
+            <ul>
+                <li><a href="">Beauty and personal care</a></li>
+                <li><a href="">Health and Household</a></li>
+                <li><a href="">Tools & Home Improvement</a></li>
+            </ul>
+        </div>
+        <div class="container-2">
+            <form class="layout-100">
+                <button type="button" class="button-category form-unit stylesheet">All Categories<span class="icon stylesheet"></span></button>
+                <input type="text" name="keyword" class="input-keyword form-unit" placeholder="Job title, company, keyword">
+                <input type="text" class="select-map form-unit stylesheet" value="Australia"></input>
+                <input type="submit" class="button-submit form-unit stylesheet"></input>
+            </form>
+            <div class="layer-menu-category">
+                <div class="back-0"></div>
+                <div class="back-1"></div>
+                <div class="back-2"></div>
+                <div class="container-4">
+                    <ul class="depth-0 parent">
+                        <li class="depth-0 child">
+                            <div class="view-menu-category">
+                                <input type="checkbox" id="horns" name="horns">
+                                <label>Proffesionals</label>
+                            </div>
+                            <ul class="depth-1 parent">
+                                <li class="depth-1 child">
+                                    <div class="view-menu-category">
+                                        <input type="checkbox" id="horns" name="horns">
+                                        <label>Arts and Media Professionals</label>
+                                    </div>
+                                    <ul class="depth-2 parent">
+                                        <li class="depth-2 child">
+                                            <div class="view-menu-category">
+                                                <input type="checkbox" id="horns" name="horns">
+                                                <label>Business, Human Resource and Marketing Professionals</label>
+                                            </div>
+                                        </li>
+                                        <li class="depth-2 child">
+                                            <div class="view-menu-category">
+                                                <input type="checkbox" id="horns" name="horns">
+                                                <label>design, engineering, science and transport professionals</label>
+                                            </div>
+                                        </li>
+                                        <li class="depth-2 child">
+                                            <div class="view-menu-category">
+                                                <input type="checkbox" id="horns" name="horns">
+                                                <label>education professionals</label>
+                                            </div>
+                                        </li>
+                                    </ul>
+                                </li>
+                                <li class="depth-1 child">
+                                    <div class="view-menu-category">
+                                        <input type="checkbox" id="horns" name="horns">
+                                        <label>Arts and Media Professionals</label>
+                                    </div>
+                                    <ul class="depth-2 parent">
+                                        <li class="depth-2 child">
+                                            <div class="view-menu-category">
+                                                <input type="checkbox" id="horns" name="horns">
+                                                <label>Business, Human Resource and Marketing Professionals</label>
+                                            </div>
+                                        </li>
+                                        <li class="depth-2 child">
+                                            <div class="view-menu-category">
+                                                <input type="checkbox" id="horns" name="horns">
+                                                <label>design, engineering, science and transport professionals</label>
+                                            </div>
+                                        </li>
+                                        <li class="depth-2 child">
+                                            <div class="view-menu-category">
+                                                <input type="checkbox" id="horns" name="horns">
+                                                <label>education professionals</label>
+                                            </div>
+                                        </li>
+                                    </ul>
+                                </li>
+                                <li class="depth-1 child">
+                                    <div class="view-menu-category">
+                                        <input type="checkbox" id="horns" name="horns">
+                                        <label>Arts and Media Professionals</label>
+                                    </div>
+                                    <ul class="depth-2 parent">
+                                        <li class="depth-2 child">
+                                            <div class="view-menu-category">
+                                                <input type="checkbox" id="horns" name="horns">
+                                                <label>Business, Human Resource and Marketing Professionals</label>
+                                            </div>
+                                        </li>
+                                        <li class="depth-2 child">
+                                            <div class="view-menu-category">
+                                                <input type="checkbox" id="horns" name="horns">
+                                                <label>design, engineering, science and transport professionals</label>
+                                            </div>
+                                        </li>
+                                        <li class="depth-2 child">
+                                            <div class="view-menu-category">
+                                                <input type="checkbox" id="horns" name="horns">
+                                                <label>education professionals</label>
+                                            </div>
+                                        </li>
+                                    </ul>
+                                </li>
+                            </ul>
+                        </li>
+                        <li class="depth-0 child">
+                            <div class="view-menu-category">
+                                <input type="checkbox" id="horns" name="horns">
+                                <label>Proffesionals</label>
+                            </div>
+                            <ul class="depth-1 parent">
+                                <li class="depth-1 child">
+                                    <div class="view-menu-category">
+                                        <input type="checkbox" id="horns" name="horns">
+                                        <label>Arts and Media Professionals</label>
+                                    </div>
+                                    <ul class="depth-2 parent">
+                                        <li class="depth-2 child">
+                                            <div class="view-menu-category">
+                                                <input type="checkbox" id="horns" name="horns">
+                                                <label>Business, Human Resource and Marketing Professionals</label>
+                                            </div>
+                                        </li>
+                                        <li class="depth-2 child">
+                                            <div class="view-menu-category">
+                                                <input type="checkbox" id="horns" name="horns">
+                                                <label>design, engineering, science and transport professionals</label>
+                                            </div>
+                                        </li>
+                                        <li class="depth-2 child">
+                                            <div class="view-menu-category">
+                                                <input type="checkbox" id="horns" name="horns">
+                                                <label>education professionals</label>
+                                            </div>
+                                        </li>
+                                    </ul>
+                                </li>
+                                <li class="depth-1 child">
+                                    <div class="view-menu-category">
+                                        <input type="checkbox" id="horns" name="horns">
+                                        <label>Arts and Media Professionals</label>
+                                    </div>
+                                    <ul class="depth-2 parent">
+                                        <li class="depth-2 child">
+                                            <div class="view-menu-category">
+                                                <input type="checkbox" id="horns" name="horns">
+                                                <label>Business, Human Resource and Marketing Professionals</label>
+                                            </div>
+                                        </li>
+                                        <li class="depth-2 child">
+                                            <div class="view-menu-category">
+                                                <input type="checkbox" id="horns" name="horns">
+                                                <label>design, engineering, science and transport professionals</label>
+                                            </div>
+                                        </li>
+                                        <li class="depth-2 child">
+                                            <div class="view-menu-category">
+                                                <input type="checkbox" id="horns" name="horns">
+                                                <label>education professionals</label>
+                                            </div>
+                                        </li>
+                                    </ul>
+                                </li>
+                                <li class="depth-1 child">
+                                    <div class="view-menu-category">
+                                        <input type="checkbox" id="horns" name="horns">
+                                        <label>Arts and Media Professionals</label>
+                                    </div>
+                                    <ul class="depth-2 parent">
+                                        <li class="depth-2 child">
+                                            <div class="view-menu-category">
+                                                <input type="checkbox" id="horns" name="horns">
+                                                <label>Business, Human Resource and Marketing Professionals</label>
+                                            </div>
+                                        </li>
+                                        <li class="depth-2 child">
+                                            <div class="view-menu-category">
+                                                <input type="checkbox" id="horns" name="horns">
+                                                <label>design, engineering, science and transport professionals</label>
+                                            </div>
+                                        </li>
+                                        <li class="depth-2 child">
+                                            <div class="view-menu-category">
+                                                <input type="checkbox" id="horns" name="horns">
+                                                <label>education professionals</label>
+                                            </div>
+                                        </li>
+                                    </ul>
+                                </li>
+                            </ul>
+                        </li>
+                        <li class="depth-0 child">
+                            <div class="view-menu-category">
+                                <input type="checkbox" id="horns" name="horns">
+                                <label>Proffesionals</label>
+                            </div>
+                            <ul class="depth-1 parent">
+                                <li class="depth-1 child">
+                                    <div class="view-menu-category">
+                                        <input type="checkbox" id="horns" name="horns">
+                                        <label>Arts and Media Professionals</label>
+                                    </div>
+                                    <ul class="depth-2 parent">
+                                        <li class="depth-2 child">
+                                            <div class="view-menu-category">
+                                                <input type="checkbox" id="horns" name="horns">
+                                                <label>Business, Human Resource and Marketing Professionals</label>
+                                            </div>
+                                        </li>
+                                        <li class="depth-2 child">
+                                            <div class="view-menu-category">
+                                                <input type="checkbox" id="horns" name="horns">
+                                                <label>design, engineering, science and transport professionals</label>
+                                            </div>
+                                        </li>
+                                        <li class="depth-2 child">
+                                            <div class="view-menu-category">
+                                                <input type="checkbox" id="horns" name="horns">
+                                                <label>education professionals</label>
+                                            </div>
+                                        </li>
+                                    </ul>
+                                </li>
+                                <li class="depth-1 child">
+                                    <div class="view-menu-category">
+                                        <input type="checkbox" id="horns" name="horns">
+                                        <label>Arts and Media Professionals</label>
+                                    </div>
+                                    <ul class="depth-2 parent">
+                                        <li class="depth-2 child">
+                                            <div class="view-menu-category">
+                                                <input type="checkbox" id="horns" name="horns">
+                                                <label>Business, Human Resource and Marketing Professionals</label>
+                                            </div>
+                                        </li>
+                                        <li class="depth-2 child">
+                                            <div class="view-menu-category">
+                                                <input type="checkbox" id="horns" name="horns">
+                                                <label>design, engineering, science and transport professionals</label>
+                                            </div>
+                                        </li>
+                                        <li class="depth-2 child">
+                                            <div class="view-menu-category">
+                                                <input type="checkbox" id="horns" name="horns">
+                                                <label>education professionals</label>
+                                            </div>
+                                        </li>
+                                    </ul>
+                                </li>
+                                <li class="depth-1 child">
+                                    <div class="view-menu-category">
+                                        <input type="checkbox" id="horns" name="horns">
+                                        <label>Arts and Media Professionals</label>
+                                    </div>
+                                    <ul class="depth-2 parent">
+                                        <li class="depth-2 child">
+                                            <div class="view-menu-category">
+                                                <input type="checkbox" id="horns" name="horns">
+                                                <label>Business, Human Resource and Marketing Professionals</label>
+                                            </div>
+                                        </li>
+                                        <li class="depth-2 child">
+                                            <div class="view-menu-category">
+                                                <input type="checkbox" id="horns" name="horns">
+                                                <label>design, engineering, science and transport professionals</label>
+                                            </div>
+                                        </li>
+                                        <li class="depth-2 child">
+                                            <div class="view-menu-category">
+                                                <input type="checkbox" id="horns" name="horns">
+                                                <label>education professionals</label>
+                                            </div>
+                                        </li>
+                                    </ul>
+                                </li>
+                            </ul>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </nav>
+    <nav class="isMobile">
+        <div class="image-back-drop"></div>
+        <ul class="container-5">
+            <li class="portrait"><a href=""></a></li>
+            <li class="outside"><a href="">Recruit</a></li>
+            <li class="outside"><a href="10-2.html">Create a job ad</a></li>
+            <li class="underline"></li>
+            <li class="outside"><a href="">My recent job ad</a></li>
+            <li class="outside"><a href="">Applicants</a></li>
+            <li class="outside"><a href="">My Suggestions</a></li>
+            <li class="underline"></li>
+            <li><a href="8.html">Profile</a></li>
+            <li><a href="">Jobs</a></li>
+            <li><a href="5.html">Employer Guide</a></li>
+            <li><a href="">Products</a></li>
+            <li class="underline"></li>
+            <li class="outside"><a href="">Sign out</a></li>
+            <li class="underline"></li>
+            <li class="outside"><a href="">Advertiser page</a></li>
+        </ul>
+        <!-- <div class="container-6">
+            <form class="layer-menu-category">
+                <div class="container-7">
+                    <ul class="depth-0 parent">
+                        <li class="depth-0 child">
+                            <div class="view-menu-category">
+                                <input type="checkbox" id="horns" name="horns">
+                                <label>Proffesionals</label>
+                            </div>
+                            <ul class="depth-1 parent">
+                                <li class="depth-1 child">
+                                    <div class="view-menu-category">
+                                        <input type="checkbox" id="horns" name="horns">
+                                        <label>Arts and Media Professionals</label>
+                                    </div>
+                                    <ul class="depth-2 parent">
+                                        <li class="depth-2 child">
+                                            <div class="view-menu-category">
+                                                <input type="checkbox" id="horns" name="horns">
+                                                <label>Business, Human Resource and Marketing Professionals</label>
+                                            </div>
+                                        </li>
+                                        <li class="depth-2 child">
+                                            <div class="view-menu-category">
+                                                <input type="checkbox" id="horns" name="horns">
+                                                <label>design, engineering, science and transport professionals</label>
+                                            </div>
+                                        </li>
+                                        <li class="depth-2 child">
+                                            <div class="view-menu-category">
+                                                <input type="checkbox" id="horns" name="horns">
+                                                <label>education professionals</label>
+                                            </div>
+                                        </li>
+                                    </ul>
+                                </li>
+                                <li class="depth-1 child">
+                                    <div class="view-menu-category">
+                                        <input type="checkbox" id="horns" name="horns">
+                                        <label>Arts and Media Professionals</label>
+                                    </div>
+                                    <ul class="depth-2 parent">
+                                        <li class="depth-2 child">
+                                            <div class="view-menu-category">
+                                                <input type="checkbox" id="horns" name="horns">
+                                                <label>Business, Human Resource and Marketing Professionals</label>
+                                            </div>
+                                        </li>
+                                        <li class="depth-2 child">
+                                            <div class="view-menu-category">
+                                                <input type="checkbox" id="horns" name="horns">
+                                                <label>design, engineering, science and transport professionals</label>
+                                            </div>
+                                        </li>
+                                        <li class="depth-2 child">
+                                            <div class="view-menu-category">
+                                                <input type="checkbox" id="horns" name="horns">
+                                                <label>education professionals</label>
+                                            </div>
+                                        </li>
+                                    </ul>
+                                </li>
+                                <li class="depth-1 child">
+                                    <div class="view-menu-category">
+                                        <input type="checkbox" id="horns" name="horns">
+                                        <label>Arts and Media Professionals</label>
+                                    </div>
+                                    <ul class="depth-2 parent">
+                                        <li class="depth-2 child">
+                                            <div class="view-menu-category">
+                                                <input type="checkbox" id="horns" name="horns">
+                                                <label>Business, Human Resource and Marketing Professionals</label>
+                                            </div>
+                                        </li>
+                                        <li class="depth-2 child">
+                                            <div class="view-menu-category">
+                                                <input type="checkbox" id="horns" name="horns">
+                                                <label>design, engineering, science and transport professionals</label>
+                                            </div>
+                                        </li>
+                                        <li class="depth-2 child">
+                                            <div class="view-menu-category">
+                                                <input type="checkbox" id="horns" name="horns">
+                                                <label>education professionals</label>
+                                            </div>
+                                        </li>
+                                    </ul>
+                                </li>
+                            </ul>
+                        </li>
+                        <li class="depth-0 child">
+                            <div class="view-menu-category">
+                                <input type="checkbox" id="horns" name="horns">
+                                <label>Proffesionals</label>
+                            </div>
+                            <ul class="depth-1 parent">
+                                <li class="depth-1 child">
+                                    <div class="view-menu-category">
+                                        <input type="checkbox" id="horns" name="horns">
+                                        <label>Arts and Media Professionals</label>
+                                    </div>
+                                    <ul class="depth-2 parent">
+                                        <li class="depth-2 child">
+                                            <div class="view-menu-category">
+                                                <input type="checkbox" id="horns" name="horns">
+                                                <label>Business, Human Resource and Marketing Professionals</label>
+                                            </div>
+                                        </li>
+                                        <li class="depth-2 child">
+                                            <div class="view-menu-category">
+                                                <input type="checkbox" id="horns" name="horns">
+                                                <label>design, engineering, science and transport professionals</label>
+                                            </div>
+                                        </li>
+                                        <li class="depth-2 child">
+                                            <div class="view-menu-category">
+                                                <input type="checkbox" id="horns" name="horns">
+                                                <label>education professionals</label>
+                                            </div>
+                                        </li>
+                                    </ul>
+                                </li>
+                                <li class="depth-1 child">
+                                    <div class="view-menu-category">
+                                        <input type="checkbox" id="horns" name="horns">
+                                        <label>Arts and Media Professionals</label>
+                                    </div>
+                                    <ul class="depth-2 parent">
+                                        <li class="depth-2 child">
+                                            <div class="view-menu-category">
+                                                <input type="checkbox" id="horns" name="horns">
+                                                <label>Business, Human Resource and Marketing Professionals</label>
+                                            </div>
+                                        </li>
+                                        <li class="depth-2 child">
+                                            <div class="view-menu-category">
+                                                <input type="checkbox" id="horns" name="horns">
+                                                <label>design, engineering, science and transport professionals</label>
+                                            </div>
+                                        </li>
+                                        <li class="depth-2 child">
+                                            <div class="view-menu-category">
+                                                <input type="checkbox" id="horns" name="horns">
+                                                <label>education professionals</label>
+                                            </div>
+                                        </li>
+                                    </ul>
+                                </li>
+                                <li class="depth-1 child">
+                                    <div class="view-menu-category">
+                                        <input type="checkbox" id="horns" name="horns">
+                                        <label>Arts and Media Professionals</label>
+                                    </div>
+                                    <ul class="depth-2 parent">
+                                        <li class="depth-2 child">
+                                            <div class="view-menu-category">
+                                                <input type="checkbox" id="horns" name="horns">
+                                                <label>Business, Human Resource and Marketing Professionals</label>
+                                            </div>
+                                        </li>
+                                        <li class="depth-2 child">
+                                            <div class="view-menu-category">
+                                                <input type="checkbox" id="horns" name="horns">
+                                                <label>design, engineering, science and transport professionals</label>
+                                            </div>
+                                        </li>
+                                        <li class="depth-2 child">
+                                            <div class="view-menu-category">
+                                                <input type="checkbox" id="horns" name="horns">
+                                                <label>education professionals</label>
+                                            </div>
+                                        </li>
+                                    </ul>
+                                </li>
+                            </ul>
+                        </li>
+                        <li class="depth-0 child">
+                            <div class="view-menu-category">
+                                <input type="checkbox" id="horns" name="horns">
+                                <label>Proffesionals</label>
+                            </div>
+                            <ul class="depth-1 parent">
+                                <li class="depth-1 child">
+                                    <div class="view-menu-category">
+                                        <input type="checkbox" id="horns" name="horns">
+                                        <label>Arts and Media Professionals</label>
+                                    </div>
+                                    <ul class="depth-2 parent">
+                                        <li class="depth-2 child">
+                                            <div class="view-menu-category">
+                                                <input type="checkbox" id="horns" name="horns">
+                                                <label>Business, Human Resource and Marketing Professionals</label>
+                                            </div>
+                                        </li>
+                                        <li class="depth-2 child">
+                                            <div class="view-menu-category">
+                                                <input type="checkbox" id="horns" name="horns">
+                                                <label>design, engineering, science and transport professionals</label>
+                                            </div>
+                                        </li>
+                                        <li class="depth-2 child">
+                                            <div class="view-menu-category">
+                                                <input type="checkbox" id="horns" name="horns">
+                                                <label>education professionals</label>
+                                            </div>
+                                        </li>
+                                    </ul>
+                                </li>
+                                <li class="depth-1 child">
+                                    <div class="view-menu-category">
+                                        <input type="checkbox" id="horns" name="horns">
+                                        <label>Arts and Media Professionals</label>
+                                    </div>
+                                    <ul class="depth-2 parent">
+                                        <li class="depth-2 child">
+                                            <div class="view-menu-category">
+                                                <input type="checkbox" id="horns" name="horns">
+                                                <label>Business, Human Resource and Marketing Professionals</label>
+                                            </div>
+                                        </li>
+                                        <li class="depth-2 child">
+                                            <div class="view-menu-category">
+                                                <input type="checkbox" id="horns" name="horns">
+                                                <label>design, engineering, science and transport professionals</label>
+                                            </div>
+                                        </li>
+                                        <li class="depth-2 child">
+                                            <div class="view-menu-category">
+                                                <input type="checkbox" id="horns" name="horns">
+                                                <label>education professionals</label>
+                                            </div>
+                                        </li>
+                                    </ul>
+                                </li>
+                                <li class="depth-1 child">
+                                    <div class="view-menu-category">
+                                        <input type="checkbox" id="horns" name="horns">
+                                        <label>Arts and Media Professionals</label>
+                                    </div>
+                                    <ul class="depth-2 parent">
+                                        <li class="depth-2 child">
+                                            <div class="view-menu-category">
+                                                <input type="checkbox" id="horns" name="horns">
+                                                <label>Business, Human Resource and Marketing Professionals</label>
+                                            </div>
+                                        </li>
+                                        <li class="depth-2 child">
+                                            <div class="view-menu-category">
+                                                <input type="checkbox" id="horns" name="horns">
+                                                <label>design, engineering, science and transport professionals</label>
+                                            </div>
+                                        </li>
+                                        <li class="depth-2 child">
+                                            <div class="view-menu-category">
+                                                <input type="checkbox" id="horns" name="horns">
+                                                <label>education professionals</label>
+                                            </div>
+                                        </li>
+                                    </ul>
+                                </li>
+                            </ul>
+                        </li>
+                    </ul>
+                </div>
+                <input type="text" name="keyword" class="input-keyword form-unit" placeholder="Job title, company, keyword">
+                <input type="text" class="select-map form-unit stylesheet" value="Australia"></input>
+                <input type="submit" class="button-submit form-unit stylesheet" value="Search"></input>
+            </form>
+        </div> -->
+        <div class="container-0">
+            <a href="/"><h1 class="stylesheet">seekcruit</h1></a>
+            <p class="text-1">Employer</p>
+        </div>
+        <!-- <div class="button-mobile-search">
+            <div class="icon stylesheet"></div>
+        </div> -->
+        <div class="button-mobile-menu">
+            <div class="bar"></div>
+            <div class="bar"></div>
+            <div class="bar"></div>
+            <div class="bar"></div>
+            <div class="bar"></div>
+            <div class="bar"></div>
+            <div class="bar"></div>
+            <div class="bar"></div>
+            <div class="bar"></div>
+        </div>
+    </nav>
+@elseif (Route::has('employer-profile'))
+    <nav class="employer-profile-nav">
+        <div class="container-0">
+            <a href="/"><h1 class="stylesheet">seekcruit</h1></a>
+            <p class="text-1">Employer</p>
+            <p class="text-0"><a href="/login">norah yoon</a> <span></span> <a href="/employer">Sign out</a></p>
+        </div>
+        <ul class="container-1 layout-100">
+            <li class="selected"><a href="">Home</a></li>
+            <li><a href="">Recruit</a></li>
+            <li><a href="">Job AD</a></li>
+            <li><a href="">Seekcruit Guide</a></li>
+            <li><a href="">Products</a></li>
+        </ul>
+    </nav>
+    <nav class="isMobile">
+        <div class="image-back-drop"></div>
+        <ul class="container-5">
+            <li class="portrait"><a href=""></a></li>
+            <li class="outside"><a href="">Recruit</a></li>
+            <li class="outside"><a href="10-2.html">Create a job ad</a></li>
+            <li class="underline"></li>
+            <li class="outside"><a href="">My recent job ad</a></li>
+            <li class="outside"><a href="">Applicants</a></li>
+            <li class="outside"><a href="">My Suggestions</a></li>
+            <li class="underline"></li>
+            <li><a href="8.html">Profile</a></li>
+            <li><a href="">Jobs</a></li>
+            <li><a href="5.html">Employer Guide</a></li>
+            <li><a href="">Products</a></li>
+            <li class="underline"></li>
+            <li class="outside"><a href="">Sign out</a></li>
+            <li class="underline"></li>
+            <li class="outside"><a href="">Advertiser page</a></li>
+        </ul>
+        <div class="container-6">
+            <form class="layer-menu-category">
+                <div class="container-7">
+                    <ul class="depth-0 parent">
+                        <li class="depth-0 child">
+                            <div class="view-menu-category">
+                                <input type="checkbox" id="horns" name="horns">
+                                <label>Proffesionals</label>
+                            </div>
+                            <ul class="depth-1 parent">
+                                <li class="depth-1 child">
+                                    <div class="view-menu-category">
+                                        <input type="checkbox" id="horns" name="horns">
+                                        <label>Arts and Media Professionals</label>
+                                    </div>
+                                    <ul class="depth-2 parent">
+                                        <li class="depth-2 child">
+                                            <div class="view-menu-category">
+                                                <input type="checkbox" id="horns" name="horns">
+                                                <label>Business, Human Resource and Marketing Professionals</label>
+                                            </div>
+                                        </li>
+                                        <li class="depth-2 child">
+                                            <div class="view-menu-category">
+                                                <input type="checkbox" id="horns" name="horns">
+                                                <label>design, engineering, science and transport professionals</label>
+                                            </div>
+                                        </li>
+                                        <li class="depth-2 child">
+                                            <div class="view-menu-category">
+                                                <input type="checkbox" id="horns" name="horns">
+                                                <label>education professionals</label>
+                                            </div>
+                                        </li>
+                                    </ul>
+                                </li>
+                                <li class="depth-1 child">
+                                    <div class="view-menu-category">
+                                        <input type="checkbox" id="horns" name="horns">
+                                        <label>Arts and Media Professionals</label>
+                                    </div>
+                                    <ul class="depth-2 parent">
+                                        <li class="depth-2 child">
+                                            <div class="view-menu-category">
+                                                <input type="checkbox" id="horns" name="horns">
+                                                <label>Business, Human Resource and Marketing Professionals</label>
+                                            </div>
+                                        </li>
+                                        <li class="depth-2 child">
+                                            <div class="view-menu-category">
+                                                <input type="checkbox" id="horns" name="horns">
+                                                <label>design, engineering, science and transport professionals</label>
+                                            </div>
+                                        </li>
+                                        <li class="depth-2 child">
+                                            <div class="view-menu-category">
+                                                <input type="checkbox" id="horns" name="horns">
+                                                <label>education professionals</label>
+                                            </div>
+                                        </li>
+                                    </ul>
+                                </li>
+                                <li class="depth-1 child">
+                                    <div class="view-menu-category">
+                                        <input type="checkbox" id="horns" name="horns">
+                                        <label>Arts and Media Professionals</label>
+                                    </div>
+                                    <ul class="depth-2 parent">
+                                        <li class="depth-2 child">
+                                            <div class="view-menu-category">
+                                                <input type="checkbox" id="horns" name="horns">
+                                                <label>Business, Human Resource and Marketing Professionals</label>
+                                            </div>
+                                        </li>
+                                        <li class="depth-2 child">
+                                            <div class="view-menu-category">
+                                                <input type="checkbox" id="horns" name="horns">
+                                                <label>design, engineering, science and transport professionals</label>
+                                            </div>
+                                        </li>
+                                        <li class="depth-2 child">
+                                            <div class="view-menu-category">
+                                                <input type="checkbox" id="horns" name="horns">
+                                                <label>education professionals</label>
+                                            </div>
+                                        </li>
+                                    </ul>
+                                </li>
+                            </ul>
+                        </li>
+                        <li class="depth-0 child">
+                            <div class="view-menu-category">
+                                <input type="checkbox" id="horns" name="horns">
+                                <label>Proffesionals</label>
+                            </div>
+                            <ul class="depth-1 parent">
+                                <li class="depth-1 child">
+                                    <div class="view-menu-category">
+                                        <input type="checkbox" id="horns" name="horns">
+                                        <label>Arts and Media Professionals</label>
+                                    </div>
+                                    <ul class="depth-2 parent">
+                                        <li class="depth-2 child">
+                                            <div class="view-menu-category">
+                                                <input type="checkbox" id="horns" name="horns">
+                                                <label>Business, Human Resource and Marketing Professionals</label>
+                                            </div>
+                                        </li>
+                                        <li class="depth-2 child">
+                                            <div class="view-menu-category">
+                                                <input type="checkbox" id="horns" name="horns">
+                                                <label>design, engineering, science and transport professionals</label>
+                                            </div>
+                                        </li>
+                                        <li class="depth-2 child">
+                                            <div class="view-menu-category">
+                                                <input type="checkbox" id="horns" name="horns">
+                                                <label>education professionals</label>
+                                            </div>
+                                        </li>
+                                    </ul>
+                                </li>
+                                <li class="depth-1 child">
+                                    <div class="view-menu-category">
+                                        <input type="checkbox" id="horns" name="horns">
+                                        <label>Arts and Media Professionals</label>
+                                    </div>
+                                    <ul class="depth-2 parent">
+                                        <li class="depth-2 child">
+                                            <div class="view-menu-category">
+                                                <input type="checkbox" id="horns" name="horns">
+                                                <label>Business, Human Resource and Marketing Professionals</label>
+                                            </div>
+                                        </li>
+                                        <li class="depth-2 child">
+                                            <div class="view-menu-category">
+                                                <input type="checkbox" id="horns" name="horns">
+                                                <label>design, engineering, science and transport professionals</label>
+                                            </div>
+                                        </li>
+                                        <li class="depth-2 child">
+                                            <div class="view-menu-category">
+                                                <input type="checkbox" id="horns" name="horns">
+                                                <label>education professionals</label>
+                                            </div>
+                                        </li>
+                                    </ul>
+                                </li>
+                                <li class="depth-1 child">
+                                    <div class="view-menu-category">
+                                        <input type="checkbox" id="horns" name="horns">
+                                        <label>Arts and Media Professionals</label>
+                                    </div>
+                                    <ul class="depth-2 parent">
+                                        <li class="depth-2 child">
+                                            <div class="view-menu-category">
+                                                <input type="checkbox" id="horns" name="horns">
+                                                <label>Business, Human Resource and Marketing Professionals</label>
+                                            </div>
+                                        </li>
+                                        <li class="depth-2 child">
+                                            <div class="view-menu-category">
+                                                <input type="checkbox" id="horns" name="horns">
+                                                <label>design, engineering, science and transport professionals</label>
+                                            </div>
+                                        </li>
+                                        <li class="depth-2 child">
+                                            <div class="view-menu-category">
+                                                <input type="checkbox" id="horns" name="horns">
+                                                <label>education professionals</label>
+                                            </div>
+                                        </li>
+                                    </ul>
+                                </li>
+                            </ul>
+                        </li>
+                        <li class="depth-0 child">
+                            <div class="view-menu-category">
+                                <input type="checkbox" id="horns" name="horns">
+                                <label>Proffesionals</label>
+                            </div>
+                            <ul class="depth-1 parent">
+                                <li class="depth-1 child">
+                                    <div class="view-menu-category">
+                                        <input type="checkbox" id="horns" name="horns">
+                                        <label>Arts and Media Professionals</label>
+                                    </div>
+                                    <ul class="depth-2 parent">
+                                        <li class="depth-2 child">
+                                            <div class="view-menu-category">
+                                                <input type="checkbox" id="horns" name="horns">
+                                                <label>Business, Human Resource and Marketing Professionals</label>
+                                            </div>
+                                        </li>
+                                        <li class="depth-2 child">
+                                            <div class="view-menu-category">
+                                                <input type="checkbox" id="horns" name="horns">
+                                                <label>design, engineering, science and transport professionals</label>
+                                            </div>
+                                        </li>
+                                        <li class="depth-2 child">
+                                            <div class="view-menu-category">
+                                                <input type="checkbox" id="horns" name="horns">
+                                                <label>education professionals</label>
+                                            </div>
+                                        </li>
+                                    </ul>
+                                </li>
+                                <li class="depth-1 child">
+                                    <div class="view-menu-category">
+                                        <input type="checkbox" id="horns" name="horns">
+                                        <label>Arts and Media Professionals</label>
+                                    </div>
+                                    <ul class="depth-2 parent">
+                                        <li class="depth-2 child">
+                                            <div class="view-menu-category">
+                                                <input type="checkbox" id="horns" name="horns">
+                                                <label>Business, Human Resource and Marketing Professionals</label>
+                                            </div>
+                                        </li>
+                                        <li class="depth-2 child">
+                                            <div class="view-menu-category">
+                                                <input type="checkbox" id="horns" name="horns">
+                                                <label>design, engineering, science and transport professionals</label>
+                                            </div>
+                                        </li>
+                                        <li class="depth-2 child">
+                                            <div class="view-menu-category">
+                                                <input type="checkbox" id="horns" name="horns">
+                                                <label>education professionals</label>
+                                            </div>
+                                        </li>
+                                    </ul>
+                                </li>
+                                <li class="depth-1 child">
+                                    <div class="view-menu-category">
+                                        <input type="checkbox" id="horns" name="horns">
+                                        <label>Arts and Media Professionals</label>
+                                    </div>
+                                    <ul class="depth-2 parent">
+                                        <li class="depth-2 child">
+                                            <div class="view-menu-category">
+                                                <input type="checkbox" id="horns" name="horns">
+                                                <label>Business, Human Resource and Marketing Professionals</label>
+                                            </div>
+                                        </li>
+                                        <li class="depth-2 child">
+                                            <div class="view-menu-category">
+                                                <input type="checkbox" id="horns" name="horns">
+                                                <label>design, engineering, science and transport professionals</label>
+                                            </div>
+                                        </li>
+                                        <li class="depth-2 child">
+                                            <div class="view-menu-category">
+                                                <input type="checkbox" id="horns" name="horns">
+                                                <label>education professionals</label>
+                                            </div>
+                                        </li>
+                                    </ul>
+                                </li>
+                            </ul>
+                        </li>
+                    </ul>
+                </div>
+                <input type="text" name="keyword" class="input-keyword form-unit" placeholder="Job title, company, keyword">
+                <input type="text" class="select-map form-unit stylesheet" value="Australia"></input>
+                <input type="submit" class="button-submit form-unit stylesheet" value="Search"></input>
+            </form>
+        </div>
+        <div class="container-0">
+            <a href="/"><h1 class="stylesheet">seekcruit</h1></a>
+            <p class="text-1">Employer</p>
+        </div>
+        <div class="button-mobile-search">
+            <div class="icon stylesheet"></div>
+        </div>
+        <div class="button-mobile-menu">
+            <div class="bar"></div>
+            <div class="bar"></div>
+            <div class="bar"></div>
+            <div class="bar"></div>
+            <div class="bar"></div>
+            <div class="bar"></div>
+            <div class="bar"></div>
+            <div class="bar"></div>
+            <div class="bar"></div>
+        </div>
+    </nav>
+@elseif (Route::has('employer-sign-in'))
+    <nav class="employer-login-nav">
+        <div class="container-0">
+            <a href="/"><h1 class="stylesheet">seekcruit</h1></a>
+            <p class="text-1">Employer</p>
+        </div>
+    </nav>
+    <nav class="employer isMobile">
+        <div class="image-back-drop"></div>
+        <ul class="container-5">
+            <li class="portrait"><a href=""></a></li>
+            <li class="outside"><a href="">Recruit</a></li>
+            <li class="outside"><a href="10-2.html">Create a job ad</a></li>
+            <li class="underline"></li>
+            <li class="outside"><a href="">My recent job ad</a></li>
+            <li class="outside"><a href="">Applicants</a></li>
+            <li class="outside"><a href="">My Suggestions</a></li>
+            <li class="underline"></li>
+            <li><a href="8.html">Profile</a></li>
+            <li><a href="">Jobs</a></li>
+            <li><a href="5.html">Employer Guide</a></li>
+            <li><a href="">Products</a></li>
+            <li class="underline"></li>
+            <li class="outside"><a href="">Sign out</a></li>
+            <li class="underline"></li>
+            <li class="outside"><a href="">Advertiser page</a></li>
+        </ul>
+        <div class="container-6">
+            <form class="layer-menu-category">
+                <div class="container-7">
+                    <ul class="depth-0 parent">
+                        <li class="depth-0 child">
+                            <div class="view-menu-category">
+                                <input type="checkbox" id="horns" name="horns">
+                                <label>Proffesionals</label>
+                            </div>
+                            <ul class="depth-1 parent">
+                                <li class="depth-1 child">
+                                    <div class="view-menu-category">
+                                        <input type="checkbox" id="horns" name="horns">
+                                        <label>Arts and Media Professionals</label>
+                                    </div>
+                                    <ul class="depth-2 parent">
+                                        <li class="depth-2 child">
+                                            <div class="view-menu-category">
+                                                <input type="checkbox" id="horns" name="horns">
+                                                <label>Business, Human Resource and Marketing Professionals</label>
+                                            </div>
+                                        </li>
+                                        <li class="depth-2 child">
+                                            <div class="view-menu-category">
+                                                <input type="checkbox" id="horns" name="horns">
+                                                <label>design, engineering, science and transport professionals</label>
+                                            </div>
+                                        </li>
+                                        <li class="depth-2 child">
+                                            <div class="view-menu-category">
+                                                <input type="checkbox" id="horns" name="horns">
+                                                <label>education professionals</label>
+                                            </div>
+                                        </li>
+                                    </ul>
+                                </li>
+                                <li class="depth-1 child">
+                                    <div class="view-menu-category">
+                                        <input type="checkbox" id="horns" name="horns">
+                                        <label>Arts and Media Professionals</label>
+                                    </div>
+                                    <ul class="depth-2 parent">
+                                        <li class="depth-2 child">
+                                            <div class="view-menu-category">
+                                                <input type="checkbox" id="horns" name="horns">
+                                                <label>Business, Human Resource and Marketing Professionals</label>
+                                            </div>
+                                        </li>
+                                        <li class="depth-2 child">
+                                            <div class="view-menu-category">
+                                                <input type="checkbox" id="horns" name="horns">
+                                                <label>design, engineering, science and transport professionals</label>
+                                            </div>
+                                        </li>
+                                        <li class="depth-2 child">
+                                            <div class="view-menu-category">
+                                                <input type="checkbox" id="horns" name="horns">
+                                                <label>education professionals</label>
+                                            </div>
+                                        </li>
+                                    </ul>
+                                </li>
+                                <li class="depth-1 child">
+                                    <div class="view-menu-category">
+                                        <input type="checkbox" id="horns" name="horns">
+                                        <label>Arts and Media Professionals</label>
+                                    </div>
+                                    <ul class="depth-2 parent">
+                                        <li class="depth-2 child">
+                                            <div class="view-menu-category">
+                                                <input type="checkbox" id="horns" name="horns">
+                                                <label>Business, Human Resource and Marketing Professionals</label>
+                                            </div>
+                                        </li>
+                                        <li class="depth-2 child">
+                                            <div class="view-menu-category">
+                                                <input type="checkbox" id="horns" name="horns">
+                                                <label>design, engineering, science and transport professionals</label>
+                                            </div>
+                                        </li>
+                                        <li class="depth-2 child">
+                                            <div class="view-menu-category">
+                                                <input type="checkbox" id="horns" name="horns">
+                                                <label>education professionals</label>
+                                            </div>
+                                        </li>
+                                    </ul>
+                                </li>
+                            </ul>
+                        </li>
+                        <li class="depth-0 child">
+                            <div class="view-menu-category">
+                                <input type="checkbox" id="horns" name="horns">
+                                <label>Proffesionals</label>
+                            </div>
+                            <ul class="depth-1 parent">
+                                <li class="depth-1 child">
+                                    <div class="view-menu-category">
+                                        <input type="checkbox" id="horns" name="horns">
+                                        <label>Arts and Media Professionals</label>
+                                    </div>
+                                    <ul class="depth-2 parent">
+                                        <li class="depth-2 child">
+                                            <div class="view-menu-category">
+                                                <input type="checkbox" id="horns" name="horns">
+                                                <label>Business, Human Resource and Marketing Professionals</label>
+                                            </div>
+                                        </li>
+                                        <li class="depth-2 child">
+                                            <div class="view-menu-category">
+                                                <input type="checkbox" id="horns" name="horns">
+                                                <label>design, engineering, science and transport professionals</label>
+                                            </div>
+                                        </li>
+                                        <li class="depth-2 child">
+                                            <div class="view-menu-category">
+                                                <input type="checkbox" id="horns" name="horns">
+                                                <label>education professionals</label>
+                                            </div>
+                                        </li>
+                                    </ul>
+                                </li>
+                                <li class="depth-1 child">
+                                    <div class="view-menu-category">
+                                        <input type="checkbox" id="horns" name="horns">
+                                        <label>Arts and Media Professionals</label>
+                                    </div>
+                                    <ul class="depth-2 parent">
+                                        <li class="depth-2 child">
+                                            <div class="view-menu-category">
+                                                <input type="checkbox" id="horns" name="horns">
+                                                <label>Business, Human Resource and Marketing Professionals</label>
+                                            </div>
+                                        </li>
+                                        <li class="depth-2 child">
+                                            <div class="view-menu-category">
+                                                <input type="checkbox" id="horns" name="horns">
+                                                <label>design, engineering, science and transport professionals</label>
+                                            </div>
+                                        </li>
+                                        <li class="depth-2 child">
+                                            <div class="view-menu-category">
+                                                <input type="checkbox" id="horns" name="horns">
+                                                <label>education professionals</label>
+                                            </div>
+                                        </li>
+                                    </ul>
+                                </li>
+                                <li class="depth-1 child">
+                                    <div class="view-menu-category">
+                                        <input type="checkbox" id="horns" name="horns">
+                                        <label>Arts and Media Professionals</label>
+                                    </div>
+                                    <ul class="depth-2 parent">
+                                        <li class="depth-2 child">
+                                            <div class="view-menu-category">
+                                                <input type="checkbox" id="horns" name="horns">
+                                                <label>Business, Human Resource and Marketing Professionals</label>
+                                            </div>
+                                        </li>
+                                        <li class="depth-2 child">
+                                            <div class="view-menu-category">
+                                                <input type="checkbox" id="horns" name="horns">
+                                                <label>design, engineering, science and transport professionals</label>
+                                            </div>
+                                        </li>
+                                        <li class="depth-2 child">
+                                            <div class="view-menu-category">
+                                                <input type="checkbox" id="horns" name="horns">
+                                                <label>education professionals</label>
+                                            </div>
+                                        </li>
+                                    </ul>
+                                </li>
+                            </ul>
+                        </li>
+                        <li class="depth-0 child">
+                            <div class="view-menu-category">
+                                <input type="checkbox" id="horns" name="horns">
+                                <label>Proffesionals</label>
+                            </div>
+                            <ul class="depth-1 parent">
+                                <li class="depth-1 child">
+                                    <div class="view-menu-category">
+                                        <input type="checkbox" id="horns" name="horns">
+                                        <label>Arts and Media Professionals</label>
+                                    </div>
+                                    <ul class="depth-2 parent">
+                                        <li class="depth-2 child">
+                                            <div class="view-menu-category">
+                                                <input type="checkbox" id="horns" name="horns">
+                                                <label>Business, Human Resource and Marketing Professionals</label>
+                                            </div>
+                                        </li>
+                                        <li class="depth-2 child">
+                                            <div class="view-menu-category">
+                                                <input type="checkbox" id="horns" name="horns">
+                                                <label>design, engineering, science and transport professionals</label>
+                                            </div>
+                                        </li>
+                                        <li class="depth-2 child">
+                                            <div class="view-menu-category">
+                                                <input type="checkbox" id="horns" name="horns">
+                                                <label>education professionals</label>
+                                            </div>
+                                        </li>
+                                    </ul>
+                                </li>
+                                <li class="depth-1 child">
+                                    <div class="view-menu-category">
+                                        <input type="checkbox" id="horns" name="horns">
+                                        <label>Arts and Media Professionals</label>
+                                    </div>
+                                    <ul class="depth-2 parent">
+                                        <li class="depth-2 child">
+                                            <div class="view-menu-category">
+                                                <input type="checkbox" id="horns" name="horns">
+                                                <label>Business, Human Resource and Marketing Professionals</label>
+                                            </div>
+                                        </li>
+                                        <li class="depth-2 child">
+                                            <div class="view-menu-category">
+                                                <input type="checkbox" id="horns" name="horns">
+                                                <label>design, engineering, science and transport professionals</label>
+                                            </div>
+                                        </li>
+                                        <li class="depth-2 child">
+                                            <div class="view-menu-category">
+                                                <input type="checkbox" id="horns" name="horns">
+                                                <label>education professionals</label>
+                                            </div>
+                                        </li>
+                                    </ul>
+                                </li>
+                                <li class="depth-1 child">
+                                    <div class="view-menu-category">
+                                        <input type="checkbox" id="horns" name="horns">
+                                        <label>Arts and Media Professionals</label>
+                                    </div>
+                                    <ul class="depth-2 parent">
+                                        <li class="depth-2 child">
+                                            <div class="view-menu-category">
+                                                <input type="checkbox" id="horns" name="horns">
+                                                <label>Business, Human Resource and Marketing Professionals</label>
+                                            </div>
+                                        </li>
+                                        <li class="depth-2 child">
+                                            <div class="view-menu-category">
+                                                <input type="checkbox" id="horns" name="horns">
+                                                <label>design, engineering, science and transport professionals</label>
+                                            </div>
+                                        </li>
+                                        <li class="depth-2 child">
+                                            <div class="view-menu-category">
+                                                <input type="checkbox" id="horns" name="horns">
+                                                <label>education professionals</label>
+                                            </div>
+                                        </li>
+                                    </ul>
+                                </li>
+                            </ul>
+                        </li>
+                    </ul>
+                </div>
+                <input type="text" name="keyword" class="input-keyword form-unit" placeholder="Job title, company, keyword">
+                <input type="text" class="select-map form-unit stylesheet" value="Australia"></input>
+                <input type="submit" class="button-submit form-unit stylesheet" value="Search"></input>
+            </form>
+        </div>
+        <div class="container-0">
+            <a href="/"><h1 class="stylesheet">seekcruit</h1></a>
+            <p class="text-1">Employer</p>
+        </div>
+        <div class="button-mobile-search">
+            <div class="icon stylesheet"></div>
+        </div>
+        <div class="button-mobile-menu">
+            <div class="bar"></div>
+            <div class="bar"></div>
+            <div class="bar"></div>
+            <div class="bar"></div>
+            <div class="bar"></div>
+            <div class="bar"></div>
+            <div class="bar"></div>
+            <div class="bar"></div>
+            <div class="bar"></div>
+        </div>
+    </nav>
+@elseif (Route::has('job-ad'))
+    <nav class="employer isPC">
+        <div class="container-0">
+            <a href="/"><h1 class="stylesheet">seekcruit</h1></a>
+            <p class="text-1">Employer</p>
+            <p class="text-0">
+                <a class="isMypage" href="/login">nora yoon<span></span>
+                <a class="isSignOut" href="/employer">Sign out</a>
+            </p>
+        </div>
+        <ul class="container-1 layout-100">
+            <li><a href="">Home</a></li>
+            <li><a href="">Recruit</a></li>
+            <li class="selected"><a href="">Job AD</a></li>
+            <li><a href="">Seekcruit Guide</a></li>
+            <li><a href="">Products</a></li>
+        </ul>
+    </nav>
+    <nav class="employer isMobile">
+        <div class="image-back-drop"></div>
+        <ul class="container-5">
+            <li class="portrait"><a href=""></a></li>
+            <li class="outside"><a href="">My Profile</a></li>
+            <li class="outside"><a href="">My Account</a></li>
+            <li class="underline"></li>
+            <li class="selected"><a href="">Job Search</a></li>
+            <li><a href="">Seekcruit Guide</a></li>
+            <li class="isMarket"><a>Market</a></li>
+            <li><a href="">Community</a></li>
+            <li class="underline"></li>
+            <li class="outside"><a href="">Sign out</a></li>
+            <li class="underline"></li>
+            <li class="outside"><a href="">Advertiser page</a></li>
+        </ul>
+        <div class="container-6">
+            <form class="layer-menu-category">
+                <div class="container-7">
+                    <ul class="depth-0 parent">
+                        <li class="depth-0 child">
+                            <div class="view-menu-category">
+                                <input type="checkbox" id="horns" name="horns">
+                                <label>Proffesionals</label>
+                            </div>
+                            <ul class="depth-1 parent">
+                                <li class="depth-1 child">
+                                    <div class="view-menu-category">
+                                        <input type="checkbox" id="horns" name="horns">
+                                        <label>Arts and Media Professionals</label>
+                                    </div>
+                                    <ul class="depth-2 parent">
+                                        <li class="depth-2 child">
+                                            <div class="view-menu-category">
+                                                <input type="checkbox" id="horns" name="horns">
+                                                <label>Business, Human Resource and Marketing Professionals</label>
+                                            </div>
+                                        </li>
+                                        <li class="depth-2 child">
+                                            <div class="view-menu-category">
+                                                <input type="checkbox" id="horns" name="horns">
+                                                <label>design, engineering, science and transport professionals</label>
+                                            </div>
+                                        </li>
+                                        <li class="depth-2 child">
+                                            <div class="view-menu-category">
+                                                <input type="checkbox" id="horns" name="horns">
+                                                <label>education professionals</label>
+                                            </div>
+                                        </li>
+                                    </ul>
+                                </li>
+                                <li class="depth-1 child">
+                                    <div class="view-menu-category">
+                                        <input type="checkbox" id="horns" name="horns">
+                                        <label>Arts and Media Professionals</label>
+                                    </div>
+                                    <ul class="depth-2 parent">
+                                        <li class="depth-2 child">
+                                            <div class="view-menu-category">
+                                                <input type="checkbox" id="horns" name="horns">
+                                                <label>Business, Human Resource and Marketing Professionals</label>
+                                            </div>
+                                        </li>
+                                        <li class="depth-2 child">
+                                            <div class="view-menu-category">
+                                                <input type="checkbox" id="horns" name="horns">
+                                                <label>design, engineering, science and transport professionals</label>
+                                            </div>
+                                        </li>
+                                        <li class="depth-2 child">
+                                            <div class="view-menu-category">
+                                                <input type="checkbox" id="horns" name="horns">
+                                                <label>education professionals</label>
+                                            </div>
+                                        </li>
+                                    </ul>
+                                </li>
+                                <li class="depth-1 child">
+                                    <div class="view-menu-category">
+                                        <input type="checkbox" id="horns" name="horns">
+                                        <label>Arts and Media Professionals</label>
+                                    </div>
+                                    <ul class="depth-2 parent">
+                                        <li class="depth-2 child">
+                                            <div class="view-menu-category">
+                                                <input type="checkbox" id="horns" name="horns">
+                                                <label>Business, Human Resource and Marketing Professionals</label>
+                                            </div>
+                                        </li>
+                                        <li class="depth-2 child">
+                                            <div class="view-menu-category">
+                                                <input type="checkbox" id="horns" name="horns">
+                                                <label>design, engineering, science and transport professionals</label>
+                                            </div>
+                                        </li>
+                                        <li class="depth-2 child">
+                                            <div class="view-menu-category">
+                                                <input type="checkbox" id="horns" name="horns">
+                                                <label>education professionals</label>
+                                            </div>
+                                        </li>
+                                    </ul>
+                                </li>
+                            </ul>
+                        </li>
+                        <li class="depth-0 child">
+                            <div class="view-menu-category">
+                                <input type="checkbox" id="horns" name="horns">
+                                <label>Proffesionals</label>
+                            </div>
+                            <ul class="depth-1 parent">
+                                <li class="depth-1 child">
+                                    <div class="view-menu-category">
+                                        <input type="checkbox" id="horns" name="horns">
+                                        <label>Arts and Media Professionals</label>
+                                    </div>
+                                    <ul class="depth-2 parent">
+                                        <li class="depth-2 child">
+                                            <div class="view-menu-category">
+                                                <input type="checkbox" id="horns" name="horns">
+                                                <label>Business, Human Resource and Marketing Professionals</label>
+                                            </div>
+                                        </li>
+                                        <li class="depth-2 child">
+                                            <div class="view-menu-category">
+                                                <input type="checkbox" id="horns" name="horns">
+                                                <label>design, engineering, science and transport professionals</label>
+                                            </div>
+                                        </li>
+                                        <li class="depth-2 child">
+                                            <div class="view-menu-category">
+                                                <input type="checkbox" id="horns" name="horns">
+                                                <label>education professionals</label>
+                                            </div>
+                                        </li>
+                                    </ul>
+                                </li>
+                                <li class="depth-1 child">
+                                    <div class="view-menu-category">
+                                        <input type="checkbox" id="horns" name="horns">
+                                        <label>Arts and Media Professionals</label>
+                                    </div>
+                                    <ul class="depth-2 parent">
+                                        <li class="depth-2 child">
+                                            <div class="view-menu-category">
+                                                <input type="checkbox" id="horns" name="horns">
+                                                <label>Business, Human Resource and Marketing Professionals</label>
+                                            </div>
+                                        </li>
+                                        <li class="depth-2 child">
+                                            <div class="view-menu-category">
+                                                <input type="checkbox" id="horns" name="horns">
+                                                <label>design, engineering, science and transport professionals</label>
+                                            </div>
+                                        </li>
+                                        <li class="depth-2 child">
+                                            <div class="view-menu-category">
+                                                <input type="checkbox" id="horns" name="horns">
+                                                <label>education professionals</label>
+                                            </div>
+                                        </li>
+                                    </ul>
+                                </li>
+                                <li class="depth-1 child">
+                                    <div class="view-menu-category">
+                                        <input type="checkbox" id="horns" name="horns">
+                                        <label>Arts and Media Professionals</label>
+                                    </div>
+                                    <ul class="depth-2 parent">
+                                        <li class="depth-2 child">
+                                            <div class="view-menu-category">
+                                                <input type="checkbox" id="horns" name="horns">
+                                                <label>Business, Human Resource and Marketing Professionals</label>
+                                            </div>
+                                        </li>
+                                        <li class="depth-2 child">
+                                            <div class="view-menu-category">
+                                                <input type="checkbox" id="horns" name="horns">
+                                                <label>design, engineering, science and transport professionals</label>
+                                            </div>
+                                        </li>
+                                        <li class="depth-2 child">
+                                            <div class="view-menu-category">
+                                                <input type="checkbox" id="horns" name="horns">
+                                                <label>education professionals</label>
+                                            </div>
+                                        </li>
+                                    </ul>
+                                </li>
+                            </ul>
+                        </li>
+                        <li class="depth-0 child">
+                            <div class="view-menu-category">
+                                <input type="checkbox" id="horns" name="horns">
+                                <label>Proffesionals</label>
+                            </div>
+                            <ul class="depth-1 parent">
+                                <li class="depth-1 child">
+                                    <div class="view-menu-category">
+                                        <input type="checkbox" id="horns" name="horns">
+                                        <label>Arts and Media Professionals</label>
+                                    </div>
+                                    <ul class="depth-2 parent">
+                                        <li class="depth-2 child">
+                                            <div class="view-menu-category">
+                                                <input type="checkbox" id="horns" name="horns">
+                                                <label>Business, Human Resource and Marketing Professionals</label>
+                                            </div>
+                                        </li>
+                                        <li class="depth-2 child">
+                                            <div class="view-menu-category">
+                                                <input type="checkbox" id="horns" name="horns">
+                                                <label>design, engineering, science and transport professionals</label>
+                                            </div>
+                                        </li>
+                                        <li class="depth-2 child">
+                                            <div class="view-menu-category">
+                                                <input type="checkbox" id="horns" name="horns">
+                                                <label>education professionals</label>
+                                            </div>
+                                        </li>
+                                    </ul>
+                                </li>
+                                <li class="depth-1 child">
+                                    <div class="view-menu-category">
+                                        <input type="checkbox" id="horns" name="horns">
+                                        <label>Arts and Media Professionals</label>
+                                    </div>
+                                    <ul class="depth-2 parent">
+                                        <li class="depth-2 child">
+                                            <div class="view-menu-category">
+                                                <input type="checkbox" id="horns" name="horns">
+                                                <label>Business, Human Resource and Marketing Professionals</label>
+                                            </div>
+                                        </li>
+                                        <li class="depth-2 child">
+                                            <div class="view-menu-category">
+                                                <input type="checkbox" id="horns" name="horns">
+                                                <label>design, engineering, science and transport professionals</label>
+                                            </div>
+                                        </li>
+                                        <li class="depth-2 child">
+                                            <div class="view-menu-category">
+                                                <input type="checkbox" id="horns" name="horns">
+                                                <label>education professionals</label>
+                                            </div>
+                                        </li>
+                                    </ul>
+                                </li>
+                                <li class="depth-1 child">
+                                    <div class="view-menu-category">
+                                        <input type="checkbox" id="horns" name="horns">
+                                        <label>Arts and Media Professionals</label>
+                                    </div>
+                                    <ul class="depth-2 parent">
+                                        <li class="depth-2 child">
+                                            <div class="view-menu-category">
+                                                <input type="checkbox" id="horns" name="horns">
+                                                <label>Business, Human Resource and Marketing Professionals</label>
+                                            </div>
+                                        </li>
+                                        <li class="depth-2 child">
+                                            <div class="view-menu-category">
+                                                <input type="checkbox" id="horns" name="horns">
+                                                <label>design, engineering, science and transport professionals</label>
+                                            </div>
+                                        </li>
+                                        <li class="depth-2 child">
+                                            <div class="view-menu-category">
+                                                <input type="checkbox" id="horns" name="horns">
+                                                <label>education professionals</label>
+                                            </div>
+                                        </li>
+                                    </ul>
+                                </li>
+                            </ul>
+                        </li>
+                    </ul>
+                </div>
+                <input type="text" name="keyword" class="input-keyword form-unit" placeholder="Job title, company, keyword">
+                <input type="text" class="select-map form-unit stylesheet" value="Australia"></input>
+                <input type="submit" class="button-submit form-unit stylesheet" value="Search"></input>
+            </form>
+        </div>
+        <div class="container-0">
+            <a href="/"><h1 class="stylesheet">seekcruit</h1></a>
+            <p class="text-1">Employer</p>
+        </div>
+        <div class="button-mobile-search">
+            <div class="icon stylesheet"></div>
+        </div>
+        <div class="button-mobile-menu">
+            <div class="bar"></div>
+            <div class="bar"></div>
+            <div class="bar"></div>
+            <div class="bar"></div>
+            <div class="bar"></div>
+            <div class="bar"></div>
+            <div class="bar"></div>
+            <div class="bar"></div>
+            <div class="bar"></div>
+        </div>
+    </nav>
+@elseif (Route::has('job-apply'))
+    <nav class="isPC">
+        <div class="container-0">
+            <a href="/"><h1 class="stylesheet">seekcruit</h1></a>
+            <p class="text-0">
+                <a href="/login">Sign in</a> or <a href="/register">Register</a> <span></span> <a href="/employer">Employer site</a>
+            </p>
+        </div>
+        <ul class="container-1 layout-100">
+            <li class="selected"><a href="">Job Search</a></li>
+            <li><a href="">Profile</a></li>
+            <li><a href="">Seekcruit Guide</a></li>
+            <li class="isMarket"><a>Market</a></li>
+            <li><a href="">Community</a></li>
+        </ul>
+        <div class="layer-menu-market">
+            <div class="back-0"></div>
+            <div class="back-1"></div>
+            <div class="back-2"></div>
+            <ul>
+                <li><a href="">Beauty and personal care</a></li>
+                <li><a href="">Health and Household</a></li>
+                <li><a href="">Tools & Home Improvement</a></li>
+            </ul>
+        </div>
+        <div class="container-2">
+            <form class="layout-100">
+                <button type="button" class="button-category form-unit stylesheet">All Categories<span class="icon stylesheet"></span></button>
+                <input type="text" name="keyword" class="input-keyword form-unit" placeholder="Job title, company, keyword">
+                <input type="text" class="select-map form-unit stylesheet" placeholder="Enter suburb, city, or region" value="Australia"></input>
+                <input type="submit" class="button-submit form-unit stylesheet"></input>
+            </form>
+            <div class="layer-menu-category">
+                <div class="back-0"></div>
+                <div class="back-1"></div>
+                <div class="back-2"></div>
+                <div class="container-4">
+                    <ul class="depth-0 parent">
+                        <li class="depth-0 child">
+                            <div class="view-menu-category">
+                                <input type="checkbox" id="horns" name="horns">
+                                <label>Proffesionals</label>
+                            </div>
+                            <ul class="depth-1 parent">
+                                <li class="depth-1 child">
+                                    <div class="view-menu-category">
+                                        <input type="checkbox" id="horns" name="horns">
+                                        <label>Arts and Media Professionals</label>
+                                    </div>
+                                    <ul class="depth-2 parent">
+                                        <li class="depth-2 child">
+                                            <div class="view-menu-category">
+                                                <input type="checkbox" id="horns" name="horns">
+                                                <label>Business, Human Resource and Marketing Professionals</label>
+                                            </div>
+                                        </li>
+                                        <li class="depth-2 child">
+                                            <div class="view-menu-category">
+                                                <input type="checkbox" id="horns" name="horns">
+                                                <label>design, engineering, science and transport professionals</label>
+                                            </div>
+                                        </li>
+                                        <li class="depth-2 child">
+                                            <div class="view-menu-category">
+                                                <input type="checkbox" id="horns" name="horns">
+                                                <label>education professionals</label>
+                                            </div>
+                                        </li>
+                                    </ul>
+                                </li>
+                                <li class="depth-1 child">
+                                    <div class="view-menu-category">
+                                        <input type="checkbox" id="horns" name="horns">
+                                        <label>Arts and Media Professionals</label>
+                                    </div>
+                                    <ul class="depth-2 parent">
+                                        <li class="depth-2 child">
+                                            <div class="view-menu-category">
+                                                <input type="checkbox" id="horns" name="horns">
+                                                <label>Business, Human Resource and Marketing Professionals</label>
+                                            </div>
+                                        </li>
+                                        <li class="depth-2 child">
+                                            <div class="view-menu-category">
+                                                <input type="checkbox" id="horns" name="horns">
+                                                <label>design, engineering, science and transport professionals</label>
+                                            </div>
+                                        </li>
+                                        <li class="depth-2 child">
+                                            <div class="view-menu-category">
+                                                <input type="checkbox" id="horns" name="horns">
+                                                <label>education professionals</label>
+                                            </div>
+                                        </li>
+                                    </ul>
+                                </li>
+                                <li class="depth-1 child">
+                                    <div class="view-menu-category">
+                                        <input type="checkbox" id="horns" name="horns">
+                                        <label>Arts and Media Professionals</label>
+                                    </div>
+                                    <ul class="depth-2 parent">
+                                        <li class="depth-2 child">
+                                            <div class="view-menu-category">
+                                                <input type="checkbox" id="horns" name="horns">
+                                                <label>Business, Human Resource and Marketing Professionals</label>
+                                            </div>
+                                        </li>
+                                        <li class="depth-2 child">
+                                            <div class="view-menu-category">
+                                                <input type="checkbox" id="horns" name="horns">
+                                                <label>design, engineering, science and transport professionals</label>
+                                            </div>
+                                        </li>
+                                        <li class="depth-2 child">
+                                            <div class="view-menu-category">
+                                                <input type="checkbox" id="horns" name="horns">
+                                                <label>education professionals</label>
+                                            </div>
+                                        </li>
+                                    </ul>
+                                </li>
+                            </ul>
+                        </li>
+                        <li class="depth-0 child">
+                            <div class="view-menu-category">
+                                <input type="checkbox" id="horns" name="horns">
+                                <label>Proffesionals</label>
+                            </div>
+                            <ul class="depth-1 parent">
+                                <li class="depth-1 child">
+                                    <div class="view-menu-category">
+                                        <input type="checkbox" id="horns" name="horns">
+                                        <label>Arts and Media Professionals</label>
+                                    </div>
+                                    <ul class="depth-2 parent">
+                                        <li class="depth-2 child">
+                                            <div class="view-menu-category">
+                                                <input type="checkbox" id="horns" name="horns">
+                                                <label>Business, Human Resource and Marketing Professionals</label>
+                                            </div>
+                                        </li>
+                                        <li class="depth-2 child">
+                                            <div class="view-menu-category">
+                                                <input type="checkbox" id="horns" name="horns">
+                                                <label>design, engineering, science and transport professionals</label>
+                                            </div>
+                                        </li>
+                                        <li class="depth-2 child">
+                                            <div class="view-menu-category">
+                                                <input type="checkbox" id="horns" name="horns">
+                                                <label>education professionals</label>
+                                            </div>
+                                        </li>
+                                    </ul>
+                                </li>
+                                <li class="depth-1 child">
+                                    <div class="view-menu-category">
+                                        <input type="checkbox" id="horns" name="horns">
+                                        <label>Arts and Media Professionals</label>
+                                    </div>
+                                    <ul class="depth-2 parent">
+                                        <li class="depth-2 child">
+                                            <div class="view-menu-category">
+                                                <input type="checkbox" id="horns" name="horns">
+                                                <label>Business, Human Resource and Marketing Professionals</label>
+                                            </div>
+                                        </li>
+                                        <li class="depth-2 child">
+                                            <div class="view-menu-category">
+                                                <input type="checkbox" id="horns" name="horns">
+                                                <label>design, engineering, science and transport professionals</label>
+                                            </div>
+                                        </li>
+                                        <li class="depth-2 child">
+                                            <div class="view-menu-category">
+                                                <input type="checkbox" id="horns" name="horns">
+                                                <label>education professionals</label>
+                                            </div>
+                                        </li>
+                                    </ul>
+                                </li>
+                                <li class="depth-1 child">
+                                    <div class="view-menu-category">
+                                        <input type="checkbox" id="horns" name="horns">
+                                        <label>Arts and Media Professionals</label>
+                                    </div>
+                                    <ul class="depth-2 parent">
+                                        <li class="depth-2 child">
+                                            <div class="view-menu-category">
+                                                <input type="checkbox" id="horns" name="horns">
+                                                <label>Business, Human Resource and Marketing Professionals</label>
+                                            </div>
+                                        </li>
+                                        <li class="depth-2 child">
+                                            <div class="view-menu-category">
+                                                <input type="checkbox" id="horns" name="horns">
+                                                <label>design, engineering, science and transport professionals</label>
+                                            </div>
+                                        </li>
+                                        <li class="depth-2 child">
+                                            <div class="view-menu-category">
+                                                <input type="checkbox" id="horns" name="horns">
+                                                <label>education professionals</label>
+                                            </div>
+                                        </li>
+                                    </ul>
+                                </li>
+                            </ul>
+                        </li>
+                        <li class="depth-0 child">
+                            <div class="view-menu-category">
+                                <input type="checkbox" id="horns" name="horns">
+                                <label>Proffesionals</label>
+                            </div>
+                            <ul class="depth-1 parent">
+                                <li class="depth-1 child">
+                                    <div class="view-menu-category">
+                                        <input type="checkbox" id="horns" name="horns">
+                                        <label>Arts and Media Professionals</label>
+                                    </div>
+                                    <ul class="depth-2 parent">
+                                        <li class="depth-2 child">
+                                            <div class="view-menu-category">
+                                                <input type="checkbox" id="horns" name="horns">
+                                                <label>Business, Human Resource and Marketing Professionals</label>
+                                            </div>
+                                        </li>
+                                        <li class="depth-2 child">
+                                            <div class="view-menu-category">
+                                                <input type="checkbox" id="horns" name="horns">
+                                                <label>design, engineering, science and transport professionals</label>
+                                            </div>
+                                        </li>
+                                        <li class="depth-2 child">
+                                            <div class="view-menu-category">
+                                                <input type="checkbox" id="horns" name="horns">
+                                                <label>education professionals</label>
+                                            </div>
+                                        </li>
+                                    </ul>
+                                </li>
+                                <li class="depth-1 child">
+                                    <div class="view-menu-category">
+                                        <input type="checkbox" id="horns" name="horns">
+                                        <label>Arts and Media Professionals</label>
+                                    </div>
+                                    <ul class="depth-2 parent">
+                                        <li class="depth-2 child">
+                                            <div class="view-menu-category">
+                                                <input type="checkbox" id="horns" name="horns">
+                                                <label>Business, Human Resource and Marketing Professionals</label>
+                                            </div>
+                                        </li>
+                                        <li class="depth-2 child">
+                                            <div class="view-menu-category">
+                                                <input type="checkbox" id="horns" name="horns">
+                                                <label>design, engineering, science and transport professionals</label>
+                                            </div>
+                                        </li>
+                                        <li class="depth-2 child">
+                                            <div class="view-menu-category">
+                                                <input type="checkbox" id="horns" name="horns">
+                                                <label>education professionals</label>
+                                            </div>
+                                        </li>
+                                    </ul>
+                                </li>
+                                <li class="depth-1 child">
+                                    <div class="view-menu-category">
+                                        <input type="checkbox" id="horns" name="horns">
+                                        <label>Arts and Media Professionals</label>
+                                    </div>
+                                    <ul class="depth-2 parent">
+                                        <li class="depth-2 child">
+                                            <div class="view-menu-category">
+                                                <input type="checkbox" id="horns" name="horns">
+                                                <label>Business, Human Resource and Marketing Professionals</label>
+                                            </div>
+                                        </li>
+                                        <li class="depth-2 child">
+                                            <div class="view-menu-category">
+                                                <input type="checkbox" id="horns" name="horns">
+                                                <label>design, engineering, science and transport professionals</label>
+                                            </div>
+                                        </li>
+                                        <li class="depth-2 child">
+                                            <div class="view-menu-category">
+                                                <input type="checkbox" id="horns" name="horns">
+                                                <label>education professionals</label>
+                                            </div>
+                                        </li>
+                                    </ul>
+                                </li>
+                            </ul>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+        <div class="container-3">
+            <div class="container-11">
+                <ul class="container-8 layout-100">
+                    <li class="work-type">
+                        <p class="text-1">Part time</p>
+                        <div class="arrow"></div>
+                    </li>
+                    <li class="paying-from">
+                        <p class="text-1"><span>paying</span>$0</p>
+                        <div class="arrow"></div>
+                    </li>
+                    <li class="paying-to">
+                        <p class="text-1"><span>to</span>$200k+</p>
+                        <div class="arrow"></div>
+                    </li>
+                    <li class="listed">
+                        <p class="text-1"><span>listed in</span>Last 7 days</p>
+                        <div class="arrow"></div>
+                    </li>
+                </ul>
+            </div>
+            <div class="container-9">
+                <ul class="container-10 layout-100">
+                    <li>Full time</li>
+                    <li>Casual/Vacation</li>
+                    <li>$0</li>
+                    <li>$100k</li>
+                    <li>$200k+</li>
+                    <li>Any time</li>
+                    <li>Today</li>
+                    <li>Last 14 days</li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+    <nav class="isMobile">
+        <div class="image-back-drop"></div>
+        <ul class="container-5">
+            <li class="selected"><a href="">Job Search</a></li>
+            <li><a href="">Profile</a></li>
+            <li><a href="">Seekcruit Guide</a></li>
+            <li class="isMarket"><a>Market</a></li>
+            <li><a href="">Community</a></li>
+            <li class="underline"></li>
+            <li class="outside"><a href="">Sign in or Register</a></li>
+            <li class="outside"><a href="">Employer site</a></li>
+            <li class="underline"></li>
+            <li class="outside"><a href="">Advertiser page</a></li>
+        </ul>
+        <div class="container-6">
+            <form class="layer-menu-category">
+                <div class="container-7">
+                    <ul class="depth-0 parent">
+                        <li class="depth-0 child">
+                            <div class="view-menu-category">
+                                <input type="checkbox" id="horns" name="horns">
+                                <label>Proffesionals</label>
+                            </div>
+                            <ul class="depth-1 parent">
+                                <li class="depth-1 child">
+                                    <div class="view-menu-category">
+                                        <input type="checkbox" id="horns" name="horns">
+                                        <label>Arts and Media Professionals</label>
+                                    </div>
+                                    <ul class="depth-2 parent">
+                                        <li class="depth-2 child">
+                                            <div class="view-menu-category">
+                                                <input type="checkbox" id="horns" name="horns">
+                                                <label>Business, Human Resource and Marketing Professionals</label>
+                                            </div>
+                                        </li>
+                                        <li class="depth-2 child">
+                                            <div class="view-menu-category">
+                                                <input type="checkbox" id="horns" name="horns">
+                                                <label>design, engineering, science and transport professionals</label>
+                                            </div>
+                                        </li>
+                                        <li class="depth-2 child">
+                                            <div class="view-menu-category">
+                                                <input type="checkbox" id="horns" name="horns">
+                                                <label>education professionals</label>
+                                            </div>
+                                        </li>
+                                    </ul>
+                                </li>
+                                <li class="depth-1 child">
+                                    <div class="view-menu-category">
+                                        <input type="checkbox" id="horns" name="horns">
+                                        <label>Arts and Media Professionals</label>
+                                    </div>
+                                    <ul class="depth-2 parent">
+                                        <li class="depth-2 child">
+                                            <div class="view-menu-category">
+                                                <input type="checkbox" id="horns" name="horns">
+                                                <label>Business, Human Resource and Marketing Professionals</label>
+                                            </div>
+                                        </li>
+                                        <li class="depth-2 child">
+                                            <div class="view-menu-category">
+                                                <input type="checkbox" id="horns" name="horns">
+                                                <label>design, engineering, science and transport professionals</label>
+                                            </div>
+                                        </li>
+                                        <li class="depth-2 child">
+                                            <div class="view-menu-category">
+                                                <input type="checkbox" id="horns" name="horns">
+                                                <label>education professionals</label>
+                                            </div>
+                                        </li>
+                                    </ul>
+                                </li>
+                                <li class="depth-1 child">
+                                    <div class="view-menu-category">
+                                        <input type="checkbox" id="horns" name="horns">
+                                        <label>Arts and Media Professionals</label>
+                                    </div>
+                                    <ul class="depth-2 parent">
+                                        <li class="depth-2 child">
+                                            <div class="view-menu-category">
+                                                <input type="checkbox" id="horns" name="horns">
+                                                <label>Business, Human Resource and Marketing Professionals</label>
+                                            </div>
+                                        </li>
+                                        <li class="depth-2 child">
+                                            <div class="view-menu-category">
+                                                <input type="checkbox" id="horns" name="horns">
+                                                <label>design, engineering, science and transport professionals</label>
+                                            </div>
+                                        </li>
+                                        <li class="depth-2 child">
+                                            <div class="view-menu-category">
+                                                <input type="checkbox" id="horns" name="horns">
+                                                <label>education professionals</label>
+                                            </div>
+                                        </li>
+                                    </ul>
+                                </li>
+                            </ul>
+                        </li>
+                        <li class="depth-0 child">
+                            <div class="view-menu-category">
+                                <input type="checkbox" id="horns" name="horns">
+                                <label>Proffesionals</label>
+                            </div>
+                            <ul class="depth-1 parent">
+                                <li class="depth-1 child">
+                                    <div class="view-menu-category">
+                                        <input type="checkbox" id="horns" name="horns">
+                                        <label>Arts and Media Professionals</label>
+                                    </div>
+                                    <ul class="depth-2 parent">
+                                        <li class="depth-2 child">
+                                            <div class="view-menu-category">
+                                                <input type="checkbox" id="horns" name="horns">
+                                                <label>Business, Human Resource and Marketing Professionals</label>
+                                            </div>
+                                        </li>
+                                        <li class="depth-2 child">
+                                            <div class="view-menu-category">
+                                                <input type="checkbox" id="horns" name="horns">
+                                                <label>design, engineering, science and transport professionals</label>
+                                            </div>
+                                        </li>
+                                        <li class="depth-2 child">
+                                            <div class="view-menu-category">
+                                                <input type="checkbox" id="horns" name="horns">
+                                                <label>education professionals</label>
+                                            </div>
+                                        </li>
+                                    </ul>
+                                </li>
+                                <li class="depth-1 child">
+                                    <div class="view-menu-category">
+                                        <input type="checkbox" id="horns" name="horns">
+                                        <label>Arts and Media Professionals</label>
+                                    </div>
+                                    <ul class="depth-2 parent">
+                                        <li class="depth-2 child">
+                                            <div class="view-menu-category">
+                                                <input type="checkbox" id="horns" name="horns">
+                                                <label>Business, Human Resource and Marketing Professionals</label>
+                                            </div>
+                                        </li>
+                                        <li class="depth-2 child">
+                                            <div class="view-menu-category">
+                                                <input type="checkbox" id="horns" name="horns">
+                                                <label>design, engineering, science and transport professionals</label>
+                                            </div>
+                                        </li>
+                                        <li class="depth-2 child">
+                                            <div class="view-menu-category">
+                                                <input type="checkbox" id="horns" name="horns">
+                                                <label>education professionals</label>
+                                            </div>
+                                        </li>
+                                    </ul>
+                                </li>
+                                <li class="depth-1 child">
+                                    <div class="view-menu-category">
+                                        <input type="checkbox" id="horns" name="horns">
+                                        <label>Arts and Media Professionals</label>
+                                    </div>
+                                    <ul class="depth-2 parent">
+                                        <li class="depth-2 child">
+                                            <div class="view-menu-category">
+                                                <input type="checkbox" id="horns" name="horns">
+                                                <label>Business, Human Resource and Marketing Professionals</label>
+                                            </div>
+                                        </li>
+                                        <li class="depth-2 child">
+                                            <div class="view-menu-category">
+                                                <input type="checkbox" id="horns" name="horns">
+                                                <label>design, engineering, science and transport professionals</label>
+                                            </div>
+                                        </li>
+                                        <li class="depth-2 child">
+                                            <div class="view-menu-category">
+                                                <input type="checkbox" id="horns" name="horns">
+                                                <label>education professionals</label>
+                                            </div>
+                                        </li>
+                                    </ul>
+                                </li>
+                            </ul>
+                        </li>
+                        <li class="depth-0 child">
+                            <div class="view-menu-category">
+                                <input type="checkbox" id="horns" name="horns">
+                                <label>Proffesionals</label>
+                            </div>
+                            <ul class="depth-1 parent">
+                                <li class="depth-1 child">
+                                    <div class="view-menu-category">
+                                        <input type="checkbox" id="horns" name="horns">
+                                        <label>Arts and Media Professionals</label>
+                                    </div>
+                                    <ul class="depth-2 parent">
+                                        <li class="depth-2 child">
+                                            <div class="view-menu-category">
+                                                <input type="checkbox" id="horns" name="horns">
+                                                <label>Business, Human Resource and Marketing Professionals</label>
+                                            </div>
+                                        </li>
+                                        <li class="depth-2 child">
+                                            <div class="view-menu-category">
+                                                <input type="checkbox" id="horns" name="horns">
+                                                <label>design, engineering, science and transport professionals</label>
+                                            </div>
+                                        </li>
+                                        <li class="depth-2 child">
+                                            <div class="view-menu-category">
+                                                <input type="checkbox" id="horns" name="horns">
+                                                <label>education professionals</label>
+                                            </div>
+                                        </li>
+                                    </ul>
+                                </li>
+                                <li class="depth-1 child">
+                                    <div class="view-menu-category">
+                                        <input type="checkbox" id="horns" name="horns">
+                                        <label>Arts and Media Professionals</label>
+                                    </div>
+                                    <ul class="depth-2 parent">
+                                        <li class="depth-2 child">
+                                            <div class="view-menu-category">
+                                                <input type="checkbox" id="horns" name="horns">
+                                                <label>Business, Human Resource and Marketing Professionals</label>
+                                            </div>
+                                        </li>
+                                        <li class="depth-2 child">
+                                            <div class="view-menu-category">
+                                                <input type="checkbox" id="horns" name="horns">
+                                                <label>design, engineering, science and transport professionals</label>
+                                            </div>
+                                        </li>
+                                        <li class="depth-2 child">
+                                            <div class="view-menu-category">
+                                                <input type="checkbox" id="horns" name="horns">
+                                                <label>education professionals</label>
+                                            </div>
+                                        </li>
+                                    </ul>
+                                </li>
+                                <li class="depth-1 child">
+                                    <div class="view-menu-category">
+                                        <input type="checkbox" id="horns" name="horns">
+                                        <label>Arts and Media Professionals</label>
+                                    </div>
+                                    <ul class="depth-2 parent">
+                                        <li class="depth-2 child">
+                                            <div class="view-menu-category">
+                                                <input type="checkbox" id="horns" name="horns">
+                                                <label>Business, Human Resource and Marketing Professionals</label>
+                                            </div>
+                                        </li>
+                                        <li class="depth-2 child">
+                                            <div class="view-menu-category">
+                                                <input type="checkbox" id="horns" name="horns">
+                                                <label>design, engineering, science and transport professionals</label>
+                                            </div>
+                                        </li>
+                                        <li class="depth-2 child">
+                                            <div class="view-menu-category">
+                                                <input type="checkbox" id="horns" name="horns">
+                                                <label>education professionals</label>
+                                            </div>
+                                        </li>
+                                    </ul>
+                                </li>
+                            </ul>
+                        </li>
+                    </ul>
+                </div>
+                <input type="text" name="keyword" class="input-keyword form-unit" placeholder="Job title, company, keyword">
+                <input type="text" class="select-map form-unit stylesheet" value="Australia"></input>
+                <input type="submit" class="button-submit form-unit stylesheet" value="Search"></input>
+            </form>
+        </div>
+        <div class="container-0">
+            <a href="/"><h1 class="stylesheet">seekcruit</h1></a>
+        </div>
+        <div class="container-3">
+            <div class="container-11">
+                <ul class="container-8 layout-100">
+                    <li class="work-type">
+                        <p class="text-1">Part time</p>
+                        <div class="arrow"></div>
+                    </li>
+                    <li class="paying-from">
+                        <p class="text-1"><span>paying</span>$0</p>
+                        <div class="arrow"></div>
+                    </li>
+                    <li class="paying-to">
+                        <p class="text-1"><span>to</span>$200k+</p>
+                        <div class="arrow"></div>
+                    </li>
+                    <li class="listed">
+                        <p class="text-1"><span>listed in</span>Last 7 days</p>
+                        <div class="arrow"></div>
+                    </li>
+                </ul>
+            </div>
+            <div class="container-9">
+                <ul class="container-10 layout-100">
+                    <li>Full time</li>
+                    <li>Casual/Vacation</li>
+                    <li>$0</li>
+                    <li>$100k</li>
+                    <li>$200k+</li>
+                    <li>Any time</li>
+                    <li>Today</li>
+                    <li>Last 14 days</li>
+                </ul>
+            </div>
+        </div>
+        <div class="button-mobile-search">
+            <div class="icon stylesheet"></div>
+        </div>
+        <div class="button-mobile-menu">
+            <div class="bar"></div>
+            <div class="bar"></div>
+            <div class="bar"></div>
+            <div class="bar"></div>
+            <div class="bar"></div>
+            <div class="bar"></div>
+            <div class="bar"></div>
+            <div class="bar"></div>
+            <div class="bar"></div>
+        </div>
+    </nav>
+@elseif (Route::has('job-information'))
+    <nav class="isPC">
+        <div class="container-0">
+            <a href="/"><h1 class="stylesheet">seekcruit</h1></a>
+            <div class="text-0">
+                <a class="isMypage">norah yoon</a>
+                <span class="stylesheet arrow"></span>
+                <span></span>
+                <a href="/employer">Sign out</a>
+                <div class="layer-menu-mypage">
+                    <div class="back-0"></div>
+                    <div class="back-1"></div>
+                    <div class="back-2"></div>
+                    <div class="container-5">
+                        <div class="portrait"></div>
+                        <p class="text-4">norah yoon</p>
+                    </div>
+                    <ul>
+                        <li><a href="">my profile</a></li>
+                        <li><a href="">my career</a></li>
+                        <li><a href="">application history</a></li>
+                        <li><a href="">suggested jobs</a></li>
+                        <li><a href="">resume archive</a></li>
+                    </ul>
+                    <a class="button-sign-out" href="">sign out</a>
+                </div>
+            </div>
+        </div>
+        <ul class="container-1 layout-100">
+            <li class="selected"><a href="">Job Search</a></li>
+            <li><a href="">Profile</a></li>
+            <li><a href="">Seekcruit Guide</a></li>
+            <li class="isMarket"><a>Market</a></li>
+            <li><a href="">Community</a></li>
+        </ul>
+        <div class="layer-menu-market">
+            <div class="back-0"></div>
+            <div class="back-1"></div>
+            <div class="back-2"></div>
+            <ul>
+                <li><a href="">Beauty and personal care</a></li>
+                <li><a href="">Health and Household</a></li>
+                <li><a href="">Tools & Home Improvement</a></li>
+            </ul>
+        </div>
+        <div class="container-2">
+            <form class="layout-100">
+                <button type="button" class="button-category form-unit stylesheet">All Categories<span class="icon stylesheet"></span></button>
+                <input type="text" name="keyword" class="input-keyword form-unit" placeholder="Job title, company, keyword">
+                <input type="text" class="select-map form-unit stylesheet" value="Australia"></input>
+                <input type="submit" class="button-submit form-unit stylesheet"></input>
+            </form>
+            <div class="layer-menu-category">
+                <div class="back-0"></div>
+                <div class="back-1"></div>
+                <div class="back-2"></div>
+                <div class="container-4">
+                    <ul class="depth-0 parent">
+                        <li class="depth-0 child">
+                            <div class="view-menu-category">
+                                <input type="checkbox" id="horns" name="horns">
+                                <label>Proffesionals</label>
+                            </div>
+                            <ul class="depth-1 parent">
+                                <li class="depth-1 child">
+                                    <div class="view-menu-category">
+                                        <input type="checkbox" id="horns" name="horns">
+                                        <label>Arts and Media Professionals</label>
+                                    </div>
+                                    <ul class="depth-2 parent">
+                                        <li class="depth-2 child">
+                                            <div class="view-menu-category">
+                                                <input type="checkbox" id="horns" name="horns">
+                                                <label>Business, Human Resource and Marketing Professionals</label>
+                                            </div>
+                                        </li>
+                                        <li class="depth-2 child">
+                                            <div class="view-menu-category">
+                                                <input type="checkbox" id="horns" name="horns">
+                                                <label>design, engineering, science and transport professionals</label>
+                                            </div>
+                                        </li>
+                                        <li class="depth-2 child">
+                                            <div class="view-menu-category">
+                                                <input type="checkbox" id="horns" name="horns">
+                                                <label>education professionals</label>
+                                            </div>
+                                        </li>
+                                    </ul>
+                                </li>
+                                <li class="depth-1 child">
+                                    <div class="view-menu-category">
+                                        <input type="checkbox" id="horns" name="horns">
+                                        <label>Arts and Media Professionals</label>
+                                    </div>
+                                    <ul class="depth-2 parent">
+                                        <li class="depth-2 child">
+                                            <div class="view-menu-category">
+                                                <input type="checkbox" id="horns" name="horns">
+                                                <label>Business, Human Resource and Marketing Professionals</label>
+                                            </div>
+                                        </li>
+                                        <li class="depth-2 child">
+                                            <div class="view-menu-category">
+                                                <input type="checkbox" id="horns" name="horns">
+                                                <label>design, engineering, science and transport professionals</label>
+                                            </div>
+                                        </li>
+                                        <li class="depth-2 child">
+                                            <div class="view-menu-category">
+                                                <input type="checkbox" id="horns" name="horns">
+                                                <label>education professionals</label>
+                                            </div>
+                                        </li>
+                                    </ul>
+                                </li>
+                                <li class="depth-1 child">
+                                    <div class="view-menu-category">
+                                        <input type="checkbox" id="horns" name="horns">
+                                        <label>Arts and Media Professionals</label>
+                                    </div>
+                                    <ul class="depth-2 parent">
+                                        <li class="depth-2 child">
+                                            <div class="view-menu-category">
+                                                <input type="checkbox" id="horns" name="horns">
+                                                <label>Business, Human Resource and Marketing Professionals</label>
+                                            </div>
+                                        </li>
+                                        <li class="depth-2 child">
+                                            <div class="view-menu-category">
+                                                <input type="checkbox" id="horns" name="horns">
+                                                <label>design, engineering, science and transport professionals</label>
+                                            </div>
+                                        </li>
+                                        <li class="depth-2 child">
+                                            <div class="view-menu-category">
+                                                <input type="checkbox" id="horns" name="horns">
+                                                <label>education professionals</label>
+                                            </div>
+                                        </li>
+                                    </ul>
+                                </li>
+                            </ul>
+                        </li>
+                        <li class="depth-0 child">
+                            <div class="view-menu-category">
+                                <input type="checkbox" id="horns" name="horns">
+                                <label>Proffesionals</label>
+                            </div>
+                            <ul class="depth-1 parent">
+                                <li class="depth-1 child">
+                                    <div class="view-menu-category">
+                                        <input type="checkbox" id="horns" name="horns">
+                                        <label>Arts and Media Professionals</label>
+                                    </div>
+                                    <ul class="depth-2 parent">
+                                        <li class="depth-2 child">
+                                            <div class="view-menu-category">
+                                                <input type="checkbox" id="horns" name="horns">
+                                                <label>Business, Human Resource and Marketing Professionals</label>
+                                            </div>
+                                        </li>
+                                        <li class="depth-2 child">
+                                            <div class="view-menu-category">
+                                                <input type="checkbox" id="horns" name="horns">
+                                                <label>design, engineering, science and transport professionals</label>
+                                            </div>
+                                        </li>
+                                        <li class="depth-2 child">
+                                            <div class="view-menu-category">
+                                                <input type="checkbox" id="horns" name="horns">
+                                                <label>education professionals</label>
+                                            </div>
+                                        </li>
+                                    </ul>
+                                </li>
+                                <li class="depth-1 child">
+                                    <div class="view-menu-category">
+                                        <input type="checkbox" id="horns" name="horns">
+                                        <label>Arts and Media Professionals</label>
+                                    </div>
+                                    <ul class="depth-2 parent">
+                                        <li class="depth-2 child">
+                                            <div class="view-menu-category">
+                                                <input type="checkbox" id="horns" name="horns">
+                                                <label>Business, Human Resource and Marketing Professionals</label>
+                                            </div>
+                                        </li>
+                                        <li class="depth-2 child">
+                                            <div class="view-menu-category">
+                                                <input type="checkbox" id="horns" name="horns">
+                                                <label>design, engineering, science and transport professionals</label>
+                                            </div>
+                                        </li>
+                                        <li class="depth-2 child">
+                                            <div class="view-menu-category">
+                                                <input type="checkbox" id="horns" name="horns">
+                                                <label>education professionals</label>
+                                            </div>
+                                        </li>
+                                    </ul>
+                                </li>
+                                <li class="depth-1 child">
+                                    <div class="view-menu-category">
+                                        <input type="checkbox" id="horns" name="horns">
+                                        <label>Arts and Media Professionals</label>
+                                    </div>
+                                    <ul class="depth-2 parent">
+                                        <li class="depth-2 child">
+                                            <div class="view-menu-category">
+                                                <input type="checkbox" id="horns" name="horns">
+                                                <label>Business, Human Resource and Marketing Professionals</label>
+                                            </div>
+                                        </li>
+                                        <li class="depth-2 child">
+                                            <div class="view-menu-category">
+                                                <input type="checkbox" id="horns" name="horns">
+                                                <label>design, engineering, science and transport professionals</label>
+                                            </div>
+                                        </li>
+                                        <li class="depth-2 child">
+                                            <div class="view-menu-category">
+                                                <input type="checkbox" id="horns" name="horns">
+                                                <label>education professionals</label>
+                                            </div>
+                                        </li>
+                                    </ul>
+                                </li>
+                            </ul>
+                        </li>
+                        <li class="depth-0 child">
+                            <div class="view-menu-category">
+                                <input type="checkbox" id="horns" name="horns">
+                                <label>Proffesionals</label>
+                            </div>
+                            <ul class="depth-1 parent">
+                                <li class="depth-1 child">
+                                    <div class="view-menu-category">
+                                        <input type="checkbox" id="horns" name="horns">
+                                        <label>Arts and Media Professionals</label>
+                                    </div>
+                                    <ul class="depth-2 parent">
+                                        <li class="depth-2 child">
+                                            <div class="view-menu-category">
+                                                <input type="checkbox" id="horns" name="horns">
+                                                <label>Business, Human Resource and Marketing Professionals</label>
+                                            </div>
+                                        </li>
+                                        <li class="depth-2 child">
+                                            <div class="view-menu-category">
+                                                <input type="checkbox" id="horns" name="horns">
+                                                <label>design, engineering, science and transport professionals</label>
+                                            </div>
+                                        </li>
+                                        <li class="depth-2 child">
+                                            <div class="view-menu-category">
+                                                <input type="checkbox" id="horns" name="horns">
+                                                <label>education professionals</label>
+                                            </div>
+                                        </li>
+                                    </ul>
+                                </li>
+                                <li class="depth-1 child">
+                                    <div class="view-menu-category">
+                                        <input type="checkbox" id="horns" name="horns">
+                                        <label>Arts and Media Professionals</label>
+                                    </div>
+                                    <ul class="depth-2 parent">
+                                        <li class="depth-2 child">
+                                            <div class="view-menu-category">
+                                                <input type="checkbox" id="horns" name="horns">
+                                                <label>Business, Human Resource and Marketing Professionals</label>
+                                            </div>
+                                        </li>
+                                        <li class="depth-2 child">
+                                            <div class="view-menu-category">
+                                                <input type="checkbox" id="horns" name="horns">
+                                                <label>design, engineering, science and transport professionals</label>
+                                            </div>
+                                        </li>
+                                        <li class="depth-2 child">
+                                            <div class="view-menu-category">
+                                                <input type="checkbox" id="horns" name="horns">
+                                                <label>education professionals</label>
+                                            </div>
+                                        </li>
+                                    </ul>
+                                </li>
+                                <li class="depth-1 child">
+                                    <div class="view-menu-category">
+                                        <input type="checkbox" id="horns" name="horns">
+                                        <label>Arts and Media Professionals</label>
+                                    </div>
+                                    <ul class="depth-2 parent">
+                                        <li class="depth-2 child">
+                                            <div class="view-menu-category">
+                                                <input type="checkbox" id="horns" name="horns">
+                                                <label>Business, Human Resource and Marketing Professionals</label>
+                                            </div>
+                                        </li>
+                                        <li class="depth-2 child">
+                                            <div class="view-menu-category">
+                                                <input type="checkbox" id="horns" name="horns">
+                                                <label>design, engineering, science and transport professionals</label>
+                                            </div>
+                                        </li>
+                                        <li class="depth-2 child">
+                                            <div class="view-menu-category">
+                                                <input type="checkbox" id="horns" name="horns">
+                                                <label>education professionals</label>
+                                            </div>
+                                        </li>
+                                    </ul>
+                                </li>
+                            </ul>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+        <div class="container-3">
+            <div class="container-11">
+                <ul class="container-8 layout-100">
+                    <li class="work-type">
+                        <p class="text-1">Part time</p>
+                        <div class="arrow"></div>
+                    </li>
+                    <li class="paying-from">
+                        <p class="text-1"><span>paying</span>$0</p>
+                        <div class="arrow"></div>
+                    </li>
+                    <li class="paying-to">
+                        <p class="text-1"><span>to</span>$200k+</p>
+                        <div class="arrow"></div>
+                    </li>
+                    <li class="listed">
+                        <p class="text-1"><span>listed in</span>Last 7 days</p>
+                        <div class="arrow"></div>
+                    </li>
+                </ul>
+            </div>
+            <div class="container-9">
+                <ul class="container-10 layout-100">
+                    <li>Full time</li>
+                    <li>Casual/Vacation</li>
+                    <li>$0</li>
+                    <li>$100k</li>
+                    <li>$200k+</li>
+                    <li>Any time</li>
+                    <li>Today</li>
+                    <li>Last 14 days</li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+    <nav class="isMobile isMap">
+        <div class="image-back-drop"></div>
+        <ul class="container-5">
+            <li class="portrait"><a href=""></a></li>
+            <li class="outside"><a href="">My Profile</a></li>
+            <li class="outside"><a href="">My Account</a></li>
+            <li class="underline"></li>
+            <li class="selected"><a href="">Job Search</a></li>
+            <li><a href="">Seekcruit Guide</a></li>
+            <li class="isMarket"><a>Market</a></li>
+            <li><a href="">Community</a></li>
+            <li class="underline"></li>
+            <li class="outside"><a href="">Sign out</a></li>
+            <li class="underline"></li>
+            <li class="outside"><a href="">Advertiser page</a></li>
+        </ul>
+        <div class="container-6">
+            <form class="layer-menu-category">
+                <div class="container-7">
+                    <ul class="depth-0 parent">
+                        <li class="depth-0 child">
+                            <div class="view-menu-category">
+                                <input type="checkbox" id="horns" name="horns">
+                                <label>Proffesionals</label>
+                            </div>
+                            <ul class="depth-1 parent">
+                                <li class="depth-1 child">
+                                    <div class="view-menu-category">
+                                        <input type="checkbox" id="horns" name="horns">
+                                        <label>Arts and Media Professionals</label>
+                                    </div>
+                                    <ul class="depth-2 parent">
+                                        <li class="depth-2 child">
+                                            <div class="view-menu-category">
+                                                <input type="checkbox" id="horns" name="horns">
+                                                <label>Business, Human Resource and Marketing Professionals</label>
+                                            </div>
+                                        </li>
+                                        <li class="depth-2 child">
+                                            <div class="view-menu-category">
+                                                <input type="checkbox" id="horns" name="horns">
+                                                <label>design, engineering, science and transport professionals</label>
+                                            </div>
+                                        </li>
+                                        <li class="depth-2 child">
+                                            <div class="view-menu-category">
+                                                <input type="checkbox" id="horns" name="horns">
+                                                <label>education professionals</label>
+                                            </div>
+                                        </li>
+                                    </ul>
+                                </li>
+                                <li class="depth-1 child">
+                                    <div class="view-menu-category">
+                                        <input type="checkbox" id="horns" name="horns">
+                                        <label>Arts and Media Professionals</label>
+                                    </div>
+                                    <ul class="depth-2 parent">
+                                        <li class="depth-2 child">
+                                            <div class="view-menu-category">
+                                                <input type="checkbox" id="horns" name="horns">
+                                                <label>Business, Human Resource and Marketing Professionals</label>
+                                            </div>
+                                        </li>
+                                        <li class="depth-2 child">
+                                            <div class="view-menu-category">
+                                                <input type="checkbox" id="horns" name="horns">
+                                                <label>design, engineering, science and transport professionals</label>
+                                            </div>
+                                        </li>
+                                        <li class="depth-2 child">
+                                            <div class="view-menu-category">
+                                                <input type="checkbox" id="horns" name="horns">
+                                                <label>education professionals</label>
+                                            </div>
+                                        </li>
+                                    </ul>
+                                </li>
+                                <li class="depth-1 child">
+                                    <div class="view-menu-category">
+                                        <input type="checkbox" id="horns" name="horns">
+                                        <label>Arts and Media Professionals</label>
+                                    </div>
+                                    <ul class="depth-2 parent">
+                                        <li class="depth-2 child">
+                                            <div class="view-menu-category">
+                                                <input type="checkbox" id="horns" name="horns">
+                                                <label>Business, Human Resource and Marketing Professionals</label>
+                                            </div>
+                                        </li>
+                                        <li class="depth-2 child">
+                                            <div class="view-menu-category">
+                                                <input type="checkbox" id="horns" name="horns">
+                                                <label>design, engineering, science and transport professionals</label>
+                                            </div>
+                                        </li>
+                                        <li class="depth-2 child">
+                                            <div class="view-menu-category">
+                                                <input type="checkbox" id="horns" name="horns">
+                                                <label>education professionals</label>
+                                            </div>
+                                        </li>
+                                    </ul>
+                                </li>
+                            </ul>
+                        </li>
+                        <li class="depth-0 child">
+                            <div class="view-menu-category">
+                                <input type="checkbox" id="horns" name="horns">
+                                <label>Proffesionals</label>
+                            </div>
+                            <ul class="depth-1 parent">
+                                <li class="depth-1 child">
+                                    <div class="view-menu-category">
+                                        <input type="checkbox" id="horns" name="horns">
+                                        <label>Arts and Media Professionals</label>
+                                    </div>
+                                    <ul class="depth-2 parent">
+                                        <li class="depth-2 child">
+                                            <div class="view-menu-category">
+                                                <input type="checkbox" id="horns" name="horns">
+                                                <label>Business, Human Resource and Marketing Professionals</label>
+                                            </div>
+                                        </li>
+                                        <li class="depth-2 child">
+                                            <div class="view-menu-category">
+                                                <input type="checkbox" id="horns" name="horns">
+                                                <label>design, engineering, science and transport professionals</label>
+                                            </div>
+                                        </li>
+                                        <li class="depth-2 child">
+                                            <div class="view-menu-category">
+                                                <input type="checkbox" id="horns" name="horns">
+                                                <label>education professionals</label>
+                                            </div>
+                                        </li>
+                                    </ul>
+                                </li>
+                                <li class="depth-1 child">
+                                    <div class="view-menu-category">
+                                        <input type="checkbox" id="horns" name="horns">
+                                        <label>Arts and Media Professionals</label>
+                                    </div>
+                                    <ul class="depth-2 parent">
+                                        <li class="depth-2 child">
+                                            <div class="view-menu-category">
+                                                <input type="checkbox" id="horns" name="horns">
+                                                <label>Business, Human Resource and Marketing Professionals</label>
+                                            </div>
+                                        </li>
+                                        <li class="depth-2 child">
+                                            <div class="view-menu-category">
+                                                <input type="checkbox" id="horns" name="horns">
+                                                <label>design, engineering, science and transport professionals</label>
+                                            </div>
+                                        </li>
+                                        <li class="depth-2 child">
+                                            <div class="view-menu-category">
+                                                <input type="checkbox" id="horns" name="horns">
+                                                <label>education professionals</label>
+                                            </div>
+                                        </li>
+                                    </ul>
+                                </li>
+                                <li class="depth-1 child">
+                                    <div class="view-menu-category">
+                                        <input type="checkbox" id="horns" name="horns">
+                                        <label>Arts and Media Professionals</label>
+                                    </div>
+                                    <ul class="depth-2 parent">
+                                        <li class="depth-2 child">
+                                            <div class="view-menu-category">
+                                                <input type="checkbox" id="horns" name="horns">
+                                                <label>Business, Human Resource and Marketing Professionals</label>
+                                            </div>
+                                        </li>
+                                        <li class="depth-2 child">
+                                            <div class="view-menu-category">
+                                                <input type="checkbox" id="horns" name="horns">
+                                                <label>design, engineering, science and transport professionals</label>
+                                            </div>
+                                        </li>
+                                        <li class="depth-2 child">
+                                            <div class="view-menu-category">
+                                                <input type="checkbox" id="horns" name="horns">
+                                                <label>education professionals</label>
+                                            </div>
+                                        </li>
+                                    </ul>
+                                </li>
+                            </ul>
+                        </li>
+                        <li class="depth-0 child">
+                            <div class="view-menu-category">
+                                <input type="checkbox" id="horns" name="horns">
+                                <label>Proffesionals</label>
+                            </div>
+                            <ul class="depth-1 parent">
+                                <li class="depth-1 child">
+                                    <div class="view-menu-category">
+                                        <input type="checkbox" id="horns" name="horns">
+                                        <label>Arts and Media Professionals</label>
+                                    </div>
+                                    <ul class="depth-2 parent">
+                                        <li class="depth-2 child">
+                                            <div class="view-menu-category">
+                                                <input type="checkbox" id="horns" name="horns">
+                                                <label>Business, Human Resource and Marketing Professionals</label>
+                                            </div>
+                                        </li>
+                                        <li class="depth-2 child">
+                                            <div class="view-menu-category">
+                                                <input type="checkbox" id="horns" name="horns">
+                                                <label>design, engineering, science and transport professionals</label>
+                                            </div>
+                                        </li>
+                                        <li class="depth-2 child">
+                                            <div class="view-menu-category">
+                                                <input type="checkbox" id="horns" name="horns">
+                                                <label>education professionals</label>
+                                            </div>
+                                        </li>
+                                    </ul>
+                                </li>
+                                <li class="depth-1 child">
+                                    <div class="view-menu-category">
+                                        <input type="checkbox" id="horns" name="horns">
+                                        <label>Arts and Media Professionals</label>
+                                    </div>
+                                    <ul class="depth-2 parent">
+                                        <li class="depth-2 child">
+                                            <div class="view-menu-category">
+                                                <input type="checkbox" id="horns" name="horns">
+                                                <label>Business, Human Resource and Marketing Professionals</label>
+                                            </div>
+                                        </li>
+                                        <li class="depth-2 child">
+                                            <div class="view-menu-category">
+                                                <input type="checkbox" id="horns" name="horns">
+                                                <label>design, engineering, science and transport professionals</label>
+                                            </div>
+                                        </li>
+                                        <li class="depth-2 child">
+                                            <div class="view-menu-category">
+                                                <input type="checkbox" id="horns" name="horns">
+                                                <label>education professionals</label>
+                                            </div>
+                                        </li>
+                                    </ul>
+                                </li>
+                                <li class="depth-1 child">
+                                    <div class="view-menu-category">
+                                        <input type="checkbox" id="horns" name="horns">
+                                        <label>Arts and Media Professionals</label>
+                                    </div>
+                                    <ul class="depth-2 parent">
+                                        <li class="depth-2 child">
+                                            <div class="view-menu-category">
+                                                <input type="checkbox" id="horns" name="horns">
+                                                <label>Business, Human Resource and Marketing Professionals</label>
+                                            </div>
+                                        </li>
+                                        <li class="depth-2 child">
+                                            <div class="view-menu-category">
+                                                <input type="checkbox" id="horns" name="horns">
+                                                <label>design, engineering, science and transport professionals</label>
+                                            </div>
+                                        </li>
+                                        <li class="depth-2 child">
+                                            <div class="view-menu-category">
+                                                <input type="checkbox" id="horns" name="horns">
+                                                <label>education professionals</label>
+                                            </div>
+                                        </li>
+                                    </ul>
+                                </li>
+                            </ul>
+                        </li>
+                    </ul>
+                </div>
+                <input type="text" name="keyword" class="input-keyword form-unit" placeholder="Job title, company, keyword">
+                <input type="text" class="select-map form-unit stylesheet" value="Australia"></input>
+                <input type="submit" class="button-submit form-unit stylesheet" value="Search"></input>
+            </form>
+        </div>
+        <div class="container-0">
+            <a href="/"><h1 class="stylesheet">seekcruit</h1></a>
+        </div>
+        <div class="container-3">
+            <div class="container-11">
+                <ul class="container-8 layout-100">
+                    <li class="work-type">
+                        <p class="text-1">Part time</p>
+                        <div class="arrow"></div>
+                    </li>
+                    <li class="paying-from">
+                        <p class="text-1"><span>paying</span>$0</p>
+                        <div class="arrow"></div>
+                    </li>
+                    <li class="paying-to">
+                        <p class="text-1"><span>to</span>$200k+</p>
+                        <div class="arrow"></div>
+                    </li>
+                    <li class="listed">
+                        <p class="text-1"><span>listed in</span>Last 7 days</p>
+                        <div class="arrow"></div>
+                    </li>
+                </ul>
+            </div>
+            <div class="container-9">
+                <ul class="container-10 layout-100">
+                    <li>Full time</li>
+                    <li>Casual/Vacation</li>
+                    <li>$0</li>
+                    <li>$100k</li>
+                    <li>$200k+</li>
+                    <li>Any time</li>
+                    <li>Today</li>
+                    <li>Last 14 days</li>
+                </ul>
+            </div>
+        </div>
+        <div class="button-mobile-search">
+            <div class="icon stylesheet"></div>
+        </div>
+        <div class="button-mobile-menu">
+            <div class="bar"></div>
+            <div class="bar"></div>
+            <div class="bar"></div>
+            <div class="bar"></div>
+            <div class="bar"></div>
+            <div class="bar"></div>
+            <div class="bar"></div>
+            <div class="bar"></div>
+            <div class="bar"></div>
+        </div>
+    </nav>
+@elseif (Route::has('job-search'))
+    <nav class="isPC">
+        <div class="container-0">
+            <a href="/"><h1 class="stylesheet">seekcruit</h1></a>
+            <div class="text-0">
+                <a class="isMypage">norah yoon</a>
+                <span class="stylesheet arrow"></span>
+                <span></span>
+                <a href="/employer">Sign out</a>
+                <div class="layer-menu-mypage">
+                    <div class="back-0"></div>
+                    <div class="back-1"></div>
+                    <div class="back-2"></div>
+                    <div class="container-5">
+                        <div class="portrait"></div>
+                        <p class="text-4">norah yoon</p>
+                    </div>
+                    <ul>
+                        <li><a href="">my profile</a></li>
+                        <li><a href="">my career</a></li>
+                        <li><a href="">application history</a></li>
+                        <li><a href="">suggested jobs</a></li>
+                        <li><a href="">resume archive</a></li>
+                    </ul>
+                    <a class="button-sign-out" href="">sign out</a>
+                </div>
+            </div>
+        </div>
+        <ul class="container-1 layout-100">
+            <li class="selected"><a href="">Job Search</a></li>
+            <li><a href="">Profile</a></li>
+            <li><a href="">Seekcruit Guide</a></li>
+            <li class="isMarket"><a>Market</a></li>
+            <li><a href="">Community</a></li>
+        </ul>
+        <div class="layer-menu-market">
+            <div class="back-0"></div>
+            <div class="back-1"></div>
+            <div class="back-2"></div>
+            <ul>
+                <li><a href="">Beauty and personal care</a></li>
+                <li><a href="">Health and Household</a></li>
+                <li><a href="">Tools & Home Improvement</a></li>
+            </ul>
+        </div>
+        <div class="container-2">
+            <form class="layout-100">
+                <button type="button" class="button-category form-unit stylesheet">All Categories<span class="icon stylesheet"></span></button>
+                <input type="text" name="keyword" class="input-keyword form-unit" placeholder="Job title, company, keyword">
+                <input type="text" class="select-map form-unit stylesheet" value="Australia"></input>
+                <input type="submit" class="button-submit form-unit stylesheet"></input>
+            </form>
+            <div class="layer-menu-category">
+                <div class="back-0"></div>
+                <div class="back-1"></div>
+                <div class="back-2"></div>
+                <div class="container-4">
+                    <ul class="depth-0 parent">
+                        <li class="depth-0 child">
+                            <div class="view-menu-category">
+                                <input type="checkbox" id="horns" name="horns">
+                                <label>Proffesionals</label>
+                            </div>
+                            <ul class="depth-1 parent">
+                                <li class="depth-1 child">
+                                    <div class="view-menu-category">
+                                        <input type="checkbox" id="horns" name="horns">
+                                        <label>Arts and Media Professionals</label>
+                                    </div>
+                                    <ul class="depth-2 parent">
+                                        <li class="depth-2 child">
+                                            <div class="view-menu-category">
+                                                <input type="checkbox" id="horns" name="horns">
+                                                <label>Business, Human Resource and Marketing Professionals</label>
+                                            </div>
+                                        </li>
+                                        <li class="depth-2 child">
+                                            <div class="view-menu-category">
+                                                <input type="checkbox" id="horns" name="horns">
+                                                <label>design, engineering, science and transport professionals</label>
+                                            </div>
+                                        </li>
+                                        <li class="depth-2 child">
+                                            <div class="view-menu-category">
+                                                <input type="checkbox" id="horns" name="horns">
+                                                <label>education professionals</label>
+                                            </div>
+                                        </li>
+                                    </ul>
+                                </li>
+                                <li class="depth-1 child">
+                                    <div class="view-menu-category">
+                                        <input type="checkbox" id="horns" name="horns">
+                                        <label>Arts and Media Professionals</label>
+                                    </div>
+                                    <ul class="depth-2 parent">
+                                        <li class="depth-2 child">
+                                            <div class="view-menu-category">
+                                                <input type="checkbox" id="horns" name="horns">
+                                                <label>Business, Human Resource and Marketing Professionals</label>
+                                            </div>
+                                        </li>
+                                        <li class="depth-2 child">
+                                            <div class="view-menu-category">
+                                                <input type="checkbox" id="horns" name="horns">
+                                                <label>design, engineering, science and transport professionals</label>
+                                            </div>
+                                        </li>
+                                        <li class="depth-2 child">
+                                            <div class="view-menu-category">
+                                                <input type="checkbox" id="horns" name="horns">
+                                                <label>education professionals</label>
+                                            </div>
+                                        </li>
+                                    </ul>
+                                </li>
+                                <li class="depth-1 child">
+                                    <div class="view-menu-category">
+                                        <input type="checkbox" id="horns" name="horns">
+                                        <label>Arts and Media Professionals</label>
+                                    </div>
+                                    <ul class="depth-2 parent">
+                                        <li class="depth-2 child">
+                                            <div class="view-menu-category">
+                                                <input type="checkbox" id="horns" name="horns">
+                                                <label>Business, Human Resource and Marketing Professionals</label>
+                                            </div>
+                                        </li>
+                                        <li class="depth-2 child">
+                                            <div class="view-menu-category">
+                                                <input type="checkbox" id="horns" name="horns">
+                                                <label>design, engineering, science and transport professionals</label>
+                                            </div>
+                                        </li>
+                                        <li class="depth-2 child">
+                                            <div class="view-menu-category">
+                                                <input type="checkbox" id="horns" name="horns">
+                                                <label>education professionals</label>
+                                            </div>
+                                        </li>
+                                    </ul>
+                                </li>
+                            </ul>
+                        </li>
+                        <li class="depth-0 child">
+                            <div class="view-menu-category">
+                                <input type="checkbox" id="horns" name="horns">
+                                <label>Proffesionals</label>
+                            </div>
+                            <ul class="depth-1 parent">
+                                <li class="depth-1 child">
+                                    <div class="view-menu-category">
+                                        <input type="checkbox" id="horns" name="horns">
+                                        <label>Arts and Media Professionals</label>
+                                    </div>
+                                    <ul class="depth-2 parent">
+                                        <li class="depth-2 child">
+                                            <div class="view-menu-category">
+                                                <input type="checkbox" id="horns" name="horns">
+                                                <label>Business, Human Resource and Marketing Professionals</label>
+                                            </div>
+                                        </li>
+                                        <li class="depth-2 child">
+                                            <div class="view-menu-category">
+                                                <input type="checkbox" id="horns" name="horns">
+                                                <label>design, engineering, science and transport professionals</label>
+                                            </div>
+                                        </li>
+                                        <li class="depth-2 child">
+                                            <div class="view-menu-category">
+                                                <input type="checkbox" id="horns" name="horns">
+                                                <label>education professionals</label>
+                                            </div>
+                                        </li>
+                                    </ul>
+                                </li>
+                                <li class="depth-1 child">
+                                    <div class="view-menu-category">
+                                        <input type="checkbox" id="horns" name="horns">
+                                        <label>Arts and Media Professionals</label>
+                                    </div>
+                                    <ul class="depth-2 parent">
+                                        <li class="depth-2 child">
+                                            <div class="view-menu-category">
+                                                <input type="checkbox" id="horns" name="horns">
+                                                <label>Business, Human Resource and Marketing Professionals</label>
+                                            </div>
+                                        </li>
+                                        <li class="depth-2 child">
+                                            <div class="view-menu-category">
+                                                <input type="checkbox" id="horns" name="horns">
+                                                <label>design, engineering, science and transport professionals</label>
+                                            </div>
+                                        </li>
+                                        <li class="depth-2 child">
+                                            <div class="view-menu-category">
+                                                <input type="checkbox" id="horns" name="horns">
+                                                <label>education professionals</label>
+                                            </div>
+                                        </li>
+                                    </ul>
+                                </li>
+                                <li class="depth-1 child">
+                                    <div class="view-menu-category">
+                                        <input type="checkbox" id="horns" name="horns">
+                                        <label>Arts and Media Professionals</label>
+                                    </div>
+                                    <ul class="depth-2 parent">
+                                        <li class="depth-2 child">
+                                            <div class="view-menu-category">
+                                                <input type="checkbox" id="horns" name="horns">
+                                                <label>Business, Human Resource and Marketing Professionals</label>
+                                            </div>
+                                        </li>
+                                        <li class="depth-2 child">
+                                            <div class="view-menu-category">
+                                                <input type="checkbox" id="horns" name="horns">
+                                                <label>design, engineering, science and transport professionals</label>
+                                            </div>
+                                        </li>
+                                        <li class="depth-2 child">
+                                            <div class="view-menu-category">
+                                                <input type="checkbox" id="horns" name="horns">
+                                                <label>education professionals</label>
+                                            </div>
+                                        </li>
+                                    </ul>
+                                </li>
+                            </ul>
+                        </li>
+                        <li class="depth-0 child">
+                            <div class="view-menu-category">
+                                <input type="checkbox" id="horns" name="horns">
+                                <label>Proffesionals</label>
+                            </div>
+                            <ul class="depth-1 parent">
+                                <li class="depth-1 child">
+                                    <div class="view-menu-category">
+                                        <input type="checkbox" id="horns" name="horns">
+                                        <label>Arts and Media Professionals</label>
+                                    </div>
+                                    <ul class="depth-2 parent">
+                                        <li class="depth-2 child">
+                                            <div class="view-menu-category">
+                                                <input type="checkbox" id="horns" name="horns">
+                                                <label>Business, Human Resource and Marketing Professionals</label>
+                                            </div>
+                                        </li>
+                                        <li class="depth-2 child">
+                                            <div class="view-menu-category">
+                                                <input type="checkbox" id="horns" name="horns">
+                                                <label>design, engineering, science and transport professionals</label>
+                                            </div>
+                                        </li>
+                                        <li class="depth-2 child">
+                                            <div class="view-menu-category">
+                                                <input type="checkbox" id="horns" name="horns">
+                                                <label>education professionals</label>
+                                            </div>
+                                        </li>
+                                    </ul>
+                                </li>
+                                <li class="depth-1 child">
+                                    <div class="view-menu-category">
+                                        <input type="checkbox" id="horns" name="horns">
+                                        <label>Arts and Media Professionals</label>
+                                    </div>
+                                    <ul class="depth-2 parent">
+                                        <li class="depth-2 child">
+                                            <div class="view-menu-category">
+                                                <input type="checkbox" id="horns" name="horns">
+                                                <label>Business, Human Resource and Marketing Professionals</label>
+                                            </div>
+                                        </li>
+                                        <li class="depth-2 child">
+                                            <div class="view-menu-category">
+                                                <input type="checkbox" id="horns" name="horns">
+                                                <label>design, engineering, science and transport professionals</label>
+                                            </div>
+                                        </li>
+                                        <li class="depth-2 child">
+                                            <div class="view-menu-category">
+                                                <input type="checkbox" id="horns" name="horns">
+                                                <label>education professionals</label>
+                                            </div>
+                                        </li>
+                                    </ul>
+                                </li>
+                                <li class="depth-1 child">
+                                    <div class="view-menu-category">
+                                        <input type="checkbox" id="horns" name="horns">
+                                        <label>Arts and Media Professionals</label>
+                                    </div>
+                                    <ul class="depth-2 parent">
+                                        <li class="depth-2 child">
+                                            <div class="view-menu-category">
+                                                <input type="checkbox" id="horns" name="horns">
+                                                <label>Business, Human Resource and Marketing Professionals</label>
+                                            </div>
+                                        </li>
+                                        <li class="depth-2 child">
+                                            <div class="view-menu-category">
+                                                <input type="checkbox" id="horns" name="horns">
+                                                <label>design, engineering, science and transport professionals</label>
+                                            </div>
+                                        </li>
+                                        <li class="depth-2 child">
+                                            <div class="view-menu-category">
+                                                <input type="checkbox" id="horns" name="horns">
+                                                <label>education professionals</label>
+                                            </div>
+                                        </li>
+                                    </ul>
+                                </li>
+                            </ul>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+        <div class="container-3">
+            <div class="container-11">
+                <ul class="container-8 layout-100">
+                    <li class="work-type">
+                        <p class="text-1">Part time</p>
+                        <div class="arrow"></div>
+                    </li>
+                    <li class="paying-from">
+                        <p class="text-1"><span>paying</span>$0</p>
+                        <div class="arrow"></div>
+                    </li>
+                    <li class="paying-to">
+                        <p class="text-1"><span>to</span>$200k+</p>
+                        <div class="arrow"></div>
+                    </li>
+                    <li class="listed">
+                        <p class="text-1"><span>listed in</span>Last 7 days</p>
+                        <div class="arrow"></div>
+                    </li>
+                </ul>
+            </div>
+            <div class="container-9">
+                <ul class="container-10 layout-100">
+                    <li>Full time</li>
+                    <li>Casual/Vacation</li>
+                    <li>$0</li>
+                    <li>$100k</li>
+                    <li>$200k+</li>
+                    <li>Any time</li>
+                    <li>Today</li>
+                    <li>Last 14 days</li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+    <nav class="isMobile">
+        <div class="image-back-drop"></div>
+        <ul class="container-5">
+            <li class="portrait"><a href=""></a></li>
+            <li class="outside"><a href="">My Profile</a></li>
+            <li class="outside"><a href="">My Account</a></li>
+            <li class="underline"></li>
+            <li class="selected"><a href="">Job Search</a></li>
+            <li><a href="">Seekcruit Guide</a></li>
+            <li class="isMarket"><a>Market</a></li>
+            <li><a href="">Community</a></li>
+            <li class="underline"></li>
+            <li class="outside"><a href="">Sign out</a></li>
+            <li class="underline"></li>
+            <li class="outside"><a href="">Advertiser page</a></li>
+        </ul>
+        <div class="container-6">
+            <form class="layer-menu-category">
+                <div class="container-7">
+                    <ul class="depth-0 parent">
+                        <li class="depth-0 child">
+                            <div class="view-menu-category">
+                                <input type="checkbox" id="horns" name="horns">
+                                <label>Proffesionals</label>
+                            </div>
+                            <ul class="depth-1 parent">
+                                <li class="depth-1 child">
+                                    <div class="view-menu-category">
+                                        <input type="checkbox" id="horns" name="horns">
+                                        <label>Arts and Media Professionals</label>
+                                    </div>
+                                    <ul class="depth-2 parent">
+                                        <li class="depth-2 child">
+                                            <div class="view-menu-category">
+                                                <input type="checkbox" id="horns" name="horns">
+                                                <label>Business, Human Resource and Marketing Professionals</label>
+                                            </div>
+                                        </li>
+                                        <li class="depth-2 child">
+                                            <div class="view-menu-category">
+                                                <input type="checkbox" id="horns" name="horns">
+                                                <label>design, engineering, science and transport professionals</label>
+                                            </div>
+                                        </li>
+                                        <li class="depth-2 child">
+                                            <div class="view-menu-category">
+                                                <input type="checkbox" id="horns" name="horns">
+                                                <label>education professionals</label>
+                                            </div>
+                                        </li>
+                                    </ul>
+                                </li>
+                                <li class="depth-1 child">
+                                    <div class="view-menu-category">
+                                        <input type="checkbox" id="horns" name="horns">
+                                        <label>Arts and Media Professionals</label>
+                                    </div>
+                                    <ul class="depth-2 parent">
+                                        <li class="depth-2 child">
+                                            <div class="view-menu-category">
+                                                <input type="checkbox" id="horns" name="horns">
+                                                <label>Business, Human Resource and Marketing Professionals</label>
+                                            </div>
+                                        </li>
+                                        <li class="depth-2 child">
+                                            <div class="view-menu-category">
+                                                <input type="checkbox" id="horns" name="horns">
+                                                <label>design, engineering, science and transport professionals</label>
+                                            </div>
+                                        </li>
+                                        <li class="depth-2 child">
+                                            <div class="view-menu-category">
+                                                <input type="checkbox" id="horns" name="horns">
+                                                <label>education professionals</label>
+                                            </div>
+                                        </li>
+                                    </ul>
+                                </li>
+                                <li class="depth-1 child">
+                                    <div class="view-menu-category">
+                                        <input type="checkbox" id="horns" name="horns">
+                                        <label>Arts and Media Professionals</label>
+                                    </div>
+                                    <ul class="depth-2 parent">
+                                        <li class="depth-2 child">
+                                            <div class="view-menu-category">
+                                                <input type="checkbox" id="horns" name="horns">
+                                                <label>Business, Human Resource and Marketing Professionals</label>
+                                            </div>
+                                        </li>
+                                        <li class="depth-2 child">
+                                            <div class="view-menu-category">
+                                                <input type="checkbox" id="horns" name="horns">
+                                                <label>design, engineering, science and transport professionals</label>
+                                            </div>
+                                        </li>
+                                        <li class="depth-2 child">
+                                            <div class="view-menu-category">
+                                                <input type="checkbox" id="horns" name="horns">
+                                                <label>education professionals</label>
+                                            </div>
+                                        </li>
+                                    </ul>
+                                </li>
+                            </ul>
+                        </li>
+                        <li class="depth-0 child">
+                            <div class="view-menu-category">
+                                <input type="checkbox" id="horns" name="horns">
+                                <label>Proffesionals</label>
+                            </div>
+                            <ul class="depth-1 parent">
+                                <li class="depth-1 child">
+                                    <div class="view-menu-category">
+                                        <input type="checkbox" id="horns" name="horns">
+                                        <label>Arts and Media Professionals</label>
+                                    </div>
+                                    <ul class="depth-2 parent">
+                                        <li class="depth-2 child">
+                                            <div class="view-menu-category">
+                                                <input type="checkbox" id="horns" name="horns">
+                                                <label>Business, Human Resource and Marketing Professionals</label>
+                                            </div>
+                                        </li>
+                                        <li class="depth-2 child">
+                                            <div class="view-menu-category">
+                                                <input type="checkbox" id="horns" name="horns">
+                                                <label>design, engineering, science and transport professionals</label>
+                                            </div>
+                                        </li>
+                                        <li class="depth-2 child">
+                                            <div class="view-menu-category">
+                                                <input type="checkbox" id="horns" name="horns">
+                                                <label>education professionals</label>
+                                            </div>
+                                        </li>
+                                    </ul>
+                                </li>
+                                <li class="depth-1 child">
+                                    <div class="view-menu-category">
+                                        <input type="checkbox" id="horns" name="horns">
+                                        <label>Arts and Media Professionals</label>
+                                    </div>
+                                    <ul class="depth-2 parent">
+                                        <li class="depth-2 child">
+                                            <div class="view-menu-category">
+                                                <input type="checkbox" id="horns" name="horns">
+                                                <label>Business, Human Resource and Marketing Professionals</label>
+                                            </div>
+                                        </li>
+                                        <li class="depth-2 child">
+                                            <div class="view-menu-category">
+                                                <input type="checkbox" id="horns" name="horns">
+                                                <label>design, engineering, science and transport professionals</label>
+                                            </div>
+                                        </li>
+                                        <li class="depth-2 child">
+                                            <div class="view-menu-category">
+                                                <input type="checkbox" id="horns" name="horns">
+                                                <label>education professionals</label>
+                                            </div>
+                                        </li>
+                                    </ul>
+                                </li>
+                                <li class="depth-1 child">
+                                    <div class="view-menu-category">
+                                        <input type="checkbox" id="horns" name="horns">
+                                        <label>Arts and Media Professionals</label>
+                                    </div>
+                                    <ul class="depth-2 parent">
+                                        <li class="depth-2 child">
+                                            <div class="view-menu-category">
+                                                <input type="checkbox" id="horns" name="horns">
+                                                <label>Business, Human Resource and Marketing Professionals</label>
+                                            </div>
+                                        </li>
+                                        <li class="depth-2 child">
+                                            <div class="view-menu-category">
+                                                <input type="checkbox" id="horns" name="horns">
+                                                <label>design, engineering, science and transport professionals</label>
+                                            </div>
+                                        </li>
+                                        <li class="depth-2 child">
+                                            <div class="view-menu-category">
+                                                <input type="checkbox" id="horns" name="horns">
+                                                <label>education professionals</label>
+                                            </div>
+                                        </li>
+                                    </ul>
+                                </li>
+                            </ul>
+                        </li>
+                        <li class="depth-0 child">
+                            <div class="view-menu-category">
+                                <input type="checkbox" id="horns" name="horns">
+                                <label>Proffesionals</label>
+                            </div>
+                            <ul class="depth-1 parent">
+                                <li class="depth-1 child">
+                                    <div class="view-menu-category">
+                                        <input type="checkbox" id="horns" name="horns">
+                                        <label>Arts and Media Professionals</label>
+                                    </div>
+                                    <ul class="depth-2 parent">
+                                        <li class="depth-2 child">
+                                            <div class="view-menu-category">
+                                                <input type="checkbox" id="horns" name="horns">
+                                                <label>Business, Human Resource and Marketing Professionals</label>
+                                            </div>
+                                        </li>
+                                        <li class="depth-2 child">
+                                            <div class="view-menu-category">
+                                                <input type="checkbox" id="horns" name="horns">
+                                                <label>design, engineering, science and transport professionals</label>
+                                            </div>
+                                        </li>
+                                        <li class="depth-2 child">
+                                            <div class="view-menu-category">
+                                                <input type="checkbox" id="horns" name="horns">
+                                                <label>education professionals</label>
+                                            </div>
+                                        </li>
+                                    </ul>
+                                </li>
+                                <li class="depth-1 child">
+                                    <div class="view-menu-category">
+                                        <input type="checkbox" id="horns" name="horns">
+                                        <label>Arts and Media Professionals</label>
+                                    </div>
+                                    <ul class="depth-2 parent">
+                                        <li class="depth-2 child">
+                                            <div class="view-menu-category">
+                                                <input type="checkbox" id="horns" name="horns">
+                                                <label>Business, Human Resource and Marketing Professionals</label>
+                                            </div>
+                                        </li>
+                                        <li class="depth-2 child">
+                                            <div class="view-menu-category">
+                                                <input type="checkbox" id="horns" name="horns">
+                                                <label>design, engineering, science and transport professionals</label>
+                                            </div>
+                                        </li>
+                                        <li class="depth-2 child">
+                                            <div class="view-menu-category">
+                                                <input type="checkbox" id="horns" name="horns">
+                                                <label>education professionals</label>
+                                            </div>
+                                        </li>
+                                    </ul>
+                                </li>
+                                <li class="depth-1 child">
+                                    <div class="view-menu-category">
+                                        <input type="checkbox" id="horns" name="horns">
+                                        <label>Arts and Media Professionals</label>
+                                    </div>
+                                    <ul class="depth-2 parent">
+                                        <li class="depth-2 child">
+                                            <div class="view-menu-category">
+                                                <input type="checkbox" id="horns" name="horns">
+                                                <label>Business, Human Resource and Marketing Professionals</label>
+                                            </div>
+                                        </li>
+                                        <li class="depth-2 child">
+                                            <div class="view-menu-category">
+                                                <input type="checkbox" id="horns" name="horns">
+                                                <label>design, engineering, science and transport professionals</label>
+                                            </div>
+                                        </li>
+                                        <li class="depth-2 child">
+                                            <div class="view-menu-category">
+                                                <input type="checkbox" id="horns" name="horns">
+                                                <label>education professionals</label>
+                                            </div>
+                                        </li>
+                                    </ul>
+                                </li>
+                            </ul>
+                        </li>
+                    </ul>
+                </div>
+                <input type="text" name="keyword" class="input-keyword form-unit" placeholder="Job title, company, keyword">
+                <input type="text" class="select-map form-unit stylesheet" value="Australia"></input>
+                <input type="submit" class="button-submit form-unit stylesheet" value="Search"></input>
+            </form>
+        </div>
+        <div class="container-0">
+            <a href="/"><h1 class="stylesheet">seekcruit</h1></a>
+        </div>
+        <div class="container-3">
+            <div class="container-11">
+                <ul class="container-8 layout-100">
+                    <li class="work-type">
+                        <p class="text-1">Part time</p>
+                        <div class="arrow"></div>
+                    </li>
+                    <li class="paying-from">
+                        <p class="text-1"><span>paying</span>$0</p>
+                        <div class="arrow"></div>
+                    </li>
+                    <li class="paying-to">
+                        <p class="text-1"><span>to</span>$200k+</p>
+                        <div class="arrow"></div>
+                    </li>
+                    <li class="listed">
+                        <p class="text-1"><span>listed in</span>Last 7 days</p>
+                        <div class="arrow"></div>
+                    </li>
+                </ul>
+            </div>
+            <div class="container-9">
+                <ul class="container-10 layout-100">
+                    <li>Full time</li>
+                    <li>Casual/Vacation</li>
+                    <li>$0</li>
+                    <li>$100k</li>
+                    <li>$200k+</li>
+                    <li>Any time</li>
+                    <li>Today</li>
+                    <li>Last 14 days</li>
+                </ul>
+            </div>
+        </div>
+        <div class="button-mobile-search">
+            <div class="icon stylesheet"></div>
+        </div>
+        <div class="button-mobile-menu">
+            <div class="bar"></div>
+            <div class="bar"></div>
+            <div class="bar"></div>
+            <div class="bar"></div>
+            <div class="bar"></div>
+            <div class="bar"></div>
+            <div class="bar"></div>
+            <div class="bar"></div>
+            <div class="bar"></div>
+        </div>
+    </nav>
+    <nav class="isMobileMap">
+        <div class="image-map-back isAnimating"></div>
+        <div class="image-map-back isAnimating-2"></div>
+        <div class="container-6">
+            <form class="layer-menu-category">
+                <div class="container-7">
+                    <ul class="depth-0 parent">
+                        <li class="depth-0 child">
+                            <div class="view-menu-category">
+                                <input type="checkbox" id="horns" name="horns">
+                                <label>Proffesionals</label>
+                            </div>
+                            <ul class="depth-1 parent">
+                                <li class="depth-1 child">
+                                    <div class="view-menu-category">
+                                        <input type="checkbox" id="horns" name="horns">
+                                        <label>Arts and Media Professionals</label>
+                                    </div>
+                                    <ul class="depth-2 parent">
+                                        <li class="depth-2 child">
+                                            <div class="view-menu-category">
+                                                <input type="checkbox" id="horns" name="horns">
+                                                <label>Business, Human Resource and Marketing Professionals</label>
+                                            </div>
+                                        </li>
+                                        <li class="depth-2 child">
+                                            <div class="view-menu-category">
+                                                <input type="checkbox" id="horns" name="horns">
+                                                <label>design, engineering, science and transport professionals</label>
+                                            </div>
+                                        </li>
+                                        <li class="depth-2 child">
+                                            <div class="view-menu-category">
+                                                <input type="checkbox" id="horns" name="horns">
+                                                <label>education professionals</label>
+                                            </div>
+                                        </li>
+                                    </ul>
+                                </li>
+                                <li class="depth-1 child">
+                                    <div class="view-menu-category">
+                                        <input type="checkbox" id="horns" name="horns">
+                                        <label>Arts and Media Professionals</label>
+                                    </div>
+                                    <ul class="depth-2 parent">
+                                        <li class="depth-2 child">
+                                            <div class="view-menu-category">
+                                                <input type="checkbox" id="horns" name="horns">
+                                                <label>Business, Human Resource and Marketing Professionals</label>
+                                            </div>
+                                        </li>
+                                        <li class="depth-2 child">
+                                            <div class="view-menu-category">
+                                                <input type="checkbox" id="horns" name="horns">
+                                                <label>design, engineering, science and transport professionals</label>
+                                            </div>
+                                        </li>
+                                        <li class="depth-2 child">
+                                            <div class="view-menu-category">
+                                                <input type="checkbox" id="horns" name="horns">
+                                                <label>education professionals</label>
+                                            </div>
+                                        </li>
+                                    </ul>
+                                </li>
+                                <li class="depth-1 child">
+                                    <div class="view-menu-category">
+                                        <input type="checkbox" id="horns" name="horns">
+                                        <label>Arts and Media Professionals</label>
+                                    </div>
+                                    <ul class="depth-2 parent">
+                                        <li class="depth-2 child">
+                                            <div class="view-menu-category">
+                                                <input type="checkbox" id="horns" name="horns">
+                                                <label>Business, Human Resource and Marketing Professionals</label>
+                                            </div>
+                                        </li>
+                                        <li class="depth-2 child">
+                                            <div class="view-menu-category">
+                                                <input type="checkbox" id="horns" name="horns">
+                                                <label>design, engineering, science and transport professionals</label>
+                                            </div>
+                                        </li>
+                                        <li class="depth-2 child">
+                                            <div class="view-menu-category">
+                                                <input type="checkbox" id="horns" name="horns">
+                                                <label>education professionals</label>
+                                            </div>
+                                        </li>
+                                    </ul>
+                                </li>
+                            </ul>
+                        </li>
+                        <li class="depth-0 child">
+                            <div class="view-menu-category">
+                                <input type="checkbox" id="horns" name="horns">
+                                <label>Proffesionals</label>
+                            </div>
+                            <ul class="depth-1 parent">
+                                <li class="depth-1 child">
+                                    <div class="view-menu-category">
+                                        <input type="checkbox" id="horns" name="horns">
+                                        <label>Arts and Media Professionals</label>
+                                    </div>
+                                    <ul class="depth-2 parent">
+                                        <li class="depth-2 child">
+                                            <div class="view-menu-category">
+                                                <input type="checkbox" id="horns" name="horns">
+                                                <label>Business, Human Resource and Marketing Professionals</label>
+                                            </div>
+                                        </li>
+                                        <li class="depth-2 child">
+                                            <div class="view-menu-category">
+                                                <input type="checkbox" id="horns" name="horns">
+                                                <label>design, engineering, science and transport professionals</label>
+                                            </div>
+                                        </li>
+                                        <li class="depth-2 child">
+                                            <div class="view-menu-category">
+                                                <input type="checkbox" id="horns" name="horns">
+                                                <label>education professionals</label>
+                                            </div>
+                                        </li>
+                                    </ul>
+                                </li>
+                                <li class="depth-1 child">
+                                    <div class="view-menu-category">
+                                        <input type="checkbox" id="horns" name="horns">
+                                        <label>Arts and Media Professionals</label>
+                                    </div>
+                                    <ul class="depth-2 parent">
+                                        <li class="depth-2 child">
+                                            <div class="view-menu-category">
+                                                <input type="checkbox" id="horns" name="horns">
+                                                <label>Business, Human Resource and Marketing Professionals</label>
+                                            </div>
+                                        </li>
+                                        <li class="depth-2 child">
+                                            <div class="view-menu-category">
+                                                <input type="checkbox" id="horns" name="horns">
+                                                <label>design, engineering, science and transport professionals</label>
+                                            </div>
+                                        </li>
+                                        <li class="depth-2 child">
+                                            <div class="view-menu-category">
+                                                <input type="checkbox" id="horns" name="horns">
+                                                <label>education professionals</label>
+                                            </div>
+                                        </li>
+                                    </ul>
+                                </li>
+                                <li class="depth-1 child">
+                                    <div class="view-menu-category">
+                                        <input type="checkbox" id="horns" name="horns">
+                                        <label>Arts and Media Professionals</label>
+                                    </div>
+                                    <ul class="depth-2 parent">
+                                        <li class="depth-2 child">
+                                            <div class="view-menu-category">
+                                                <input type="checkbox" id="horns" name="horns">
+                                                <label>Business, Human Resource and Marketing Professionals</label>
+                                            </div>
+                                        </li>
+                                        <li class="depth-2 child">
+                                            <div class="view-menu-category">
+                                                <input type="checkbox" id="horns" name="horns">
+                                                <label>design, engineering, science and transport professionals</label>
+                                            </div>
+                                        </li>
+                                        <li class="depth-2 child">
+                                            <div class="view-menu-category">
+                                                <input type="checkbox" id="horns" name="horns">
+                                                <label>education professionals</label>
+                                            </div>
+                                        </li>
+                                    </ul>
+                                </li>
+                            </ul>
+                        </li>
+                        <li class="depth-0 child">
+                            <div class="view-menu-category">
+                                <input type="checkbox" id="horns" name="horns">
+                                <label>Proffesionals</label>
+                            </div>
+                            <ul class="depth-1 parent">
+                                <li class="depth-1 child">
+                                    <div class="view-menu-category">
+                                        <input type="checkbox" id="horns" name="horns">
+                                        <label>Arts and Media Professionals</label>
+                                    </div>
+                                    <ul class="depth-2 parent">
+                                        <li class="depth-2 child">
+                                            <div class="view-menu-category">
+                                                <input type="checkbox" id="horns" name="horns">
+                                                <label>Business, Human Resource and Marketing Professionals</label>
+                                            </div>
+                                        </li>
+                                        <li class="depth-2 child">
+                                            <div class="view-menu-category">
+                                                <input type="checkbox" id="horns" name="horns">
+                                                <label>design, engineering, science and transport professionals</label>
+                                            </div>
+                                        </li>
+                                        <li class="depth-2 child">
+                                            <div class="view-menu-category">
+                                                <input type="checkbox" id="horns" name="horns">
+                                                <label>education professionals</label>
+                                            </div>
+                                        </li>
+                                    </ul>
+                                </li>
+                                <li class="depth-1 child">
+                                    <div class="view-menu-category">
+                                        <input type="checkbox" id="horns" name="horns">
+                                        <label>Arts and Media Professionals</label>
+                                    </div>
+                                    <ul class="depth-2 parent">
+                                        <li class="depth-2 child">
+                                            <div class="view-menu-category">
+                                                <input type="checkbox" id="horns" name="horns">
+                                                <label>Business, Human Resource and Marketing Professionals</label>
+                                            </div>
+                                        </li>
+                                        <li class="depth-2 child">
+                                            <div class="view-menu-category">
+                                                <input type="checkbox" id="horns" name="horns">
+                                                <label>design, engineering, science and transport professionals</label>
+                                            </div>
+                                        </li>
+                                        <li class="depth-2 child">
+                                            <div class="view-menu-category">
+                                                <input type="checkbox" id="horns" name="horns">
+                                                <label>education professionals</label>
+                                            </div>
+                                        </li>
+                                    </ul>
+                                </li>
+                                <li class="depth-1 child">
+                                    <div class="view-menu-category">
+                                        <input type="checkbox" id="horns" name="horns">
+                                        <label>Arts and Media Professionals</label>
+                                    </div>
+                                    <ul class="depth-2 parent">
+                                        <li class="depth-2 child">
+                                            <div class="view-menu-category">
+                                                <input type="checkbox" id="horns" name="horns">
+                                                <label>Business, Human Resource and Marketing Professionals</label>
+                                            </div>
+                                        </li>
+                                        <li class="depth-2 child">
+                                            <div class="view-menu-category">
+                                                <input type="checkbox" id="horns" name="horns">
+                                                <label>design, engineering, science and transport professionals</label>
+                                            </div>
+                                        </li>
+                                        <li class="depth-2 child">
+                                            <div class="view-menu-category">
+                                                <input type="checkbox" id="horns" name="horns">
+                                                <label>education professionals</label>
+                                            </div>
+                                        </li>
+                                    </ul>
+                                </li>
+                            </ul>
+                        </li>
+                    </ul>
+                </div>
+                <input type="text" name="keyword" class="input-keyword form-unit" placeholder="Job title, company, keyword">
+                <input type="text" class="select-map form-unit stylesheet" value="Australia"></input>
+                <input type="submit" class="button-submit form-unit stylesheet" value="Search"></input>
+            </form>
+        </div>
+        <ul class="container-5">
+            <li class="portrait"><a href=""></a></li>
+            <li class="outside"><a href="">My Profile</a></li>
+            <li class="outside"><a href="">My Account</a></li>
+            <li class="underline"></li>
+            <li class="selected"><a href="">Job Search</a></li>
+            <li><a href="">Seekcruit Guide</a></li>
+            <li class="isMarket"><a>Market</a></li>
+            <li><a href="">Community</a></li>
+            <li class="underline"></li>
+            <li class="outside"><a href="">Sign out</a></li>
+            <li class="underline"></li>
+            <li class="outside"><a href="">Advertiser page</a></li>
+        </ul>
+        <div class="image-map-back"></div>
+        <div class="button-mobile-search">
+            <p class="text-0 stylesheet">Australia</p>
+            <div class="icon stylesheet"></div>
+        </div>
+        <div class="button-mobile-menu">
+            <div class="bar"></div>
+            <div class="bar"></div>
+            <div class="bar"></div>
+            <div class="bar"></div>
+            <div class="bar"></div>
+            <div class="bar"></div>
+            <div class="bar"></div>
+            <div class="bar"></div>
+            <div class="bar"></div>
+        </div>
+    </nav>
+@elseif (Route::has('job-seeker-my-page'))
+    <nav class="my-page-job-seeker-nav">
+        <div class="container-0">
+            <a href="/"><h1 class="stylesheet">seekcruit</h1></a>
+            <p class="text-0">
+                <a href="/login">nora yoon<span></span>
+                <a href="#">Sign out</a>
+            </p>
+        </div>
+        <ul class="container-1 layout-100">
+            <li><a href="">Job Search</a></li>
+            <li class="selected"><a href="">Profile</a></li>
+            <li><a href="">Seekcruit Guide</a></li>
+            <li><a href="">Market</a></li>
+            <li><a href="">Community</a></li>
+        </ul>
+    </nav>
+@elseif (Route::has('job-seeker-sign-in'))
+    <nav class="loginPage_nav">
+        <a href="/"><h1 class="stylesheet">seekcruit</h1></a>
+    </nav>
+    <nav class="isMobile login-nav-mobile">
+        <div class="image-back-drop"></div>
+        <div class="container-0">
+            <a href="/"><h1 class="stylesheet">seekcruit</h1></a>
+        </div>
+        <ul class="container-5">
+            <li class="selected"><a href="">Job Search</a></li>
+            <li><a href="">Profile</a></li>
+            <li><a href="">Seekcruit Guide</a></li>
+            <li class="isMarket"><a>Market</a></li>
+            <li><a href="">Community</a></li>
+            <li class="underline"></li>
+            <li class="outside"><a href="">Sign in or Register</a></li>
+            <li class="outside"><a href="">Employer site</a></li>
+            <li class="underline"></li>
+            <li class="outside"><a href="">Advertiser page</a></li>
+        </ul>
+        <div class="container-6">
+            <form class="layer-menu-category">
+                <div class="container-7">
+                    <ul class="depth-0 parent">
+                        <li class="depth-0 child">
+                            <div class="view-menu-category">
+                                <input type="checkbox" id="horns" name="horns">
+                                <label>Proffesionals</label>
+                            </div>
+                            <ul class="depth-1 parent">
+                                <li class="depth-1 child">
+                                    <div class="view-menu-category">
+                                        <input type="checkbox" id="horns" name="horns">
+                                        <label>Arts and Media Professionals</label>
+                                    </div>
+                                    <ul class="depth-2 parent">
+                                        <li class="depth-2 child">
+                                            <div class="view-menu-category">
+                                                <input type="checkbox" id="horns" name="horns">
+                                                <label>Business, Human Resource and Marketing Professionals</label>
+                                            </div>
+                                        </li>
+                                        <li class="depth-2 child">
+                                            <div class="view-menu-category">
+                                                <input type="checkbox" id="horns" name="horns">
+                                                <label>design, engineering, science and transport professionals</label>
+                                            </div>
+                                        </li>
+                                        <li class="depth-2 child">
+                                            <div class="view-menu-category">
+                                                <input type="checkbox" id="horns" name="horns">
+                                                <label>education professionals</label>
+                                            </div>
+                                        </li>
+                                    </ul>
+                                </li>
+                                <li class="depth-1 child">
+                                    <div class="view-menu-category">
+                                        <input type="checkbox" id="horns" name="horns">
+                                        <label>Arts and Media Professionals</label>
+                                    </div>
+                                    <ul class="depth-2 parent">
+                                        <li class="depth-2 child">
+                                            <div class="view-menu-category">
+                                                <input type="checkbox" id="horns" name="horns">
+                                                <label>Business, Human Resource and Marketing Professionals</label>
+                                            </div>
+                                        </li>
+                                        <li class="depth-2 child">
+                                            <div class="view-menu-category">
+                                                <input type="checkbox" id="horns" name="horns">
+                                                <label>design, engineering, science and transport professionals</label>
+                                            </div>
+                                        </li>
+                                        <li class="depth-2 child">
+                                            <div class="view-menu-category">
+                                                <input type="checkbox" id="horns" name="horns">
+                                                <label>education professionals</label>
+                                            </div>
+                                        </li>
+                                    </ul>
+                                </li>
+                                <li class="depth-1 child">
+                                    <div class="view-menu-category">
+                                        <input type="checkbox" id="horns" name="horns">
+                                        <label>Arts and Media Professionals</label>
+                                    </div>
+                                    <ul class="depth-2 parent">
+                                        <li class="depth-2 child">
+                                            <div class="view-menu-category">
+                                                <input type="checkbox" id="horns" name="horns">
+                                                <label>Business, Human Resource and Marketing Professionals</label>
+                                            </div>
+                                        </li>
+                                        <li class="depth-2 child">
+                                            <div class="view-menu-category">
+                                                <input type="checkbox" id="horns" name="horns">
+                                                <label>design, engineering, science and transport professionals</label>
+                                            </div>
+                                        </li>
+                                        <li class="depth-2 child">
+                                            <div class="view-menu-category">
+                                                <input type="checkbox" id="horns" name="horns">
+                                                <label>education professionals</label>
+                                            </div>
+                                        </li>
+                                    </ul>
+                                </li>
+                            </ul>
+                        </li>
+                        <li class="depth-0 child">
+                            <div class="view-menu-category">
+                                <input type="checkbox" id="horns" name="horns">
+                                <label>Proffesionals</label>
+                            </div>
+                            <ul class="depth-1 parent">
+                                <li class="depth-1 child">
+                                    <div class="view-menu-category">
+                                        <input type="checkbox" id="horns" name="horns">
+                                        <label>Arts and Media Professionals</label>
+                                    </div>
+                                    <ul class="depth-2 parent">
+                                        <li class="depth-2 child">
+                                            <div class="view-menu-category">
+                                                <input type="checkbox" id="horns" name="horns">
+                                                <label>Business, Human Resource and Marketing Professionals</label>
+                                            </div>
+                                        </li>
+                                        <li class="depth-2 child">
+                                            <div class="view-menu-category">
+                                                <input type="checkbox" id="horns" name="horns">
+                                                <label>design, engineering, science and transport professionals</label>
+                                            </div>
+                                        </li>
+                                        <li class="depth-2 child">
+                                            <div class="view-menu-category">
+                                                <input type="checkbox" id="horns" name="horns">
+                                                <label>education professionals</label>
+                                            </div>
+                                        </li>
+                                    </ul>
+                                </li>
+                                <li class="depth-1 child">
+                                    <div class="view-menu-category">
+                                        <input type="checkbox" id="horns" name="horns">
+                                        <label>Arts and Media Professionals</label>
+                                    </div>
+                                    <ul class="depth-2 parent">
+                                        <li class="depth-2 child">
+                                            <div class="view-menu-category">
+                                                <input type="checkbox" id="horns" name="horns">
+                                                <label>Business, Human Resource and Marketing Professionals</label>
+                                            </div>
+                                        </li>
+                                        <li class="depth-2 child">
+                                            <div class="view-menu-category">
+                                                <input type="checkbox" id="horns" name="horns">
+                                                <label>design, engineering, science and transport professionals</label>
+                                            </div>
+                                        </li>
+                                        <li class="depth-2 child">
+                                            <div class="view-menu-category">
+                                                <input type="checkbox" id="horns" name="horns">
+                                                <label>education professionals</label>
+                                            </div>
+                                        </li>
+                                    </ul>
+                                </li>
+                                <li class="depth-1 child">
+                                    <div class="view-menu-category">
+                                        <input type="checkbox" id="horns" name="horns">
+                                        <label>Arts and Media Professionals</label>
+                                    </div>
+                                    <ul class="depth-2 parent">
+                                        <li class="depth-2 child">
+                                            <div class="view-menu-category">
+                                                <input type="checkbox" id="horns" name="horns">
+                                                <label>Business, Human Resource and Marketing Professionals</label>
+                                            </div>
+                                        </li>
+                                        <li class="depth-2 child">
+                                            <div class="view-menu-category">
+                                                <input type="checkbox" id="horns" name="horns">
+                                                <label>design, engineering, science and transport professionals</label>
+                                            </div>
+                                        </li>
+                                        <li class="depth-2 child">
+                                            <div class="view-menu-category">
+                                                <input type="checkbox" id="horns" name="horns">
+                                                <label>education professionals</label>
+                                            </div>
+                                        </li>
+                                    </ul>
+                                </li>
+                            </ul>
+                        </li>
+                        <li class="depth-0 child">
+                            <div class="view-menu-category">
+                                <input type="checkbox" id="horns" name="horns">
+                                <label>Proffesionals</label>
+                            </div>
+                            <ul class="depth-1 parent">
+                                <li class="depth-1 child">
+                                    <div class="view-menu-category">
+                                        <input type="checkbox" id="horns" name="horns">
+                                        <label>Arts and Media Professionals</label>
+                                    </div>
+                                    <ul class="depth-2 parent">
+                                        <li class="depth-2 child">
+                                            <div class="view-menu-category">
+                                                <input type="checkbox" id="horns" name="horns">
+                                                <label>Business, Human Resource and Marketing Professionals</label>
+                                            </div>
+                                        </li>
+                                        <li class="depth-2 child">
+                                            <div class="view-menu-category">
+                                                <input type="checkbox" id="horns" name="horns">
+                                                <label>design, engineering, science and transport professionals</label>
+                                            </div>
+                                        </li>
+                                        <li class="depth-2 child">
+                                            <div class="view-menu-category">
+                                                <input type="checkbox" id="horns" name="horns">
+                                                <label>education professionals</label>
+                                            </div>
+                                        </li>
+                                    </ul>
+                                </li>
+                                <li class="depth-1 child">
+                                    <div class="view-menu-category">
+                                        <input type="checkbox" id="horns" name="horns">
+                                        <label>Arts and Media Professionals</label>
+                                    </div>
+                                    <ul class="depth-2 parent">
+                                        <li class="depth-2 child">
+                                            <div class="view-menu-category">
+                                                <input type="checkbox" id="horns" name="horns">
+                                                <label>Business, Human Resource and Marketing Professionals</label>
+                                            </div>
+                                        </li>
+                                        <li class="depth-2 child">
+                                            <div class="view-menu-category">
+                                                <input type="checkbox" id="horns" name="horns">
+                                                <label>design, engineering, science and transport professionals</label>
+                                            </div>
+                                        </li>
+                                        <li class="depth-2 child">
+                                            <div class="view-menu-category">
+                                                <input type="checkbox" id="horns" name="horns">
+                                                <label>education professionals</label>
+                                            </div>
+                                        </li>
+                                    </ul>
+                                </li>
+                                <li class="depth-1 child">
+                                    <div class="view-menu-category">
+                                        <input type="checkbox" id="horns" name="horns">
+                                        <label>Arts and Media Professionals</label>
+                                    </div>
+                                    <ul class="depth-2 parent">
+                                        <li class="depth-2 child">
+                                            <div class="view-menu-category">
+                                                <input type="checkbox" id="horns" name="horns">
+                                                <label>Business, Human Resource and Marketing Professionals</label>
+                                            </div>
+                                        </li>
+                                        <li class="depth-2 child">
+                                            <div class="view-menu-category">
+                                                <input type="checkbox" id="horns" name="horns">
+                                                <label>design, engineering, science and transport professionals</label>
+                                            </div>
+                                        </li>
+                                        <li class="depth-2 child">
+                                            <div class="view-menu-category">
+                                                <input type="checkbox" id="horns" name="horns">
+                                                <label>education professionals</label>
+                                            </div>
+                                        </li>
+                                    </ul>
+                                </li>
+                            </ul>
+                        </li>
+                    </ul>
+                </div>
+                <input type="text" name="keyword" class="input-keyword form-unit" placeholder="Job title, company, keyword">
+                <input type="text" class="select-map form-unit stylesheet" value="Australia"></input>
+                <input type="submit" class="button-submit form-unit stylesheet" value="Search"></input>
+            </form>
+        </div>
+        <div class="button-mobile-search">
+            <div class="icon stylesheet"></div>
+        </div>
+        <div class="button-mobile-menu">
+            <div class="bar"></div>
+            <div class="bar"></div>
+            <div class="bar"></div>
+            <div class="bar"></div>
+            <div class="bar"></div>
+            <div class="bar"></div>
+            <div class="bar"></div>
+            <div class="bar"></div>
+            <div class="bar"></div>
+        </div>
+    </nav>
+@elseif (Route::has('my-suggestion'))
+    <nav class="employer isPC">
+        <div class="container-0">
+            <a href="/"><h1 class="stylesheet">seekcruit</h1></a>
+            <p class="text-1">Employer</p>
+            <p class="text-0">
+                <a class="isMypage" href="/login">nora yoon<span></span>
+                <a class="isSignOut" href="/employer">Sign out</a>
+            </p>
+        </div>
+        <ul class="container-1 layout-100">
+            <li><a href="">Home</a></li>
+            <li><a href="">Recruit</a></li>
+            <li class="selected"><a href="">Job AD</a></li>
+            <li><a href="">Seekcruit Guide</a></li>
+            <li><a href="">Products</a></li>
+        </ul>
+    </nav>
+    <nav class="employer isMobile">
+        <div class="image-back-drop"></div>
+        <ul class="container-5">
+            <li class="portrait"><a href=""></a></li>
+            <li class="outside"><a href="">My Profile</a></li>
+            <li class="outside"><a href="">My Account</a></li>
+            <li class="underline"></li>
+            <li class="selected"><a href="">Job Search</a></li>
+            <li><a href="">Seekcruit Guide</a></li>
+            <li class="isMarket"><a>Market</a></li>
+            <li><a href="">Community</a></li>
+            <li class="underline"></li>
+            <li class="outside"><a href="">Sign out</a></li>
+            <li class="underline"></li>
+            <li class="outside"><a href="">Advertiser page</a></li>
+        </ul>
+        <div class="container-6">
+            <form class="layer-menu-category">
+                <div class="container-7">
+                    <ul class="depth-0 parent">
+                        <li class="depth-0 child">
+                            <div class="view-menu-category">
+                                <input type="checkbox" id="horns" name="horns">
+                                <label>Proffesionals</label>
+                            </div>
+                            <ul class="depth-1 parent">
+                                <li class="depth-1 child">
+                                    <div class="view-menu-category">
+                                        <input type="checkbox" id="horns" name="horns">
+                                        <label>Arts and Media Professionals</label>
+                                    </div>
+                                    <ul class="depth-2 parent">
+                                        <li class="depth-2 child">
+                                            <div class="view-menu-category">
+                                                <input type="checkbox" id="horns" name="horns">
+                                                <label>Business, Human Resource and Marketing Professionals</label>
+                                            </div>
+                                        </li>
+                                        <li class="depth-2 child">
+                                            <div class="view-menu-category">
+                                                <input type="checkbox" id="horns" name="horns">
+                                                <label>design, engineering, science and transport professionals</label>
+                                            </div>
+                                        </li>
+                                        <li class="depth-2 child">
+                                            <div class="view-menu-category">
+                                                <input type="checkbox" id="horns" name="horns">
+                                                <label>education professionals</label>
+                                            </div>
+                                        </li>
+                                    </ul>
+                                </li>
+                                <li class="depth-1 child">
+                                    <div class="view-menu-category">
+                                        <input type="checkbox" id="horns" name="horns">
+                                        <label>Arts and Media Professionals</label>
+                                    </div>
+                                    <ul class="depth-2 parent">
+                                        <li class="depth-2 child">
+                                            <div class="view-menu-category">
+                                                <input type="checkbox" id="horns" name="horns">
+                                                <label>Business, Human Resource and Marketing Professionals</label>
+                                            </div>
+                                        </li>
+                                        <li class="depth-2 child">
+                                            <div class="view-menu-category">
+                                                <input type="checkbox" id="horns" name="horns">
+                                                <label>design, engineering, science and transport professionals</label>
+                                            </div>
+                                        </li>
+                                        <li class="depth-2 child">
+                                            <div class="view-menu-category">
+                                                <input type="checkbox" id="horns" name="horns">
+                                                <label>education professionals</label>
+                                            </div>
+                                        </li>
+                                    </ul>
+                                </li>
+                                <li class="depth-1 child">
+                                    <div class="view-menu-category">
+                                        <input type="checkbox" id="horns" name="horns">
+                                        <label>Arts and Media Professionals</label>
+                                    </div>
+                                    <ul class="depth-2 parent">
+                                        <li class="depth-2 child">
+                                            <div class="view-menu-category">
+                                                <input type="checkbox" id="horns" name="horns">
+                                                <label>Business, Human Resource and Marketing Professionals</label>
+                                            </div>
+                                        </li>
+                                        <li class="depth-2 child">
+                                            <div class="view-menu-category">
+                                                <input type="checkbox" id="horns" name="horns">
+                                                <label>design, engineering, science and transport professionals</label>
+                                            </div>
+                                        </li>
+                                        <li class="depth-2 child">
+                                            <div class="view-menu-category">
+                                                <input type="checkbox" id="horns" name="horns">
+                                                <label>education professionals</label>
+                                            </div>
+                                        </li>
+                                    </ul>
+                                </li>
+                            </ul>
+                        </li>
+                        <li class="depth-0 child">
+                            <div class="view-menu-category">
+                                <input type="checkbox" id="horns" name="horns">
+                                <label>Proffesionals</label>
+                            </div>
+                            <ul class="depth-1 parent">
+                                <li class="depth-1 child">
+                                    <div class="view-menu-category">
+                                        <input type="checkbox" id="horns" name="horns">
+                                        <label>Arts and Media Professionals</label>
+                                    </div>
+                                    <ul class="depth-2 parent">
+                                        <li class="depth-2 child">
+                                            <div class="view-menu-category">
+                                                <input type="checkbox" id="horns" name="horns">
+                                                <label>Business, Human Resource and Marketing Professionals</label>
+                                            </div>
+                                        </li>
+                                        <li class="depth-2 child">
+                                            <div class="view-menu-category">
+                                                <input type="checkbox" id="horns" name="horns">
+                                                <label>design, engineering, science and transport professionals</label>
+                                            </div>
+                                        </li>
+                                        <li class="depth-2 child">
+                                            <div class="view-menu-category">
+                                                <input type="checkbox" id="horns" name="horns">
+                                                <label>education professionals</label>
+                                            </div>
+                                        </li>
+                                    </ul>
+                                </li>
+                                <li class="depth-1 child">
+                                    <div class="view-menu-category">
+                                        <input type="checkbox" id="horns" name="horns">
+                                        <label>Arts and Media Professionals</label>
+                                    </div>
+                                    <ul class="depth-2 parent">
+                                        <li class="depth-2 child">
+                                            <div class="view-menu-category">
+                                                <input type="checkbox" id="horns" name="horns">
+                                                <label>Business, Human Resource and Marketing Professionals</label>
+                                            </div>
+                                        </li>
+                                        <li class="depth-2 child">
+                                            <div class="view-menu-category">
+                                                <input type="checkbox" id="horns" name="horns">
+                                                <label>design, engineering, science and transport professionals</label>
+                                            </div>
+                                        </li>
+                                        <li class="depth-2 child">
+                                            <div class="view-menu-category">
+                                                <input type="checkbox" id="horns" name="horns">
+                                                <label>education professionals</label>
+                                            </div>
+                                        </li>
+                                    </ul>
+                                </li>
+                                <li class="depth-1 child">
+                                    <div class="view-menu-category">
+                                        <input type="checkbox" id="horns" name="horns">
+                                        <label>Arts and Media Professionals</label>
+                                    </div>
+                                    <ul class="depth-2 parent">
+                                        <li class="depth-2 child">
+                                            <div class="view-menu-category">
+                                                <input type="checkbox" id="horns" name="horns">
+                                                <label>Business, Human Resource and Marketing Professionals</label>
+                                            </div>
+                                        </li>
+                                        <li class="depth-2 child">
+                                            <div class="view-menu-category">
+                                                <input type="checkbox" id="horns" name="horns">
+                                                <label>design, engineering, science and transport professionals</label>
+                                            </div>
+                                        </li>
+                                        <li class="depth-2 child">
+                                            <div class="view-menu-category">
+                                                <input type="checkbox" id="horns" name="horns">
+                                                <label>education professionals</label>
+                                            </div>
+                                        </li>
+                                    </ul>
+                                </li>
+                            </ul>
+                        </li>
+                        <li class="depth-0 child">
+                            <div class="view-menu-category">
+                                <input type="checkbox" id="horns" name="horns">
+                                <label>Proffesionals</label>
+                            </div>
+                            <ul class="depth-1 parent">
+                                <li class="depth-1 child">
+                                    <div class="view-menu-category">
+                                        <input type="checkbox" id="horns" name="horns">
+                                        <label>Arts and Media Professionals</label>
+                                    </div>
+                                    <ul class="depth-2 parent">
+                                        <li class="depth-2 child">
+                                            <div class="view-menu-category">
+                                                <input type="checkbox" id="horns" name="horns">
+                                                <label>Business, Human Resource and Marketing Professionals</label>
+                                            </div>
+                                        </li>
+                                        <li class="depth-2 child">
+                                            <div class="view-menu-category">
+                                                <input type="checkbox" id="horns" name="horns">
+                                                <label>design, engineering, science and transport professionals</label>
+                                            </div>
+                                        </li>
+                                        <li class="depth-2 child">
+                                            <div class="view-menu-category">
+                                                <input type="checkbox" id="horns" name="horns">
+                                                <label>education professionals</label>
+                                            </div>
+                                        </li>
+                                    </ul>
+                                </li>
+                                <li class="depth-1 child">
+                                    <div class="view-menu-category">
+                                        <input type="checkbox" id="horns" name="horns">
+                                        <label>Arts and Media Professionals</label>
+                                    </div>
+                                    <ul class="depth-2 parent">
+                                        <li class="depth-2 child">
+                                            <div class="view-menu-category">
+                                                <input type="checkbox" id="horns" name="horns">
+                                                <label>Business, Human Resource and Marketing Professionals</label>
+                                            </div>
+                                        </li>
+                                        <li class="depth-2 child">
+                                            <div class="view-menu-category">
+                                                <input type="checkbox" id="horns" name="horns">
+                                                <label>design, engineering, science and transport professionals</label>
+                                            </div>
+                                        </li>
+                                        <li class="depth-2 child">
+                                            <div class="view-menu-category">
+                                                <input type="checkbox" id="horns" name="horns">
+                                                <label>education professionals</label>
+                                            </div>
+                                        </li>
+                                    </ul>
+                                </li>
+                                <li class="depth-1 child">
+                                    <div class="view-menu-category">
+                                        <input type="checkbox" id="horns" name="horns">
+                                        <label>Arts and Media Professionals</label>
+                                    </div>
+                                    <ul class="depth-2 parent">
+                                        <li class="depth-2 child">
+                                            <div class="view-menu-category">
+                                                <input type="checkbox" id="horns" name="horns">
+                                                <label>Business, Human Resource and Marketing Professionals</label>
+                                            </div>
+                                        </li>
+                                        <li class="depth-2 child">
+                                            <div class="view-menu-category">
+                                                <input type="checkbox" id="horns" name="horns">
+                                                <label>design, engineering, science and transport professionals</label>
+                                            </div>
+                                        </li>
+                                        <li class="depth-2 child">
+                                            <div class="view-menu-category">
+                                                <input type="checkbox" id="horns" name="horns">
+                                                <label>education professionals</label>
+                                            </div>
+                                        </li>
+                                    </ul>
+                                </li>
+                            </ul>
+                        </li>
+                    </ul>
+                </div>
+                <input type="text" name="keyword" class="input-keyword form-unit" placeholder="Job title, company, keyword">
+                <input type="text" class="select-map form-unit stylesheet" value="Australia"></input>
+                <input type="submit" class="button-submit form-unit stylesheet" value="Search"></input>
+            </form>
+        </div>
+        <div class="container-0">
+            <a href="/"><h1 class="stylesheet">seekcruit</h1></a>
+            <p class="text-1">Employer</p>
+        </div>
+        <div class="button-mobile-search">
+            <div class="icon stylesheet"></div>
+        </div>
+        <div class="button-mobile-menu">
+            <div class="bar"></div>
+            <div class="bar"></div>
+            <div class="bar"></div>
+            <div class="bar"></div>
+            <div class="bar"></div>
+            <div class="bar"></div>
+            <div class="bar"></div>
+            <div class="bar"></div>
+            <div class="bar"></div>
+        </div>
+    </nav>
+@elseif (Route::has('recruit-guide'))
+    <nav class="employer isPC">
+        <div class="container-0">
+            <a href="/"><h1 class="stylesheet">seekcruit</h1></a>
+            <p class="text-1">Employer</p>
+            <p class="text-0">
+                <a href="/login">nora yoon<span></span>
+                <a href="#">Sign out</a>
+            </p>
+        </div>
+        <ul class="container-1 layout-100">
+            <li><a href="">Home</a></li>
+            <li><a href="">Recruit</a></li>
+            <li><a href="">Job AD</a></li>
+            <li class="selected"><a href="">Seekcruit Guide</a></li>
+            <li><a href="">Products</a></li>
+        </ul>
+    </nav>
+    <nav class="employer isMobile">
+        <div class="image-back-drop"></div>
+        <ul class="container-5">
+            <li class="portrait"><a href=""></a></li>
+            <li class="outside"><a href="">My Profile</a></li>
+            <li class="outside"><a href="">My Account</a></li>
+            <li class="underline"></li>
+            <li class="selected"><a href="">Job Search</a></li>
+            <li><a href="">Seekcruit Guide</a></li>
+            <li class="isMarket"><a>Market</a></li>
+            <li><a href="">Community</a></li>
+            <li class="underline"></li>
+            <li class="outside"><a href="">Sign out</a></li>
+            <li class="underline"></li>
+            <li class="outside"><a href="">Advertiser page</a></li>
+        </ul>
+        <div class="container-6">
+            <form class="layer-menu-category">
+                <div class="container-7">
+                    <ul class="depth-0 parent">
+                        <li class="depth-0 child">
+                            <div class="view-menu-category">
+                                <input type="checkbox" id="horns" name="horns">
+                                <label>Proffesionals</label>
+                            </div>
+                            <ul class="depth-1 parent">
+                                <li class="depth-1 child">
+                                    <div class="view-menu-category">
+                                        <input type="checkbox" id="horns" name="horns">
+                                        <label>Arts and Media Professionals</label>
+                                    </div>
+                                    <ul class="depth-2 parent">
+                                        <li class="depth-2 child">
+                                            <div class="view-menu-category">
+                                                <input type="checkbox" id="horns" name="horns">
+                                                <label>Business, Human Resource and Marketing Professionals</label>
+                                            </div>
+                                        </li>
+                                        <li class="depth-2 child">
+                                            <div class="view-menu-category">
+                                                <input type="checkbox" id="horns" name="horns">
+                                                <label>design, engineering, science and transport professionals</label>
+                                            </div>
+                                        </li>
+                                        <li class="depth-2 child">
+                                            <div class="view-menu-category">
+                                                <input type="checkbox" id="horns" name="horns">
+                                                <label>education professionals</label>
+                                            </div>
+                                        </li>
+                                    </ul>
+                                </li>
+                                <li class="depth-1 child">
+                                    <div class="view-menu-category">
+                                        <input type="checkbox" id="horns" name="horns">
+                                        <label>Arts and Media Professionals</label>
+                                    </div>
+                                    <ul class="depth-2 parent">
+                                        <li class="depth-2 child">
+                                            <div class="view-menu-category">
+                                                <input type="checkbox" id="horns" name="horns">
+                                                <label>Business, Human Resource and Marketing Professionals</label>
+                                            </div>
+                                        </li>
+                                        <li class="depth-2 child">
+                                            <div class="view-menu-category">
+                                                <input type="checkbox" id="horns" name="horns">
+                                                <label>design, engineering, science and transport professionals</label>
+                                            </div>
+                                        </li>
+                                        <li class="depth-2 child">
+                                            <div class="view-menu-category">
+                                                <input type="checkbox" id="horns" name="horns">
+                                                <label>education professionals</label>
+                                            </div>
+                                        </li>
+                                    </ul>
+                                </li>
+                                <li class="depth-1 child">
+                                    <div class="view-menu-category">
+                                        <input type="checkbox" id="horns" name="horns">
+                                        <label>Arts and Media Professionals</label>
+                                    </div>
+                                    <ul class="depth-2 parent">
+                                        <li class="depth-2 child">
+                                            <div class="view-menu-category">
+                                                <input type="checkbox" id="horns" name="horns">
+                                                <label>Business, Human Resource and Marketing Professionals</label>
+                                            </div>
+                                        </li>
+                                        <li class="depth-2 child">
+                                            <div class="view-menu-category">
+                                                <input type="checkbox" id="horns" name="horns">
+                                                <label>design, engineering, science and transport professionals</label>
+                                            </div>
+                                        </li>
+                                        <li class="depth-2 child">
+                                            <div class="view-menu-category">
+                                                <input type="checkbox" id="horns" name="horns">
+                                                <label>education professionals</label>
+                                            </div>
+                                        </li>
+                                    </ul>
+                                </li>
+                            </ul>
+                        </li>
+                        <li class="depth-0 child">
+                            <div class="view-menu-category">
+                                <input type="checkbox" id="horns" name="horns">
+                                <label>Proffesionals</label>
+                            </div>
+                            <ul class="depth-1 parent">
+                                <li class="depth-1 child">
+                                    <div class="view-menu-category">
+                                        <input type="checkbox" id="horns" name="horns">
+                                        <label>Arts and Media Professionals</label>
+                                    </div>
+                                    <ul class="depth-2 parent">
+                                        <li class="depth-2 child">
+                                            <div class="view-menu-category">
+                                                <input type="checkbox" id="horns" name="horns">
+                                                <label>Business, Human Resource and Marketing Professionals</label>
+                                            </div>
+                                        </li>
+                                        <li class="depth-2 child">
+                                            <div class="view-menu-category">
+                                                <input type="checkbox" id="horns" name="horns">
+                                                <label>design, engineering, science and transport professionals</label>
+                                            </div>
+                                        </li>
+                                        <li class="depth-2 child">
+                                            <div class="view-menu-category">
+                                                <input type="checkbox" id="horns" name="horns">
+                                                <label>education professionals</label>
+                                            </div>
+                                        </li>
+                                    </ul>
+                                </li>
+                                <li class="depth-1 child">
+                                    <div class="view-menu-category">
+                                        <input type="checkbox" id="horns" name="horns">
+                                        <label>Arts and Media Professionals</label>
+                                    </div>
+                                    <ul class="depth-2 parent">
+                                        <li class="depth-2 child">
+                                            <div class="view-menu-category">
+                                                <input type="checkbox" id="horns" name="horns">
+                                                <label>Business, Human Resource and Marketing Professionals</label>
+                                            </div>
+                                        </li>
+                                        <li class="depth-2 child">
+                                            <div class="view-menu-category">
+                                                <input type="checkbox" id="horns" name="horns">
+                                                <label>design, engineering, science and transport professionals</label>
+                                            </div>
+                                        </li>
+                                        <li class="depth-2 child">
+                                            <div class="view-menu-category">
+                                                <input type="checkbox" id="horns" name="horns">
+                                                <label>education professionals</label>
+                                            </div>
+                                        </li>
+                                    </ul>
+                                </li>
+                                <li class="depth-1 child">
+                                    <div class="view-menu-category">
+                                        <input type="checkbox" id="horns" name="horns">
+                                        <label>Arts and Media Professionals</label>
+                                    </div>
+                                    <ul class="depth-2 parent">
+                                        <li class="depth-2 child">
+                                            <div class="view-menu-category">
+                                                <input type="checkbox" id="horns" name="horns">
+                                                <label>Business, Human Resource and Marketing Professionals</label>
+                                            </div>
+                                        </li>
+                                        <li class="depth-2 child">
+                                            <div class="view-menu-category">
+                                                <input type="checkbox" id="horns" name="horns">
+                                                <label>design, engineering, science and transport professionals</label>
+                                            </div>
+                                        </li>
+                                        <li class="depth-2 child">
+                                            <div class="view-menu-category">
+                                                <input type="checkbox" id="horns" name="horns">
+                                                <label>education professionals</label>
+                                            </div>
+                                        </li>
+                                    </ul>
+                                </li>
+                            </ul>
+                        </li>
+                        <li class="depth-0 child">
+                            <div class="view-menu-category">
+                                <input type="checkbox" id="horns" name="horns">
+                                <label>Proffesionals</label>
+                            </div>
+                            <ul class="depth-1 parent">
+                                <li class="depth-1 child">
+                                    <div class="view-menu-category">
+                                        <input type="checkbox" id="horns" name="horns">
+                                        <label>Arts and Media Professionals</label>
+                                    </div>
+                                    <ul class="depth-2 parent">
+                                        <li class="depth-2 child">
+                                            <div class="view-menu-category">
+                                                <input type="checkbox" id="horns" name="horns">
+                                                <label>Business, Human Resource and Marketing Professionals</label>
+                                            </div>
+                                        </li>
+                                        <li class="depth-2 child">
+                                            <div class="view-menu-category">
+                                                <input type="checkbox" id="horns" name="horns">
+                                                <label>design, engineering, science and transport professionals</label>
+                                            </div>
+                                        </li>
+                                        <li class="depth-2 child">
+                                            <div class="view-menu-category">
+                                                <input type="checkbox" id="horns" name="horns">
+                                                <label>education professionals</label>
+                                            </div>
+                                        </li>
+                                    </ul>
+                                </li>
+                                <li class="depth-1 child">
+                                    <div class="view-menu-category">
+                                        <input type="checkbox" id="horns" name="horns">
+                                        <label>Arts and Media Professionals</label>
+                                    </div>
+                                    <ul class="depth-2 parent">
+                                        <li class="depth-2 child">
+                                            <div class="view-menu-category">
+                                                <input type="checkbox" id="horns" name="horns">
+                                                <label>Business, Human Resource and Marketing Professionals</label>
+                                            </div>
+                                        </li>
+                                        <li class="depth-2 child">
+                                            <div class="view-menu-category">
+                                                <input type="checkbox" id="horns" name="horns">
+                                                <label>design, engineering, science and transport professionals</label>
+                                            </div>
+                                        </li>
+                                        <li class="depth-2 child">
+                                            <div class="view-menu-category">
+                                                <input type="checkbox" id="horns" name="horns">
+                                                <label>education professionals</label>
+                                            </div>
+                                        </li>
+                                    </ul>
+                                </li>
+                                <li class="depth-1 child">
+                                    <div class="view-menu-category">
+                                        <input type="checkbox" id="horns" name="horns">
+                                        <label>Arts and Media Professionals</label>
+                                    </div>
+                                    <ul class="depth-2 parent">
+                                        <li class="depth-2 child">
+                                            <div class="view-menu-category">
+                                                <input type="checkbox" id="horns" name="horns">
+                                                <label>Business, Human Resource and Marketing Professionals</label>
+                                            </div>
+                                        </li>
+                                        <li class="depth-2 child">
+                                            <div class="view-menu-category">
+                                                <input type="checkbox" id="horns" name="horns">
+                                                <label>design, engineering, science and transport professionals</label>
+                                            </div>
+                                        </li>
+                                        <li class="depth-2 child">
+                                            <div class="view-menu-category">
+                                                <input type="checkbox" id="horns" name="horns">
+                                                <label>education professionals</label>
+                                            </div>
+                                        </li>
+                                    </ul>
+                                </li>
+                            </ul>
+                        </li>
+                    </ul>
+                </div>
+                <input type="text" name="keyword" class="input-keyword form-unit" placeholder="Job title, company, keyword">
+                <input type="text" class="select-map form-unit stylesheet" value="Australia"></input>
+                <input type="submit" class="button-submit form-unit stylesheet" value="Search"></input>
+            </form>
+        </div>
+        <div class="container-0">
+            <a href="/"><h1 class="stylesheet">seekcruit</h1></a>
+            <p class="text-1">Employer</p>
+        </div>
+        <div class="button-mobile-search">
+            <div class="icon stylesheet"></div>
+        </div>
+        <div class="button-mobile-menu">
+            <div class="bar"></div>
+            <div class="bar"></div>
+            <div class="bar"></div>
+            <div class="bar"></div>
+            <div class="bar"></div>
+            <div class="bar"></div>
+            <div class="bar"></div>
+            <div class="bar"></div>
+            <div class="bar"></div>
+        </div>
+    </nav>
+@elseif (Route::has('suggestion-page'))
+    <nav class="employer isPC">
+        <div class="container-0">
+            <a href="/"><h1 class="stylesheet">seekcruit</h1></a>
+            <p class="text-1">Employer</p>
+            <p class="text-0">
+                <a class="isMypage" href="/login">nora yoon<span></span>
+                <a class="isSignOut" href="/employer">Sign out</a>
+            </p>
+        </div>
+        <ul class="container-1 layout-100">
+            <li><a href="">Home</a></li>
+            <li class="selected"><a href="">Recruit</a></li>
+            <li><a href="">Job AD</a></li>
+            <li><a href="">Seekcruit Guide</a></li>
+            <li><a href="">Products</a></li>
+        </ul>
+        <div class="container-2">
+            <form class="layout-100">
+                <button type="button" class="button-category form-unit stylesheet">All Categories<span class="icon stylesheet"></span></button>
+                <input type="text" name="keyword" class="input-keyword form-unit" placeholder="Job title, company, keyword">
+                <input type="text" class="select-map form-unit stylesheet" value="Australia"></input>
+                <input type="submit" class="button-submit form-unit stylesheet"></input>
+            </form>
+            <div class="layer-menu-category">
+                <div class="back-0"></div>
+                <div class="back-1"></div>
+                <div class="back-2"></div>
+                <div class="container-4">
+                    <ul class="depth-0 parent">
+                        <li class="depth-0 child">
+                            <div class="view-menu-category">
+                                <input type="checkbox" id="horns" name="horns">
+                                <label>Proffesionals</label>
+                            </div>
+                            <ul class="depth-1 parent">
+                                <li class="depth-1 child">
+                                    <div class="view-menu-category">
+                                        <input type="checkbox" id="horns" name="horns">
+                                        <label>Arts and Media Professionals</label>
+                                    </div>
+                                    <ul class="depth-2 parent">
+                                        <li class="depth-2 child">
+                                            <div class="view-menu-category">
+                                                <input type="checkbox" id="horns" name="horns">
+                                                <label>Business, Human Resource and Marketing Professionals</label>
+                                            </div>
+                                        </li>
+                                        <li class="depth-2 child">
+                                            <div class="view-menu-category">
+                                                <input type="checkbox" id="horns" name="horns">
+                                                <label>design, engineering, science and transport professionals</label>
+                                            </div>
+                                        </li>
+                                        <li class="depth-2 child">
+                                            <div class="view-menu-category">
+                                                <input type="checkbox" id="horns" name="horns">
+                                                <label>education professionals</label>
+                                            </div>
+                                        </li>
+                                    </ul>
+                                </li>
+                                <li class="depth-1 child">
+                                    <div class="view-menu-category">
+                                        <input type="checkbox" id="horns" name="horns">
+                                        <label>Arts and Media Professionals</label>
+                                    </div>
+                                    <ul class="depth-2 parent">
+                                        <li class="depth-2 child">
+                                            <div class="view-menu-category">
+                                                <input type="checkbox" id="horns" name="horns">
+                                                <label>Business, Human Resource and Marketing Professionals</label>
+                                            </div>
+                                        </li>
+                                        <li class="depth-2 child">
+                                            <div class="view-menu-category">
+                                                <input type="checkbox" id="horns" name="horns">
+                                                <label>design, engineering, science and transport professionals</label>
+                                            </div>
+                                        </li>
+                                        <li class="depth-2 child">
+                                            <div class="view-menu-category">
+                                                <input type="checkbox" id="horns" name="horns">
+                                                <label>education professionals</label>
+                                            </div>
+                                        </li>
+                                    </ul>
+                                </li>
+                                <li class="depth-1 child">
+                                    <div class="view-menu-category">
+                                        <input type="checkbox" id="horns" name="horns">
+                                        <label>Arts and Media Professionals</label>
+                                    </div>
+                                    <ul class="depth-2 parent">
+                                        <li class="depth-2 child">
+                                            <div class="view-menu-category">
+                                                <input type="checkbox" id="horns" name="horns">
+                                                <label>Business, Human Resource and Marketing Professionals</label>
+                                            </div>
+                                        </li>
+                                        <li class="depth-2 child">
+                                            <div class="view-menu-category">
+                                                <input type="checkbox" id="horns" name="horns">
+                                                <label>design, engineering, science and transport professionals</label>
+                                            </div>
+                                        </li>
+                                        <li class="depth-2 child">
+                                            <div class="view-menu-category">
+                                                <input type="checkbox" id="horns" name="horns">
+                                                <label>education professionals</label>
+                                            </div>
+                                        </li>
+                                    </ul>
+                                </li>
+                            </ul>
+                        </li>
+                        <li class="depth-0 child">
+                            <div class="view-menu-category">
+                                <input type="checkbox" id="horns" name="horns">
+                                <label>Proffesionals</label>
+                            </div>
+                            <ul class="depth-1 parent">
+                                <li class="depth-1 child">
+                                    <div class="view-menu-category">
+                                        <input type="checkbox" id="horns" name="horns">
+                                        <label>Arts and Media Professionals</label>
+                                    </div>
+                                    <ul class="depth-2 parent">
+                                        <li class="depth-2 child">
+                                            <div class="view-menu-category">
+                                                <input type="checkbox" id="horns" name="horns">
+                                                <label>Business, Human Resource and Marketing Professionals</label>
+                                            </div>
+                                        </li>
+                                        <li class="depth-2 child">
+                                            <div class="view-menu-category">
+                                                <input type="checkbox" id="horns" name="horns">
+                                                <label>design, engineering, science and transport professionals</label>
+                                            </div>
+                                        </li>
+                                        <li class="depth-2 child">
+                                            <div class="view-menu-category">
+                                                <input type="checkbox" id="horns" name="horns">
+                                                <label>education professionals</label>
+                                            </div>
+                                        </li>
+                                    </ul>
+                                </li>
+                                <li class="depth-1 child">
+                                    <div class="view-menu-category">
+                                        <input type="checkbox" id="horns" name="horns">
+                                        <label>Arts and Media Professionals</label>
+                                    </div>
+                                    <ul class="depth-2 parent">
+                                        <li class="depth-2 child">
+                                            <div class="view-menu-category">
+                                                <input type="checkbox" id="horns" name="horns">
+                                                <label>Business, Human Resource and Marketing Professionals</label>
+                                            </div>
+                                        </li>
+                                        <li class="depth-2 child">
+                                            <div class="view-menu-category">
+                                                <input type="checkbox" id="horns" name="horns">
+                                                <label>design, engineering, science and transport professionals</label>
+                                            </div>
+                                        </li>
+                                        <li class="depth-2 child">
+                                            <div class="view-menu-category">
+                                                <input type="checkbox" id="horns" name="horns">
+                                                <label>education professionals</label>
+                                            </div>
+                                        </li>
+                                    </ul>
+                                </li>
+                                <li class="depth-1 child">
+                                    <div class="view-menu-category">
+                                        <input type="checkbox" id="horns" name="horns">
+                                        <label>Arts and Media Professionals</label>
+                                    </div>
+                                    <ul class="depth-2 parent">
+                                        <li class="depth-2 child">
+                                            <div class="view-menu-category">
+                                                <input type="checkbox" id="horns" name="horns">
+                                                <label>Business, Human Resource and Marketing Professionals</label>
+                                            </div>
+                                        </li>
+                                        <li class="depth-2 child">
+                                            <div class="view-menu-category">
+                                                <input type="checkbox" id="horns" name="horns">
+                                                <label>design, engineering, science and transport professionals</label>
+                                            </div>
+                                        </li>
+                                        <li class="depth-2 child">
+                                            <div class="view-menu-category">
+                                                <input type="checkbox" id="horns" name="horns">
+                                                <label>education professionals</label>
+                                            </div>
+                                        </li>
+                                    </ul>
+                                </li>
+                            </ul>
+                        </li>
+                        <li class="depth-0 child">
+                            <div class="view-menu-category">
+                                <input type="checkbox" id="horns" name="horns">
+                                <label>Proffesionals</label>
+                            </div>
+                            <ul class="depth-1 parent">
+                                <li class="depth-1 child">
+                                    <div class="view-menu-category">
+                                        <input type="checkbox" id="horns" name="horns">
+                                        <label>Arts and Media Professionals</label>
+                                    </div>
+                                    <ul class="depth-2 parent">
+                                        <li class="depth-2 child">
+                                            <div class="view-menu-category">
+                                                <input type="checkbox" id="horns" name="horns">
+                                                <label>Business, Human Resource and Marketing Professionals</label>
+                                            </div>
+                                        </li>
+                                        <li class="depth-2 child">
+                                            <div class="view-menu-category">
+                                                <input type="checkbox" id="horns" name="horns">
+                                                <label>design, engineering, science and transport professionals</label>
+                                            </div>
+                                        </li>
+                                        <li class="depth-2 child">
+                                            <div class="view-menu-category">
+                                                <input type="checkbox" id="horns" name="horns">
+                                                <label>education professionals</label>
+                                            </div>
+                                        </li>
+                                    </ul>
+                                </li>
+                                <li class="depth-1 child">
+                                    <div class="view-menu-category">
+                                        <input type="checkbox" id="horns" name="horns">
+                                        <label>Arts and Media Professionals</label>
+                                    </div>
+                                    <ul class="depth-2 parent">
+                                        <li class="depth-2 child">
+                                            <div class="view-menu-category">
+                                                <input type="checkbox" id="horns" name="horns">
+                                                <label>Business, Human Resource and Marketing Professionals</label>
+                                            </div>
+                                        </li>
+                                        <li class="depth-2 child">
+                                            <div class="view-menu-category">
+                                                <input type="checkbox" id="horns" name="horns">
+                                                <label>design, engineering, science and transport professionals</label>
+                                            </div>
+                                        </li>
+                                        <li class="depth-2 child">
+                                            <div class="view-menu-category">
+                                                <input type="checkbox" id="horns" name="horns">
+                                                <label>education professionals</label>
+                                            </div>
+                                        </li>
+                                    </ul>
+                                </li>
+                                <li class="depth-1 child">
+                                    <div class="view-menu-category">
+                                        <input type="checkbox" id="horns" name="horns">
+                                        <label>Arts and Media Professionals</label>
+                                    </div>
+                                    <ul class="depth-2 parent">
+                                        <li class="depth-2 child">
+                                            <div class="view-menu-category">
+                                                <input type="checkbox" id="horns" name="horns">
+                                                <label>Business, Human Resource and Marketing Professionals</label>
+                                            </div>
+                                        </li>
+                                        <li class="depth-2 child">
+                                            <div class="view-menu-category">
+                                                <input type="checkbox" id="horns" name="horns">
+                                                <label>design, engineering, science and transport professionals</label>
+                                            </div>
+                                        </li>
+                                        <li class="depth-2 child">
+                                            <div class="view-menu-category">
+                                                <input type="checkbox" id="horns" name="horns">
+                                                <label>education professionals</label>
+                                            </div>
+                                        </li>
+                                    </ul>
+                                </li>
+                            </ul>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </nav>
+    <nav class="employer isMobile">
+        <div class="image-back-drop"></div>
+        <ul class="container-5">
+            <li class="portrait"><a href=""></a></li>
+            <li class="outside"><a href="">My Profile</a></li>
+            <li class="outside"><a href="">My Account</a></li>
+            <li class="underline"></li>
+            <li class="selected"><a href="">Job Search</a></li>
+            <li><a href="">Seekcruit Guide</a></li>
+            <li class="isMarket"><a>Market</a></li>
+            <li><a href="">Community</a></li>
+            <li class="underline"></li>
+            <li class="outside"><a href="">Sign out</a></li>
+            <li class="underline"></li>
+            <li class="outside"><a href="">Advertiser page</a></li>
+        </ul>
+        <div class="container-6">
+            <form class="layer-menu-category">
+                <div class="container-7">
+                    <ul class="depth-0 parent">
+                        <li class="depth-0 child">
+                            <div class="view-menu-category">
+                                <input type="checkbox" id="horns" name="horns">
+                                <label>Proffesionals</label>
+                            </div>
+                            <ul class="depth-1 parent">
+                                <li class="depth-1 child">
+                                    <div class="view-menu-category">
+                                        <input type="checkbox" id="horns" name="horns">
+                                        <label>Arts and Media Professionals</label>
+                                    </div>
+                                    <ul class="depth-2 parent">
+                                        <li class="depth-2 child">
+                                            <div class="view-menu-category">
+                                                <input type="checkbox" id="horns" name="horns">
+                                                <label>Business, Human Resource and Marketing Professionals</label>
+                                            </div>
+                                        </li>
+                                        <li class="depth-2 child">
+                                            <div class="view-menu-category">
+                                                <input type="checkbox" id="horns" name="horns">
+                                                <label>design, engineering, science and transport professionals</label>
+                                            </div>
+                                        </li>
+                                        <li class="depth-2 child">
+                                            <div class="view-menu-category">
+                                                <input type="checkbox" id="horns" name="horns">
+                                                <label>education professionals</label>
+                                            </div>
+                                        </li>
+                                    </ul>
+                                </li>
+                                <li class="depth-1 child">
+                                    <div class="view-menu-category">
+                                        <input type="checkbox" id="horns" name="horns">
+                                        <label>Arts and Media Professionals</label>
+                                    </div>
+                                    <ul class="depth-2 parent">
+                                        <li class="depth-2 child">
+                                            <div class="view-menu-category">
+                                                <input type="checkbox" id="horns" name="horns">
+                                                <label>Business, Human Resource and Marketing Professionals</label>
+                                            </div>
+                                        </li>
+                                        <li class="depth-2 child">
+                                            <div class="view-menu-category">
+                                                <input type="checkbox" id="horns" name="horns">
+                                                <label>design, engineering, science and transport professionals</label>
+                                            </div>
+                                        </li>
+                                        <li class="depth-2 child">
+                                            <div class="view-menu-category">
+                                                <input type="checkbox" id="horns" name="horns">
+                                                <label>education professionals</label>
+                                            </div>
+                                        </li>
+                                    </ul>
+                                </li>
+                                <li class="depth-1 child">
+                                    <div class="view-menu-category">
+                                        <input type="checkbox" id="horns" name="horns">
+                                        <label>Arts and Media Professionals</label>
+                                    </div>
+                                    <ul class="depth-2 parent">
+                                        <li class="depth-2 child">
+                                            <div class="view-menu-category">
+                                                <input type="checkbox" id="horns" name="horns">
+                                                <label>Business, Human Resource and Marketing Professionals</label>
+                                            </div>
+                                        </li>
+                                        <li class="depth-2 child">
+                                            <div class="view-menu-category">
+                                                <input type="checkbox" id="horns" name="horns">
+                                                <label>design, engineering, science and transport professionals</label>
+                                            </div>
+                                        </li>
+                                        <li class="depth-2 child">
+                                            <div class="view-menu-category">
+                                                <input type="checkbox" id="horns" name="horns">
+                                                <label>education professionals</label>
+                                            </div>
+                                        </li>
+                                    </ul>
+                                </li>
+                            </ul>
+                        </li>
+                        <li class="depth-0 child">
+                            <div class="view-menu-category">
+                                <input type="checkbox" id="horns" name="horns">
+                                <label>Proffesionals</label>
+                            </div>
+                            <ul class="depth-1 parent">
+                                <li class="depth-1 child">
+                                    <div class="view-menu-category">
+                                        <input type="checkbox" id="horns" name="horns">
+                                        <label>Arts and Media Professionals</label>
+                                    </div>
+                                    <ul class="depth-2 parent">
+                                        <li class="depth-2 child">
+                                            <div class="view-menu-category">
+                                                <input type="checkbox" id="horns" name="horns">
+                                                <label>Business, Human Resource and Marketing Professionals</label>
+                                            </div>
+                                        </li>
+                                        <li class="depth-2 child">
+                                            <div class="view-menu-category">
+                                                <input type="checkbox" id="horns" name="horns">
+                                                <label>design, engineering, science and transport professionals</label>
+                                            </div>
+                                        </li>
+                                        <li class="depth-2 child">
+                                            <div class="view-menu-category">
+                                                <input type="checkbox" id="horns" name="horns">
+                                                <label>education professionals</label>
+                                            </div>
+                                        </li>
+                                    </ul>
+                                </li>
+                                <li class="depth-1 child">
+                                    <div class="view-menu-category">
+                                        <input type="checkbox" id="horns" name="horns">
+                                        <label>Arts and Media Professionals</label>
+                                    </div>
+                                    <ul class="depth-2 parent">
+                                        <li class="depth-2 child">
+                                            <div class="view-menu-category">
+                                                <input type="checkbox" id="horns" name="horns">
+                                                <label>Business, Human Resource and Marketing Professionals</label>
+                                            </div>
+                                        </li>
+                                        <li class="depth-2 child">
+                                            <div class="view-menu-category">
+                                                <input type="checkbox" id="horns" name="horns">
+                                                <label>design, engineering, science and transport professionals</label>
+                                            </div>
+                                        </li>
+                                        <li class="depth-2 child">
+                                            <div class="view-menu-category">
+                                                <input type="checkbox" id="horns" name="horns">
+                                                <label>education professionals</label>
+                                            </div>
+                                        </li>
+                                    </ul>
+                                </li>
+                                <li class="depth-1 child">
+                                    <div class="view-menu-category">
+                                        <input type="checkbox" id="horns" name="horns">
+                                        <label>Arts and Media Professionals</label>
+                                    </div>
+                                    <ul class="depth-2 parent">
+                                        <li class="depth-2 child">
+                                            <div class="view-menu-category">
+                                                <input type="checkbox" id="horns" name="horns">
+                                                <label>Business, Human Resource and Marketing Professionals</label>
+                                            </div>
+                                        </li>
+                                        <li class="depth-2 child">
+                                            <div class="view-menu-category">
+                                                <input type="checkbox" id="horns" name="horns">
+                                                <label>design, engineering, science and transport professionals</label>
+                                            </div>
+                                        </li>
+                                        <li class="depth-2 child">
+                                            <div class="view-menu-category">
+                                                <input type="checkbox" id="horns" name="horns">
+                                                <label>education professionals</label>
+                                            </div>
+                                        </li>
+                                    </ul>
+                                </li>
+                            </ul>
+                        </li>
+                        <li class="depth-0 child">
+                            <div class="view-menu-category">
+                                <input type="checkbox" id="horns" name="horns">
+                                <label>Proffesionals</label>
+                            </div>
+                            <ul class="depth-1 parent">
+                                <li class="depth-1 child">
+                                    <div class="view-menu-category">
+                                        <input type="checkbox" id="horns" name="horns">
+                                        <label>Arts and Media Professionals</label>
+                                    </div>
+                                    <ul class="depth-2 parent">
+                                        <li class="depth-2 child">
+                                            <div class="view-menu-category">
+                                                <input type="checkbox" id="horns" name="horns">
+                                                <label>Business, Human Resource and Marketing Professionals</label>
+                                            </div>
+                                        </li>
+                                        <li class="depth-2 child">
+                                            <div class="view-menu-category">
+                                                <input type="checkbox" id="horns" name="horns">
+                                                <label>design, engineering, science and transport professionals</label>
+                                            </div>
+                                        </li>
+                                        <li class="depth-2 child">
+                                            <div class="view-menu-category">
+                                                <input type="checkbox" id="horns" name="horns">
+                                                <label>education professionals</label>
+                                            </div>
+                                        </li>
+                                    </ul>
+                                </li>
+                                <li class="depth-1 child">
+                                    <div class="view-menu-category">
+                                        <input type="checkbox" id="horns" name="horns">
+                                        <label>Arts and Media Professionals</label>
+                                    </div>
+                                    <ul class="depth-2 parent">
+                                        <li class="depth-2 child">
+                                            <div class="view-menu-category">
+                                                <input type="checkbox" id="horns" name="horns">
+                                                <label>Business, Human Resource and Marketing Professionals</label>
+                                            </div>
+                                        </li>
+                                        <li class="depth-2 child">
+                                            <div class="view-menu-category">
+                                                <input type="checkbox" id="horns" name="horns">
+                                                <label>design, engineering, science and transport professionals</label>
+                                            </div>
+                                        </li>
+                                        <li class="depth-2 child">
+                                            <div class="view-menu-category">
+                                                <input type="checkbox" id="horns" name="horns">
+                                                <label>education professionals</label>
+                                            </div>
+                                        </li>
+                                    </ul>
+                                </li>
+                                <li class="depth-1 child">
+                                    <div class="view-menu-category">
+                                        <input type="checkbox" id="horns" name="horns">
+                                        <label>Arts and Media Professionals</label>
+                                    </div>
+                                    <ul class="depth-2 parent">
+                                        <li class="depth-2 child">
+                                            <div class="view-menu-category">
+                                                <input type="checkbox" id="horns" name="horns">
+                                                <label>Business, Human Resource and Marketing Professionals</label>
+                                            </div>
+                                        </li>
+                                        <li class="depth-2 child">
+                                            <div class="view-menu-category">
+                                                <input type="checkbox" id="horns" name="horns">
+                                                <label>design, engineering, science and transport professionals</label>
+                                            </div>
+                                        </li>
+                                        <li class="depth-2 child">
+                                            <div class="view-menu-category">
+                                                <input type="checkbox" id="horns" name="horns">
+                                                <label>education professionals</label>
+                                            </div>
+                                        </li>
+                                    </ul>
+                                </li>
+                            </ul>
+                        </li>
+                    </ul>
+                </div>
+                <input type="text" name="keyword" class="input-keyword form-unit" placeholder="Job title, company, keyword">
+                <input type="text" class="select-map form-unit stylesheet" value="Australia"></input>
+                <input type="submit" class="button-submit form-unit stylesheet" value="Search"></input>
+            </form>
+        </div>
+        <div class="container-0">
+            <a href="/"><h1 class="stylesheet">seekcruit</h1></a>
+            <p class="text-1">Employer</p>
+        </div>
+        <div class="button-mobile-search">
+            <div class="icon stylesheet"></div>
+        </div>
+        <div class="button-mobile-menu">
+            <div class="bar"></div>
+            <div class="bar"></div>
+            <div class="bar"></div>
+            <div class="bar"></div>
+            <div class="bar"></div>
+            <div class="bar"></div>
+            <div class="bar"></div>
+            <div class="bar"></div>
+            <div class="bar"></div>
+        </div>
+    </nav>
+@elseif (Route::has('video-interview'))
+    <nav class="employer isPC">
+        <div class="container-0">
+            <a href="/"><h1 class="stylesheet">seekcruit</h1></a>
+            <p class="text-1">Employer</p>
+            <p class="text-0">
+                <a class="isMypage" href="/login">nora yoon<span></span>
+                <a class="isSignOut" href="/employer">Sign out</a>
+            </p>
+        </div>
+        <ul class="container-1 layout-100">
+            <li><a href="">Home</a></li>
+            <li class="selected"><a href="">Recruit</a></li>
+            <li><a href="">Job AD</a></li>
+            <li><a href="">Seekcruit Guide</a></li>
+            <li><a href="">Products</a></li>
+        </ul>
+        <div class="container-2">
+            <form class="layout-100">
+                <button type="button" class="button-category form-unit stylesheet">All Categories<span class="icon stylesheet"></span></button>
+                <input type="text" name="keyword" class="input-keyword form-unit" placeholder="Job title, company, keyword">
+                <input type="text" class="select-map form-unit stylesheet" value="Australia"></input>
+                <input type="submit" class="button-submit form-unit stylesheet"></input>
+            </form>
+            <div class="layer-menu-category">
+                <div class="back-0"></div>
+                <div class="back-1"></div>
+                <div class="back-2"></div>
+                <div class="container-4">
+                    <ul class="depth-0 parent">
+                        <li class="depth-0 child">
+                            <div class="view-menu-category">
+                                <input type="checkbox" id="horns" name="horns">
+                                <label>Proffesionals</label>
+                            </div>
+                            <ul class="depth-1 parent">
+                                <li class="depth-1 child">
+                                    <div class="view-menu-category">
+                                        <input type="checkbox" id="horns" name="horns">
+                                        <label>Arts and Media Professionals</label>
+                                    </div>
+                                    <ul class="depth-2 parent">
+                                        <li class="depth-2 child">
+                                            <div class="view-menu-category">
+                                                <input type="checkbox" id="horns" name="horns">
+                                                <label>Business, Human Resource and Marketing Professionals</label>
+                                            </div>
+                                        </li>
+                                        <li class="depth-2 child">
+                                            <div class="view-menu-category">
+                                                <input type="checkbox" id="horns" name="horns">
+                                                <label>design, engineering, science and transport professionals</label>
+                                            </div>
+                                        </li>
+                                        <li class="depth-2 child">
+                                            <div class="view-menu-category">
+                                                <input type="checkbox" id="horns" name="horns">
+                                                <label>education professionals</label>
+                                            </div>
+                                        </li>
+                                    </ul>
+                                </li>
+                                <li class="depth-1 child">
+                                    <div class="view-menu-category">
+                                        <input type="checkbox" id="horns" name="horns">
+                                        <label>Arts and Media Professionals</label>
+                                    </div>
+                                    <ul class="depth-2 parent">
+                                        <li class="depth-2 child">
+                                            <div class="view-menu-category">
+                                                <input type="checkbox" id="horns" name="horns">
+                                                <label>Business, Human Resource and Marketing Professionals</label>
+                                            </div>
+                                        </li>
+                                        <li class="depth-2 child">
+                                            <div class="view-menu-category">
+                                                <input type="checkbox" id="horns" name="horns">
+                                                <label>design, engineering, science and transport professionals</label>
+                                            </div>
+                                        </li>
+                                        <li class="depth-2 child">
+                                            <div class="view-menu-category">
+                                                <input type="checkbox" id="horns" name="horns">
+                                                <label>education professionals</label>
+                                            </div>
+                                        </li>
+                                    </ul>
+                                </li>
+                                <li class="depth-1 child">
+                                    <div class="view-menu-category">
+                                        <input type="checkbox" id="horns" name="horns">
+                                        <label>Arts and Media Professionals</label>
+                                    </div>
+                                    <ul class="depth-2 parent">
+                                        <li class="depth-2 child">
+                                            <div class="view-menu-category">
+                                                <input type="checkbox" id="horns" name="horns">
+                                                <label>Business, Human Resource and Marketing Professionals</label>
+                                            </div>
+                                        </li>
+                                        <li class="depth-2 child">
+                                            <div class="view-menu-category">
+                                                <input type="checkbox" id="horns" name="horns">
+                                                <label>design, engineering, science and transport professionals</label>
+                                            </div>
+                                        </li>
+                                        <li class="depth-2 child">
+                                            <div class="view-menu-category">
+                                                <input type="checkbox" id="horns" name="horns">
+                                                <label>education professionals</label>
+                                            </div>
+                                        </li>
+                                    </ul>
+                                </li>
+                            </ul>
+                        </li>
+                        <li class="depth-0 child">
+                            <div class="view-menu-category">
+                                <input type="checkbox" id="horns" name="horns">
+                                <label>Proffesionals</label>
+                            </div>
+                            <ul class="depth-1 parent">
+                                <li class="depth-1 child">
+                                    <div class="view-menu-category">
+                                        <input type="checkbox" id="horns" name="horns">
+                                        <label>Arts and Media Professionals</label>
+                                    </div>
+                                    <ul class="depth-2 parent">
+                                        <li class="depth-2 child">
+                                            <div class="view-menu-category">
+                                                <input type="checkbox" id="horns" name="horns">
+                                                <label>Business, Human Resource and Marketing Professionals</label>
+                                            </div>
+                                        </li>
+                                        <li class="depth-2 child">
+                                            <div class="view-menu-category">
+                                                <input type="checkbox" id="horns" name="horns">
+                                                <label>design, engineering, science and transport professionals</label>
+                                            </div>
+                                        </li>
+                                        <li class="depth-2 child">
+                                            <div class="view-menu-category">
+                                                <input type="checkbox" id="horns" name="horns">
+                                                <label>education professionals</label>
+                                            </div>
+                                        </li>
+                                    </ul>
+                                </li>
+                                <li class="depth-1 child">
+                                    <div class="view-menu-category">
+                                        <input type="checkbox" id="horns" name="horns">
+                                        <label>Arts and Media Professionals</label>
+                                    </div>
+                                    <ul class="depth-2 parent">
+                                        <li class="depth-2 child">
+                                            <div class="view-menu-category">
+                                                <input type="checkbox" id="horns" name="horns">
+                                                <label>Business, Human Resource and Marketing Professionals</label>
+                                            </div>
+                                        </li>
+                                        <li class="depth-2 child">
+                                            <div class="view-menu-category">
+                                                <input type="checkbox" id="horns" name="horns">
+                                                <label>design, engineering, science and transport professionals</label>
+                                            </div>
+                                        </li>
+                                        <li class="depth-2 child">
+                                            <div class="view-menu-category">
+                                                <input type="checkbox" id="horns" name="horns">
+                                                <label>education professionals</label>
+                                            </div>
+                                        </li>
+                                    </ul>
+                                </li>
+                                <li class="depth-1 child">
+                                    <div class="view-menu-category">
+                                        <input type="checkbox" id="horns" name="horns">
+                                        <label>Arts and Media Professionals</label>
+                                    </div>
+                                    <ul class="depth-2 parent">
+                                        <li class="depth-2 child">
+                                            <div class="view-menu-category">
+                                                <input type="checkbox" id="horns" name="horns">
+                                                <label>Business, Human Resource and Marketing Professionals</label>
+                                            </div>
+                                        </li>
+                                        <li class="depth-2 child">
+                                            <div class="view-menu-category">
+                                                <input type="checkbox" id="horns" name="horns">
+                                                <label>design, engineering, science and transport professionals</label>
+                                            </div>
+                                        </li>
+                                        <li class="depth-2 child">
+                                            <div class="view-menu-category">
+                                                <input type="checkbox" id="horns" name="horns">
+                                                <label>education professionals</label>
+                                            </div>
+                                        </li>
+                                    </ul>
+                                </li>
+                            </ul>
+                        </li>
+                        <li class="depth-0 child">
+                            <div class="view-menu-category">
+                                <input type="checkbox" id="horns" name="horns">
+                                <label>Proffesionals</label>
+                            </div>
+                            <ul class="depth-1 parent">
+                                <li class="depth-1 child">
+                                    <div class="view-menu-category">
+                                        <input type="checkbox" id="horns" name="horns">
+                                        <label>Arts and Media Professionals</label>
+                                    </div>
+                                    <ul class="depth-2 parent">
+                                        <li class="depth-2 child">
+                                            <div class="view-menu-category">
+                                                <input type="checkbox" id="horns" name="horns">
+                                                <label>Business, Human Resource and Marketing Professionals</label>
+                                            </div>
+                                        </li>
+                                        <li class="depth-2 child">
+                                            <div class="view-menu-category">
+                                                <input type="checkbox" id="horns" name="horns">
+                                                <label>design, engineering, science and transport professionals</label>
+                                            </div>
+                                        </li>
+                                        <li class="depth-2 child">
+                                            <div class="view-menu-category">
+                                                <input type="checkbox" id="horns" name="horns">
+                                                <label>education professionals</label>
+                                            </div>
+                                        </li>
+                                    </ul>
+                                </li>
+                                <li class="depth-1 child">
+                                    <div class="view-menu-category">
+                                        <input type="checkbox" id="horns" name="horns">
+                                        <label>Arts and Media Professionals</label>
+                                    </div>
+                                    <ul class="depth-2 parent">
+                                        <li class="depth-2 child">
+                                            <div class="view-menu-category">
+                                                <input type="checkbox" id="horns" name="horns">
+                                                <label>Business, Human Resource and Marketing Professionals</label>
+                                            </div>
+                                        </li>
+                                        <li class="depth-2 child">
+                                            <div class="view-menu-category">
+                                                <input type="checkbox" id="horns" name="horns">
+                                                <label>design, engineering, science and transport professionals</label>
+                                            </div>
+                                        </li>
+                                        <li class="depth-2 child">
+                                            <div class="view-menu-category">
+                                                <input type="checkbox" id="horns" name="horns">
+                                                <label>education professionals</label>
+                                            </div>
+                                        </li>
+                                    </ul>
+                                </li>
+                                <li class="depth-1 child">
+                                    <div class="view-menu-category">
+                                        <input type="checkbox" id="horns" name="horns">
+                                        <label>Arts and Media Professionals</label>
+                                    </div>
+                                    <ul class="depth-2 parent">
+                                        <li class="depth-2 child">
+                                            <div class="view-menu-category">
+                                                <input type="checkbox" id="horns" name="horns">
+                                                <label>Business, Human Resource and Marketing Professionals</label>
+                                            </div>
+                                        </li>
+                                        <li class="depth-2 child">
+                                            <div class="view-menu-category">
+                                                <input type="checkbox" id="horns" name="horns">
+                                                <label>design, engineering, science and transport professionals</label>
+                                            </div>
+                                        </li>
+                                        <li class="depth-2 child">
+                                            <div class="view-menu-category">
+                                                <input type="checkbox" id="horns" name="horns">
+                                                <label>education professionals</label>
+                                            </div>
+                                        </li>
+                                    </ul>
+                                </li>
+                            </ul>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </nav>
+    <nav class="employer isMobile">
+        <div class="image-back-drop"></div>
+        <ul class="container-5">
+            <li class="portrait"><a href=""></a></li>
+            <li class="outside"><a href="">My Profile</a></li>
+            <li class="outside"><a href="">My Account</a></li>
+            <li class="underline"></li>
+            <li class="selected"><a href="">Job Search</a></li>
+            <li><a href="">Seekcruit Guide</a></li>
+            <li class="isMarket"><a>Market</a></li>
+            <li><a href="">Community</a></li>
+            <li class="underline"></li>
+            <li class="outside"><a href="">Sign out</a></li>
+            <li class="underline"></li>
+            <li class="outside"><a href="">Advertiser page</a></li>
+        </ul>
+        <div class="container-6">
+            <form class="layer-menu-category">
+                <div class="container-7">
+                    <ul class="depth-0 parent">
+                        <li class="depth-0 child">
+                            <div class="view-menu-category">
+                                <input type="checkbox" id="horns" name="horns">
+                                <label>Proffesionals</label>
+                            </div>
+                            <ul class="depth-1 parent">
+                                <li class="depth-1 child">
+                                    <div class="view-menu-category">
+                                        <input type="checkbox" id="horns" name="horns">
+                                        <label>Arts and Media Professionals</label>
+                                    </div>
+                                    <ul class="depth-2 parent">
+                                        <li class="depth-2 child">
+                                            <div class="view-menu-category">
+                                                <input type="checkbox" id="horns" name="horns">
+                                                <label>Business, Human Resource and Marketing Professionals</label>
+                                            </div>
+                                        </li>
+                                        <li class="depth-2 child">
+                                            <div class="view-menu-category">
+                                                <input type="checkbox" id="horns" name="horns">
+                                                <label>design, engineering, science and transport professionals</label>
+                                            </div>
+                                        </li>
+                                        <li class="depth-2 child">
+                                            <div class="view-menu-category">
+                                                <input type="checkbox" id="horns" name="horns">
+                                                <label>education professionals</label>
+                                            </div>
+                                        </li>
+                                    </ul>
+                                </li>
+                                <li class="depth-1 child">
+                                    <div class="view-menu-category">
+                                        <input type="checkbox" id="horns" name="horns">
+                                        <label>Arts and Media Professionals</label>
+                                    </div>
+                                    <ul class="depth-2 parent">
+                                        <li class="depth-2 child">
+                                            <div class="view-menu-category">
+                                                <input type="checkbox" id="horns" name="horns">
+                                                <label>Business, Human Resource and Marketing Professionals</label>
+                                            </div>
+                                        </li>
+                                        <li class="depth-2 child">
+                                            <div class="view-menu-category">
+                                                <input type="checkbox" id="horns" name="horns">
+                                                <label>design, engineering, science and transport professionals</label>
+                                            </div>
+                                        </li>
+                                        <li class="depth-2 child">
+                                            <div class="view-menu-category">
+                                                <input type="checkbox" id="horns" name="horns">
+                                                <label>education professionals</label>
+                                            </div>
+                                        </li>
+                                    </ul>
+                                </li>
+                                <li class="depth-1 child">
+                                    <div class="view-menu-category">
+                                        <input type="checkbox" id="horns" name="horns">
+                                        <label>Arts and Media Professionals</label>
+                                    </div>
+                                    <ul class="depth-2 parent">
+                                        <li class="depth-2 child">
+                                            <div class="view-menu-category">
+                                                <input type="checkbox" id="horns" name="horns">
+                                                <label>Business, Human Resource and Marketing Professionals</label>
+                                            </div>
+                                        </li>
+                                        <li class="depth-2 child">
+                                            <div class="view-menu-category">
+                                                <input type="checkbox" id="horns" name="horns">
+                                                <label>design, engineering, science and transport professionals</label>
+                                            </div>
+                                        </li>
+                                        <li class="depth-2 child">
+                                            <div class="view-menu-category">
+                                                <input type="checkbox" id="horns" name="horns">
+                                                <label>education professionals</label>
+                                            </div>
+                                        </li>
+                                    </ul>
+                                </li>
+                            </ul>
+                        </li>
+                        <li class="depth-0 child">
+                            <div class="view-menu-category">
+                                <input type="checkbox" id="horns" name="horns">
+                                <label>Proffesionals</label>
+                            </div>
+                            <ul class="depth-1 parent">
+                                <li class="depth-1 child">
+                                    <div class="view-menu-category">
+                                        <input type="checkbox" id="horns" name="horns">
+                                        <label>Arts and Media Professionals</label>
+                                    </div>
+                                    <ul class="depth-2 parent">
+                                        <li class="depth-2 child">
+                                            <div class="view-menu-category">
+                                                <input type="checkbox" id="horns" name="horns">
+                                                <label>Business, Human Resource and Marketing Professionals</label>
+                                            </div>
+                                        </li>
+                                        <li class="depth-2 child">
+                                            <div class="view-menu-category">
+                                                <input type="checkbox" id="horns" name="horns">
+                                                <label>design, engineering, science and transport professionals</label>
+                                            </div>
+                                        </li>
+                                        <li class="depth-2 child">
+                                            <div class="view-menu-category">
+                                                <input type="checkbox" id="horns" name="horns">
+                                                <label>education professionals</label>
+                                            </div>
+                                        </li>
+                                    </ul>
+                                </li>
+                                <li class="depth-1 child">
+                                    <div class="view-menu-category">
+                                        <input type="checkbox" id="horns" name="horns">
+                                        <label>Arts and Media Professionals</label>
+                                    </div>
+                                    <ul class="depth-2 parent">
+                                        <li class="depth-2 child">
+                                            <div class="view-menu-category">
+                                                <input type="checkbox" id="horns" name="horns">
+                                                <label>Business, Human Resource and Marketing Professionals</label>
+                                            </div>
+                                        </li>
+                                        <li class="depth-2 child">
+                                            <div class="view-menu-category">
+                                                <input type="checkbox" id="horns" name="horns">
+                                                <label>design, engineering, science and transport professionals</label>
+                                            </div>
+                                        </li>
+                                        <li class="depth-2 child">
+                                            <div class="view-menu-category">
+                                                <input type="checkbox" id="horns" name="horns">
+                                                <label>education professionals</label>
+                                            </div>
+                                        </li>
+                                    </ul>
+                                </li>
+                                <li class="depth-1 child">
+                                    <div class="view-menu-category">
+                                        <input type="checkbox" id="horns" name="horns">
+                                        <label>Arts and Media Professionals</label>
+                                    </div>
+                                    <ul class="depth-2 parent">
+                                        <li class="depth-2 child">
+                                            <div class="view-menu-category">
+                                                <input type="checkbox" id="horns" name="horns">
+                                                <label>Business, Human Resource and Marketing Professionals</label>
+                                            </div>
+                                        </li>
+                                        <li class="depth-2 child">
+                                            <div class="view-menu-category">
+                                                <input type="checkbox" id="horns" name="horns">
+                                                <label>design, engineering, science and transport professionals</label>
+                                            </div>
+                                        </li>
+                                        <li class="depth-2 child">
+                                            <div class="view-menu-category">
+                                                <input type="checkbox" id="horns" name="horns">
+                                                <label>education professionals</label>
+                                            </div>
+                                        </li>
+                                    </ul>
+                                </li>
+                            </ul>
+                        </li>
+                        <li class="depth-0 child">
+                            <div class="view-menu-category">
+                                <input type="checkbox" id="horns" name="horns">
+                                <label>Proffesionals</label>
+                            </div>
+                            <ul class="depth-1 parent">
+                                <li class="depth-1 child">
+                                    <div class="view-menu-category">
+                                        <input type="checkbox" id="horns" name="horns">
+                                        <label>Arts and Media Professionals</label>
+                                    </div>
+                                    <ul class="depth-2 parent">
+                                        <li class="depth-2 child">
+                                            <div class="view-menu-category">
+                                                <input type="checkbox" id="horns" name="horns">
+                                                <label>Business, Human Resource and Marketing Professionals</label>
+                                            </div>
+                                        </li>
+                                        <li class="depth-2 child">
+                                            <div class="view-menu-category">
+                                                <input type="checkbox" id="horns" name="horns">
+                                                <label>design, engineering, science and transport professionals</label>
+                                            </div>
+                                        </li>
+                                        <li class="depth-2 child">
+                                            <div class="view-menu-category">
+                                                <input type="checkbox" id="horns" name="horns">
+                                                <label>education professionals</label>
+                                            </div>
+                                        </li>
+                                    </ul>
+                                </li>
+                                <li class="depth-1 child">
+                                    <div class="view-menu-category">
+                                        <input type="checkbox" id="horns" name="horns">
+                                        <label>Arts and Media Professionals</label>
+                                    </div>
+                                    <ul class="depth-2 parent">
+                                        <li class="depth-2 child">
+                                            <div class="view-menu-category">
+                                                <input type="checkbox" id="horns" name="horns">
+                                                <label>Business, Human Resource and Marketing Professionals</label>
+                                            </div>
+                                        </li>
+                                        <li class="depth-2 child">
+                                            <div class="view-menu-category">
+                                                <input type="checkbox" id="horns" name="horns">
+                                                <label>design, engineering, science and transport professionals</label>
+                                            </div>
+                                        </li>
+                                        <li class="depth-2 child">
+                                            <div class="view-menu-category">
+                                                <input type="checkbox" id="horns" name="horns">
+                                                <label>education professionals</label>
+                                            </div>
+                                        </li>
+                                    </ul>
+                                </li>
+                                <li class="depth-1 child">
+                                    <div class="view-menu-category">
+                                        <input type="checkbox" id="horns" name="horns">
+                                        <label>Arts and Media Professionals</label>
+                                    </div>
+                                    <ul class="depth-2 parent">
+                                        <li class="depth-2 child">
+                                            <div class="view-menu-category">
+                                                <input type="checkbox" id="horns" name="horns">
+                                                <label>Business, Human Resource and Marketing Professionals</label>
+                                            </div>
+                                        </li>
+                                        <li class="depth-2 child">
+                                            <div class="view-menu-category">
+                                                <input type="checkbox" id="horns" name="horns">
+                                                <label>design, engineering, science and transport professionals</label>
+                                            </div>
+                                        </li>
+                                        <li class="depth-2 child">
+                                            <div class="view-menu-category">
+                                                <input type="checkbox" id="horns" name="horns">
+                                                <label>education professionals</label>
+                                            </div>
+                                        </li>
+                                    </ul>
+                                </li>
+                            </ul>
+                        </li>
+                    </ul>
+                </div>
+                <input type="text" name="keyword" class="input-keyword form-unit" placeholder="Job title, company, keyword">
+                <input type="text" class="select-map form-unit stylesheet" value="Australia"></input>
+                <input type="submit" class="button-submit form-unit stylesheet" value="Search"></input>
+            </form>
+        </div>
+        <div class="container-0">
+            <a href="/"><h1 class="stylesheet">seekcruit</h1></a>
+            <p class="text-1">Employer</p>
         </div>
         <div class="button-mobile-search">
             <div class="icon stylesheet"></div>
