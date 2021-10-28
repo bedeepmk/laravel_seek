@@ -1,4 +1,4 @@
-@extends('layouts/client/master')
+@extends('layouts/client/contact')
 @section('title', 'contact')
 @section('content')
 	<div class="contact">

@@ -99,7 +99,7 @@
                                 <input type="text" class="start-month" placeholder="Month">
                                 <span class="icon stylesheet gray-arrow"></span>
                                 <input type="text" class="start-year" placeholder="Year">
-                                <br><br><br>
+                                <br><br>
                                 <p class="text-003">Ended</p>
                                 <span class="icon stylesheet gray-arrow"></span>
                                 <input type="text" class="end-month" placeholder="Month">
@@ -233,7 +233,7 @@
                                 <div class="checkbox-wrap">
                                     <input id="qualification-complete" name="qualification-complete" type="checkbox"><label for="qualification-complete">Qualification complete</label>
                                 </div>
-                                <br>
+                                <div class="blank-box"></div>
                                 <p class="text-003">Expected finish (optional)</p>
                                 <span class="icon stylesheet gray-arrow"></span>
                                 <input type="text" class="option-month" placeholder="Month">

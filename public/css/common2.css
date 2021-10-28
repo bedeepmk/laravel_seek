@@ -9,13 +9,6 @@
 	border: none;
 	position: relative;
 	display: block;
-	box-sizing:content-box;
-}
-ol, ul {
-    padding:0;
-}
-p {
-	margin:0;
 }
 script,
 style {
@@ -81,15 +74,11 @@ tr {
 	width: 1180px;
 	margin: 0 auto;
 }
-container {
-	position: static;
-	display: unset;
-}
 article {
 	height: auto;
 	overflow-x: hidden;
 	margin-top: 270px;
-	width: 100%;
+	background-color: rgba(0, 0, 0, 0.05);
 }
 nav {
 	background-color: white;
@@ -1638,11 +1627,11 @@ body .isMap {
 	left: 0px;
 }
 /* employer page */
-.employer article {
+body.employer article {
 	margin-top: 210px;
 	background-color: rgba(0, 0, 0, 0.05);
 }
-.employer article#job-page {
+body.employer article#job-page {
 	margin-top: 125px;
 }
 body.employer {
@@ -2825,7 +2814,6 @@ body article#guide-page {
 	font-size: 1em;
 	word-wrap: break-word;
 	color: #aaa;
-	line-height: 1.3em;
 }
 .left-info .left-info-box .text-003 {
 	font-size: 1.1em;
@@ -2860,7 +2848,7 @@ body article#guide-page {
 	box-sizing: border-box;
 	width: 45px;
 	height: 1.2em;
-	background-color: #2ebd59;
+	background-color: #6200ee;
 	color: white;
 	text-align: center;
 	cursor: pointer;
@@ -2874,8 +2862,8 @@ body article#guide-page {
 	height: 45px;
 	text-align: center;
 	line-height: 45px;
-	color: #2ebd59;
-	border: 1px solid #2ebd59;
+	color: #6200ee;
+	border: 1px solid #6200ee;
 	font-weight: 550;
 	cursor: pointer;
 	letter-spacing: 0.2px;
@@ -2958,12 +2946,12 @@ body article#guide-page {
 }
 .left-info .add-role form .role-info-box .gray-arrow:nth-of-type(3) {
 	position: absolute;
-	top: 102px;
+	top: 112px;
 	right: 365px;
 }
 .left-info .add-role form .role-info-box .gray-arrow:nth-of-type(4) {
 	position: absolute;
-	top: 102px;
+	top: 112px;
 	right: 220px;
 }
 .left-info .add-role form .role-info-box .checkbox-wrap {
@@ -2975,7 +2963,7 @@ body article#guide-page {
 }
 .left-info .add-role form .role-description {
 	box-sizing: border-box;
-	width: 100%;
+	width: 490px;
 	height: 110px;
 	resize: none;
 	border: 1px solid #aaa;
@@ -3028,7 +3016,7 @@ body article#guide-page {
 	height: 45px;
 	line-height: 45px;
 	color: white;
-	background-color: #2ebd59;
+	background-color: #6200ee;
 	text-align: center;
 	cursor: pointer;
 	letter-spacing: 0.2px;
@@ -3136,7 +3124,6 @@ body article#guide-page {
 	font-size: 1em;
 	word-wrap: break-word;
 	color: #aaa;
-	line-height: 1.3em;
 }
 .middle-info .middle-info-box .text-003 {
 	font-size: 1.1em;
@@ -3268,11 +3255,6 @@ body article#guide-page {
 .middle-info .add-education {
 	height: 620px;
 }
-.middle-info .add-education .blank-box {
-	content:'';
-	height: 20px;
-	display: block;
-}
 .middle-info .add-education form {
 	margin-top: 10px;
 	height: 560px;
@@ -3298,10 +3280,10 @@ body article#guide-page {
 }
 .middle-info .add-education form .education-info-box {
 	box-sizing: border-box;
-	margin: 30px auto 20px;
+	margin: 40px auto 15px;
 }
 .middle-info .add-education form .education-info-box .checkbox-wrap:nth-of-type(1) {
-	margin-bottom: 10px;
+	margin-bottom: 20px;
 }
 .middle-info .add-education form .education-info-box input {
 	float: left;
@@ -3311,11 +3293,11 @@ body article#guide-page {
 	line-height: 45px;
 }
 .middle-info .add-education form .education-info-box .gray-arrow:nth-of-type(1) {
-	top: 78px;
+	top: 83px;
 	right: 365px;
 }
 .middle-info .add-education form .education-info-box .gray-arrow:nth-of-type(2) {
-	top: 78px;
+	top: 83px;
 	right: 220px;
 }
 .middle-info .add-education form .education-info-box #complete-checkbox {
@@ -3421,23 +3403,23 @@ body article#guide-page {
 }
 .middle-info .add-licence form .licence-info-box .gray-arrow:nth-of-type(1) {
 	position: absolute;
-	top: 25px;
-	right: 360px;
+	top: 22px;
+	right: 365px;
 }
 .middle-info .add-licence form .licence-info-box .gray-arrow:nth-of-type(2) {
 	position: absolute;
-	top: 25px;
-	right: 215px;
+	top: 22px;
+	right: 220px;
 }
 .middle-info .add-licence form .licence-info-box .gray-arrow:nth-of-type(3) {
 	position: absolute;
-	top: 109px;
-	right: 360px;
+	top: 102px;
+	right: 365px;
 }
 .middle-info .add-licence form .licence-info-box .gray-arrow:nth-of-type(4) {
 	position: absolute;
-	top: 109px;
-	right: 215px;
+	top: 102px;
+	right: 220px;
 }
 .middle-info .add-licence form .licence-info-box .licence-checkbox {
 	top: 10px;
@@ -3454,15 +3436,15 @@ body article#guide-page {
 	letter-spacing: 0.1px;
 }
 .middle-info .add-licence form .text-005 {
-	margin-top: 5px;
+	margin-top: 10px;
 }
 .middle-info .add-licence form .licence-description {
 	box-sizing: border-box;
-	width: 100%;
-	height: 100px;
+	width: 490px;
+	height: 110px;
 	resize: none;
 	border: 1px solid #aaa;
-	padding: 10px;
+	padding: 20px;
 	font-size: 0.9em;
 	font-weight: 440;
 }
@@ -4114,7 +4096,7 @@ body article#guide-page {
 	word-wrap: break-word;
 }
 /* history page */
-.my-history {
+article.my-history {
 	box-sizing: border-box;
 	display: block;
 	width: 100%;
@@ -4410,11 +4392,11 @@ body article#guide-page {
 	cursor: pointer;
 	top: 30px;
 }
-.employer-profile article .employer-profile-info-mobile {
+.employer-profile article#employer-profile-page .employer-profile-info-mobile {
 	display: none;
 }
 
-.employer-profile article {
+.employer-profile article#employer-profile-page {
 	width: 100%;
 	height: auto;
 }
@@ -4631,38 +4613,35 @@ body article#guide-page {
 }
 
 /* employer create job page */
-.employer-create-job article#create-job-page {
-	margin-top: 0px;
-}
-.employer-create-job .employer-create-job-nav {
+.employer-create-job-nav {
 	background-color: #6200ee;
 }
-.employer-create-job .employer-create-job-nav .container-2 {
+.employer-create-job-nav .container-2 {
 	box-sizing: border-box;
 	background-color: #3700b3;
 	padding: 20px 0;
 	height: 140px;
 }
-.employer-create-job .employer-create-job-nav .container-1 li.selected {
+.employer-create-job-nav .container-1 li.selected {
 	background-color: #3700b3;
 }
-.employer-create-job .employer-create-job-nav .container-1 {
+.employer-create-job-nav .container-1 {
 	background: none;
 	width: 1580px;
 }
-.employer-create-job .employer-create-job-nav .container-1 li a {
+.employer-create-job-nav .container-1 li a {
 	color: white;
 }
-.employer-create-job .employer-create-job-nav .container-3 label {
+.employer-create-job-nav .container-3 label {
 	border: none;
 }
-.employer-create-job .employer-create-job-nav .container-0 .text-0 a {
+.employer-create-job-nav .container-0 .text-0 a {
 	color: white;
 }
-.employer-create-job .employer-create-job-nav .container-0 h1 {
+.employer-create-job-nav .container-0 h1 {
 	background-position-y: -300px;
 }
-.employer-create-job .employer-create-job-nav .text-1 {
+.employer-create-job-nav .text-1 {
 	color: white;
 	position: absolute;
 	font-weight: 440;
@@ -4718,11 +4697,12 @@ body article#guide-page {
 .employer-create-job-nav .container-2 .layout-100 .text-002 {
 	font-size: 1.2em;
 }
-.employer-create-job article {
+article#create-job-page {
 	background-color: rgba(0, 0, 0, 0.05);
 	width: 100%;
 	height: auto;
 	box-sizing: border-box;
+	margin-top: 0;
 }
 .create-job-wrap .text-001 {
 	font-size: 2em;
@@ -4941,7 +4921,7 @@ article .create-job-wrap {
 }
 .classify-role-box .switch-button input:checked + .onOff-switch {
 	background-color: #2ebd59;
-	box-shadow: inset 1px 5px 1px #2b8d49;
+	box-shadow: inset 1px 5px 1px #2ebd59;
 }
 .classify-role-box .switch-button input:checked + .onOff-switch:before {
 	-webkit-transform: translateX(26px);
@@ -5024,7 +5004,7 @@ article .create-job-wrap {
 	text-align: center;
 	font-weight: 550;
 	color: white;
-	background-color: #6200ee;
+	background-color: #2ebd59;
 	cursor: pointer;
 }
 .classify-role-box .drop-zone .browse-btn:hover {
@@ -5035,7 +5015,7 @@ article .create-job-wrap {
 	display: inline-block;
 	width: 45px;
 	height: 20px;
-	background-color: #6200ee;
+	background-color: #2ebd59;
 	color: white;
 	margin-bottom: 0;
 	margin-left: 20px;
@@ -5215,9 +5195,6 @@ article .create-job-wrap {
 }
 
 /* applied candidates page */
-article#applied-candidates {
-	margin-top: 125px;
-}
 .section-candidate-filter {
 	box-sizing: border-box;
 	width: calc(50% - 55px);
@@ -5291,7 +5268,10 @@ article#applied-candidates {
 	right: 0px;
 	top: -5px;
 }
-body.employer .section-candidate {
+article#applied-candidates {
+	margin-top: 0;
+}
+.section-candidate {
 	box-sizing: border-box;
 	width: 100%;
 	height: auto;
@@ -5597,7 +5577,7 @@ body.employer .section-candidate {
 }
 
 /* my suggestions page */
-body.employer .section-my-suggestion {
+.section-my-suggestion {
 	box-sizing: border-box;
 	width: 100%;
 	height: auto;
@@ -7389,18 +7369,14 @@ body article#job-apply-page {
 	height: 45px;
 	text-align: center;
 	line-height: 45px;
-	color: #2ebd59;
-	border: 1px solid #2ebd59;
+	color: #6200ee;
+	border: 1px solid #6200ee;
 	font-weight: 550;
-	top: 95px;
+	top: 90px;
 	cursor: pointer;
 	letter-spacing: 0.2px;
 }
-.my-resume-box .blank-box {
-	content:'';
-	height: 20px;
-	display: block;
-}
+
 .my-resume-box .left-info .add-summery {
 	height: 290px;
 }
@@ -7441,7 +7417,7 @@ body article#job-apply-page {
 }
 .my-resume-box .left-info .add-role form .job-title,
 .my-resume-box .left-info .add-role form .company-name {
-	width: 100%;
+	width: 490px;
 	height: 45px;
 	line-height: 45px;
 	margin-bottom: 10px;
@@ -7464,22 +7440,22 @@ body article#job-apply-page {
 }
 .my-resume-box .left-info .add-role form .role-info-box .gray-arrow:nth-of-type(1) {
 	position: absolute;
-	top: 25px;
+	top: 22px;
 	right: 430px;
 }
 .my-resume-box .left-info .add-role form .role-info-box .gray-arrow:nth-of-type(2) {
 	position: absolute;
-	top: 25px;
+	top: 22px;
 	right: 285px;
 }
 .my-resume-box .left-info .add-role form .role-info-box .gray-arrow:nth-of-type(3) {
 	position: absolute;
-	top: 102px;
+	top: 112px;
 	right: 430px;
 }
 .my-resume-box .left-info .add-role form .role-info-box .gray-arrow:nth-of-type(4) {
 	position: absolute;
-	top: 102px;
+	top: 112px;
 	right: 285px;
 }
 .my-resume-box .left-info .add-role form .role-info-box .checkbox-wrap {
@@ -7491,7 +7467,7 @@ body article#job-apply-page {
 }
 .my-resume-box .left-info .add-role form .role-description {
 	box-sizing: border-box;
-	width: 100%;
+	width: 490px;
 	height: 110px;
 	resize: none;
 	border: 1px solid #aaa;
@@ -7557,13 +7533,12 @@ body article#job-apply-page {
 	top: 10px;
 }
 .my-resume-box .left-info .add-skills .save-btn {
-	top: 5px;
+	top: 15px;
 }
 .my-resume-box .left-info .add-skills .cancel-btn {
-	top: -40px;
+	top: -30px;
 	left: 75px;
 }
-
 .my-resume-box .left-info .add-resume {
 	height: 520px;
 }
@@ -7718,11 +7693,10 @@ body article#job-apply-page {
 	display: block;
 }
 .my-resume-box .middle-info .add-education form .education-info-box {
-	margin: 20px auto 20px;
+	margin: 20px auto 25px;
 }
 .my-resume-box .middle-info .add-education form .education-info-box .checkbox-wrap:nth-of-type(1) {
 	top: 10px;
-	display: block;
 }
 .my-resume-box .middle-info .add-education form .education-info-box input {
 	float: left;
@@ -7732,11 +7706,11 @@ body article#job-apply-page {
 	line-height: 45px;
 }
 .my-resume-box .middle-info .add-education form .education-info-box .gray-arrow:nth-of-type(1) {
-	top: 88px;
+	top: 83px;
 	right: 430px;
 }
 .my-resume-box .middle-info .add-education form .education-info-box .gray-arrow:nth-of-type(2) {
-	top: 88px;
+	top: 83px;
 	right: 285px;
 }
 .my-resume-box .middle-info .add-education form .education-info-box #complete-checkbox {
@@ -7799,7 +7773,7 @@ body article#job-apply-page {
 	left: 75px;
 }
 .my-resume-box .middle-info .add-licence {
-	height: 640px;
+	height: 620px;
 }
 .my-resume-box .middle-info .add-licence .text-004 {
 	color: #aaa;
@@ -7850,12 +7824,12 @@ body article#job-apply-page {
 }
 .my-resume-box .middle-info .add-licence form .licence-info-box .gray-arrow:nth-of-type(3) {
 	position: absolute;
-	top: 107px;
+	top: 97px;
 	right: 430px;
 }
 .my-resume-box .middle-info .add-licence form .licence-info-box .gray-arrow:nth-of-type(4) {
 	position: absolute;
-	top: 107px;
+	top: 97px;
 	right: 285px;
 }
 .my-resume-box .middle-info .add-licence form .licence-info-box .licence-checkbox {
@@ -8127,7 +8101,7 @@ body article#job-apply-page {
 .section-my-account .account-email .account-email-inner {
 	box-sizing: border-box;
 	width: 100%;
-	height: 395px;
+	height: 390px;
 }
 .section-my-account .account-email .account-email-inner .cancel-btn {
 	top: -45px;
@@ -8142,7 +8116,7 @@ body article#job-apply-page {
 .section-my-account .account-delete .account-delete-inner {
 	box-sizing: border-box;
 	width: 100%;
-	height: 155px;
+	height: 160px;
 }
 .section-my-account .account-delete .account-delete-inner .delete-btn {
 	box-sizing: border-box;
@@ -8545,9 +8519,6 @@ body article#recruit-guide-page {
 }
 
 /* employer login page */
-article.employer-login-page {
-	margin-top: 0px;
-}
 nav.employer-login-nav {
 	background-color: #6200ee;
 	height: 80px;
@@ -8574,7 +8545,7 @@ nav.employer-login-nav .text-1 {
 	width: 75px;
 	height: 30px;
 	line-height: 30px;
-	background-color: #2ebd59;
+	background-color: #6200ee;
 	font-weight: 440;
 	font-size: 0.8em;
 	letter-spacing: 0.1px;
@@ -8592,15 +8563,15 @@ nav.employer-login-nav .text-1 {
 	font-size: 0.8em;
 	letter-spacing: 0.1px;
 	margin-top: 5px;
-	color: #2ebd59;
-	border: 1px solid #2ebd59;
+	color: #6200ee;
+	border: 1px solid #6200ee;
 }
 .section-board .re-upload-btn {
 	box-sizing: border-box;
 	width: 75px;
 	height: 30px;
 	line-height: 30px;
-	background-color: #2ebd59;
+	background-color: #6200ee;
 	font-weight: 440;
 	font-size: 0.8em;
 	letter-spacing: 0.1px;
@@ -8617,13 +8588,13 @@ nav.employer-login-nav .text-1 {
 		width: 1080px;
 	}
 	/* employer page */
-	body.employer .section-applicants {
+	.section-applicants {
 		width: 100%;
 	}
-	body.employer .section-suggestions {
+	.section-suggestions {
 		width: 100%;
 	}
-	body.employer .section-employer-find-person {
+	.section-employer-find-person {
 		width: 100%;
 	}
 	/* history page */
@@ -8913,45 +8884,45 @@ nav.employer-login-nav .text-1 {
 		width: 900px;
 	}
 	/* employer page */
-	body.employer .section-recent-job .container-0 h4 {
+	.section-recent-job .container-0 h4 {
 		margin-top: 30px;
 	}
-	body.employer .section-applicants {
+	.section-applicants {
 		height: 310px;
 	}
-	body.employer .section-applicants .back-0,
-	body.employer .section-applicants .back-1 {
+	.section-applicants .back-0,
+	.section-applicants .back-1 {
 		height: 310px;
 	}
-	body.employer .section-applicants .icon-0 {
+	.section-applicants .icon-0 {
 		left: 65%;
 	}
-	body.employer .section-applicants .container-0 h4 {
+	.section-applicants .container-0 h4 {
 		padding-top: 30px;
 	}
-	body.employer .section-applicants .container-0 .container-feed li:nth-last-child(1) {
+	.section-applicants .container-0 .container-feed li:nth-last-child(1) {
 		margin-right: 0px;
 	}
-	body.employer .section-suggestions {
+	.section-suggestions {
 		box-sizing: border-box;
 		height: 300px;
 		margin-top: 60px;
 	}
-	body.employer .section-employer-find-person h4 {
+	.section-employer-find-person h4 {
 		padding-top: 50px;
 	}
-	body.employer .section-employer-find-person .container-0 {
+	.section-employer-find-person .container-0 {
 		margin: 50px auto 0;
 		height: 320px;
 	}
-	body.employer .section-employer-find-person .container-0 li {
+	.section-employer-find-person .container-0 li {
 		padding: 0 30px;
 		width: 305px;
 	}
-	body.employer .section-employer-find-person .container-0 li:nth-of-type(1) {
+	.section-employer-find-person .container-0 li:nth-of-type(1) {
 		padding-left: 0px;
 	}
-	body.employer .section-employer-find-person .container-0 li:nth-of-type(3) {
+	.section-employer-find-person .container-0 li:nth-of-type(3) {
 		padding-right: 0px;
 	}
 	/* history page */
@@ -9045,55 +9016,55 @@ nav.employer-login-nav .text-1 {
 		width: 100%;
 	}
 	/* employer page */
-	body.employer .section-recent-job .container-0 h4 {
+	.section-recent-job .container-0 h4 {
 		margin-top: 30px;
 		font-size: 1.3em;
 	}
 	nav.employer .container-0 .text-1 {
 		left: 280px;
 	}
-	body.employer .section-applicants {
+	.section-applicants {
 		height: 500px;
 	}
-	body.employer .section-applicants .back-0,
-	body.employer .section-applicants .back-1 {
+	.section-applicants .back-0,
+	.section-applicants .back-1 {
 		height: 500px;
 	}
-	body.employer .section-applicants .icon-0 {
+	.section-applicants .icon-0 {
 		left: 85%;
 	}
-	body.employer .section-applicants .container-0 h4 {
+	.section-applicants .container-0 h4 {
 		padding-top: 30px;
 		font-size: 1.3em;
 	}
-	body.employer .container-feed li {
+	.container-feed li {
 		margin-bottom: 12px;
 	}
-	body.employer .section-suggestions .container-0 h4 {
+	.section-suggestions .container-0 h4 {
 		font-size: 1.3em;
 	}
-	body.employer .section-employer-find-person h4 {
+	.section-employer-find-person h4 {
 		padding-top: 50px;
 	}
-	body.employer .section-employer-find-person .container-0 {
+	.section-employer-find-person .container-0 {
 		margin: 50px auto 0;
 		height: 320px;
 	}
-	body.employer .section-employer-find-person .container-0 li {
+	.section-employer-find-person .container-0 li {
 		padding: 0 30px;
 		width: 200px;
 		margin: 0 10px;
 	}
-	body.employer .section-employer-find-person .container-0 li:nth-of-type(1) {
+	.section-employer-find-person .container-0 li:nth-of-type(1) {
 		margin-left: 0px;
 	}
-	body.employer .section-employer-find-person .container-0 li:nth-of-type(3) {
+	.section-employer-find-person .container-0 li:nth-of-type(3) {
 		margin-right: 0px;
 	}
-	body.employer .section-employer-find-person .container-0 li .text-0 {
+	.section-employer-find-person .container-0 li .text-0 {
 		font-size: 1.2em;
 	}
-	body.employer .section-employer-find-person .container-0 li .text-1 {
+	.section-employer-find-person .container-0 li .text-1 {
 		font-size: 0.9em;
 	}
 	/* history page */
@@ -9748,10 +9719,6 @@ nav.employer-login-nav .text-1 {
 	.guide article {
 		padding: 0;
 	}
-	/* employer login page */
-	nav.employer-login-nav {
-		display: none;
-	}
 	/* guide page */
 	.nav-Contact-btn {
 		display: none;
@@ -9873,25 +9840,25 @@ nav.employer-login-nav .text-1 {
 	.employer article {
 		margin-top: 0;
 	}
-	body.employer article#job-page {
+	article#job-page {
 		margin-top: 0;
 	}
-	body.employer .section-recent-mobile-wrap {
+	.section-recent-mobile-wrap {
 		display: block;
 	}
-	body.employer .section-applicants {
+	.section-applicants {
 		display: none;
 	}
-	body.employer .section-applicants-mobile {
+	.section-applicants-mobile {
 		display: block;
 	}
-	body.employer .section-suggestions {
+	.section-suggestions {
 		display: none;
 	}
-	body.employer .section-suggestions-mobile {
+	.section-suggestions-mobile {
 		display: block;
 	}
-	body.employer .section-employer-find-person {
+	.section-employer-find-person {
 		display: none;
 	}
 	body.employer footer {
@@ -9918,14 +9885,14 @@ nav.employer-login-nav .text-1 {
 	body.employer nav.isMobile .container-0 .stylesheet {
 		transform: scale(0.7);
 		top: -5px;
-		left: -10px;
+		left: -20px;
 		background-position-y: -300px;
 	}
 	body.employer nav.isMobile .container-0 .text-1 {
 		font-size: 0.9em;
 		font-weight: 440;
-		top: 33px;
-		left: 210px;
+		top: 15px;
+		left: -70px;
 		color: white;
 	}
 	body.employer nav.isMobile .button-mobile-menu {
@@ -10374,10 +10341,6 @@ nav.employer-login-nav .text-1 {
 	}
 	body.isMobileMap article {
 		padding-top: 0;
-		margin-top: 0;
-	}
-	body.isMobileMap footer {
-		display: none;
 	}
 	nav.isPC {
 		display: none;
@@ -11289,10 +11252,10 @@ nav.employer-login-nav .text-1 {
 		height: 305px;
 	}
 	.section-my-account .account-email .account-email-inner {
-		height: 370px;
+		height: 345px;
 	}
 	.section-my-account .account-delete .account-delete-inner {
-		height: 140px;
+		height: 145px;
 	}
 }
 @media only screen and (max-width: 600px) {
@@ -11480,6 +11443,17 @@ nav.employer-login-nav .text-1 {
 	nav .container-10 {
 		width: calc(100% - 20px);
 		margin: 0 10px;
+	}
+	nav.employer.isMobile .container-0 h1 {
+		width: 30px;
+		left: 20px;
+		top: -5px;
+	}
+	nav.employer.isMobile .container-0 .text-1 {
+		left: 55px;
+		font-size: 1.3em;
+		top: 26px;
+		font-weight: 550;
 	}
 	.section-main-0 li {
 		height: 175px;
@@ -11748,8 +11722,8 @@ nav.employer-login-nav .text-1 {
 		left: -40px;
 	}
 	body.employer nav.isMobile .container-0 .text-1 {
-		font-size: 0.7em;
-		left: 165px;
+		font-size: 0.8em;
+		left: -100px;
 	}
 	body.employer .section-recent-job .container-0 h4 {
 		font-size: 1.3em;

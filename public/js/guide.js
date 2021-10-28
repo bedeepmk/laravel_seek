@@ -5,8 +5,7 @@ function mapAdClick() {
 	if (document.querySelector('.map-ad-info').offsetWidth == '868') {
 		document.querySelector('.arrow-up').style.left = '0px';
 		document.querySelector('.arrow-up2').style.left = '0px';
-	}
-	else if (document.querySelector('.map-ad-info').offsetWidth == '718') {
+	} else if (document.querySelector('.map-ad-info').offsetWidth == '718') {
 		document.querySelector('.arrow-up').style.left = '0px';
 		document.querySelector('.arrow-up2').style.left = '0px';
 	}
@@ -32,8 +31,7 @@ function bannerAdClick() {
 	if (document.querySelector('.banner-ad-info').offsetWidth == '868') {
 		document.querySelector('.arrow-up').style.left = '650px';
 		document.querySelector('.arrow-up2').style.left = '650px';
-	}		
-	else if (document.querySelector('.banner-ad-info').offsetWidth == '718') {
+	} else if (document.querySelector('.banner-ad-info').offsetWidth == '718') {
 		document.querySelector('.arrow-up').style.left = '520px';
 		document.querySelector('.arrow-up2').style.left = '520px';
 	}
@@ -89,69 +87,68 @@ function contactPage() {
 $(document).ready(function () {
 	if ($('.ad-info-box').outerWidth() == '540') {
 		$('.map-ad-info-title').on('click', function () {
-			$('.arrow-up3').css({left:'0px'});
-			$('.arrow-up4').css({left:'0px'});
-		})
+			$('.arrow-up3').css({ left: '0px' });
+			$('.arrow-up4').css({ left: '0px' });
+		});
 		$('.market-ad-info-title').on('click', function () {
-			$('.arrow-up3').css({left:'180px'});
-			$('.arrow-up4').css({left:'180px'});
-		})
+			$('.arrow-up3').css({ left: '180px' });
+			$('.arrow-up4').css({ left: '180px' });
+		});
 		$('.banner-ad-info-title').on('click', function () {
-			$('.arrow-up3').css({left:'360px'});
-			$('.arrow-up4').css({left:'360px'});
-		})
+			$('.arrow-up3').css({ left: '360px' });
+			$('.arrow-up4').css({ left: '360px' });
+		});
 	} else if ($('.ad-info-box').outerWidth() == '420') {
 		$('.map-ad-info-title').on('click', function () {
-			$('.arrow-up3').css({left:'-25px'});
-			$('.arrow-up4').css({left:'-25px'});
-		})
+			$('.arrow-up3').css({ left: '-25px' });
+			$('.arrow-up4').css({ left: '-25px' });
+		});
 		$('.market-ad-info-title').on('click', function () {
-			$('.arrow-up3').css({left:'120px'});
-			$('.arrow-up4').css({left:'120px'});
-		})
+			$('.arrow-up3').css({ left: '120px' });
+			$('.arrow-up4').css({ left: '120px' });
+		});
 		$('.banner-ad-info-title').on('click', function () {
-			$('.arrow-up3').css({left:'260px'});
-			$('.arrow-up4').css({left:'260px'});
-		})
+			$('.arrow-up3').css({ left: '260px' });
+			$('.arrow-up4').css({ left: '260px' });
+		});
 	} else if ($('.ad-info-box').outerWidth() == '360') {
 		$('.map-ad-info-title').on('click', function () {
-			$('.arrow-up3').css({left:'-35px'});
-			$('.arrow-up4').css({left:'-35px'});
-		})
+			$('.arrow-up3').css({ left: '-35px' });
+			$('.arrow-up4').css({ left: '-35px' });
+		});
 		$('.market-ad-info-title').on('click', function () {
-			$('.arrow-up3').css({left:'85px'});
-			$('.arrow-up4').css({left:'85px'});
-		})
+			$('.arrow-up3').css({ left: '85px' });
+			$('.arrow-up4').css({ left: '85px' });
+		});
 		$('.banner-ad-info-title').on('click', function () {
-			$('.arrow-up3').css({left:'210px'});
-			$('.arrow-up4').css({left:'210px'});
-		})
+			$('.arrow-up3').css({ left: '210px' });
+			$('.arrow-up4').css({ left: '210px' });
+		});
 	} else if ($('.ad-info-box').outerWidth() == '300') {
 		$('.map-ad-info-title').on('click', function () {
-			$('.arrow-up3').css({left:'-40px'});
-			$('.arrow-up4').css({left:'-40px'});
-		})
+			$('.arrow-up3').css({ left: '-40px' });
+			$('.arrow-up4').css({ left: '-40px' });
+		});
 		$('.market-ad-info-title').on('click', function () {
-			$('.arrow-up3').css({left:'55px'});
-			$('.arrow-up4').css({left:'55px'});
-		})
+			$('.arrow-up3').css({ left: '55px' });
+			$('.arrow-up4').css({ left: '55px' });
+		});
 		$('.banner-ad-info-title').on('click', function () {
-			$('.arrow-up3').css({left:'160px'});
-			$('.arrow-up4').css({left:'160px'});
-		})
+			$('.arrow-up3').css({ left: '160px' });
+			$('.arrow-up4').css({ left: '160px' });
+		});
 	} else if ($('.ad-info-box').outerWidth() == '280') {
 		$('.map-ad-info-title').on('click', function () {
-			$('.arrow-up3').css({left:'-50px'});
-			$('.arrow-up4').css({left:'-50px'});
-		})
+			$('.arrow-up3').css({ left: '-50px' });
+			$('.arrow-up4').css({ left: '-50px' });
+		});
 		$('.market-ad-info-title').on('click', function () {
-			$('.arrow-up3').css({left:'50px'});
-			$('.arrow-up4').css({left:'50px'});
-		})
+			$('.arrow-up3').css({ left: '50px' });
+			$('.arrow-up4').css({ left: '50px' });
+		});
 		$('.banner-ad-info-title').on('click', function () {
-			$('.arrow-up3').css({left:'145px'});
-			$('.arrow-up4').css({left:'145px'});
-		})
+			$('.arrow-up3').css({ left: '145px' });
+			$('.arrow-up4').css({ left: '145px' });
+		});
 	}
-	
-})
+});

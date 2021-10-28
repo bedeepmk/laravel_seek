@@ -1,4 +1,4 @@
-@extends('layouts/client/master')
+@extends('layouts/client/employer')
 @section('title', 'applicant-information')
 @section('content')
     <article>

@@ -1,7 +1,7 @@
-@extends('layouts/client/master')
+@extends('layouts/client/employer2')
 @section('title', 'applied-candidates')
 @section('content')
-    <article id="job-page">
+    <article id="applied-candidates">
         <section class="section-employer-prtrait">
             <div class="layout-100">
                 <div class="my-page-employer-img"></div>

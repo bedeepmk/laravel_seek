@@ -1,4 +1,4 @@
-@extends('layouts/client/master')
+@extends('layouts/client/apply-history')
 @section('title', 'apply-history')
 @section('content')
     <article class="my-history">

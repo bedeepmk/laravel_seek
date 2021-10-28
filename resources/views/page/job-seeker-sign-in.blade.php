@@ -1,4 +1,4 @@
-@extends('layouts/client/master')
+@extends('layouts/client/job-seeker-sign')
 @section('title', 'job-seeker-sign-in')
 @section('content')
     <section class="jobSeeker">

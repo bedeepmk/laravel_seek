@@ -1,4 +1,4 @@
-@extends('layouts/client/master')
+@extends('layouts/client/job-information')
 @section('title', 'job-information')
 @section('content')
     <article class="isMap">
