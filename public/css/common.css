@@ -8581,6 +8581,7 @@ nav.employer-login-nav .text-1 {
 	margin-top: 5px;
 	margin-right: 5px;
 	color: white;
+	padding: 0;
 }
 .section-board .ad-delete-btn {
 	box-sizing: border-box;
@@ -8594,6 +8595,7 @@ nav.employer-login-nav .text-1 {
 	margin-top: 5px;
 	color: #2ebd59;
 	border: 1px solid #2ebd59;
+	padding: 0;
 }
 .section-board .re-upload-btn {
 	box-sizing: border-box;
@@ -8607,6 +8609,7 @@ nav.employer-login-nav .text-1 {
 	margin-top: 5px;
 	margin-right: 5px;
 	color: white;
+	padding: 0;
 }
 .section-board .board-draft .ad-delete-btn {
 	width: 75px;
@@ -9360,9 +9363,10 @@ nav.employer-login-nav .text-1 {
 		width: 30%;
 		text-align: right;
 		display: inline-block;
-		padding-right: 20px;
+		padding-right: 0 20px 0 0;
 		font-weight: 440;
 		color: #aaa;
+		flex: none;
 	}
 	footer .container-0 {
 		height: 140px;
