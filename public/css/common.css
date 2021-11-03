@@ -8750,7 +8750,7 @@ nav.employer-login-nav .text-1 {
 	}
 }
 @media only screen and (max-width: 1600px) {
-	/* apply page */
+	/* job apply page */
 	.section-job-apply-info {
 		width: 1200px;
 		padding: 30px;
@@ -8784,23 +8784,29 @@ nav.employer-login-nav .text-1 {
 		margin-right: 0px;
 	}
 	.my-resume-box .right-info {
-		float: none;
 		width: 100%;
 		height: auto;
-		overflow-x: auto;
 	}
 	.my-resume-box .left-info .left-info-box,
 	.my-resume-box .middle-info .middle-info-box {
 		width: 100%;
 	}
-	.my-resume-box .right-info .apply-video-resume-box:after {
-		clear: both;
-		content:'';
-		display: block;
+	.my-resume-box .right-info {
+		height: 260px;
+	}
+	.my-resume-box .right-info .text-001 {
+		margin-bottom: 20px;
+	}
+	.my-resume-box .right-info .apply-video-resume-box {
+		height: 185px;
+		overflow-x: scroll;
+		overflow-y: hidden;
+		white-space: nowrap;
 	}
 	.my-resume-box .right-info .apply-video-resume-box .video-resume-list-box {
 		width: 300px;
-		float: left;
+		display: inline-block;
+		margin-bottom: 20px;
 	}
 }
 @media only screen and (max-width: 1570px) {
@@ -9041,6 +9047,101 @@ nav.employer-login-nav .text-1 {
 		margin-bottom: 40px;
 		margin-right: 0;
 	}
+	/* job apply page */
+	.section-job-apply-info {
+		width: 900px;
+		padding: 20px;
+		height: auto;
+	}
+	.section-job-apply-info .apply-user-info-box {
+		width: 100%;
+		margin-right: 0px;
+		margin-bottom: 15px;
+	}
+	.section-job-apply-info .apply-user-info-box .apply-user-info {
+		margin-bottom: 15px;
+	}
+	.my-resume-box {
+		width: 900px;
+	}
+	.my-resume-box .left-info,
+	.my-resume-box .middle-info {
+		width: 440px;
+	}
+	.left-info .left-info-box .text-002,
+	.middle-info .middle-info-box .text-002 {
+		font-size: 0.8em;
+	}
+	.my-resume-box .left-info .add-role form .role-info-box input {
+		width: 110px;
+	}
+	.my-resume-box .left-info .add-role form .role-info-box .gray-arrow:nth-of-type(1) {
+		right: 290px;
+	}
+	.my-resume-box .left-info .add-role form .role-info-box .gray-arrow:nth-of-type(2) {
+		right: 165px;
+	}
+	.my-resume-box .left-info .add-role form .role-info-box .gray-arrow:nth-of-type(3) {
+		right: 290px;
+	}
+	.my-resume-box .left-info .add-role form .role-info-box .gray-arrow:nth-of-type(4) {
+		right: 165px;
+	}
+
+	.my-resume-box .middle-info .add-work form .gray-arrow {
+		right: 240px;
+	}
+	.my-resume-box .middle-info .add-work form .expiration-date .check-date {
+		text-align: left;
+		padding-left: 15px;
+	}
+	.my-resume-box .middle-info .add-work form .expiration-date .gray-arrow:nth-of-type(1) {
+		right: 320px;
+	}
+	.my-resume-box .middle-info .add-work form .expiration-date .gray-arrow:nth-of-type(2) {
+		right: 235px;
+	}
+
+	.my-resume-box .middle-info .add-education form .education-info-box input {
+		width: 110px;
+	}
+	.my-resume-box .middle-info .add-education form .education-info-box .gray-arrow:nth-of-type(1) {
+		right: 290px;
+	}
+	.my-resume-box .middle-info .add-education form .education-info-box .gray-arrow:nth-of-type(2) {
+		right: 165px;
+	}
+	.my-resume-box .middle-info .add-licence form .licence-info-box input {
+		width: 110px;
+	}
+	.my-resume-box .middle-info .add-licence form .licence-info-box .gray-arrow:nth-of-type(1) {
+		right: 290px;
+	}
+	.my-resume-box .middle-info .add-licence form .licence-info-box .gray-arrow:nth-of-type(2) {
+		right: 165px;
+	}
+	.my-resume-box .middle-info .add-licence form .licence-info-box .gray-arrow:nth-of-type(3) {
+		right: 290px;
+	}
+	.my-resume-box .middle-info .add-licence form .licence-info-box .gray-arrow:nth-of-type(4) {
+		right: 165px;
+	}
+	.my-resume-box .left-info .left-info-box:nth-last-of-type(1),
+	.my-resume-box .middle-info .middle-info-box:nth-last-of-type(1) {
+		margin-bottom: 20px;
+	}
+	.my-resume-box .left-info .add-resume {
+		height: 540px;
+	}
+	#fileDragDesc {
+		padding-left: 10px;
+		padding-right: 10px;
+		word-wrap: break-word;
+	}
+	.my-resume-box .middle-info .add-licence {
+		height: 640px;
+	}
+
 }
 @media only screen and (max-width: 1155px) {
 	/* history page */
