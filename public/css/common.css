@@ -7529,7 +7529,7 @@ body article#job-apply-page {
 	box-sizing: border-box;
 	float: left;
 	margin-right: 10px;
-	width: 410px;
+	width: calc(100% - 80px);
 	height: 45px;
 	line-height: 45px;
 	padding-left: 10px;
@@ -7732,11 +7732,11 @@ body article#job-apply-page {
 	line-height: 45px;
 }
 .my-resume-box .middle-info .add-education form .education-info-box .gray-arrow:nth-of-type(1) {
-	top: 88px;
+	top: 78px;
 	right: 430px;
 }
 .my-resume-box .middle-info .add-education form .education-info-box .gray-arrow:nth-of-type(2) {
-	top: 88px;
+	top: 78px;
 	right: 285px;
 }
 .my-resume-box .middle-info .add-education form .education-info-box #complete-checkbox {
@@ -8747,6 +8747,60 @@ nav.employer-login-nav .text-1 {
 	}
 	footer .container-1 {
 		width: 1180px;
+	}
+}
+@media only screen and (max-width: 1600px) {
+	/* apply page */
+	.section-job-apply-info {
+		width: 1200px;
+		padding: 30px;
+	}
+	.section-job-apply-info .apply-user-info-box {
+		width: 380px;	
+	}
+	.section-job-apply-info .apply-job-info-box {
+		width: 730px;
+	}
+	.section-job-apply-info .apply-job-info-box .job-info-wrap div {
+		margin-right: 20px;
+	}
+	.section-job-apply-info .apply-job-info-box .job-info-wrap div:nth-of-type(1) {
+		width: 125px;
+	}
+	.section-job-apply-info .apply-job-info-box .job-info-wrap div:nth-of-type(3) {
+		width: 170px;
+	}
+	.section-job-apply-info .apply-job-info-box .job-info-wrap div:nth-of-type(4) {
+		width: 240px;
+	}
+	.my-resume-box {
+		width: 1200px;
+	}
+	.my-resume-box .left-info,
+	.my-resume-box .middle-info {
+		width: 590px;
+	}
+	.my-resume-box .middle-info {
+		margin-right: 0px;
+	}
+	.my-resume-box .right-info {
+		float: none;
+		width: 100%;
+		height: auto;
+		overflow-x: auto;
+	}
+	.my-resume-box .left-info .left-info-box,
+	.my-resume-box .middle-info .middle-info-box {
+		width: 100%;
+	}
+	.my-resume-box .right-info .apply-video-resume-box:after {
+		clear: both;
+		content:'';
+		display: block;
+	}
+	.my-resume-box .right-info .apply-video-resume-box .video-resume-list-box {
+		width: 300px;
+		float: left;
 	}
 }
 @media only screen and (max-width: 1570px) {
