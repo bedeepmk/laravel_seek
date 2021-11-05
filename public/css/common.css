@@ -1567,11 +1567,12 @@ body .isMap {
 	right: -2px;
 }
 .gray-arrow {
-	width: 40px;
-	height: 40px;
+	width: 15px;
+	height: 15px;
 	background: url(../img/stylesheet.png) no-repeat;
 	background-size: 300px 3000px;
-	background-position-y: -100px;
+	background-position-x: -20px;
+	background-position-y: -120px;
 	position: absolute;
 	transform: scale(1);
 	z-index: 5;
@@ -2495,15 +2496,6 @@ body article#guide-page {
 	left: 3px;
 }
 
-.my-page-job-seeker .gray-arrow {
-	width: 40px;
-	height: 40px;
-	background-position-y: -100px;
-	position: absolute;
-	transform: scale(1);
-	z-index: 5;
-	filter: grayscale(100%);
-}
 .my-page-job-seeker .star-img-w {
 	z-index: 2;
 	width: 10px;
@@ -2971,12 +2963,20 @@ body article#guide-page {
 	top: 102px;
 	right: 220px;
 }
+input#still-in-role {
+	display: none;
+}
 .left-info .add-role form .role-info-box .checkbox-wrap {
 	top: 10px;
+	width: 115px;
+	height: 25px;
+	left: 290px;
+	margin: 0px;
 }
 .left-info .add-role form .role-info-box .checkbox-wrap label {
 	font-weight: 550;
 	letter-spacing: 0.1px;
+	top: -45px;
 }
 .left-info .add-role form .role-description {
 	box-sizing: border-box;
@@ -3124,7 +3124,7 @@ body article#guide-page {
 	float: left;
 	width: 525px;
 	height: 160px;
-	padding: 10px 20px;
+	padding: 10px 20px 20px;
 	margin-right: 15px;
 	margin-bottom: 15px;
 	background-color: white;
@@ -3336,12 +3336,25 @@ body article#guide-page {
 	width: 25px;
 	height: 25px;
 }
-.middle-info .add-education form .education-info-box label {
+.middle-info .add-education form .education-info-box label:nth-of-type(1) {
 	font-weight: 550;
 	letter-spacing: 0.1px;
+	top: 0px;
+}
+.middle-info .add-education form .education-info-box #qualification-complete {
+	display: none;
+}
+.middle-info .add-education form .education-info-box #education-still-in-role {
+	display: none;
+}
+.middle-info .add-education form .education-info-box label[for='education-still-in-role'] {
+	top: -45px;
 }
 .middle-info .add-education form .checkbox-wrap:nth-last-child(1) {
-	top: 10px;
+	width: 115px;
+	height: 25px;
+	left: 290px;
+	margin: 0px;
 }
 .middle-info .add-education form .course-highlight {
 	box-sizing: border-box;
@@ -7328,7 +7341,7 @@ body article#job-apply-page {
 }
 .my-resume-box .left-info .left-info-box:nth-last-of-type(1),
 .my-resume-box .middle-info .middle-info-box:nth-last-of-type(1) {
-	margin-bottom: 0;
+	margin-bottom: 20px;
 }
 .my-resume-box .left-info .left-info-box .add-btn,
 .my-resume-box .middle-info .middle-info-box .add-btn {
@@ -7378,15 +7391,7 @@ body article#job-apply-page {
 	top: 3px;
 	left: 3px;
 }
-.my-resume-box .gray-arrow {
-	width: 40px;
-	height: 40px;
-	background-position-y: -100px;
-	position: absolute;
-	transform: scale(1);
-	z-index: 5;
-	filter: grayscale(100%);
-}
+
 .my-resume-box .edit-btn {
 	box-sizing: border-box;
 	position: absolute;
@@ -7469,30 +7474,35 @@ body article#job-apply-page {
 }
 .my-resume-box .left-info .add-role form .role-info-box .gray-arrow:nth-of-type(1) {
 	position: absolute;
-	top: 25px;
-	right: 430px;
+	top: 45px;
+	left: 105px;
 }
 .my-resume-box .left-info .add-role form .role-info-box .gray-arrow:nth-of-type(2) {
 	position: absolute;
-	top: 25px;
-	right: 285px;
+	top: 45px;
+	left: 250px;
 }
 .my-resume-box .left-info .add-role form .role-info-box .gray-arrow:nth-of-type(3) {
 	position: absolute;
-	top: 102px;
-	right: 430px;
+	top: 125px;
+	left: 105px;
 }
 .my-resume-box .left-info .add-role form .role-info-box .gray-arrow:nth-of-type(4) {
 	position: absolute;
-	top: 102px;
-	right: 285px;
+	top: 125px;
+	left: 250px;
 }
 .my-resume-box .left-info .add-role form .role-info-box .checkbox-wrap {
 	top: 10px;
+	width: 115px;
+	height: 25px;
+	left: 290px;
+	margin: 0px;
 }
 .my-resume-box .left-info .add-role form .role-info-box .checkbox-wrap label {
 	font-weight: 550;
 	letter-spacing: 0.1px;
+	top: -45px;
 }
 .my-resume-box .left-info .add-role form .role-description {
 	box-sizing: border-box;
@@ -7638,8 +7648,8 @@ body article#job-apply-page {
 	height: 230px;
 }
 .my-resume-box .middle-info .add-work form .gray-arrow {
-	top: 22px;
-	right: 400px;
+	top: 45px;
+	right: 395px;
 }
 .my-resume-box .middle-info .add-work form .visa-type {
 	box-sizing: border-box;
@@ -7682,11 +7692,11 @@ body article#job-apply-page {
 	padding-left: 20px;
 }
 .my-resume-box .middle-info .add-work form .expiration-date .gray-arrow:nth-of-type(1) {
-	top: -7px;
+	top: 13px;
 	right: 390px;
 }
 .my-resume-box .middle-info .add-work form .expiration-date .gray-arrow:nth-of-type(2) {
-	top: -7px;
+	top: 13px;
 	right: 270px;
 }
 .my-resume-box .middle-info .add-work .save-btn {
@@ -7737,12 +7747,12 @@ body article#job-apply-page {
 	line-height: 45px;
 }
 .my-resume-box .middle-info .add-education form .education-info-box .gray-arrow:nth-of-type(1) {
-	top: 78px;
-	right: 430px;
+	top: 98px;
+	left: 105px;
 }
 .my-resume-box .middle-info .add-education form .education-info-box .gray-arrow:nth-of-type(2) {
-	top: 78px;
-	right: 285px;
+	top: 98px;
+	left: 250px;
 }
 .my-resume-box .middle-info .add-education form .education-info-box #complete-checkbox {
 	margin: 10px 10px 10px 0px;
@@ -7804,7 +7814,7 @@ body article#job-apply-page {
 	left: 75px;
 }
 .my-resume-box .middle-info .add-licence {
-	height: 640px;
+	height: auto;
 }
 .my-resume-box .middle-info .add-licence .text-004 {
 	color: #aaa;
@@ -7845,23 +7855,23 @@ body article#job-apply-page {
 }
 .my-resume-box .middle-info .add-licence form .licence-info-box .gray-arrow:nth-of-type(1) {
 	position: absolute;
-	top: 22px;
-	right: 430px;
+	top: 45px;
+	left: 105px;
 }
 .my-resume-box .middle-info .add-licence form .licence-info-box .gray-arrow:nth-of-type(2) {
 	position: absolute;
-	top: 22px;
-	right: 285px;
+	top: 45px;
+	left: 250px;
 }
 .my-resume-box .middle-info .add-licence form .licence-info-box .gray-arrow:nth-of-type(3) {
 	position: absolute;
-	top: 107px;
-	right: 430px;
+	top: 130px;
+	left: 105px;
 }
 .my-resume-box .middle-info .add-licence form .licence-info-box .gray-arrow:nth-of-type(4) {
 	position: absolute;
-	top: 107px;
-	right: 285px;
+	top: 130px;
+	left: 250px;
 }
 .my-resume-box .middle-info .add-licence form .licence-info-box .licence-checkbox {
 	top: 10px;
@@ -8813,6 +8823,9 @@ nav.employer-login-nav .text-1 {
 		display: inline-block;
 		margin-bottom: 20px;
 	}
+	.section-job-apply-btn {
+		width: 100%;
+	}
 }
 @media only screen and (max-width: 1570px) {
 	/* employer profile page */
@@ -9081,16 +9094,19 @@ nav.employer-login-nav .text-1 {
 		width: 110px;
 	}
 	.my-resume-box .left-info .add-role form .role-info-box .gray-arrow:nth-of-type(1) {
-		right: 290px;
+		left: 85px;
 	}
 	.my-resume-box .left-info .add-role form .role-info-box .gray-arrow:nth-of-type(2) {
-		right: 165px;
+		left: 210px;
 	}
 	.my-resume-box .left-info .add-role form .role-info-box .gray-arrow:nth-of-type(3) {
-		right: 290px;
+		left: 85px;
 	}
 	.my-resume-box .left-info .add-role form .role-info-box .gray-arrow:nth-of-type(4) {
-		right: 165px;
+		left: 210px;
+	}
+	.my-resume-box .left-info .add-role form .role-info-box .checkbox-wrap {
+		left: 250px;
 	}
 
 	.my-resume-box .middle-info .add-work form .gray-arrow {
@@ -9101,39 +9117,39 @@ nav.employer-login-nav .text-1 {
 		padding-left: 15px;
 	}
 	.my-resume-box .middle-info .add-work form .expiration-date .gray-arrow:nth-of-type(1) {
-		right: 320px;
+		right: 235px;
 	}
 	.my-resume-box .middle-info .add-work form .expiration-date .gray-arrow:nth-of-type(2) {
-		right: 235px;
+		right: 120px;
 	}
 
 	.my-resume-box .middle-info .add-education form .education-info-box input {
 		width: 110px;
 	}
 	.my-resume-box .middle-info .add-education form .education-info-box .gray-arrow:nth-of-type(1) {
-		right: 290px;
+		left: 85px;
 	}
 	.my-resume-box .middle-info .add-education form .education-info-box .gray-arrow:nth-of-type(2) {
-		right: 165px;
+		left: 210px;
 	}
+	.middle-info .add-education form .checkbox-wrap:nth-last-child(1) {
+		left: 250px;
+	}
+
 	.my-resume-box .middle-info .add-licence form .licence-info-box input {
 		width: 110px;
 	}
 	.my-resume-box .middle-info .add-licence form .licence-info-box .gray-arrow:nth-of-type(1) {
-		right: 290px;
+		left: 85px;
 	}
 	.my-resume-box .middle-info .add-licence form .licence-info-box .gray-arrow:nth-of-type(2) {
-		right: 165px;
+		left: 210px;
 	}
 	.my-resume-box .middle-info .add-licence form .licence-info-box .gray-arrow:nth-of-type(3) {
-		right: 290px;
+		left: 85px;
 	}
 	.my-resume-box .middle-info .add-licence form .licence-info-box .gray-arrow:nth-of-type(4) {
-		right: 165px;
-	}
-	.my-resume-box .left-info .left-info-box:nth-last-of-type(1),
-	.my-resume-box .middle-info .middle-info-box:nth-last-of-type(1) {
-		margin-bottom: 20px;
+		left: 210px;
 	}
 	.my-resume-box .left-info .add-resume {
 		height: 540px;
@@ -9143,10 +9159,6 @@ nav.employer-login-nav .text-1 {
 		padding-right: 10px;
 		word-wrap: break-word;
 	}
-	.my-resume-box .middle-info .add-licence {
-		height: 640px;
-	}
-
 }
 @media only screen and (max-width: 1155px) {
 	/* history page */
@@ -9285,6 +9297,28 @@ nav.employer-login-nav .text-1 {
 	}
 	.employer-profile .employer-profile-nav .container-1 {
 		width: 100%;
+	}
+	/* job apply page */
+	.section-job-apply-info {
+		width: 750px;
+		padding: 20px 10px;
+	}
+	.my-resume-box {
+		width: 750px;
+	}
+	.my-resume-box .left-info,
+	.my-resume-box .middle-info {
+		width: 100%;
+	}
+
+	.my-resume-box .middle-info .add-work form .gray-arrow {
+		right: 545px;
+	}
+	.my-resume-box .middle-info .add-work form .expiration-date .gray-arrow:nth-of-type(1) {
+		left: 150px;
+	}
+	.my-resume-box .middle-info .add-work form .expiration-date .gray-arrow:nth-of-type(2) {
+		left: 270px;
 	}
 }
 @media only screen and (max-width: 1020px) {
@@ -10520,6 +10554,71 @@ nav.employer-login-nav .text-1 {
 		color: white;
 		display: block;
 	}
+	/* job apply page */
+	article#job-apply-page {
+		padding: 10px;
+	}
+	.section-job-apply-info {
+		width: 100%;
+		margin: 10px auto;
+		padding-bottom: 10px;
+	}
+	.section-job-apply-info .last-text-002 {
+		font-size: .9em;
+	}
+	.section-job-apply-info .apply-user-info-box .apply-user-info img {
+		margin-right: 15px;
+	}
+	.section-job-apply-info .apply-job-info-box {
+		width: 100%;
+	}
+	.section-job-apply-info .apply-job-info-box .job-info-wrap div:nth-of-type(1) {
+		float: none;
+		height: 19px;
+	}
+	.section-job-apply-info .apply-job-info-box .category-icon {
+		top: 55px;
+	}
+	.section-job-apply-info .text-008 {
+		font-size: .9em;
+		word-wrap: break-word;
+		height: 57px;
+		overflow-y: hidden;
+	}
+	.section-job-apply-info .apply-job-info-box .layer-mask::after {
+		height: 50px;
+	}
+	.section-job-apply-info .apply-job-info-box .button-more {
+		margin-top: 0px;
+	}
+	.my-resume-box {
+		width: 100%;
+	}
+	.my-resume-box .left-info .add-role {
+		height: auto;
+	}
+	
+	.my-resume-box .left-info .add-role form .role-info-box .checkbox-wrap label {
+		font-size: .9em;
+	}
+
+	.my-resume-box .left-info .add-skills {
+		height: auto;
+	}
+
+	.my-resume-box .left-info .add-resume {
+		height: auto;
+	}
+
+	.my-resume-box .middle-info .add-work form .gray-arrow {
+		left: 140px;
+	}
+	.my-resume-box .middle-info .add-work form .expiration-date .gray-arrow:nth-of-type(1) {
+		left: 150px;
+	}
+	.my-resume-box .middle-info .add-work form .expiration-date .gray-arrow:nth-of-type(2) {
+		left: 270px;
+	}
 }
 @media only screen and (max-width: 740px) {
 	article {
@@ -11389,6 +11488,12 @@ nav.employer-login-nav .text-1 {
 		top: 50px;
 	}
 }
+@media only screen and (max-width: 620px) {
+	/* job apply page */
+	.section-job-apply-info .apply-job-info-box .category-icon {
+		top: 75px;
+	}
+}
 @media only screen and (max-width: 608px) {
 	/* my account page */
 	.section-my-account {
@@ -12140,6 +12245,18 @@ nav.employer-login-nav .text-1 {
 	/* employer page */
 	body.employer .section-recent-mobile .recent-info-mobile ul li {
 		margin-right: 15px;
+	}
+}
+@media only screen and (max-width: 379px) {
+	/* job apply page */
+	.section-job-apply-info .apply-job-info-box .category-icon {
+		top: 91px;
+	}
+	.section-job-apply-info .text-006 {
+		font-size: 1.1em;
+	}
+	.section-job-apply-info .last-text-002 {
+		font-size: .8em;
 	}
 }
 @media only screen and (max-width: 360px) {
