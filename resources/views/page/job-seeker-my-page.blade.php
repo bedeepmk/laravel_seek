@@ -475,7 +475,7 @@
 							</form>
 						</div>
 						<div class="modify-video-resume-box">
-							<video class="preview-video" preload="metadata" src="/video/zoom_0.mp4#t=0.5"></video>
+							<video class="preview-video" preload="metadata"></video>
 							<div class="modify-resume-info-box">
 								<p class="video-resume-title">strawberry picker</p>
 								<p class="delete-resume-btn">delete</p>

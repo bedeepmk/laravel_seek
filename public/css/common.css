@@ -91,7 +91,11 @@ container {
 article {
 	height: auto;
 	overflow-x: hidden;
+<<<<<<< Updated upstream
 	margin-top: 300px;
+=======
+	margin-top: 310px;
+>>>>>>> Stashed changes
 	width: 100%;
 }
 #app {
@@ -1181,7 +1185,7 @@ body .isMap {
 .section-job-info .section-inner-2 .text-001 {
 	font-size: 1.2em;
 	font-weight: 550;
-	color: #3700b3;
+	color: #2ebd59;
 	padding-left: 5px;
 	margin-bottom: 10px;
 }
@@ -1649,11 +1653,11 @@ body .isMap {
 }
 /* employer page */
 .employer article {
-	margin-top: 210px;
+	margin-top: 250px;
 	background-color: rgba(0, 0, 0, 0.05);
 }
 .employer article#job-page {
-	margin-top: 125px;
+	margin-top: 165px;
 }
 body.employer {
 	background-color: rgba(0, 0, 0, 0.05);
@@ -2221,7 +2225,7 @@ body article#guide-page {
 .ad-info-bar-dark {
 	width: 100%;
 	height: 10px;
-	background-color: #3700b3;
+	background-color: #000;
 }
 .ad-info .ad-info-title {
 	text-align: center;
@@ -2580,7 +2584,7 @@ body article#guide-page {
 	height: 50px;
 	padding: 10px 20px;
 	margin-bottom: 10px;
-	background-color: #3700b3;
+	background-color: #2ebd59;
 }
 .step-box div:nth-of-type(1) {
 	float: left;
@@ -2712,7 +2716,7 @@ body article#guide-page {
 }
 .step-01-1 .phone-box li .gray-arrow {
 	position: absolute;
-	top: -5px;
+	top: 15px;
 	right: 10px;
 }
 .step-01-1 .number-select {
@@ -2730,7 +2734,7 @@ body article#guide-page {
 	font-weight: 550;
 }
 .step-01-1 .lives-box .gray-arrow {
-	top: 33px;
+	top: 53px;
 	right: 10px;
 }
 .step-01-1 .location-select {
@@ -2949,23 +2953,23 @@ body article#guide-page {
 }
 .left-info .add-role form .role-info-box .gray-arrow:nth-of-type(1) {
 	position: absolute;
-	top: 22px;
-	right: 365px;
+	top: 45px;
+	left: 105px;
 }
 .left-info .add-role form .role-info-box .gray-arrow:nth-of-type(2) {
 	position: absolute;
-	top: 22px;
-	right: 220px;
+	top: 45px;
+	left: 250px;
 }
 .left-info .add-role form .role-info-box .gray-arrow:nth-of-type(3) {
 	position: absolute;
-	top: 102px;
-	right: 365px;
+	top: 125px;
+	left: 105px;
 }
 .left-info .add-role form .role-info-box .gray-arrow:nth-of-type(4) {
 	position: absolute;
-	top: 102px;
-	right: 220px;
+	top: 125px;
+	left: 250px;
 }
 input#still-in-role {
 	display: none;
@@ -3211,8 +3215,8 @@ input#still-in-role {
 	height: 230px;
 }
 .middle-info .add-work form .gray-arrow {
-	top: 22px;
-	right: 330px;
+	top: 45px;
+	left: 140px;
 }
 .middle-info .add-work form .visa-type {
 	box-sizing: border-box;
@@ -3259,12 +3263,12 @@ input#still-in-role {
 	padding-left: 20px;
 }
 .middle-info .add-work form .expiration-date .gray-arrow:nth-of-type(1) {
-	top: -7px;
-	right: 320px;
+	top: 13px;
+	left: 145px;
 }
 .middle-info .add-work form .expiration-date .gray-arrow:nth-of-type(2) {
-	top: -7px;
-	right: 200px;
+	top: 13px;
+	left: 265px;
 }
 .middle-info .add-work .save-btn {
 	top: 15px;
@@ -3320,12 +3324,12 @@ input#still-in-role {
 	line-height: 45px;
 }
 .middle-info .add-education form .education-info-box .gray-arrow:nth-of-type(1) {
-	top: 78px;
-	right: 365px;
+	top: 98px;
+	left: 105px;
 }
 .middle-info .add-education form .education-info-box .gray-arrow:nth-of-type(2) {
-	top: 78px;
-	right: 220px;
+	top: 98px;
+	left: 250px;
 }
 .middle-info .add-education form .education-info-box #complete-checkbox {
 	margin: 10px 10px 10px 0px;
@@ -3359,6 +3363,7 @@ input#still-in-role {
 	height: 25px;
 	left: 290px;
 	margin: 0px;
+	top: 10px;
 }
 .middle-info .add-education form .course-highlight {
 	box-sizing: border-box;
@@ -3443,23 +3448,23 @@ input#still-in-role {
 }
 .middle-info .add-licence form .licence-info-box .gray-arrow:nth-of-type(1) {
 	position: absolute;
-	top: 25px;
-	right: 360px;
+	top: 45px;
+	left: 105px;
 }
 .middle-info .add-licence form .licence-info-box .gray-arrow:nth-of-type(2) {
 	position: absolute;
-	top: 25px;
-	right: 215px;
+	top: 45px;
+	left: 250px;
 }
 .middle-info .add-licence form .licence-info-box .gray-arrow:nth-of-type(3) {
 	position: absolute;
-	top: 109px;
-	right: 360px;
+	top: 129px;
+	left: 105px;
 }
 .middle-info .add-licence form .licence-info-box .gray-arrow:nth-of-type(4) {
 	position: absolute;
-	top: 109px;
-	right: 215px;
+	top: 129px;
+	left: 250px;
 }
 .middle-info .add-licence form .licence-info-box .licence-checkbox {
 	top: 10px;
@@ -3581,7 +3586,7 @@ input#still-in-role {
 	font-weight: 550;
 }
 .right-info .add-preference .availability-box .gray-arrow {
-	top: -7px;
+	top: 13px;
 	right: 15px;
 }
 .right-info .add-preference .availability {
@@ -3634,11 +3639,11 @@ input#still-in-role {
 	margin: 0px auto 10px;
 }
 .right-info .add-preference .location-select-box .gray-arrow:nth-of-type(1) {
-	top: -5px;
+	top: 15px;
 	right: 35px;
 }
 .right-info .add-preference .location-select-box .gray-arrow:nth-of-type(2) {
-	top: 60px;
+	top: 75px;
 	right: 35px;
 }
 .right-info .add-preference .location-select-box input {
@@ -3693,7 +3698,7 @@ input#still-in-role {
 .right-info .salary-expectation .expectation-box .aud-amount {
 	position: absolute;
 	z-index: 2;
-	top: 15px;
+	top: 12px;
 	left: 10px;
 	padding-right: 10px;
 	border-right: 1px solid #aaa;
@@ -3702,11 +3707,11 @@ input#still-in-role {
 	vertical-align: middle;
 }
 .right-info .salary-expectation .expectation-box .gray-arrow:nth-of-type(1) {
-	top: -7px;
+	top: 13px;
 	right: 130px;
 }
 .right-info .salary-expectation .expectation-box .gray-arrow:nth-of-type(2) {
-	top: -7px;
+	top: 13px;
 	right: 10px;
 }
 .right-info .salary-expectation .expectation-box input {
@@ -3724,8 +3729,13 @@ input#still-in-role {
 	height: 45px;
 	line-height: 45px;
 }
-.right-info .salary-expectation .classification-box .gray-arrow {
+.right-info .salary-expectation .classification-box .gray-arrow:nth-of-type(1) {
 	right: 10px;
+	top: 45px;
+}
+.right-info .salary-expectation .classification-box .gray-arrow:nth-of-type(2) {
+	right: 10px;
+	top: 135px;
 }
 .right-info .salary-expectation .classification-box .classification,
 .right-info .salary-expectation .classification-box .sub-classification {
@@ -4199,7 +4209,7 @@ input#still-in-role {
 .my-history .my-history-box-wrap .my-history-box .text-001 {
 	font-weight: 660;
 	font-size: 1.4em;
-	color: #3700b3;
+	color: #2ebd59;
 	margin-left: 30px;
 }
 .my-history .my-history-box-wrap .my-history-section-offered .my-history-box .text-001 {
@@ -4394,7 +4404,7 @@ input#still-in-role {
 	background-color: #00bf4a;
 }
 .employer-profile .employer-profile-nav .container-1 li.selected {
-	background-color: #3700b3;
+	background-color: #000;
 }
 .employer-profile .employer-profile-nav .container-1 {
 	background: none;
@@ -4661,12 +4671,12 @@ input#still-in-role {
 }
 .employer-create-job .employer-create-job-nav .container-2 {
 	box-sizing: border-box;
-	background-color: #3700b3;
+	background-color: #2ebd59;
 	padding: 20px 0;
 	height: 140px;
 }
 .employer-create-job .employer-create-job-nav .container-1 li.selected {
-	background-color: #3700b3;
+	background-color: #2ebd59;
 }
 .employer-create-job .employer-create-job-nav .container-1 {
 	background: none;
@@ -5238,7 +5248,7 @@ article .create-job-wrap {
 
 /* applied candidates page */
 article#applied-candidates {
-	margin-top: 125px;
+	margin-top: 165px;
 }
 .section-candidate-filter {
 	box-sizing: border-box;
@@ -5254,7 +5264,7 @@ article#applied-candidates {
 .section-candidate-filter .text-001 {
 	font-size: 1em;
 	font-weight: 550;
-	color: #3700b3;
+	color: #2ebd59;
 	letter-spacing: 0.2px;
 	margin-bottom: 5px;
 }
@@ -5357,7 +5367,7 @@ body.employer .section-candidate {
 }
 
 .candidate-info-wrap .list-info-left .job-ad-list .text-001 {
-	color: #3700b3;
+	color: #2ebd59;
 	font-weight: 660;
 	font-size: 1.4em;
 	margin-bottom: 5px;
@@ -5685,7 +5695,7 @@ body.employer .section-my-suggestion {
 	font-size: 1.4em;
 	font-weight: 550;
 	margin-bottom: 10px;
-	color: #3700b3;
+	color: #2ebd59;
 }
 .section-my-suggestion .suggestion-list-wrap .suggestion-list .suggestion-info-right .text-006 {
 	box-sizing: border-box;
@@ -5883,7 +5893,7 @@ body.employer .section-pagination {
 	border-top: 8px solid #00bf4a;
 }
 .section-product-page-info .product-info-box-wrap .product-info-box:nth-of-type(4) {
-	border-top: 8px solid #3700b3;
+	border-top: 8px solid #000;
 	margin-right: 0px;
 }
 .section-product-page-info .product-info-box-wrap .product-info-box .product-period {
@@ -5901,7 +5911,7 @@ body.employer .section-pagination {
 .section-product-page-info .product-info-box-wrap .product-info-box .product-purchase {
 	font-size: 2.5em;
 	font-weight: 550;
-	color: #3700b3;
+	color:#2ebd59;
 	text-align: center;
 	margin-bottom: 50px;
 }
@@ -7216,7 +7226,7 @@ body article#job-apply-page {
 	font-weight: 550;
 }
 .section-job-apply-info .text-006 {
-	color: #3700b3;
+	color: #2ebd59;
 	font-size: 1.3em;
 	font-weight: 660;
 	margin-bottom: 10px;
@@ -7263,6 +7273,7 @@ body article#job-apply-page {
 }
 .section-job-apply-info .apply-job-info-box .job-info-wrap .text-003 {
 	font-size: 0.9em;
+	
 }
 .section-job-apply-info .apply-job-info-box .job-info-wrap div {
 	float: left;
@@ -7282,7 +7293,7 @@ body article#job-apply-page {
 	margin-right: 0;
 }
 .section-job-apply-info .apply-job-info-box .category-icon {
-	top: 37px;
+	top: 40px;
 }
 .section-job-apply-info .apply-job-info-box .job-info-wrap div p {
 	float: left;
@@ -8187,7 +8198,7 @@ body article#job-apply-page {
 /* my account page(employer) */
 #my-account-page-employer {
 	background-color: rgba(0, 0, 0, 0.05);
-	margin-top: 125px;
+	margin-top: 165px;
 }
 .section-my-account-employer {
 	box-sizing: border-box;
@@ -9881,7 +9892,7 @@ nav.employer-login-nav .text-1 {
 		line-height: 45px;
 		color: white;
 		font-size: 1.2em;
-		background-color: #3700b3;
+		background-color: #2ebd59;
 		padding-left: 20px;
 		letter-spacing: 0.1px;
 		margin-bottom: 10px;
@@ -10561,6 +10572,7 @@ nav.employer-login-nav .text-1 {
 	/* job apply page */
 	article#job-apply-page {
 		padding: 10px;
+		width: auto;
 	}
 	.section-job-apply-info {
 		width: 100%;
@@ -10580,8 +10592,11 @@ nav.employer-login-nav .text-1 {
 		float: none;
 		height: 19px;
 	}
+	.section-job-apply-info .apply-job-info-box .job-info-wrap .text-003 {
+		float: none;
+	}
 	.section-job-apply-info .apply-job-info-box .category-icon {
-		top: 55px;
+		top: 58px;
 	}
 	.section-job-apply-info .text-008 {
 		font-size: .9em;
@@ -10626,7 +10641,7 @@ nav.employer-login-nav .text-1 {
 }
 @media only screen and (max-width: 740px) {
 	article {
-		padding-top: 130px;
+		padding-top: 170px;
 	}
 	body.isMobileMap nav.isMobile {
 		display: none;
@@ -11266,6 +11281,10 @@ nav.employer-login-nav .text-1 {
 	.employer-account-status .status-content .remain-box .text-005 {
 		font-size: 1em;
 	}
+	/* job apply page */
+	article#job-apply-page {
+		margin-top: 170px;
+	}
 }
 
 @media only screen and (max-width: 680px) {
@@ -11495,7 +11514,7 @@ nav.employer-login-nav .text-1 {
 @media only screen and (max-width: 620px) {
 	/* job apply page */
 	.section-job-apply-info .apply-job-info-box .category-icon {
-		top: 75px;
+		top: 80px;
 	}
 }
 @media only screen and (max-width: 608px) {
@@ -12254,7 +12273,7 @@ nav.employer-login-nav .text-1 {
 @media only screen and (max-width: 379px) {
 	/* job apply page */
 	.section-job-apply-info .apply-job-info-box .category-icon {
-		top: 91px;
+		top: 98px;
 	}
 	.section-job-apply-info .text-006 {
 		font-size: 1.1em;
