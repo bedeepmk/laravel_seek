@@ -22,7 +22,7 @@ function initMap() {
     mapTypeControl: false,
   });
 }
-$(document).ready(function () {
+$(() => {
   $(window).on('resize', () => {
     if(isSubSearchMenuOpened) {
       if($(window).width() > 480) {

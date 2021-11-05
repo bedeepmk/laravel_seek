@@ -58,7 +58,7 @@
         <ul class="container-1 layout-100">
             <li class="selected"><a href="/">Job Search</a></li>
             <li><a href="">Profile</a></li>
-            <li><a href="/guide">Seekcruit Guide</a></li>
+            <li><a href="/service-guide">Seekcruit Guide</a></li>
             <li class="isMarket"><a href="/market">Market</a></li>
             <li><a href="/community">Community</a></li>
         </ul>

@@ -21,8 +21,11 @@
 <link type="text/css" href="{{ asset('css/common.css') }}" rel="stylesheet">
 
 <!-- 공통스크립트 -->
-<script src="/js/app.js{{$invalidatingCacheStr}}"></script>
-<script src="/js/common.js{{$invalidatingCacheStr}}"></script>
-<script type="text/javascript" src="https://code.jquery.com/jquery-3.5.1.min.js"></script>
-<script type="text/javascript" src="{{ asset('js/jquery-ui.min.js') }}"></script>
+<script src="{{ asset('js/app.js') }}" defer></script>
+<script src="{{ asset('js/jquery-ui.min.js') }}" defer></script>
+<script src="{{ asset('js/common.js') }}" defer></script>
+{{-- <script src="js/app.js{{$invalidatingCacheStr}}"></script>
+<script src="js/common.js{{$invalidatingCacheStr}}"></script> --}}
+{{-- <script type="text/javascript" src="https://code.jquery.com/jquery-3.5.1.min.js"></script>
+<script type="text/javascript" src="{{ asset('js/jquery-ui.min.js') }}"></script> --}}
 </head>

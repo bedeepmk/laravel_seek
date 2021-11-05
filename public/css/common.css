@@ -91,8 +91,12 @@ container {
 article {
 	height: auto;
 	overflow-x: hidden;
-	margin-top: 270px;
+	margin-top: 300px;
 	width: 100%;
+}
+#app {
+	position: static;
+	display: unset;
 }
 nav {
 	background-color: white;

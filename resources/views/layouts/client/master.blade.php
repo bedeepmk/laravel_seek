@@ -4,6 +4,7 @@
 @yield('scripts_top')  
 <body class='antialiased'>
 <container>
+    <div id="app">
 @component('layouts.client.header')
 @endcomponent 
 
@@ -11,6 +12,7 @@
 
 @component('layouts.client.footer')
 @endcomponent 
+    </div>
 </container>
 </body>
 
