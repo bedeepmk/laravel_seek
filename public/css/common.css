@@ -91,11 +91,7 @@ container {
 article {
 	height: auto;
 	overflow-x: hidden;
-<<<<<<< Updated upstream
 	margin-top: 300px;
-=======
-	margin-top: 310px;
->>>>>>> Stashed changes
 	width: 100%;
 }
 #app {
