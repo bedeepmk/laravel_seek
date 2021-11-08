@@ -127,7 +127,7 @@
             <div class="candidate-box-list">
                 <div class="candidate-info-01">
                     <img src="img/test_img.jpg">
-                    <div>
+                    <div class="candidate-name-box">
                         <p class="text-001">Jeff Sangyub Roh</p>
                         <div class="star-wrap">
                             <span class="star stylesheet"></span>
@@ -187,7 +187,7 @@
             <div class="candidate-box-list">
                 <div class="candidate-info-01">
                     <img src="img/test_img.jpg">
-                    <div>
+                    <div class="candidate-name-box">
                         <p class="text-001">Jeff Sangyub Roh</p>
                         <div class="star-wrap">
                             <span class="star stylesheet"></span>
@@ -247,7 +247,7 @@
             <div class="candidate-box-list">
                 <div class="candidate-info-01">
                     <img src="img/test_img.jpg">
-                    <div>
+                    <div class="candidate-name-box">
                         <p class="text-001">Jeff Sangyub Roh</p>
                         <div class="star-wrap">
                             <span class="star stylesheet"></span>
@@ -307,7 +307,7 @@
             <div class="candidate-box-list">
                 <div class="candidate-info-01">
                     <img src="img/test_img.jpg">
-                    <div>
+                    <div class="candidate-name-box">
                         <p class="text-001">Jeff Sangyub Roh</p>
                         <div class="star-wrap">
                             <span class="star stylesheet"></span>
@@ -367,7 +367,7 @@
             <div class="candidate-box-list">
                 <div class="candidate-info-01">
                     <img src="img/test_img.jpg">
-                    <div>
+                    <div class="candidate-name-box">
                         <p class="text-001">Jeff Sangyub Roh</p>
                         <div class="star-wrap">
                             <span class="star stylesheet"></span>
@@ -427,7 +427,7 @@
             <div class="candidate-box-list">
                 <div class="candidate-info-01">
                     <img src="img/test_img.jpg">
-                    <div>
+                    <div class="candidate-name-box">
                         <p class="text-001">Jeff Sangyub Roh</p>
                         <div class="star-wrap">
                             <span class="star stylesheet"></span>
@@ -487,7 +487,7 @@
             <div class="candidate-box-list">
                 <div class="candidate-info-01">
                     <img src="img/test_img.jpg">
-                    <div>
+                    <div class="candidate-name-box">
                         <p class="text-001">Jeff Sangyub Roh</p>
                         <div class="star-wrap">
                             <span class="star stylesheet"></span>
@@ -547,7 +547,7 @@
             <div class="candidate-box-list">
                 <div class="candidate-info-01">
                     <img src="img/test_img.jpg">
-                    <div>
+                    <div class="candidate-name-box">
                         <p class="text-001">Jeff Sangyub Roh</p>
                         <div class="star-wrap">
                             <span class="star stylesheet"></span>
@@ -607,7 +607,7 @@
             <div class="candidate-box-list">
                 <div class="candidate-info-01">
                     <img src="img/test_img.jpg">
-                    <div>
+                    <div class="candidate-name-box">
                         <p class="text-001">Jeff Sangyub Roh</p>
                         <div class="star-wrap">
                             <span class="star stylesheet"></span>
@@ -667,7 +667,7 @@
             <div class="candidate-box-list">
                 <div class="candidate-info-01">
                     <img src="img/test_img.jpg">
-                    <div>
+                    <div class="candidate-name-box">
                         <p class="text-001">Jeff Sangyub Roh</p>
                         <div class="star-wrap">
                             <span class="star stylesheet"></span>
@@ -727,7 +727,7 @@
             <div class="candidate-box-list">
                 <div class="candidate-info-01">
                     <img src="img/test_img.jpg">
-                    <div>
+                    <div class="candidate-name-box">
                         <p class="text-001">Jeff Sangyub Roh</p>
                         <div class="star-wrap">
                             <span class="star stylesheet"></span>
@@ -787,7 +787,7 @@
             <div class="candidate-box-list">
                 <div class="candidate-info-01">
                     <img src="img/test_img.jpg">
-                    <div>
+                    <div class="candidate-name-box">
                         <p class="text-001">Jeff Sangyub Roh</p>
                         <div class="star-wrap">
                             <span class="star stylesheet"></span>

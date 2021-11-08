@@ -9,16 +9,18 @@
 	border: none;
 	position: relative;
 	display: block;
-	box-sizing:content-box;
+	box-sizing: content-box;
 }
-a, a:hover {
+a,
+a:hover {
 	color: unset;
 }
-ol, ul {
-    padding:0;
+ol,
+ul {
+	padding: 0;
 }
 p {
-	margin:0;
+	margin: 0;
 }
 script,
 style {
@@ -663,7 +665,7 @@ footer .guideBtn {
 	color: white;
 }
 footer .guideBtn:hover {
-	opacity: .5;
+	opacity: 0.5;
 }
 footer .united-list-parent {
 	margin-top: 20px;
@@ -3278,7 +3280,7 @@ input#still-in-role {
 	height: 620px;
 }
 .middle-info .add-education .blank-box {
-	content:'';
+	content: '';
 	height: 20px;
 	display: block;
 }
@@ -5907,7 +5909,7 @@ body.employer .section-pagination {
 .section-product-page-info .product-info-box-wrap .product-info-box .product-purchase {
 	font-size: 2.5em;
 	font-weight: 550;
-	color:#2ebd59;
+	color: #2ebd59;
 	text-align: center;
 	margin-bottom: 50px;
 }
@@ -6931,7 +6933,7 @@ body.employer .section-pagination {
 	box-sizing: border-box;
 	width: 610px;
 	height: 160px;
-	padding: 25px;
+	padding: 20px;
 	margin-right: 15px;
 	margin-bottom: 15px;
 }
@@ -6989,8 +6991,8 @@ body.employer .section-pagination {
 }
 .section-candidate-search .candidate-box-list .candidate-info-02 {
 	box-sizing: border-box;
-	width: 295px;
-	height: 115px;
+	width: 300px;
+	height: 125px;
 	margin-right: 20px;
 }
 .section-candidate-search .candidate-box-list .candidate-info-02 ul li {
@@ -7269,7 +7271,6 @@ body article#job-apply-page {
 }
 .section-job-apply-info .apply-job-info-box .job-info-wrap .text-003 {
 	font-size: 0.9em;
-	
 }
 .section-job-apply-info .apply-job-info-box .job-info-wrap div {
 	float: left;
@@ -7418,7 +7419,7 @@ body article#job-apply-page {
 	letter-spacing: 0.2px;
 }
 .my-resume-box .blank-box {
-	content:'';
+	content: '';
 	height: 20px;
 	display: block;
 }
@@ -8640,6 +8641,32 @@ nav.employer-login-nav .text-1 {
 .section-board .board-draft .ad-delete-btn {
 	width: 75px;
 }
+@media only screen and (max-width: 1919px) {
+	/* candidate search page */
+	.section-candidate-search {
+		width: 1235px;
+	}
+	.section-candidate-search .candidate-box-list:nth-of-type(3),
+	.section-candidate-search .candidate-box-list:nth-of-type(6),
+	.section-candidate-search .candidate-box-list:nth-of-type(9),
+	.section-candidate-search .candidate-box-list:nth-of-type(12) {
+		margin-right: 15px;
+	}
+	.section-candidate-search .candidate-box-list:nth-of-type(even) {
+		margin-right: 0px;
+	}
+	.section-candidate-search-filter {
+		width: 1200px;
+		margin: 30px auto;
+	}
+	.section-candidate-search-filter .filter-info-box {
+		width: 880px;
+	}
+	.section-candidate-search-filter .filter-info-box ul li {
+		width: 160px;
+	}
+}
+
 @media only screen and (max-width: 1680px) {
 	/* my page job seeker */
 	.my-page-job-seeker-nav .container-2 .layout-100 {
@@ -8782,7 +8809,7 @@ nav.employer-login-nav .text-1 {
 		padding: 30px;
 	}
 	.section-job-apply-info .apply-user-info-box {
-		width: 380px;	
+		width: 380px;
 	}
 	.section-job-apply-info .apply-job-info-box {
 		width: 730px;
@@ -9169,6 +9196,13 @@ nav.employer-login-nav .text-1 {
 		padding-left: 10px;
 		padding-right: 10px;
 		word-wrap: break-word;
+	}
+	/* candidate search page */
+	.section-candidate-search {
+		width: 610px;
+	}
+	.section-candidate-search .candidate-box-list {
+		margin-right: 0px;
 	}
 }
 @media only screen and (max-width: 1155px) {
@@ -10576,7 +10610,7 @@ nav.employer-login-nav .text-1 {
 		padding-bottom: 10px;
 	}
 	.section-job-apply-info .last-text-002 {
-		font-size: .9em;
+		font-size: 0.9em;
 	}
 	.section-job-apply-info .apply-user-info-box .apply-user-info img {
 		margin-right: 15px;
@@ -10595,7 +10629,7 @@ nav.employer-login-nav .text-1 {
 		top: 58px;
 	}
 	.section-job-apply-info .text-008 {
-		font-size: .9em;
+		font-size: 0.9em;
 		word-wrap: break-word;
 		height: 57px;
 		overflow-y: hidden;
@@ -10612,9 +10646,9 @@ nav.employer-login-nav .text-1 {
 	.my-resume-box .left-info .add-role {
 		height: auto;
 	}
-	
+
 	.my-resume-box .left-info .add-role form .role-info-box .checkbox-wrap label {
-		font-size: .9em;
+		font-size: 0.9em;
 	}
 
 	.my-resume-box .left-info .add-skills {
@@ -11506,6 +11540,23 @@ nav.employer-login-nav .text-1 {
 	.section-job-info .container-5 .category-icon {
 		top: 50px;
 	}
+	/* candidate search page */
+	.section-candidate-search {
+		width: 100%;
+		padding: 0 10px;
+	}
+	.section-candidate-search .candidate-box-list {
+		width: 100%;
+		height: auto;
+		padding-left: calc((100% - 455px) / 2);
+		padding-right: calc((100% - 455px) / 2);
+	}
+	.section-candidate-search .candidate-box-list .candidate-info-02 {
+		margin-right: 0px;
+	}
+	.section-candidate-search .candidate-box-list .candidate-info-03 {
+		display: none;
+	}
 }
 @media only screen and (max-width: 620px) {
 	/* job apply page */
@@ -11757,6 +11808,38 @@ nav.employer-login-nav .text-1 {
 		width: 120px;
 		line-height: 35px;
 		text-align: center;
+	}
+}
+@media only screen and (max-width: 510px) {
+	/* candidate search page */
+	.section-candidate-search .candidate-box-list {
+		padding-left: calc((100% - 300px) / 2);
+		padding-right: calc((100% - 300px) / 2);
+	}
+	.section-candidate-search .candidate-box-list .candidate-info-01:after {
+		clear: both;
+		content: '';
+		display: block;
+	}
+	.section-candidate-search .candidate-box-list .candidate-info-01 {
+		margin-right: 0px;
+		margin-bottom: 15px;
+		width: 100%;
+	}
+	.section-candidate-search .candidate-box-list .candidate-info-01 img {
+		float: left;
+		margin-bottom: 0px;
+		margin-right: 20px;
+	}
+	.section-candidate-search .candidate-box-list .candidate-info-01 .candidate-name-box {
+		float: left;
+		padding-top: 15px;
+	}
+	.section-candidate-search .candidate-box-list .candidate-info-02 ul {
+		padding-left: 5px;
+	}
+	.section-candidate-search .candidate-box-list .candidate-info-02 ul li {
+		margin-right: 15px;
 	}
 }
 @media only screen and (max-width: 480px) {
@@ -12275,7 +12358,7 @@ nav.employer-login-nav .text-1 {
 		font-size: 1.1em;
 	}
 	.section-job-apply-info .last-text-002 {
-		font-size: .8em;
+		font-size: 0.8em;
 	}
 }
 @media only screen and (max-width: 360px) {
