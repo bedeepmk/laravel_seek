@@ -38,7 +38,7 @@ function bannerAdClick() {
 }
 
 function mobileMapADClick() {
-	document.querySelector('.map-ad-info-title').style.borderBottom = '4px solid #6200ee';
+	document.querySelector('.map-ad-info-title').style.borderBottom = '4px solid #2ebd59';
 	document.querySelector('.map-ad-info-title').style.color = '#000';
 	document.querySelector('.market-ad-info-title').style.border = 'none';
 	document.querySelector('.market-ad-info-title').style.color = '#aaa';
@@ -54,7 +54,7 @@ function mobileMapADClick() {
 function mobileMarketADClick() {
 	document.querySelector('.map-ad-info-title').style.border = 'none';
 	document.querySelector('.map-ad-info-title').style.color = '#aaa';
-	document.querySelector('.market-ad-info-title').style.borderBottom = '4px solid #6200ee';
+	document.querySelector('.market-ad-info-title').style.borderBottom = '4px solid #2ebd59';
 	document.querySelector('.market-ad-info-title').style.color = '#000';
 	document.querySelector('.banner-ad-info-title').style.border = 'none';
 	document.querySelector('.banner-ad-info-title').style.color = '#aaa';
@@ -70,7 +70,7 @@ function mobileBannerADClick() {
 	document.querySelector('.map-ad-info-title').style.color = '#aaa';
 	document.querySelector('.market-ad-info-title').style.border = 'none';
 	document.querySelector('.market-ad-info-title').style.color = '#aaa';
-	document.querySelector('.banner-ad-info-title').style.borderBottom = '4px solid #6200ee';
+	document.querySelector('.banner-ad-info-title').style.borderBottom = '4px solid #2ebd59';
 	document.querySelector('.banner-ad-info-title').style.color = '#000';
 	document.querySelector('.map-ad-info-box').classList.add('displayNone');
 	document.querySelector('.market-ad-info-box').classList.add('displayNone');

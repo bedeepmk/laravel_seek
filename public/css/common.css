@@ -1406,7 +1406,7 @@ body .isMap {
 	text-align: center;
 	box-sizing: border-box;
 	font-weight: 550;
-	font-size: 1.5em;
+	font-size: 1.3em;
 }
 .section-selector li.selected {
 	border-bottom: 3px solid #00bf4a;
@@ -7154,16 +7154,16 @@ body.employer .section-pagination {
 	background-color: #00bf4a;
 }
 .section-market .market-filter-box .gray-arrow:nth-of-type(1) {
-	top: -8px;
-	left: 85px;
+	top: 12px;
+	left: 105px;
 }
 .section-market .market-filter-box .gray-arrow:nth-of-type(2) {
-	top: -8px;
-	left: 290px;
+	top: 12px;
+	left: 310px;
 }
 .section-market .market-filter-box .gray-arrow:nth-of-type(3) {
-	top: -8px;
-	left: 435px;
+	top: 12px;
+	left: 455px;
 }
 .section-market .pagination {
 	position: absolute;
@@ -8132,19 +8132,19 @@ body article#job-apply-page {
 }
 .section-my-account .account-password .account-password-inner .account-pw-reset-btn {
 	box-sizing: border-box;
-	width: 150px;
+	width: 75px;
 	height: 45px;
 	line-height: 45px;
 	background-color: #2ebd59;
 	color: white;
 	font-size: 0.9em;
-	font-weight: 440;
+	font-weight: 550;
 	cursor: pointer;
-	letter-spacing: 0.2px;
+	letter-spacing: 0.5px;
 }
 .section-my-account .account-password .account-password-inner .cancel-btn {
 	top: -45px;
-	left: 150px;
+	left: 75px;
 	background-color: white;
 }
 .section-my-account .account-password .account-password-inner .cancel-btn:hover {
@@ -8452,18 +8452,19 @@ body article#job-apply-page {
 	.employer-account-password-inner
 	.account-pw-reset-btn {
 	box-sizing: border-box;
-	width: 150px;
+	width: 75px;
 	height: 45px;
 	line-height: 45px;
 	background-color: #2ebd59;
 	color: white;
 	font-size: 0.9em;
-	font-weight: 440;
+	font-weight: 550;
+	letter-spacing: .5px;
 	cursor: pointer;
 }
 .employer-my-account .employer-account-password .employer-account-password-inner .cancel-btn {
 	top: -45px;
-	left: 150px;
+	left: 75px;
 	background-color: white;
 }
 .employer-my-account .employer-account-password .employer-account-password-inner .cancel-btn:hover {

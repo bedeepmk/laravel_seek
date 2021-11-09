@@ -5,7 +5,7 @@
         <section class="section-selector">
             <ul>
                 <li class="selected">Vehicle</li>
-                <li>House share & rent</li>
+                <li>Rent & Share accommodation</li>
                 <li>Second hand market</li>
             </ul>
         </section>

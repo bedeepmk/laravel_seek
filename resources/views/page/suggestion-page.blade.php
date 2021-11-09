@@ -95,7 +95,7 @@
                         </ul>
                     </form>
                 </div>
-                <div class="send-suggestion-btn">Send a suggestion</div>
+                <div class="send-suggestion-btn">Send a job offer</div>
             </div>
         </section>
     </article>

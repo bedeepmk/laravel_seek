@@ -18,7 +18,7 @@
                         <input type="password">
                         <p class="text-004">Confirm password</p>
                         <input type="password">
-                        <button class="account-pw-reset-btn">Reset password</button>
+                        <button class="account-pw-reset-btn">Save</button>
                         <button class="cancel-btn pw-cancel">Cancel</button>
                     </div>
                 </div>
@@ -37,7 +37,7 @@
                     </div>
                 </div>
                 <div class="my-account-info-box account-delete">
-                    <div class="text-003 delete-account">Delete account<span class="purple-arrow arrow-03"></span></div>
+                    <div class="text-003 delete-account">Delete Account<span class="purple-arrow arrow-03"></span></div>
                     <div class="account-delete-inner displayNone">
                         <p class="text-004">Password</p>
                         <input type="password">

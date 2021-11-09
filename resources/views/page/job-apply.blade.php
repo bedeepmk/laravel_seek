@@ -56,18 +56,18 @@
         <section class="my-resume-box">
             <div class="left-info">
                 <div class="left-info-box info-summery">
-                    <p class="text-001">Personal Summery<span class="star-img-p"></span></p>
+                    <p class="text-001">Personal Summary<span class="star-img-p"></span></p>
                     <ul>
                         <li>
                             <p class="text-002">
-                                Add a personal summery to your profile as a way to introduce who you are.
+                                Add a personal summary to your profile as a way to introduce who you are.
                             </p>
                         </li>
                     </ul>
                     <a class="edit-btn" onClick="addSummery()">Edit</a>
                 </div>
                 <div class="left-info-box add-summery displayNone">
-                    <p class="text-001">Add Personal Summery<span class="star-img-p"></span></p>
+                    <p class="text-001">Add Personal Summary<span class="star-img-p"></span></p>
                     <p>
                         <form method="post" name="post-summery" action="" accept-charset="utf-8">
                             <textarea id="summery" name="summery"></textarea>

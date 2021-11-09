@@ -30,7 +30,7 @@
                             <input type="password">
                             <p class="text-004">Confirm password</p>
                             <input type="password">
-                            <button class="account-pw-reset-btn">Reset password</button>
+                            <button class="account-pw-reset-btn">Save</button>
                             <button class="cancel-btn pw-cancel">Cancel</button>
                         </div>
                     </div>
@@ -48,7 +48,7 @@
                         </div>
                     </div>
                     <div class="employer-my-account-info-box employer-account-delete">
-                        <div class="text-003 delete-account">Delete account<span class="purple-arrow arrow-03"></span></div>
+                        <div class="text-003 delete-account">Delete Account<span class="purple-arrow arrow-03"></span></div>
                         <div class="employer-account-delete-inner displayNone">
                             <p class="text-004">Password</p>
                             <input type="password">
@@ -64,9 +64,9 @@
                     <div class="text-002">Current membership</div>
                     <div class="billing-history-btn">billing history</div>
                     <div class="current-membership">Premium</div>
-                    <div class="text-003">The next payment date is November 14, 2021</div>
+                    <div class="text-003">The next payment due date is on 14 November, 2021</div>
                     <div class="remain-box">
-                        <div class="text-004">Remain active job ad</div>
+                        <div class="text-004">Remain Active job AD</div>
                         <div class="text-005">23</div>
                     </div>
                     <div class="remain-box">

@@ -15,7 +15,7 @@
                 </div>
                 <div class="interview-select-box">
                     <div class="interview-select-box-01">
-                        <p class="text-002">Select a day for video interview</p>
+                        <p class="text-002">Select available day for a video interview</p>
                         <input type="text" placeholder="Day">
                         <span></span>
                         <input type="text" placeholder="Month">
@@ -29,7 +29,7 @@
                         <button>copy</button>
                     </div>
                     <div class="interview-select-box-03">
-                        <p class="text-002">Address for time</p>
+                        <p class="text-002">Interview time</p>
                         <input type="text" placeholder="Hour">
                         <span></span>
                         <input type="text" placeholder="Min">
@@ -38,7 +38,7 @@
                 </div>
                 <div class="interview-btn-wrap">
                     <button class="interview-preview-btn">Preview</button>
-                    <button class="interview-send-btn">Send message</button>
+                    <button class="interview-send-btn">Send a message</button>
                 </div>
             </div>
         </section>
@@ -63,7 +63,7 @@
                     <p class="text-004">URL for interview :</p>
                     <p class="text-005">http://norahbaboda.interview/057465123256833435</p>
                 </div>
-                <button class="interview-send-btn">Send message</button>
+                <button class="interview-send-btn">Send a message</button>
             </div>
         </section>
     </article>

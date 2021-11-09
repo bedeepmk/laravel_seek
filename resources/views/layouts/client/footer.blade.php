@@ -2,8 +2,8 @@
     <div class="container-0">
         <a href="" class="button-adv layout-100">
             <img src="img/image-adv-0.png" />
-            <span>apple store</span>
-            <span>google play</span>
+            <span>Apple store</span>
+            <span>Google play</span>
         </a>
     </div>
     <div class="container-1 layout-100">

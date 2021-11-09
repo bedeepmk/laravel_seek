@@ -112,18 +112,18 @@
 				<div class="step-02">
 					<div class="left-info">
 						<div class="left-info-box info-summery">
-							<p class="text-001">Personal Summery<span class="star-img-p"></span></p>
+							<p class="text-001">Personal Summary<span class="star-img-p"></span></p>
 							<ul class="item-list-box">
 								<li>
 									<p class="text-002">
-										Add a personal summery to your profile as a way to introduce who you are.
+										Add a personal summary to your profile as a way to introduce who you are.
 									</p>
 								</li>
 							</ul>
-							<a class="add-btn" onClick="addSummery()">Add Summery</a>
+							<a class="add-btn" onClick="addSummery()">Add Summary</a>
 						</div>
 						<div class="left-info-box add-summery displayNone">
-							<p class="text-001">Add Personal Summery<span class="star-img-p"></span></p>
+							<p class="text-001">Add Personal Summary<span class="star-img-p"></span></p>
 							<form method="post" name="post-summery" action="" accept-charset="utf-8">
 								<textarea id="summery" name="summery"></textarea>
 								<div class="save-btn" type="submit" onClick="postSummery()">Save</div>
