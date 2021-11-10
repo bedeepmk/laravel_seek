@@ -5346,7 +5346,7 @@ body.employer .section-candidate {
 	box-sizing: border-box;
 	width: 100%;
 	height: 235px;
-	padding: 18px 25px 25px 25px;
+	padding: 10px 20px;
 	background-color: white;
 	margin-bottom: 25px;
 	cursor: pointer;
@@ -5444,7 +5444,7 @@ body.employer .section-candidate {
 	box-sizing: border-box;
 	width: 100%;
 	height: 235px;
-	padding: 25px;
+	padding: 20px;
 	background-color: white;
 	margin-bottom: 25px;
 }
@@ -5472,7 +5472,6 @@ body.employer .section-candidate {
 .candidate-info-wrap .list-info-right .volunteer-list .volunteer-info-left .text-002 {
 	font-size: 1.2em;
 	font-weight: 550;
-	margin-bottom: 5px;
 }
 
 .candidate-info-wrap .list-info-right .volunteer-list .volunteer-info-right .text-003 {
@@ -6588,10 +6587,10 @@ body.employer .section-pagination {
 	height: 240px;
 }
 .section-candidate-profile .candidate-profile-box .profile-career-history .text-003 {
-	margin-bottom: 20px;
+	margin-bottom: 10px;
 }
 .section-candidate-profile .candidate-profile-box .profile-career-history .inner-text-wrap {
-	margin-bottom: 30px;
+	margin-bottom: 20px;
 }
 .section-candidate-profile .candidate-profile-box .profile-video-box:after {
 	clear: both;
@@ -8666,6 +8665,44 @@ nav.employer-login-nav .text-1 {
 	.section-candidate-search-filter .filter-info-box ul li {
 		width: 160px;
 	}
+	/* applicant information */
+	.section-candidate-profile {
+		width: 1280px;
+		padding: 40px 20px 35px 20px;
+		margin: 0 auto;
+	}
+	.section-candidate-profile .candidate-profile-box {
+		margin-bottom: 20px;
+	}
+	.section-candidate-profile .candidate-profile-box:nth-of-type(1) {
+		width: 610px;
+	}
+	.section-candidate-profile .candidate-profile-box:nth-of-type(2) {
+		width: 610px;
+		margin-right: 0px;
+	}
+	.section-candidate-profile .candidate-profile-box:nth-of-type(3) {
+		width: 100%;
+		margin-right: 0px;
+		height: 430px;
+	}
+	.section-candidate-profile .candidate-profile-box .candidate-profile-info {
+		width: 610px;
+	}
+	.section-candidate-profile .candidate-profile-box:nth-of-type(3):after {
+		clear: both;
+		content:'';
+		display: block;
+	}
+	.section-candidate-profile .candidate-profile-box:nth-of-type(3) .candidate-profile-info {
+		margin-right: 20px;
+		float: left;
+	}
+	.section-candidate-profile .candidate-profile-box:nth-of-type(3) .candidate-profile-info:nth-last-of-type(1),
+	.section-candidate-profile .candidate-profile-box:nth-of-type(3) .candidate-profile-info:nth-last-of-type(3),
+	.section-candidate-profile .candidate-profile-box:nth-of-type(3) .candidate-profile-info:nth-last-of-type(4) {
+		margin-right: 0px;
+	}
 }
 
 @media only screen and (max-width: 1680px) {
@@ -8700,6 +8737,29 @@ nav.employer-login-nav .text-1 {
 	.employer-profile .employer-profile-nav .container-1 {
 		width: 1200px;
 	}
+	/* applied candidates */
+	.section-candidate-filter {
+		width: 760px;
+		margin: 0 auto;
+		right: 0px;
+	}
+	.candidate-info-wrap {
+		width: 1200px;
+		margin: 0 auto;
+	}
+	.candidate-info-wrap .list-info-left .job-ad-list {
+		height: 250px;
+	}
+	.candidate-info-wrap .list-info-right .volunteer-list {
+		height: 250px;
+	}
+	.candidate-info-wrap .list-info-left .job-ad-list .text-003 {
+		margin-bottom: 0px;
+	}
+	.candidate-info-wrap .list-info-left .job-ad-list .job-salary-wrap {
+		margin-bottom: 10px;
+	}
+	
 }
 @media only screen and (min-width: 1680px) {
 	.layout-100 {
@@ -9198,12 +9258,63 @@ nav.employer-login-nav .text-1 {
 		padding-right: 10px;
 		word-wrap: break-word;
 	}
+	
 	/* candidate search page */
 	.section-candidate-search {
 		width: 610px;
 	}
 	.section-candidate-search .candidate-box-list {
 		margin-right: 0px;
+	}
+	
+	/* applicant information */
+	.section-candidate-profile {
+		width: 650px;
+	}
+	.section-candidate-profile .candidate-profile-box {
+		margin-right: 0px;
+	}
+	.section-candidate-profile .candidate-profile-box:nth-of-type(3) {
+		height: auto;
+	}
+	.section-candidate-profile .candidate-profile-box:nth-of-type(3) .candidate-profile-info {
+		float: none;
+	}
+	/* applied candidates */
+	body.employer .section-candidate {
+		padding: 0 10px 40px;
+	}
+	.candidate-info-wrap {
+		width: 740px;
+	}
+	.section-candidate .candidate-info-wrap .list-info-left {
+		width: 100%;
+		margin-right: 0px;
+	}
+	.section-candidate .candidate-info-wrap .list-info-right {
+		width: 100%;
+		height: 100%;
+		z-index: 10;
+		position: absolute;
+		background-color: rgba(0,0,0,0.4);
+		transition: All 0.2s ease;
+		-webkit-transition: All 0.2s ease;
+		-moz-transition: All 0.2s ease;
+		-o-transition: All 0.2s ease;
+		display: none;
+	}
+	.candidate-info-wrap .list-info-left .job-ad-list {
+		height: auto;
+	}
+	.candidate-info-wrap .list-info-right .volunteer-list {
+		width: 90%;
+		height: auto;
+		float: right;
+		padding: 10px;
+	}
+	.section-candidate .candidate-info-wrap .list-info-right.opened {
+		display: block;
+		right: 0;
 	}
 }
 @media only screen and (max-width: 1155px) {
@@ -10669,6 +10780,68 @@ nav.employer-login-nav .text-1 {
 	.my-resume-box .middle-info .add-work form .expiration-date .gray-arrow:nth-of-type(2) {
 		left: 270px;
 	}
+	/* applied candidates */
+	html.open { 
+		overflow: hidden;
+	}
+	.candidate-info-wrap {
+		width: 100%;
+	}
+	.candidate-info-wrap .list-info-left .job-ad-list {
+		padding: 10px;
+	}
+	.section-candidate .candidate-info-wrap .list-info-right {
+		width: 100%;
+	}
+	.candidate-info-wrap .list-info-right .volunteer-list .volunteer-info-left:after {
+		clear: both;
+		content:'';
+		display: block;
+	}
+	.candidate-info-wrap .list-info-right .volunteer-list .volunteer-info-left {
+		width: 100%;
+	}
+	.candidate-info-wrap .list-info-right .volunteer-list .volunteer-info-left img {
+		float: left;
+		margin-right: 15px;
+	}
+	.candidate-info-wrap .list-info-right .volunteer-list .volunteer-info-left .volunteer-info-box {
+		float: left;
+		margin-top: 5px;
+	}
+	.candidate-info-wrap .list-info-right .volunteer-list .volunteer-info-left .text-001 {
+		font-size: 1.2em;
+	}
+	.candidate-info-wrap .list-info-right .volunteer-list .volunteer-info-left .text-002 {
+		font-size: 1em;
+	}
+	.candidate-info-wrap .list-info-right .volunteer-list .volunteer-info-right {
+		width: 100%;
+	}
+	.candidate-info-wrap .list-info-right .volunteer-list .volunteer-info-right .volunteer-info-box-1 {
+		margin-bottom: 5px;
+	}
+	.candidate-info-wrap .list-info-right .volunteer-list .volunteer-info-right .text-003 {
+		font-size: .8em;
+	}
+	.candidate-info-wrap .list-info-right .volunteer-list .volunteer-info-right .text-004 {
+		font-size: .8em;
+	}
+	.candidate-info-wrap .list-info-right .volunteer-list .volunteer-info-right .text-005 {
+		font-size: 1.1em;
+		margin-bottom: 0px;
+	}
+	.candidate-info-wrap .list-info-right .volunteer-list .volunteer-info-right .ellipsis {
+		font-size: .9em;
+		line-height: 1.3em;
+	}
+	.candidate-info-wrap .list-info-right .volunteer-list .volunteer-info-right .volunteer-info-box-3 .view-more-btn {
+		margin-right: 0px;
+		width: 100px;
+	}
+	.candidate-info-wrap .list-info-right .volunteer-list .volunteer-info-right .volunteer-info-box-3 .remove-candidate-btn {
+		width: 150px;
+	}
 }
 @media only screen and (max-width: 740px) {
 	article {
@@ -11559,6 +11732,35 @@ nav.employer-login-nav .text-1 {
 		display: none;
 	}
 }
+@media only screen and (max-width: 650px) {
+	/* applicant information */
+	.section-candidate-profile {
+		width: 100%;
+	}
+	.section-candidate-profile .candidate-profile-box {
+		height: auto;
+	}
+	.section-candidate-profile .candidate-profile-box:nth-of-type(1),
+	.section-candidate-profile .candidate-profile-box:nth-of-type(2) {
+		width: 100%;
+	}
+	.section-candidate-profile .candidate-profile-box .candidate-profile-info:nth-last-of-type(1) {
+		margin-bottom: 0px;
+	}
+	.section-candidate-profile .candidate-profile-box .candidate-profile-info {
+		width: 100%;
+		padding: 10px;
+	}
+	.section-candidate-profile .candidate-profile-box .personal-profile-box {
+		height: auto;
+	}
+	.section-candidate-profile .candidate-profile-box .personal-profile-box img {
+		margin-right: 15px;
+	}
+	.section-candidate-profile .candidate-profile-box .profile-career-history {
+		height: 220px;
+	}
+}
 @media only screen and (max-width: 620px) {
 	/* job apply page */
 	.section-job-apply-info .apply-job-info-box .category-icon {
@@ -12342,6 +12544,42 @@ nav.employer-login-nav .text-1 {
 	}
 	.guide-form-mobile .Contact-btn {
 		width: 300px;
+	}
+	/* applicant information */
+	.section-candidate-profile .candidate-profile-box .text-001 {
+		font-size: 1.2em;
+	}
+	.section-candidate-profile .candidate-profile-box .text-002 {
+		font-size: .9em;
+	}
+	.section-candidate-profile .candidate-profile-box .text-003 {
+		font-size: 1.1em;
+	}
+	.section-candidate-profile .candidate-profile-box .text-004 {
+		font-size: .8em;
+	}
+	.section-candidate-profile .candidate-profile-box .text-005 {
+		font-size: .9em;
+	}
+	.section-candidate-profile .candidate-profile-box .candidate-profile-info {
+		height: auto;
+	}
+	.section-candidate-profile .candidate-profile-box .personal-profile-box img {
+		width: 90px;
+		height: 90px;
+	}
+	.section-candidate-profile .candidate-profile-box .profile-video-box img {
+		width: 260px;
+		height: 180px;
+	}
+	.section-candidate-profile .candidate-profile-box .profile-strength-box {
+		height: 130px;
+	}
+	.section-candidate-profile-btn-wrap {
+		width: 265px;
+	}
+	.section-candidate-profile-btn-wrap button {
+		width: 120px;
 	}
 }
 @media only screen and (max-width: 380px) {

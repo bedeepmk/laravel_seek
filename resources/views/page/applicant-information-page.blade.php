@@ -112,7 +112,7 @@
         </section>
         <section class="section-candidate-profile-btn-wrap">
             <button>Suggest a job</button>
-            <button href="">Video interview</button>
+            <button href="/video-interview">Video interview</button>
         </section>
     </article>
 @endsection
