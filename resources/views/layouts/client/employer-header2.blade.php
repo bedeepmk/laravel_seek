@@ -1,7 +1,7 @@
 @if (Route::has('login'))
     <nav class="employer isPC">
         <div class="container-0">
-            <a href="/"><h1 class="stylesheet">seekcruit</h1></a>
+            <a href="/"><h1 class="stylesheet">farmnjobs</h1></a>
             <p class="text-1">Employer</p>
             <p class="text-0">
                 <a class="isMypage" href="/login">nora yoon<span></span>
@@ -12,7 +12,7 @@
             <li class="selected"><a href="">Home</a></li>
             <li><a href="">Recruit</a></li>
             <li><a href="">Job AD</a></li>
-            <li><a href="">Seekcruit Guide</a></li>
+            <li><a href="">Farmnjobs Guide</a></li>
             <li><a href="">Products</a></li>
         </ul>
     </nav>
@@ -24,7 +24,7 @@
             <li class="outside"><a href="">My Account</a></li>
             <li class="underline"></li>
             <li class="selected"><a href="">Job Search</a></li>
-            <li><a href="">Seekcruit Guide</a></li>
+            <li><a href="">Farmnjobs Guide</a></li>
             <li class="isMarket"><a>Market</a></li>
             <li><a href="">Community</a></li>
             <li class="underline"></li>
@@ -296,13 +296,13 @@
                         </li>
                     </ul>
                 </div>
-                <input type="text" name="keyword" class="input-keyword form-unit" placeholder="Job title, company, keyword">
+                <input type="text" name="keyword" class="input-keyword form-unit" placeholder="Job title, company or keyword">
                 <input type="text" class="select-map form-unit stylesheet" value="Australia"></input>
                 <input type="submit" class="button-submit form-unit stylesheet" value="Search"></input>
             </form>
         </div>
         <div class="container-0">
-            <a href="/"><h1 class="stylesheet">seekcruit</h1></a>
+            <a href="/"><h1 class="stylesheet">farmnjobs</h1></a>
             <p class="text-1">Employer</p>
         </div>
         <div class="button-mobile-search">

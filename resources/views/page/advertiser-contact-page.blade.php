@@ -6,7 +6,7 @@
 			<section>
 				<div class="contact-center">
 					<form class="contact-box" type="post">
-						<div class="text-001">Contact Us</div>
+						<div class="text-001">Contact us</div>
 						<div class="text-002">AD type</div>
 						<div class="contact-box-ad">
 							<input type="text" name="category" id="category" placeholder="category" data-valid-required="true"
@@ -53,7 +53,7 @@
 						</div>
 						<input type="number" name="contact-number" placeholder="Contact number">
 						<input type="text" name="company-name" placeholder="Company name">
-						<button type="submit" class="submit-btn">Submit</button>
+						<button type="submit" class="submit-btn">Send</button>
 					</form>
 				</div>
 			</section>

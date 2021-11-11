@@ -1,6 +1,6 @@
 <nav class="employer-login-nav">
     <div class="container-0">
-        <a href="/"><h1 class="stylesheet">seekcruit</h1></a>
+        <a href="/"><h1 class="stylesheet">farmnjobs</h1></a>
         <p class="text-1">Employer</p>
     </div>
 </nav>
@@ -288,7 +288,7 @@
                     </li>
                 </ul>
             </div>
-            <input type="text" name="keyword" class="input-keyword form-unit" placeholder="Job title, company, keyword">
+            <input type="text" name="keyword" class="input-keyword form-unit" placeholder="Job title, company or keyword">
             <input type="text" class="select-map form-unit stylesheet" value="Australia"></input>
             <input type="submit" class="button-submit form-unit stylesheet" value="Search"></input>
         </form>

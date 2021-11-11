@@ -1,6 +1,6 @@
 <nav class="isPC">
     <div class="container-0">
-        <a href="/"><h1 class="stylesheet">seekcruit</h1></a>
+        <a href="/"><h1 class="stylesheet">farmnjobs</h1></a>
         <div class="text-0">
             <a class="isMypage">norah yoon</a>
             <span class="stylesheet arrow"></span>
@@ -28,7 +28,7 @@
     <ul class="container-1 layout-100">
         <li class="selected"><a href="">Job Search</a></li>
         <li><a href="">Profile</a></li>
-        <li><a href="">Seekcruit Guide</a></li>
+        <li><a href="">Farmnjobs Guide</a></li>
         <li class="isMarket"><a>Market</a></li>
         <li><a href="">Community</a></li>
     </ul>
@@ -45,7 +45,7 @@
     <div class="container-2">
         <form class="layout-100">
             <button type="button" class="button-category form-unit stylesheet">All Categories<span class="icon stylesheet"></span></button>
-            <input type="text" name="keyword" class="input-keyword form-unit" placeholder="Job title, company, keyword">
+            <input type="text" name="keyword" class="input-keyword form-unit" placeholder="Job title, company or keyword">
             <input type="text" class="select-map form-unit stylesheet" value="Australia"></input>
             <input type="submit" class="button-submit form-unit stylesheet"></input>
         </form>
@@ -360,7 +360,7 @@
         <li class="outside"><a href="">My Account</a></li>
         <li class="underline"></li>
         <li class="selected"><a href="">Job Search</a></li>
-        <li><a href="">Seekcruit Guide</a></li>
+        <li><a href="">Farmnjobs Guide</a></li>
         <li class="isMarket"><a>Market</a></li>
         <li><a href="">Community</a></li>
         <li class="underline"></li>
@@ -632,13 +632,13 @@
                     </li>
                 </ul>
             </div>
-            <input type="text" name="keyword" class="input-keyword form-unit" placeholder="Job title, company, keyword">
+            <input type="text" name="keyword" class="input-keyword form-unit" placeholder="Job title, company or keyword">
             <input type="text" class="select-map form-unit stylesheet" value="Australia"></input>
             <input type="submit" class="button-submit form-unit stylesheet" value="Search"></input>
         </form>
     </div>
     <div class="container-0">
-        <a href="/"><h1 class="stylesheet">seekcruit</h1></a>
+        <a href="/"><h1 class="stylesheet">farmnjobs</h1></a>
     </div>
     <div class="container-3">
         <div class="container-11">

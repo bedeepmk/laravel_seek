@@ -1,6 +1,6 @@
 <nav class="employer-create-job-nav">
     <div class="container-0">
-        <a href="/"><h1 class="stylesheet">seekcruit</h1></a>
+        <a href="/"><h1 class="stylesheet">farmnjobs</h1></a>
         <p class="text-1">Employer</p>
         <p class="text-0">
             <a class="isMypage" href="/login">nora yoon<span></span>
@@ -11,7 +11,7 @@
         <li><a href="">Home</a></li>
         <li><a href="">Recruit</a></li>
         <li class="selected"><a href="">Job AD</a></li>
-        <li><a href="">Seekcruit Guide</a></li>
+        <li><a href="">Farmnjobs Guide</a></li>
         <li><a href="">Products</a></li>
     </ul>
 </nav>

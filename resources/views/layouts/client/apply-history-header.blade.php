@@ -1,7 +1,7 @@
 @if (Route::has('login'))
     <nav class="my-history-nav">
         <div class="container-0">
-            <a href="/"><h1 class="stylesheet">seekcruit</h1></a>
+            <a href="/"><h1 class="stylesheet">farmnjobs</h1></a>
             <p class="text-0">
                 <a href="/login">nora yoon<span></span>
                 <a href="#">Sign out</a>
@@ -10,7 +10,7 @@
         <ul class="container-1 layout-100">
             <li><a href="">Job Search</a></li>
             <li class="selected"><a href="">Profile</a></li>
-            <li><a href="">Seekcruit Guide</a></li>
+            <li><a href="">Farmnjobs Guide</a></li>
             <li><a href="">Market</a></li>
             <li><a href="">Community</a></li>
         </ul>

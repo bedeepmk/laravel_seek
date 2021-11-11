@@ -23,17 +23,17 @@
                         <input type="text" placeholder="Year">
                         <span></span>
                     </div>
-                    <div class="interview-select-box-02">
-                        <p class="text-002">Address for interview url</p>
-                        <input type="text" placeholder="http://norahbaboda.interview/057465123256833435">
-                        <button>copy</button>
-                    </div>
                     <div class="interview-select-box-03">
                         <p class="text-002">Interview time</p>
                         <input type="text" placeholder="Hour">
                         <span></span>
                         <input type="text" placeholder="Min">
                         <span></span>
+                    </div>
+                    <div class="interview-select-box-02">
+                        <p class="text-002">Address for interview url</p>
+                        <input type="text" placeholder="http://norahbaboda.interview/057465123256833435">
+                        <button>copy</button>
                     </div>
                 </div>
                 <div class="interview-btn-wrap">

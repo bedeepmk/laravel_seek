@@ -10,7 +10,7 @@
                     <p class="text-002">-</p>
                     <p class="text-002">-</p>
                 </div>
-                <a href="" class="button-create-job">create job</a>
+                <a href="" class="button-create-job">Post a job</a>
             </div>
         </section>
         <section class="section-profile-img-modal displayNone">
@@ -53,7 +53,7 @@
                 <div class="profile-info-box">
                     <p class="text-001">Company summary</p>
                     <p class="text-002">Upload a resume for easy applying and access no matter where you are.</p>
-                    <p class="profile-add-btn add-company-summary" onclick="addSummary()">Add Resume</p>
+                    <p class="profile-add-btn add-company-summary" onclick="addSummary()">Add Summary</p>
                     <form class="insert-company-summary displayNone" action="" name="employer-company-summary-post" method="POST">
                         <textarea type="tel" name="employer-company-summary"></textarea>
                         <div class="save-btn" type="submit">save</div>
@@ -94,7 +94,7 @@
                     </form>
                 </div>
                 <div class="profile-info-box">
-                    <p class="text-001">Business number</p>
+                    <p class="text-001">ABN(Australian business number)</p>
                     <p class="text-002">Add your business number.</p>
                     <p class="profile-add-btn add-business-number" onclick="addBusinessNumber()">Add Number</p>
                     <form class="insert-business-number displayNone" action="" name="employer-business-number-post" method="POST">

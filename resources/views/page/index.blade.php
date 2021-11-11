@@ -168,8 +168,8 @@
         </div>
         <div class="container-1">
             <p class="text-0">Video Resume, Interview Service</p>
-            <p class="text-1">Get a faster job using video resume</p>
-            <p class="text-2">Submit your resume and video interview using the video resume system provided by seekcruit. If you sign up as a member, you will receive a 30-day free trial period.</p>
+            <p class="text-1">Get a job fast/ Get a job quickly using video resume</p>
+            <p class="text-2">Upload your resume and have a video interview using video resume system provided by framnjobs. Sign up with a 30 day free trial.</p>
         </div>
     </section>
     <section class="section-main-0 isStandardAD">

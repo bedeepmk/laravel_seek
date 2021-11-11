@@ -10,7 +10,7 @@
                     <p class="text-002">-</p>
                     <p class="text-002">-</p>
                 </div>
-                <a href="" class="button-create-job">create job</a>
+                <a href="" class="button-create-job">Post a job</a>
             </div>
         </section>
         <section class="create-job-wrap">
@@ -265,7 +265,7 @@
             </form>
             <div class="create-job-btn-box">
                 <button type="submit" class="save-btn">Save</button>
-                <button class="draft-btn">Draft</button>
+                <button class="draft-btn">Make Draft</button>
                 <button class="cancel-btn">Cancel</button>
             </div>
         </section>

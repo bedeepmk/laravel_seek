@@ -10,7 +10,7 @@
                     <p class="text-002">-</p>
                     <p class="text-002">-</p>
                 </div>
-                <a href="" class="button-create-job">create job</a>
+                <a href="" class="button-create-job">Post a job</a>
             </div>
         </section>
         <section class="section-selector">

@@ -16,12 +16,12 @@ $(document).ready(function () {
 	}
 
 	if (currentPage == 'classify-role') {
-		$('.modal-open-btn').click(function () {
+		$('.modal-open-btn').on('click', function () {
 			$('.icon-modal').fadeIn(300);
 			return false;
 		});
 
-		$('.modal-close-btn').click(function () {
+		$('.modal-close-btn').on('click', function () {
 			$('.icon-modal').fadeOut(300);
 			return false;
 		});
@@ -68,7 +68,7 @@ $(document).ready(function () {
 			setImageFromFile(this, '#img-preview');
 		});
 
-		$('.img-delete-btn').click(function (e) {
+		$('.img-delete-btn').on('click', function (e) {
 			var delConfirm = confirm('Are you sure?');
 
 			if (delConfirm) {
@@ -76,7 +76,7 @@ $(document).ready(function () {
 			}
 		});
 
-		$('.img-save-btn').click(function () {
+		$('.img-save-btn').on('click', function () {
 			var $src = $('#img-preview').attr('src');
 			$('.my-page-employer-img').attr('src', $src);
 			alert('profile img change');
@@ -101,7 +101,7 @@ $(document).ready(function () {
 			setImageFromFile(this, '#img-preview');
 		});
 
-		$('.img-delete-btn').click(function (e) {
+		$('.img-delete-btn').on('click', function (e) {
 			var delConfirm = confirm('Are you sure?');
 
 			if (delConfirm) {
@@ -109,7 +109,7 @@ $(document).ready(function () {
 			}
 		});
 
-		$('.img-save-btn').click(function () {
+		$('.img-save-btn').on('click', function () {
 			var $src = $('#img-preview').attr('src');
 			$('.my-page-seeker-img').attr('src', $src);
 			alert('profile img change');
@@ -126,7 +126,7 @@ $(document).ready(function () {
 			return false;
 		});
 
-		$('html').click(function (e) {
+		$('html').on('click', function (e) {
 			if ($(e.target).hasClass('section-invoice-history-modal')) {
 				$('.section-invoice-history-modal').fadeOut(300);
 				return false;

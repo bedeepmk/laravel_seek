@@ -1,8 +1,8 @@
 <nav class="guide-nav">
     <div class="nav-back">
-        <a href="/"><h1 class="logo-white">seekcruit</h1></a>
+        <a href="/"><h1 class="logo-white">farmnjobs</h1></a>
         <p class="text-1">Advertiser</p>
-        <button class="nav-Contact-btn" onClick="contactPage()">Contact Us</button>
+        <button class="nav-Contact-btn" onClick="contactPage()">Contact us</button>
     </div>
 </nav>
 <nav class="isMobile guide-mobile-nav">
@@ -10,7 +10,7 @@
     <ul class="container-5">
         <li class="selected"><a href="">Job Search</a></li>
         <li><a href="">Profile</a></li>
-        <li><a href="">Seekcruit Guide</a></li>
+        <li><a href="">Farmnjobs Guide</a></li>
         <li class="isMarket"><a>Market</a></li>
         <li><a href="">Community</a></li>
         <li class="underline"></li>

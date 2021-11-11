@@ -120,7 +120,7 @@
                     </div>
                 </div>
                 <div>
-                    <button class="Contact-btn" onClick="contactPage()">Contact Us</button>
+                    <button class="Contact-btn" onClick="contactPage()">Contact us</button>
                 </div>
             </section>
         </article>

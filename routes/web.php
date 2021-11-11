@@ -42,8 +42,8 @@ Route::get('/market', function () {
 Route::get('/community', function () {
     return view('page.community');
 });
-Route::get('/applicant-information', function () {
-    return view('page.applicant-information-page');
+Route::get('/candidate-profile', function () {
+    return view('page.candidate-profile');
 });
 Route::get('/employer-profile', function () {
     return view('page.employer-profile');

@@ -18,7 +18,7 @@
                 <input type="text" placeholder="All title">
                 <span class="stylesheet gray-arrow"></span>
                 <input type="text" placeholder="keyword">
-                <button></button>
+                <button class="stylesheet"></button>
             </div>
             <div class="table">
                 <ul class="row header">

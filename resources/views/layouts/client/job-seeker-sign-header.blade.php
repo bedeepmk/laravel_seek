@@ -1,15 +1,15 @@
 <nav class="loginPage_nav">
-    <a href="/"><h1 class="stylesheet">seekcruit</h1></a>
+    <a href="/"><h1 class="stylesheet">farmnjobs</h1></a>
 </nav>
 <nav class="isMobile login-nav-mobile">
     <div class="image-back-drop"></div>
     <div class="container-0">
-        <a href="/"><h1 class="stylesheet">seekcruit</h1></a>
+        <a href="/"><h1 class="stylesheet">farmnjobs</h1></a>
     </div>
     <ul class="container-5">
         <li class="selected"><a href="">Job Search</a></li>
         <li><a href="">Profile</a></li>
-        <li><a href="">Seekcruit Guide</a></li>
+        <li><a href="">Farmnjobs Guide</a></li>
         <li class="isMarket"><a>Market</a></li>
         <li><a href="">Community</a></li>
         <li class="underline"></li>
@@ -282,7 +282,7 @@
                     </li>
                 </ul>
             </div>
-            <input type="text" name="keyword" class="input-keyword form-unit" placeholder="Job title, company, keyword">
+            <input type="text" name="keyword" class="input-keyword form-unit" placeholder="Job title, company or keyword">
             <input type="text" class="select-map form-unit stylesheet" value="Australia"></input>
             <input type="submit" class="button-submit form-unit stylesheet" value="Search"></input>
         </form>

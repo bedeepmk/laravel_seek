@@ -1,5 +1,5 @@
 @extends('layouts/client/employer')
-@section('title', 'applicant-information')
+@section('title', 'candidate-profile')
 @section('content')
     <article>
         <section class="section-candidate-profile">
@@ -111,8 +111,8 @@
             </div>
         </section>
         <section class="section-candidate-profile-btn-wrap">
-            <button>Suggest a job</button>
-            <button href="/video-interview">Video interview</button>
+            <button>Send a job offer</button>
+            <button href="/video-interview">Offer a video interview</button>
         </section>
     </article>
 @endsection
