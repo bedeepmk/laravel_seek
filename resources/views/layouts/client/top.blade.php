@@ -26,7 +26,6 @@
 <script src="{{ asset('js/common.js') }}" defer></script>
 {{-- <script src="js/app.js{{$invalidatingCacheStr}}"></script>
 <script src="js/common.js{{$invalidatingCacheStr}}"></script> --}}
-<script src="https://cdnjs.cloudflare.com/ajax/libs/Swiper/4.5.1/js/swiper.min.js"></script>
 <script type="text/javascript" src="https://code.jquery.com/jquery-3.5.1.min.js"></script>
 {{-- <script type="text/javascript" src="{{ asset('js/jquery-ui.min.js') }}"></script> --}}
 </head>

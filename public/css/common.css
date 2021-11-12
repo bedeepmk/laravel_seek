@@ -5951,6 +5951,7 @@ body.employer .section-pagination {
 	width: 1315px;
 	height: auto;
 	margin: 0 auto;
+	box-sizing: border-box;
 }
 .section-product-page-comment .product-comment-box img {
 	float: left;
@@ -8945,6 +8946,52 @@ nav.employer-login-nav .text-1 {
 		width: 100%;
 	}
 }
+@media only screen and (max-width: 1380px) {
+	/* employer products page */
+	.section-product-page-info .product-info-box-wrap {
+		width: 1000px;
+	}
+	.section-product-page-info .product-info-box-wrap .product-info-box {
+		width: 220px;
+		height: 580px;
+		padding: 20px;
+		margin-right: 40px;
+	}
+	.section-product-page-info .product-info-box-wrap .product-info-box .product-period {
+		font-size: 1.2em;
+	}
+	.section-product-page-info .product-info-box-wrap .product-info-box .product-class {
+		font-size: 2em;
+	}
+	.section-product-page-info .product-info-box-wrap .product-info-box .product-purchase {
+		font-size: 1.5em;
+		margin-bottom: 25px;
+	}
+	.section-product-page-info .product-info-box-wrap .product-info-box .text-002 {
+		font-size: .9em;
+	}
+	.section-product-page-info .product-info-box-wrap .product-info-box .purchase-btn {
+		font-size: 1em;
+		left: 20px;
+		bottom: 30px;
+		width: 180px;
+		height: 45px;
+	}
+	.section-product-page-comment {
+		height: auto;
+		padding-top: 100px;
+		padding-bottom: 100px;
+	}
+	.section-product-page-comment .product-comment-box {
+		width: 1000px;
+	}
+	.section-product-page-comment .product-comment-box div p.text-003 {
+		font-size: .9em;
+	}
+	.section-product-page-comment .product-comment-box div p.text-004 {
+		font-size: 1.2em;
+	}
+}
 @media only screen and (max-width: 1280px) {
 	.layout-100 {
 		width: 900px;
@@ -9661,6 +9708,58 @@ nav.employer-login-nav .text-1 {
 	.my-resume-box .middle-info .add-work form .expiration-date .gray-arrow:nth-of-type(2) {
 		left: 270px;
 	}
+	/* employer products page */
+	.swiper-container {
+		width: 280px;
+		height: 580px;
+		margin: 0 auto;
+		overflow: hidden;
+	}
+	.section-product-page-info .product-info-box-wrap {
+		position: relative;
+		height: 580px;
+		display: flex;
+		transition: transform 0.5s;
+		width: 1120px;
+	}
+	.section-product-page-info .product-info-box-wrap .product-info-box {
+		width: 280px;
+		box-sizing: border-box;
+		margin-right: 0px;
+	}
+	.section-product-page-info .product-info-box-wrap .product-info-box .purchase-btn {
+		left: calc(50% - 90px);
+	}
+	.section-product-page-comment {
+		background-color: inherit;
+	}
+	.section-product-page-comment .product-comment-box {
+		width: 700px;
+		background-color: #fff;
+		padding: 50px;
+	}
+	.section-product-page-comment .product-comment-box img {
+		margin: 0;
+		position: absolute;
+		left: -40px;
+		top: 30px;
+		width: 80px;
+		height: 80px;
+	}
+	.section-product-page-comment .product-comment-box div {
+		width: 100%;
+		margin: 0 auto;
+		padding-left: 20px;
+	}	
+	.section-product-page-comment .product-comment-box div p.text-003 {
+		margin: 40px auto 0px;
+	}
+	.section-product-page-comment .product-comment-box div p.text-004 {
+		position: absolute;
+		top: 0;
+		left: 20px;
+	}
+
 }
 @media only screen and (max-width: 1020px) {
 	.layout-100 {
@@ -9990,6 +10089,16 @@ nav.employer-login-nav .text-1 {
 		width: 100%;
 		margin: 300px 20px;
 		left: -20px;
+	}
+}
+@media only screen and (max-width: 900px) {
+	/* employer product page */
+	.section-product-page-comment {
+		padding: 100px 40px;
+	}
+	.section-product-page-comment .product-comment-box {
+		width: 100%;
+		border-radius: 10px;
 	}
 }
 @media only screen and (max-width: 860px) {
@@ -11912,6 +12021,8 @@ nav.employer-login-nav .text-1 {
 	.section-candidate-search .candidate-box-list .candidate-info-03 {
 		display: none;
 	}
+	/* employer product page */
+	
 }
 @media only screen and (max-width: 650px) {
 	/* applicant information */
@@ -12761,6 +12872,13 @@ nav.employer-login-nav .text-1 {
 	}
 	.section-candidate-profile-btn-wrap button {
 		width: 120px;
+	}
+	/* employer product page */
+	.section-product-page-comment .product-comment-box div p.text-004 {
+		font-size: 1em;
+	}
+	.section-product-page-comment .product-comment-box div p.text-003 {
+		font-size: .8em;
 	}
 }
 @media only screen and (max-width: 380px) {
