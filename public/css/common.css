@@ -9317,7 +9317,7 @@ nav.employer-login-nav .text-1 {
 	}
 	.candidate-info-wrap .list-info-left .job-ad-list .ellipsis {
 		font-size: .9em;
-		line-height: 1em;
+		line-height: 1.1em;
 		height: 2em;
 	}
 	.candidate-info-wrap .list-info-left .job-ad-list .job-salary-wrap div p.text-003 {
@@ -9401,14 +9401,71 @@ nav.employer-login-nav .text-1 {
 		margin-right: 0px;
 		width: 150px;
 		position: absolute;
-		top: -213px;
+		top: -207px;
 		right: 0px;
 	}
 	.candidate-info-wrap .list-info-right .volunteer-list .volunteer-info-right .volunteer-info-box-3 .remove-candidate-btn {
 		width: 150px;
 		position: absolute;
-		top: -178px;
+		top: -172px;
 		right: 0px;
+	}
+	/* my suggestion page */
+	.section-my-suggestion .suggestion-list-wrap .suggestion-list {
+		padding: 20px;
+		height: auto;
+	}
+	.section-my-suggestion .suggestion-list-wrap .suggestion-list .suggestion-info-left:after {
+		clear: both;
+		content:'';
+		display: block;
+	}
+	.section-my-suggestion .suggestion-list-wrap .suggestion-list .suggestion-info-left {
+		width: 100%;
+		margin-right: 0px;
+		margin-bottom: 15px;
+	}
+	.section-my-suggestion .suggestion-list-wrap .suggestion-list .suggestion-info-left img {
+		float: left;
+		margin-bottom: 0px;
+		margin-right: 15px;
+	}
+	.section-my-suggestion .suggestion-list-wrap .suggestion-list .suggestion-info-left .text-002 {
+		margin-bottom: 0px;
+	}
+	.section-my-suggestion .suggestion-list-wrap .suggestion-list .suggestion-info-left .suggestion-info-box {
+		float: left;
+	}
+
+	.section-my-suggestion .suggestion-list-wrap .suggestion-list .suggestion-info-right {
+		width: 100%;
+	}
+	.section-my-suggestion .suggestion-list-wrap .suggestion-list .suggestion-info-right .text-003 {
+		font-size: .8em;
+	}
+	.section-my-suggestion .suggestion-list-wrap .suggestion-list .suggestion-info-right .text-004 {
+		font-size: .8em;
+	}
+	.section-my-suggestion .suggestion-list-wrap .suggestion-list .suggestion-info-right .suggestion-info-box-1 {
+		margin-bottom: 0px;
+	}
+	.section-my-suggestion .suggestion-list-wrap .suggestion-list .suggestion-info-right .suggestion-info-box-1 div {
+		height: 20px;
+		margin-right: 10px;
+	}
+	.section-my-suggestion .suggestion-list-wrap .suggestion-list .suggestion-info-right .text-005 {
+		margin-bottom: 0px;
+	}
+	.section-my-suggestion .suggestion-list-wrap .suggestion-list .suggestion-info-right .ellipsis {
+		font-size: .9em;
+		height: 2.2em;
+	}
+	.section-my-suggestion .suggestion-list-wrap .suggestion-list .suggestion-info-right .suggestion-info-box-3 button {
+		width: 100px;
+		margin-right: 0px;
+	}
+	.section-my-suggestion .suggestion-list-wrap .suggestion-list .suggestion-info-right .suggestion-info-box-3 .remove-candidate-btn {
+		width: 150px;
 	}
 }
 @media only screen and (max-width: 1155px) {
@@ -9438,10 +9495,6 @@ nav.employer-login-nav .text-1 {
 		z-index: 10;
 		position: absolute;
 		background-color: rgba(0,0,0,0.4);
-		/* transition: All 0.2s ease;
-		-webkit-transition: All 0.2s ease;
-		-moz-transition: All 0.2s ease;
-		-o-transition: All 0.2s ease; */
 		display: none;
 	}
 	.candidate-info-wrap .list-info-left .job-ad-list {
@@ -9451,15 +9504,11 @@ nav.employer-login-nav .text-1 {
 	}
 	.candidate-info-wrap .list-info-right .volunteer-list {
 		width: 90%;
-		height: auto;
+		height: 210px;
 		float: right;
 		padding: 10px;
 		margin-bottom: 10px;
 	}
-	/* .section-candidate .candidate-info-wrap .list-info-right.opened {
-		display: block;
-		right: 0;
-	} */
 }
 @media only screen and (max-width: 1024px) {
 	/* guide page*/
@@ -9905,6 +9954,31 @@ nav.employer-login-nav .text-1 {
 	}
 	.section-invoice-history-modal .table .noting-payment {
 		margin-top: 20px;
+	}
+	/* my suggestion page */
+	body.employer .section-my-suggestion {
+		padding: 0px 20px 40px;
+	}
+	.section-my-suggestion .suggestion-list-wrap .suggestion-list {
+		width: 100%;
+		padding: 10px;
+		margin-right: 0px;
+		margin-bottom: 15px;
+	}
+	.section-my-suggestion .suggestion-list-wrap .suggestion-list .suggestion-info-left {
+		margin-bottom: 10px;
+	}
+	.section-my-suggestion .suggestion-list-wrap .suggestion-list .suggestion-info-left .suggestion-info-box {
+		top: 5px;
+	}
+	.section-my-suggestion .suggestion-list-wrap .suggestion-list .suggestion-info-left .text-001 {
+		font-size: 1.2em;
+	}
+	.section-my-suggestion .suggestion-list-wrap .suggestion-list .suggestion-info-left .text-002 {
+		font-size: 1em;
+	}
+	.section-my-suggestion .suggestion-list-wrap .suggestion-list .suggestion-info-right .text-005 {
+		font-size: 1.2em;
 	}
 }
 @media only screen and (max-width: 940px) {
@@ -10914,6 +10988,40 @@ nav.employer-login-nav .text-1 {
 	}
 	.my-resume-box .middle-info .add-work form .expiration-date .gray-arrow:nth-of-type(2) {
 		left: 270px;
+	}
+	/* applied candidates */
+	.candidate-info-wrap {
+		width: 100%;
+	}
+	.candidate-info-wrap .list-info-left .job-ad-list {
+		height: auto;
+	}
+	.candidate-info-wrap .list-info-left .job-ad-list .text-001 {
+		margin-bottom: 0px;
+	}
+	.candidate-info-wrap .list-info-left .job-ad-list .job-salary-wrap {
+		padding-bottom: 5px;
+	}
+	.candidate-info-wrap .list-info-left .job-ad-list .job-salary-wrap div {
+		height: 20px;
+	}
+	.candidate-info-wrap .list-info-right .volunteer-list {
+		height: auto;
+	}
+	.candidate-info-wrap .list-info-right .volunteer-list .volunteer-info-right .volunteer-info-box-1 {
+		margin-bottom: 0px;
+	}
+	.candidate-info-wrap .list-info-right .volunteer-list .volunteer-info-right .volunteer-info-box-1 div {
+		height: 20px;
+	}
+	.candidate-info-wrap .list-info-right .volunteer-list .volunteer-info-right .volunteer-info-box-3 .view-more-btn {
+		position: relative;
+		top: 0px;
+		width: 100px;
+	}
+	.candidate-info-wrap .list-info-right .volunteer-list .volunteer-info-right .volunteer-info-box-3 .remove-candidate-btn {
+		position: relative;
+		top: 0px;
 	}
 }
 @media only screen and (max-width: 740px) {

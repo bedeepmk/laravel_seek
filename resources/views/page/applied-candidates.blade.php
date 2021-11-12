@@ -224,7 +224,129 @@
                             </div>
                         </div>
                     </div>
-                    
+                    <div class="volunteer-list">
+                        <div class="volunteer-info-left">
+                            <img>
+                            <div class="volunteer-info-box">
+                                <div class="text-001">Jeff Sangyub Roh</div>
+                                <div class="text-002">Mildura</div>
+                                <p>
+                                    <span class="star stylesheet"></span>
+                                    <span class="star stylesheet"></span>
+                                    <span class="star stylesheet"></span>
+                                </p>
+                            </div>
+                        </div>
+                        <div class="volunteer-info-right">
+                            <div class="volunteer-info-box-1">
+                                <div>
+                                    <p class="text-003">Skills :</p>
+                                    <p class="text-004">Truck driver</p>
+                                </div>
+                                <div>
+                                    <p class="text-003">Licences :</p>
+                                    <p class="text-004">Truck driver</p>
+                                </div>
+                                <div>
+                                    <p class="text-003">Language :</p>
+                                    <p class="text-004">Korean, English</p>
+                                </div>
+                            </div>
+                            <div class="volunteer-info-box-2">
+                                <div class="text-005">Personal Summary</div>
+                                <div class="text-006">
+                                    <p class="ellipsis">저는 밀두라의 수장입니다. 나를 이길자 아무도 없으셈ㅋ 따라올테면 따라와봐. 메가패스- 저는 밀두라의 수장입니다. 나를 이길자 아무도 없으셈ㅋ 따라올테면 따라와봐. 메가패스- 저는 밀두라의 수장입니다. 나를 이길자 아무도 없으셈ㅋ 따라올테면 따라와봐. 메가패스- 저는 밀두라의 수장입니다. 나를 이길자 아무도 없으셈ㅋ 따라올테면 따라와봐. 메가패스-</p>
+                                </div>
+                            </div>
+                            <div class="volunteer-info-box-3">
+                                <button class="view-more-btn">+ view more</button>
+                                <!-- <button class="contact-btn">Contact</button> -->
+                                <button class="remove-candidate-btn">Remove candidate</button>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="volunteer-list">
+                        <div class="volunteer-info-left">
+                            <img>
+                            <div class="volunteer-info-box">
+                                <div class="text-001">Jeff Sangyub Roh</div>
+                                <div class="text-002">Mildura</div>
+                                <p>
+                                    <span class="star stylesheet"></span>
+                                    <span class="star stylesheet"></span>
+                                    <span class="star stylesheet"></span>
+                                </p>
+                            </div>
+                        </div>
+                        <div class="volunteer-info-right">
+                            <div class="volunteer-info-box-1">
+                                <div>
+                                    <p class="text-003">Skills :</p>
+                                    <p class="text-004">Truck driver</p>
+                                </div>
+                                <div>
+                                    <p class="text-003">Licences :</p>
+                                    <p class="text-004">Truck driver</p>
+                                </div>
+                                <div>
+                                    <p class="text-003">Language :</p>
+                                    <p class="text-004">Korean, English</p>
+                                </div>
+                            </div>
+                            <div class="volunteer-info-box-2">
+                                <div class="text-005">Personal Summary</div>
+                                <div class="text-006">
+                                    <p class="ellipsis">저는 밀두라의 수장입니다. 나를 이길자 아무도 없으셈ㅋ 따라올테면 따라와봐. 메가패스- 저는 밀두라의 수장입니다. 나를 이길자 아무도 없으셈ㅋ 따라올테면 따라와봐. 메가패스- 저는 밀두라의 수장입니다. 나를 이길자 아무도 없으셈ㅋ 따라올테면 따라와봐. 메가패스- 저는 밀두라의 수장입니다. 나를 이길자 아무도 없으셈ㅋ 따라올테면 따라와봐. 메가패스-</p>
+                                </div>
+                            </div>
+                            <div class="volunteer-info-box-3">
+                                <button class="view-more-btn">+ view more</button>
+                                <!-- <button class="contact-btn">Contact</button> -->
+                                <button class="remove-candidate-btn">Remove candidate</button>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="volunteer-list">
+                        <div class="volunteer-info-left">
+                            <img>
+                            <div class="volunteer-info-box">
+                                <div class="text-001">Jeff Sangyub Roh</div>
+                                <div class="text-002">Mildura</div>
+                                <p>
+                                    <span class="star stylesheet"></span>
+                                    <span class="star stylesheet"></span>
+                                    <span class="star stylesheet"></span>
+                                </p>
+                            </div>
+                        </div>
+                        <div class="volunteer-info-right">
+                            <div class="volunteer-info-box-1">
+                                <div>
+                                    <p class="text-003">Skills :</p>
+                                    <p class="text-004">Truck driver</p>
+                                </div>
+                                <div>
+                                    <p class="text-003">Licences :</p>
+                                    <p class="text-004">Truck driver</p>
+                                </div>
+                                <div>
+                                    <p class="text-003">Language :</p>
+                                    <p class="text-004">Korean, English</p>
+                                </div>
+                            </div>
+                            <div class="volunteer-info-box-2">
+                                <div class="text-005">Personal Summary</div>
+                                <div class="text-006">
+                                    <p class="ellipsis">저는 밀두라의 수장입니다. 나를 이길자 아무도 없으셈ㅋ 따라올테면 따라와봐. 메가패스- 저는 밀두라의 수장입니다. 나를 이길자 아무도 없으셈ㅋ 따라올테면 따라와봐. 메가패스- 저는 밀두라의 수장입니다. 나를 이길자 아무도 없으셈ㅋ 따라올테면 따라와봐. 메가패스- 저는 밀두라의 수장입니다. 나를 이길자 아무도 없으셈ㅋ 따라올테면 따라와봐. 메가패스-</p>
+                                </div>
+                            </div>
+                            <div class="volunteer-info-box-3">
+                                <button class="view-more-btn">+ view more</button>
+                                <!-- <button class="contact-btn">Contact</button> -->
+                                <button class="remove-candidate-btn">Remove candidate</button>
+                            </div>
+                        </div>
+                    </div>
                     <div class="pagination">
                         <ul>
                             <li><a href="" class="prev-btn"><<</a></li>

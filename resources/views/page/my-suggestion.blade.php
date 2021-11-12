@@ -25,12 +25,14 @@
                 <div class="suggestion-list">
                     <div class="suggestion-info-left">
                         <img>
-                        <div class="text-001">Jeff Sangyub Roh</div>
-                        <div class="text-002">Mildura</div>
-                        <p>
-                            <span class="star stylesheet"></span>
-                            <span class="star stylesheet"></span>
-                        </p>
+                        <div class="suggestion-info-box">
+                            <div class="text-001">Jeff Sangyub Roh</div>
+                            <div class="text-002">Mildura</div>
+                            <p>
+                                <span class="star stylesheet"></span>
+                                <span class="star stylesheet"></span>
+                            </p>
+                        </div>
                     </div>
                     <div class="suggestion-info-right">
                         <div class="suggestion-info-box-1">
@@ -63,12 +65,14 @@
                 <div class="suggestion-list">
                     <div class="suggestion-info-left">
                         <img>
-                        <div class="text-001">Jeff Sangyub Roh</div>
-                        <div class="text-002">Mildura</div>
-                        <p>
-                            <span class="star stylesheet"></span>
-                            <span class="star stylesheet"></span>
-                        </p>
+                        <div class="suggestion-info-box">
+                            <div class="text-001">Jeff Sangyub Roh</div>
+                            <div class="text-002">Mildura</div>
+                            <p>
+                                <span class="star stylesheet"></span>
+                                <span class="star stylesheet"></span>
+                            </p>
+                        </div>
                     </div>
                     <div class="suggestion-info-right">
                         <div class="suggestion-info-box-1">
@@ -101,13 +105,14 @@
                 <div class="suggestion-list">
                     <div class="suggestion-info-left">
                         <img>
-                        <div class="text-001">Jeff Sangyub Roh</div>
-                        <div class="text-002">Mildura</div>
-                        <p>
-                            <span class="star stylesheet"></span>
-                            <span class="star stylesheet"></span>
-                            <span class="star stylesheet"></span>
-                        </p>
+                        <div class="suggestion-info-box">
+                            <div class="text-001">Jeff Sangyub Roh</div>
+                            <div class="text-002">Mildura</div>
+                            <p>
+                                <span class="star stylesheet"></span>
+                                <span class="star stylesheet"></span>
+                            </p>
+                        </div>
                     </div>
                     <div class="suggestion-info-right">
                         <div class="suggestion-info-box-1">
@@ -140,13 +145,14 @@
                 <div class="suggestion-list">
                     <div class="suggestion-info-left">
                         <img>
-                        <div class="text-001">Jeff Sangyub Roh</div>
-                        <div class="text-002">Mildura</div>
-                        <p>
-                            <span class="star stylesheet"></span>
-                            <span class="star stylesheet"></span>
-                            <span class="star stylesheet"></span>
-                        </p>
+                        <div class="suggestion-info-box">
+                            <div class="text-001">Jeff Sangyub Roh</div>
+                            <div class="text-002">Mildura</div>
+                            <p>
+                                <span class="star stylesheet"></span>
+                                <span class="star stylesheet"></span>
+                            </p>
+                        </div>
                     </div>
                     <div class="suggestion-info-right">
                         <div class="suggestion-info-box-1">
@@ -179,12 +185,14 @@
                 <div class="suggestion-list">
                     <div class="suggestion-info-left">
                         <img>
-                        <div class="text-001">Jeff Sangyub Roh</div>
-                        <div class="text-002">Mildura</div>
-                        <p>
-                            <span class="star stylesheet"></span>
-                            <span class="star stylesheet"></span>
-                        </p>
+                        <div class="suggestion-info-box">
+                            <div class="text-001">Jeff Sangyub Roh</div>
+                            <div class="text-002">Mildura</div>
+                            <p>
+                                <span class="star stylesheet"></span>
+                                <span class="star stylesheet"></span>
+                            </p>
+                        </div>
                     </div>
                     <div class="suggestion-info-right">
                         <div class="suggestion-info-box-1">
@@ -217,11 +225,14 @@
                 <div class="suggestion-list">
                     <div class="suggestion-info-left">
                         <img>
-                        <div class="text-001">Jeff Sangyub Roh</div>
-                        <div class="text-002">Mildura</div>
-                        <p>
-                            <span class="star stylesheet"></span>
-                        </p>
+                        <div class="suggestion-info-box">
+                            <div class="text-001">Jeff Sangyub Roh</div>
+                            <div class="text-002">Mildura</div>
+                            <p>
+                                <span class="star stylesheet"></span>
+                                <span class="star stylesheet"></span>
+                            </p>
+                        </div>
                     </div>
                     <div class="suggestion-info-right">
                         <div class="suggestion-info-box-1">
@@ -254,12 +265,14 @@
                 <div class="suggestion-list">
                     <div class="suggestion-info-left">
                         <img>
-                        <div class="text-001">Jeff Sangyub Roh</div>
-                        <div class="text-002">Mildura</div>
-                        <p>
-                            <span class="star stylesheet"></span>
-                            <span class="star stylesheet"></span>
-                        </p>
+                        <div class="suggestion-info-box">
+                            <div class="text-001">Jeff Sangyub Roh</div>
+                            <div class="text-002">Mildura</div>
+                            <p>
+                                <span class="star stylesheet"></span>
+                                <span class="star stylesheet"></span>
+                            </p>
+                        </div>
                     </div>
                     <div class="suggestion-info-right">
                         <div class="suggestion-info-box-1">
@@ -292,13 +305,14 @@
                 <div class="suggestion-list">
                     <div class="suggestion-info-left">
                         <img>
-                        <div class="text-001">Jeff Sangyub Roh</div>
-                        <div class="text-002">Mildura</div>
-                        <p>
-                            <span class="star stylesheet"></span>
-                            <span class="star stylesheet"></span>
-                            <span class="star stylesheet"></span>
-                        </p>
+                        <div class="suggestion-info-box">
+                            <div class="text-001">Jeff Sangyub Roh</div>
+                            <div class="text-002">Mildura</div>
+                            <p>
+                                <span class="star stylesheet"></span>
+                                <span class="star stylesheet"></span>
+                            </p>
+                        </div>
                     </div>
                     <div class="suggestion-info-right">
                         <div class="suggestion-info-box-1">

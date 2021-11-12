@@ -5,15 +5,15 @@ $(function () {
 		if ($('.section-candidate').outerWidth(true) < '1030') {
 			$('.list-info-right').show('slide', {direction: 'right'}, 300);
 			window.location.hash = "#open";
-			
 			$('html').on('click', function (e) {
-				if (!$(e.target).hasClass('volunteer-list')) {
+				if (e.target.className == 'list-info-right') {
 					$('.list-info-right').hide('slide', {direction: 'right'}, 300);
 					window.location.hash = "";
 					return false;
 				}
-			});	
+			});
 		}
+		
 		window.onhashchange = function() {
 			if (location.hash != "#open") {
 				$('.list-info-right').hide('slide', {direction: 'right'}, 300);
