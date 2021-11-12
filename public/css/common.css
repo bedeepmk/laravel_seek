@@ -12022,7 +12022,10 @@ nav.employer-login-nav .text-1 {
 		display: none;
 	}
 	/* employer product page */
-	
+	.section-product-page-info .text-001 {
+		font-size: 2em;
+		width: 400px;
+	}
 }
 @media only screen and (max-width: 650px) {
 	/* applicant information */
@@ -12879,6 +12882,9 @@ nav.employer-login-nav .text-1 {
 	}
 	.section-product-page-comment .product-comment-box div p.text-003 {
 		font-size: .8em;
+	}
+	.section-product-page-info .text-001 {
+		width: 300px;
 	}
 }
 @media only screen and (max-width: 380px) {
