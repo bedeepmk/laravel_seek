@@ -1,4 +1,4 @@
-$(document).ready(function () {
+$(function () {
 	var page = $(location).attr('pathname').split('.')[0];
 	var array = page.split('/');
 	var currentPage = array[array.length - 1];
