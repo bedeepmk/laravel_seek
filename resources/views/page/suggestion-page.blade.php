@@ -1,7 +1,7 @@
 @extends('layouts/client/employer')
 @section('title', 'suggestion-page')
 @section('content')
-    <article>
+    <article id="suggestion-page">
         <section class="section-suggestion-page">
             <div class="suggestion-page-info-box">
                 <img src="img/test_img.jpg">

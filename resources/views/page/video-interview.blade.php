@@ -17,18 +17,18 @@
                     <div class="interview-select-box-01">
                         <p class="text-002">Select available day for a video interview</p>
                         <input type="text" placeholder="Day">
-                        <span></span>
+                        <span class="gray-arrow"></span>
                         <input type="text" placeholder="Month">
-                        <span></span>
+                        <span class="gray-arrow"></span>
                         <input type="text" placeholder="Year">
-                        <span></span>
+                        <span class="gray-arrow"></span>
                     </div>
                     <div class="interview-select-box-03">
                         <p class="text-002">Interview time</p>
                         <input type="text" placeholder="Hour">
-                        <span></span>
+                        <span class="gray-arrow"></span>
                         <input type="text" placeholder="Min">
-                        <span></span>
+                        <span class="gray-arrow"></span>
                     </div>
                     <div class="interview-select-box-02">
                         <p class="text-002">Address for interview url</p>
