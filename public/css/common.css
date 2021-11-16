@@ -1690,7 +1690,7 @@ nav.employer .container-0 .text-0 .isSignOut {
 	color: white;
 }
 nav.employer .container-0 h1 {
-	background-position-y: -300px;
+	background-position-y: -800px;
 }
 nav.employer .text-1 {
 	color: white;
@@ -10247,7 +10247,7 @@ nav.employer-login-nav .text-1 {
 		width: 250px;
 		height: auto;
 		display: none;
-		top: 30px;
+		/* top: 30px; */
 	}
 	.section-candidate-filter-mobile .mobile-filter-box div {
 		width: 100%;
