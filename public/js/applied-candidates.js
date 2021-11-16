@@ -21,4 +21,16 @@ $(function () {
 			}
 		}
 	})
+	$('.mobile-filter-btn').on('click', function () {
+		$('.mobile-filter-box').slideToggle(300);
+	})
+	// $('html').on('click', function (e) {
+	// 	console.log($(e.target.classList));
+	// 	if ($(e.target).length >= 1) {
+	// 		return false;
+	// 	} else {
+	// 		$('.mobile-filter-box').slideUp(200);
+	// 	}
+	// })
+
 })

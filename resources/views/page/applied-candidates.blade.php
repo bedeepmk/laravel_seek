@@ -64,6 +64,46 @@
                 </li>
             </ul>
         </section>
+        <section class="section-candidate-filter-mobile">
+            <div class="mobile-filter-btn">Filter</div>
+            <button class="download-excel-btn">Download excel</button>
+            <div class="mobile-filter-box">
+                <div>
+                    <p>Location</p>
+                    <select>
+                        <option>a</option>
+                        <option>b</option>
+                        <option>c</option>
+                        <option>d</option>
+                        <option>e</option>
+                        <option>f</option>
+                        <option>g</option>
+                    </select>
+                </div>
+                <div>
+                    <p>Work experience</p>
+                    <select>
+                        <option>Yes</option>
+                        <option>No</option>
+                    </select>
+                </div>
+                <div>
+                    <p>Video resume</p>
+                    <select>
+                        <option>Yes</option>
+                        <option>No</option>
+                    </select>
+                </div>
+                <div>
+                    <p>Grade</p>
+                    <select>
+                        <option>1</option>
+                        <option>2</option>
+                        <option>3</option>
+                    </select>
+                </div>
+            </div>
+        </section>
         <section class="section-candidate">
             <div class="candidate-info-wrap">
                 <div class="list-info-left">
