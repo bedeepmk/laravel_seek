@@ -80,7 +80,7 @@ tr {
 	background-size: 300px 3000px;
 }
 .color-purple {
-	color: #00bf4a;
+	color: #2ebd59;
 }
 .layout-100 {
 	width: 1180px;
@@ -136,7 +136,7 @@ nav .container-0 .text-0 {
 }
 nav .container-0 .text-0 a {
 	display: inline-block;
-	color: #00bf4a;
+	color: #2ebd59;
 	cursor: pointer;
 }
 nav .container-0 .text-0 span {
@@ -164,7 +164,7 @@ nav .container-0 .layer-menu-mypage {
 	opacity: 0;
 }
 nav .container-0 .layer-menu-mypage .back-0 {
-	background-color: #00bf4a;
+	background-color: #2ebd59;
 	height: 330px;
 	top: 17px;
 }
@@ -172,7 +172,7 @@ nav .container-0 .layer-menu-mypage .back-1 {
 	width: 30px;
 	height: 30px;
 	background-color: white;
-	border: 1px solid #00bf4a;
+	border: 1px solid #2ebd59;
 	position: absolute;
 	top: 15px;
 	transform: rotate(45deg);
@@ -232,7 +232,7 @@ nav .container-0 .layer-menu-mypage li a:hover {
 	text-decoration: underline;
 }
 nav .container-0 .layer-menu-mypage .button-sign-out {
-	color: #00bf4a;
+	color: #2ebd59;
 	text-align: center;
 	width: calc(100% - 80px);
 	position: absolute;
@@ -263,16 +263,16 @@ nav .container-1 li:hover {
 	background-color: rgba(0, 0, 0, 0.06);
 }
 nav .container-1 li:hover a {
-	color: #00bf4a;
+	color: #2ebd59;
 }
 nav .container-1 li a {
 	height: 100%;
 	line-height: 45px;
 	font-weight: 550;
-	color: #00bf4a;
+	color: #2ebd59;
 }
 nav .container-1 li.selected {
-	background-color: #00bf4a;
+	background-color: #2ebd59;
 }
 nav .container-1 li.selected:hover {
 	background-color: #000;
@@ -281,7 +281,7 @@ nav .container-1 li.selected a {
 	color: white;
 }
 nav .container-2 {
-	background-color: #00bf4a;
+	background-color: #2ebd59;
 	padding: 20px 0;
 }
 nav .container-2 .form-unit {
@@ -366,7 +366,7 @@ nav .layer-menu-category {
 	opacity: 0;
 }
 nav .layer-menu-category .back-0 {
-	background-color: #00bf4a;
+	background-color: #2ebd59;
 	height: 460px;
 	top: 17px;
 }
@@ -374,7 +374,7 @@ nav .layer-menu-category .back-1 {
 	width: 30px;
 	height: 30px;
 	background-color: white;
-	border: 1px solid #00bf4a;
+	border: 1px solid #2ebd59;
 	position: absolute;
 	top: 15px;
 	transform: rotate(45deg);
@@ -422,7 +422,7 @@ nav .layer-menu-category input[type='checkbox'] {
 }
 nav .layer-menu-category input[type='checkbox']::after {
 	content: '';
-	border: 1px solid #00bf4a;
+	border: 1px solid #2ebd59;
 	border-radius: 0;
 	width: 18px;
 	height: 18px;
@@ -537,7 +537,7 @@ nav .container-10 li {
 	cursor: pointer;
 	border-radius: 5px;
 	color: white;
-	background-color: #00bf4a;
+	background-color: #2ebd59;
 	transition: 0.3s;
 }
 nav .container-10 li:hover {
@@ -558,7 +558,7 @@ nav .layer-menu-market {
 	opacity: 0;
 }
 nav .layer-menu-market .back-0 {
-	background-color: #00bf4a;
+	background-color: #2ebd59;
 	height: 115px;
 	top: 17px;
 }
@@ -566,7 +566,7 @@ nav .layer-menu-market .back-1 {
 	width: 30px;
 	height: 30px;
 	background-color: white;
-	border: 1px solid #00bf4a;
+	border: 1px solid #2ebd59;
 	position: absolute;
 	top: 15px;
 	transform: rotate(45deg);
@@ -655,7 +655,7 @@ footer .guideBtn {
 	height: 40px;
 	line-height: 40px;
 	text-align: center;
-	background-color: #00bf4a;
+	background-color: #2ebd59;
 	font-weight: 550;
 	position: absolute;
 	top: 5px;
@@ -767,7 +767,7 @@ footer .list-child:hover {
 	font-weight: 400;
 }
 .section-main-0 .text-2 {
-	color: #00bf4a;
+	color: #2ebd59;
 	font-weight: 770;
 	letter-spacing: 0;
 }
@@ -817,7 +817,7 @@ footer .list-child:hover {
 .section-main-0 .container-4 .bar {
 	width: 100px;
 	height: 100%;
-	background-color: #00bf4a;
+	background-color: #2ebd59;
 }
 .section-main-0 .container-7 {
 	display: none;
@@ -881,7 +881,7 @@ footer .list-child:hover {
 	right: 50px;
 }
 .section-main-1 .text-0 {
-	color: #00bf4a;
+	color: #2ebd59;
 	font-size: 2em;
 	font-weight: 550;
 }
@@ -923,7 +923,7 @@ footer .list-child:hover {
 	display: none;
 }
 .section-map-menu .floating.text-0 {
-	color: #00bf4a;
+	color: #2ebd59;
 	font-weight: 440;
 	padding: 0 20px 0 4px;
 }
@@ -979,7 +979,7 @@ body .isMap {
 	margin: 5px 0 5px 10px;
 	transition: 0.3s;
 	background-color: white;
-	border-left: 2px solid #00bf4a;
+	border-left: 2px solid #2ebd59;
 }
 .section-map .container-0 li:hover {
 	box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
@@ -1021,7 +1021,7 @@ body .isMap {
 	text-indent: 30px;
 }
 .section-map .text-2 {
-	color: #00bf4a;
+	color: #2ebd59;
 	font-weight: 660;
 	letter-spacing: 0;
 	line-height: 1.2em;
@@ -1036,7 +1036,7 @@ body .isMap {
 	font-size: 0.5em;
 	line-height: 1.4em;
 	padding-bottom: 4px;
-	color: #00bf4a;
+	color: #2ebd59;
 }
 .section-map .icon-0 {
 	width: 60px;
@@ -1121,7 +1121,7 @@ body .isMap {
 	background-position-y: -540px;
 	line-height: 30px;
 	font-size: 0.8em;
-	color: #00bf4a;
+	color: #2ebd59;
 	font-weight: 550;
 }
 .section-job-info .section-inner-0 .text-2 {
@@ -1131,7 +1131,7 @@ body .isMap {
 	background-position-y: -570px;
 	line-height: 30px;
 	font-size: 0.8em;
-	color: #00bf4a;
+	color: #2ebd59;
 	font-weight: 550;
 }
 .section-job-info .section-inner-0 .container-2 {
@@ -1252,7 +1252,7 @@ body .isMap {
 	overflow-y: hidden;
 }
 .section-job-info .button-apply-now {
-	background-color: #00bf4a;
+	background-color: #2ebd59;
 	color: white;
 	width: 180px;
 	height: 40px;
@@ -1269,7 +1269,7 @@ body .isMap {
 	position: absolute;
 }
 .section-job-info .text-6 {
-	color: #00bf4a;
+	color: #2ebd59;
 	font-weight: 550;
 	height: 25px;
 	line-height: 25px;
@@ -1306,7 +1306,7 @@ body .isMap {
 	background: linear-gradient(rgba(255, 255, 255, 0.001), white);
 }
 .section-job-info .button-more {
-	color: #00bf4a;
+	color: #2ebd59;
 	background-position-x: -230px;
 	background-position-y: -345px;
 	width: 70px;
@@ -1354,7 +1354,7 @@ body .isMap {
 	margin-left: 5px;
 }
 .section-job-info .container-8 li:first-of-type {
-	color: #00bf4a;
+	color: #2ebd59;
 	font-weight: 550;
 }
 .section-seeker-prtrait {
@@ -1414,7 +1414,7 @@ body .isMap {
 	font-size: 1.3em;
 }
 .section-selector li.selected {
-	border-bottom: 3px solid #00bf4a;
+	border-bottom: 3px solid #2ebd59;
 	height: 62px;
 	top: 2px;
 }
@@ -1525,7 +1525,7 @@ body .isMap {
 	text-decoration: none;
 }
 .pagination li a.active {
-	background-color: #00bf4a;
+	background-color: #2ebd59;
 	color: white;
 	border-radius: 50%;
 }
@@ -1599,7 +1599,7 @@ body .isMap {
 }
 
 .section-employer-prtrait {
-	background-color: #000;
+	background-color: #2ebd59;
 	padding: 15px 0;
 }
 .section-employer-prtrait .my-page-employer-img {
@@ -1666,14 +1666,14 @@ body.employer {
 	background-color: rgba(0, 0, 0, 0.05);
 }
 nav.employer {
-	background-color: #00bf4a;
+	background-color: #000;
 }
 nav.employer .container-2 {
-	background-color: #000;
+	background-color: #2ebd59;
 	padding: 15px 0;
 }
 nav.employer .container-1 li.selected {
-	background-color: #000;
+	background-color: #2ebd59;
 }
 nav.employer .container-1 {
 	background: none;
@@ -1690,14 +1690,14 @@ nav.employer .container-0 .text-0 .isSignOut {
 	color: white;
 }
 nav.employer .container-0 h1 {
-	background-position-y: -800px;
+	background-position-y: -885px;
 }
 nav.employer .text-1 {
 	color: white;
 	position: absolute;
 	font-weight: 440;
-	left: 260px;
-	top: 38px;
+	left: 250px;
+	top: 80px;
 	font-size: 1.2em;
 }
 .section-recent-job .container-0 {
@@ -1944,18 +1944,19 @@ nav.employer .text-1 {
 .loginPage_nav {
 	box-sizing: border-box;
 	width: 100%;
-	height: 90px;
+	height: 120px;
 	background-color: white;
 	color: white;
 }
 .loginPage_nav h1 {
 	width: 270px;
-	height: 45px;
+	height: 85px;
 	text-indent: -99999px;
+	margin-bottom: 0px;
 	float: left;
 	top: 20px;
 	left: 20px;
-	transform: scale(0.8);
+	background-position-y: -715px;
 }
 .jobSeeker {
 	box-sizing: border-box;
@@ -1984,7 +1985,7 @@ nav.employer .text-1 {
 	line-height: 40px;
 	text-align: center;
 	float: left;
-	color: #00bf4a;
+	color: #2ebd59;
 	margin-bottom: 10px;
 	background-color: white;
 	transition: 0.3s;
@@ -1994,7 +1995,7 @@ nav.employer .text-1 {
 	opacity: 0.5;
 }
 .signRegiBox button.selected {
-	background-color: #00bf4a;
+	background-color: #2ebd59;
 	color: white;
 }
 .signRegi_wrap {
@@ -2024,7 +2025,7 @@ nav.employer .text-1 {
 }
 .signRegi_wrap .sign_btn {
 	position: absolute;
-	background-color: #00bf4a;
+	background-color: #2ebd59;
 	color: white;
 	font-size: 1.3em;
 	font-weight: 550;
@@ -2040,7 +2041,7 @@ nav.employer .text-1 {
 	background-color: #000;
 }
 .signRegi_wrap .text-001 {
-	color: #00bf4a;
+	color: #2ebd59;
 	font-size: 1.8em;
 	font-weight: 600;
 	margin-bottom: 30px;
@@ -2059,7 +2060,7 @@ nav.employer .text-1 {
 	float: right;
 }
 .signRegi_wrap .text-003 a {
-	color: #00bf4a;
+	color: #2ebd59;
 	font-size: 0.9em;
 	font-weight: 440;
 }
@@ -2068,7 +2069,7 @@ nav.employer .text-1 {
 }
 .signRegi_wrap .text-004 a {
 	display: inline;
-	color: #00bf4a;
+	color: #2ebd59;
 	font-weight: 600;
 }
 .signRegi_wrap .text-005 {
@@ -2076,7 +2077,7 @@ nav.employer .text-1 {
 }
 .signRegi_wrap .text-005 a {
 	display: inline;
-	color: #00bf4a;
+	color: #2ebd59;
 	font-weight: 440;
 	cursor: pointer;
 }
@@ -2089,7 +2090,7 @@ nav.employer .text-1 {
 	height: 525px;
 }
 .login_register .regi_btn {
-	background-color: #00bf4a;
+	background-color: #2ebd59;
 	color: white;
 	font-size: 1.2em;
 	font-weight: 400;
@@ -2128,12 +2129,12 @@ body article#guide-page {
 .guide-nav {
 	display: block;
 	width: 100%;
-	height: 80px;
+	height: 120px;
 	margin: 0 auto;
 	background-color: black !important;
 }
 .nav-back {
-	padding-top: 10px;
+	/* padding-top: 10px; */
 	width: 100%;
 	height: 100%;
 	margin: 0 auto;
@@ -2157,23 +2158,26 @@ body article#guide-page {
 	font-size: 1.1em;
 	line-height: 40px;
 	right: 40px;
-	margin-top: 10px;
+	margin-top: 40px;
 }
 .nav-back .nav-Contact-btn:hover {
 	cursor: pointer;
 	opacity: 0.7;
 }
 .nav-back h1 {
-	width: 270px;
-	height: 40px;
+	width: 230px;
+	height: 85px;
 	text-indent: -99999px;
 	float: left;
-	left: 40px;
+	left: 20px;
+	top: 20px;
+	background-position-y: -885px;
 }
 .nav-back p {
+	position: absolute;
 	color: white;
-	left: 300px;
-	line-height: 70px;
+	left: 260px;
+	top: 80px;
 	font-size: 1.3em;
 	font-weight: 440;
 }
@@ -2222,7 +2226,7 @@ body article#guide-page {
 .ad-info-bar-purple {
 	width: 100%;
 	height: 10px;
-	background-color: #00bf4a;
+	background-color: #2ebd59;
 }
 .ad-info-bar-dark {
 	width: 100%;
@@ -2253,7 +2257,7 @@ body article#guide-page {
 	width: 950px;
 	margin: 40px auto;
 	padding: 40px;
-	border: 1px solid #00bf4a;
+	border: 1px solid #2ebd59;
 }
 .map-ad-info:after {
 	clear: both;
@@ -2302,7 +2306,7 @@ body article#guide-page {
 	text-align: center;
 	width: 150px;
 	height: 50px;
-	background-color: #00bf4a;
+	background-color: #2ebd59;
 	color: white;
 	font-size: 1.2em;
 }
@@ -2313,7 +2317,7 @@ body article#guide-page {
 	position: absolute;
 	border: 20px solid transparent;
 	border-top-width: 0;
-	border-bottom-color: #00bf4a;
+	border-bottom-color: #2ebd59;
 	top: -60px;
 	left: 90px;
 }
@@ -2409,7 +2413,7 @@ body article#guide-page {
 	opacity: 0.5;
 }
 .contact-box .text-001 {
-	color: #00bf4a;
+	color: #2ebd59;
 	font-size: 2em;
 	font-weight: 600;
 	margin-bottom: 20px;
@@ -2431,7 +2435,7 @@ body article#guide-page {
 .contact-box .submit-btn {
 	width: 150px;
 	height: 60px;
-	background-color: #00bf4a;
+	background-color: #2ebd59;
 	color: white;
 	font-size: 1.3em;
 	font-weight: 600;
@@ -2457,7 +2461,7 @@ body article#guide-page {
 	background-color: white;
 }
 .my-page-job-seeker-nav .container-1 li a {
-	color: #00bf4a;
+	color: #2ebd59;
 	font-weight: 550;
 	letter-spacing: 0.1px;
 	font-size: 1.1em;
@@ -2517,11 +2521,11 @@ body article#guide-page {
 	z-index: 2;
 	width: 10px;
 	height: 10px;
-	background-color: #00bf4a;
+	background-color: #2ebd59;
 	margin-left: 10px;
 }
 .my-page-job-seeker .section-seeker-prtrait {
-	background-color: #00bf4a;
+	background-color: #2ebd59;
 	box-sizing: border-box;
 	width: 100%;
 	height: 140px;
@@ -2639,8 +2643,8 @@ body article#guide-page {
 	width: 180px;
 	height: 45px;
 	padding: 0px 5px;
-	border: 1px solid #00bf4a;
-	color: #00bf4a;
+	border: 1px solid #2ebd59;
+	color: #2ebd59;
 	text-align: center;
 	line-height: 45px;
 	font-weight: 550;
@@ -3082,7 +3086,7 @@ input#still-in-role {
 	box-sizing: border-box;
 	width: 100%;
 	height: 340px;
-	border: 1px dashed #00bf4a;
+	border: 1px dashed #2ebd59;
 	text-align: center;
 	margin: 15px auto;
 	padding: 100px 0px 100px 0px;
@@ -3092,7 +3096,7 @@ input#still-in-role {
 	display: inline-block;
 	width: 40px;
 	height: 20px;
-	background-color: #00bf4a;
+	background-color: #2ebd59;
 	color: white;
 	margin-left: 20px;
 }
@@ -3107,7 +3111,7 @@ input#still-in-role {
 	height: 45px;
 	line-height: 45px;
 	color: white;
-	background-color: #00bf4a;
+	background-color: #2ebd59;
 	cursor: pointer;
 }
 .left-info .add-resume form .drop-zone .browse-btn:hover {
@@ -3186,7 +3190,7 @@ input#still-in-role {
 	box-sizing: border-box;
 	width: 45px;
 	height: 1.2em;
-	background-color: #00bf4a;
+	background-color: #2ebd59;
 	color: white;
 	text-align: center;
 	cursor: pointer;
@@ -3200,8 +3204,8 @@ input#still-in-role {
 	height: 45px;
 	text-align: center;
 	line-height: 45px;
-	color: #00bf4a;
-	border: 1px solid #00bf4a;
+	color: #2ebd59;
+	border: 1px solid #2ebd59;
 	font-weight: 550;
 	cursor: pointer;
 	letter-spacing: 0.2px;
@@ -3543,8 +3547,8 @@ input#still-in-role {
 	width: 200px;
 	line-height: 45px;
 	text-align: center;
-	color: #00bf4a;
-	border: 1px solid #00bf4a;
+	color: #2ebd59;
+	border: 1px solid #2ebd59;
 	font-weight: 550;
 	cursor: pointer;
 	position: absolute;
@@ -3783,14 +3787,14 @@ input#still-in-role {
 	height: 45px;
 	text-align: center;
 	line-height: 45px;
-	color: #00bf4a;
-	border: 1px solid #00bf4a;
+	color: #2ebd59;
+	border: 1px solid #2ebd59;
 	font-weight: 550;
 	cursor: pointer;
 	letter-spacing: 0.2px;
 }
 .right-info .info-gender .add-btn:hover {
-	background-color: #00bf4a;
+	background-color: #2ebd59;
 	color: white;
 	transition: 0.3s ease;
 }
@@ -3904,8 +3908,8 @@ input#still-in-role {
 	height: 45px;
 	text-align: center;
 	line-height: 45px;
-	color: #00bf4a;
-	border: 1px solid #00bf4a;
+	color: #2ebd59;
+	border: 1px solid #2ebd59;
 	font-weight: 550;
 	cursor: pointer;
 	letter-spacing: 0.2px;
@@ -3961,7 +3965,7 @@ input#still-in-role {
 	text-align: center;
 	font-weight: 550;
 	color: white;
-	background-color: #00bf4a;
+	background-color: #2ebd59;
 	cursor: pointer;
 }
 .add-video-resume .add-video-resume-info .browse-btn:hover {
@@ -3999,7 +4003,7 @@ input#still-in-role {
 	width: 35px;
 	height: 13px;
 	color: white;
-	background-color: #00bf4a;
+	background-color: #2ebd59;
 	font-size: 13px;
 	line-height: 13px;
 	cursor: pointer;
@@ -4028,7 +4032,7 @@ input#still-in-role {
 .seeker-info-right .profile-1 .text-wrap .text-select {
 	float: right;
 	font-size: 1.4em;
-	color: #00bf4a;
+	color: #2ebd59;
 	font-weight: 550;
 	cursor: pointer;
 	margin-right: 30px;
@@ -4061,7 +4065,7 @@ input#still-in-role {
 	font-weight: 550;
 }
 .seeker-info-right .profile-1 .text-004 {
-	color: #00bf4a;
+	color: #2ebd59;
 	cursor: pointer;
 	font-weight: 550;
 	letter-spacing: 0.2px;
@@ -4157,7 +4161,7 @@ input#still-in-role {
 	margin-top: 0;
 }
 .my-history .section-seeker-prtrait {
-	background-color: #00bf4a;
+	background-color: #2ebd59;
 	margin-bottom: 50px;
 }
 .my-history .my-history-box-wrap:after {
@@ -4183,7 +4187,7 @@ input#still-in-role {
 	border-bottom: 1px solid rgba(0, 0, 0, 0.1);
 }
 .my-history .my-history-box-wrap .my-history-title-box .select-title {
-	border-bottom: 4px solid #00bf4a;
+	border-bottom: 4px solid #2ebd59;
 }
 .my-history .my-history-box-wrap section {
 	box-sizing: border-box;
@@ -4258,7 +4262,7 @@ input#still-in-role {
 	height: 35px;
 	border-radius: 3px;
 	color: white;
-	background-color: #00bf4a;
+	background-color: #2ebd59;
 	text-align: center;
 	line-height: 35px;
 	font-size: 0.9em;
@@ -4271,7 +4275,7 @@ input#still-in-role {
 	height: 35px;
 	border-radius: 3px;
 	color: white;
-	background-color: #00bf4a;
+	background-color: #2ebd59;
 	text-align: center;
 	line-height: 35px;
 	font-size: 0.9em;
@@ -4324,7 +4328,7 @@ input#still-in-role {
 .my-history .my-history-box-wrap .my-history-box .text-003 {
 	font-size: 0.9em;
 	font-weight: 660;
-	color: #00bf4a;
+	color: #2ebd59;
 }
 .my-history .my-history-box-wrap .my-history-box .contact-info-box:after {
 	clear: both;
@@ -4347,7 +4351,7 @@ input#still-in-role {
 	top: 10px;
 	right: 0px;
 	cursor: pointer;
-	color: #00bf4a;
+	color: #2ebd59;
 	font-weight: 440;
 }
 .my-history .my-history-box-wrap .my-history-section-applied .job-title-box {
@@ -4371,7 +4375,7 @@ input#still-in-role {
 	text-decoration: none;
 }
 .my-history .my-history-box-wrap .history-pagination li a.active {
-	background-color: #00bf4a;
+	background-color: #2ebd59;
 	color: white;
 	border-radius: 50%;
 }
@@ -4403,10 +4407,10 @@ input#still-in-role {
 	display: block;
 }
 .employer-profile .employer-profile-nav {
-	background-color: #00bf4a;
+	background-color: #000;
 }
 .employer-profile .employer-profile-nav .container-1 li.selected {
-	background-color: #000;
+	background-color: #2ebd59;
 }
 .employer-profile .employer-profile-nav .container-1 {
 	background: none;
@@ -4422,15 +4426,15 @@ input#still-in-role {
 	color: white;
 }
 .employer-profile .employer-profile-nav .container-0 h1 {
-	background-position-y: -300px;
+	background-position-y: -885px;
 }
 .employer-profile .employer-profile-nav .text-1 {
 	color: white;
 	position: absolute;
 	font-weight: 440;
-	font-size: 1.4em;
-	left: 260px;
-	top: 35px;
+	font-size: 1.2em;
+	left: 250px;
+	top: 80px;
 }
 .employer-profile-nav .container-2 .layout-100 .employer-profile-create-job-btn {
 	box-sizing: border-box;
@@ -4496,15 +4500,15 @@ input#still-in-role {
 	width: 135px;
 	height: 45px;
 	line-height: 45px;
-	color: #00bf4a;
+	color: #2ebd59;
 	font-weight: 550;
 	font-size: 1.2em;
 	text-align: center;
-	border: 1px solid #00bf4a;
+	border: 1px solid #2ebd59;
 	cursor: pointer;
 }
 .employer-profile .profile-info-box .profile-add-btn:hover {
-	background-color: #00bf4a;
+	background-color: #2ebd59;
 	color: white;
 	transition: 0.3s;
 }
@@ -4545,7 +4549,7 @@ input#still-in-role {
 	height: 45px;
 	line-height: 45px;
 	color: white;
-	background-color: #00bf4a;
+	background-color: #2ebd59;
 	cursor: pointer;
 	text-align: center;
 	font-weight: 550;
@@ -4556,7 +4560,7 @@ input#still-in-role {
 .employer-profile .profile-info-box .browse-btn:hover {
 	transition: 0.3s;
 	background-color: white;
-	color: #00bf4a;
+	color: #2ebd59;
 }
 .employer-profile .profile-info-box input[type='file'] {
 	position: absolute;
@@ -4622,7 +4626,7 @@ input#still-in-role {
 	line-height: 45px;
 	color: white;
 	text-align: center;
-	background-color: #00bf4a;
+	background-color: #2ebd59;
 	cursor: pointer;
 	float: left;
 	margin-right: 25px;
@@ -4645,7 +4649,7 @@ input#still-in-role {
 	width: 75px;
 	height: 45px;
 	line-height: 45px;
-	background-color: #00bf4a;
+	background-color: #2ebd59;
 	color: white;
 	font-size: 1em;
 	text-align: center;
@@ -4658,8 +4662,8 @@ input#still-in-role {
 .section-profile-img-modal .profile-modal-info .delete-btn:hover,
 .section-profile-img-modal .profile-modal-info .save-btn:hover {
 	background-color: white;
-	border: 1px solid #00bf4a;
-	color: #00bf4a;
+	border: 1px solid #2ebd59;
+	color: #2ebd59;
 	transition: 0.3s ease;
 	font-weight: 550;
 }
@@ -4669,7 +4673,7 @@ input#still-in-role {
 	margin-top: 0px;
 }
 .employer-create-job .employer-create-job-nav {
-	background-color: #00bf4a;
+	background-color: #000;
 }
 .employer-create-job .employer-create-job-nav .container-2 {
 	box-sizing: border-box;
@@ -4694,7 +4698,7 @@ input#still-in-role {
 	color: white;
 }
 .employer-create-job .employer-create-job-nav .container-0 h1 {
-	background-position-y: -300px;
+	background-position-y: -800px;
 }
 .employer-create-job .employer-create-job-nav .text-1 {
 	color: white;
@@ -5041,7 +5045,7 @@ article .create-job-wrap {
 	box-sizing: border-box;
 	width: 100%;
 	height: auto;
-	border: 1px dashed #00bf4a;
+	border: 1px dashed #2ebd59;
 	text-align: center;
 	margin: 15px auto;
 	padding: 20px;
@@ -5060,7 +5064,7 @@ article .create-job-wrap {
 	text-align: center;
 	font-weight: 550;
 	color: white;
-	background-color: #00bf4a;
+	background-color: #2ebd59;
 	cursor: pointer;
 }
 .classify-role-box .drop-zone .browse-btn:hover {
@@ -5071,7 +5075,7 @@ article .create-job-wrap {
 	display: inline-block;
 	width: 45px;
 	height: 20px;
-	background-color: #00bf4a;
+	background-color: #2ebd59;
 	color: white;
 	margin-bottom: 0;
 	margin-left: 20px;
@@ -5126,7 +5130,7 @@ article .create-job-wrap {
 	margin: 50px auto;
 	line-height: 65px;
 	font-size: 2em;
-	color: #00bf4a;
+	color: #2ebd59;
 	border: 1px solid #aaa;
 	background-color: white;
 	cursor: pointer;
@@ -5134,7 +5138,7 @@ article .create-job-wrap {
 	justify-content: center;
 }
 .video-modal-box .classify-role-box .modal-open-btn:hover {
-	background-color: #00bf4a;
+	background-color: #2ebd59;
 	color: white;
 	transition: 0.3s;
 }
@@ -5236,8 +5240,8 @@ article .create-job-wrap {
 	width: 90px;
 	height: 45px;
 	line-height: 45px;
-	border: 1px solid #00bf4a;
-	color: #00bf4a;
+	border: 1px solid #2ebd59;
+	color: #2ebd59;
 	font-weight: 550;
 	letter-spacing: 0.1px;
 	cursor: pointer;
@@ -5249,7 +5253,7 @@ article .create-job-wrap {
 	background-color: none;
 }
 .create-job-wrap .create-job-btn-box .cancel-btn:hover {
-	background-color: #00bf4a;
+	background-color: #2ebd59;
 	color: white;
 }
 
@@ -5287,7 +5291,7 @@ article#applied-candidates {
 .section-candidate-filter ul li p {
 	float: left;
 	margin-right: 5px;
-	color: #00bf4a;
+	color: #2ebd59;
 	font-size: 1em;
 	font-weight: 550;
 }
@@ -5320,7 +5324,7 @@ article#applied-candidates {
 	background-position-x: 28px;
 }
 .section-candidate-filter ul li .download-excel-btn {
-	background-color: #00bf4a;
+	background-color: #2ebd59;
 	position: absolute;
 	color: white;
 	box-sizing: border-box;
@@ -5365,7 +5369,7 @@ body.employer .section-candidate {
 }
 .candidate-info-wrap .list-info-left .job-ad-list:nth-of-type(1) {
 	background-color: white;
-	border: 1px solid #00bf4a;
+	border: 1px solid #2ebd59;
 	opacity: 1;
 }
 .candidate-info-wrap .list-info-left .job-ad-list:nth-of-type(2),
@@ -5388,7 +5392,7 @@ body.employer .section-candidate {
 	width: 85%;
 }
 .candidate-info-wrap .list-info-left .job-ad-list .text-003 {
-	color: #00bf4a;
+	color: #2ebd59;
 	font-size: 1.2em;
 	font-weight: 550;
 	margin-bottom: 5px;
@@ -5594,7 +5598,7 @@ body.employer .section-candidate {
 	height: 35px;
 	line-height: 35px;
 	color: white;
-	background-color: #00bf4a;
+	background-color: #2ebd59;
 	cursor: pointer;
 	margin-right: 15px;
 	font-weight: 550;
@@ -5612,11 +5616,11 @@ body.employer .section-candidate {
 	width: 160px;
 	height: 35px;
 	line-height: 35px;
-	color: #00bf4a;
+	color: #2ebd59;
 	background-color: white;
 	cursor: pointer;
 	margin-right: 0px;
-	border: 1px solid #00bf4a;
+	border: 1px solid #2ebd59;
 	font-weight: 440;
 	letter-spacing: 0;
 }
@@ -5633,7 +5637,7 @@ body.employer .section-candidate {
 	.volunteer-info-box-3
 	.contact-btn:hover {
 	background-color: white;
-	color: #00bf4a;
+	color: #2ebd59;
 	transition: 0.3s;
 }
 
@@ -5808,7 +5812,7 @@ body.employer .section-my-suggestion {
 	height: 35px;
 	line-height: 35px;
 	color: white;
-	background-color: #00bf4a;
+	background-color: #2ebd59;
 	cursor: pointer;
 	margin-right: 15px;
 	font-weight: 550;
@@ -5826,11 +5830,11 @@ body.employer .section-my-suggestion {
 	width: 160px;
 	height: 35px;
 	line-height: 35px;
-	color: #00bf4a;
+	color: #2ebd59;
 	background-color: white;
 	cursor: pointer;
 	margin-right: 0px;
-	border: 1px solid #00bf4a;
+	border: 1px solid #2ebd59;
 	font-weight: 440;
 	letter-spacing: 0;
 }
@@ -5847,7 +5851,7 @@ body.employer .section-my-suggestion {
 	.suggestion-info-box-3
 	.contact-btn:hover {
 	background-color: white;
-	color: #00bf4a;
+	color: #2ebd59;
 	transition: 0.3s;
 }
 body.employer .section-pagination {
@@ -5899,7 +5903,7 @@ body.employer .section-pagination {
 	border-top: 8px solid #03dac6;
 }
 .section-product-page-info .product-info-box-wrap .product-info-box:nth-of-type(3) {
-	border-top: 8px solid #00bf4a;
+	border-top: 8px solid #2ebd59;
 }
 .section-product-page-info .product-info-box-wrap .product-info-box:nth-of-type(4) {
 	border-top: 8px solid #000;
@@ -5936,7 +5940,7 @@ body.employer .section-pagination {
 	box-sizing: border-box;
 	width: 210px;
 	height: 60px;
-	background-color: #00bf4a;
+	background-color: #2ebd59;
 	color: white;
 	font-size: 1.2em;
 	font-weight: 550;
@@ -5990,7 +5994,7 @@ body.employer .section-pagination {
 	box-sizing: border-box;
 	width: 920px;
 	height: 630px;
-	border-top: 5px solid #00bf4a;
+	border-top: 5px solid #2ebd59;
 	padding: 50px 50px 35px 50px;
 	margin: 40px auto;
 	background-color: white;
@@ -6123,8 +6127,8 @@ body.employer .section-pagination {
 	background-color: white;
 	width: 90px;
 	height: 40px;
-	border: 1px solid #00bf4a;
-	color: #00bf4a;
+	border: 1px solid #2ebd59;
+	color: #2ebd59;
 	text-align: center;
 	line-height: 40px;
 	font-size: 1.2em;
@@ -6132,7 +6136,7 @@ body.employer .section-pagination {
 	float: right;
 }
 .section-suggestion-page .suggestion-ad-list-box .ad-list-table .ad-info-btn:hover {
-	background-color: #00bf4a;
+	background-color: #2ebd59;
 	color: white;
 	transition: 0.3s;
 }
@@ -6142,7 +6146,7 @@ body.employer .section-pagination {
 	height: 45px;
 	line-height: 45px;
 	text-align: center;
-	background-color: #00bf4a;
+	background-color: #2ebd59;
 	color: white;
 	cursor: pointer;
 	font-size: 1.1em;
@@ -6163,7 +6167,7 @@ body.employer .section-pagination {
 	box-sizing: border-box;
 	width: 920px;
 	height: 630px;
-	border-top: 5px solid #00bf4a;
+	border-top: 5px solid #2ebd59;
 	background-color: white;
 	padding: 50px 50px 50px 35px;
 	margin: 0 auto;
@@ -6283,8 +6287,8 @@ body.employer .section-pagination {
 	width: 90px;
 	height: 45px;
 	line-height: 45px;
-	border: 1px solid #00bf4a;
-	color: #00bf4a;
+	border: 1px solid #2ebd59;
+	color: #2ebd59;
 	font-size: 0.9em;
 	background-color: white;
 	cursor: pointer;
@@ -6294,7 +6298,7 @@ body.employer .section-pagination {
 	.interview-select-box
 	.interview-select-box-02
 	button:hover {
-	background-color: #00bf4a;
+	background-color: #2ebd59;
 	color: white;
 	transition: 0.3s;
 	cursor: pointer;
@@ -6377,27 +6381,27 @@ body.employer .section-pagination {
 	font-weight: 440;
 }
 .section-video-interview-page .interview-info-left .interview-btn-wrap .interview-preview-btn {
-	border: 1px solid #00bf4a;
-	color: #00bf4a;
+	border: 1px solid #2ebd59;
+	color: #2ebd59;
 	background-color: white;
 }
 .section-video-interview-page
 	.interview-info-left
 	.interview-btn-wrap
 	.interview-preview-btn:hover {
-	background-color: #00bf4a;
+	background-color: #2ebd59;
 	color: white;
 	transition: 0.3s ease;
 }
 .section-video-interview-page .interview-info-left .interview-btn-wrap .interview-send-btn {
-	background-color: #00bf4a;
+	background-color: #2ebd59;
 	color: white;
 	margin-right: 0;
 }
 .section-video-interview-page .interview-info-left .interview-btn-wrap .interview-send-btn:hover {
 	background-color: white;
-	border: 1px solid #00bf4a;
-	color: #00bf4a;
+	border: 1px solid #2ebd59;
+	color: #2ebd59;
 	transition: 0.3s ease;
 }
 .section-interview-popup {
@@ -6421,7 +6425,7 @@ body.employer .section-pagination {
 	width: 500px;
 	height: 480px;
 	padding: 50px;
-	border-top: 5px solid #00bf4a;
+	border-top: 5px solid #2ebd59;
 	background-color: white;
 	margin: 50px auto;
 	z-index: 5;
@@ -6484,7 +6488,7 @@ body.employer .section-pagination {
 	width: 150px;
 	height: 45px;
 	line-height: 45px;
-	background-color: #00bf4a;
+	background-color: #2ebd59;
 	color: white;
 	font-size: 0.9em;
 	letter-spacing: 0.1px;
@@ -6492,8 +6496,8 @@ body.employer .section-pagination {
 }
 .section-interview-popup .interview-info-right .interview-send-btn:hover {
 	background-color: white;
-	color: #00bf4a;
-	border: 1px solid #00bf4a;
+	color: #2ebd59;
+	border: 1px solid #2ebd59;
 	transition: 0.3s ease;
 }
 
@@ -6661,7 +6665,7 @@ body.employer .section-pagination {
 }
 .section-candidate-profile .candidate-profile-box .resume-download-box li a {
 	float: left;
-	color: #00bf4a;
+	color: #2ebd59;
 	font-weight: 550;
 	font-size: 0.9em;
 }
@@ -6774,7 +6778,7 @@ body.employer .section-pagination {
 	width: 130px;
 	height: 45px;
 	line-height: 45px;
-	background-color: #00bf4a;
+	background-color: #2ebd59;
 	color: white;
 	font-size: 1em;
 	margin-right: 25px;
@@ -6785,8 +6789,8 @@ body.employer .section-pagination {
 	width: 170px;
 }
 .section-candidate-profile-btn-wrap button:hover {
-	border: 2px solid #00bf4a;
-	color: #00bf4a;
+	border: 2px solid #2ebd59;
+	color: #2ebd59;
 	background-color: white;
 	transition: 0.3s;
 }
@@ -6801,13 +6805,14 @@ body.employer .section-pagination {
 	width: 1500px;
 	height: auto;
 	margin: 30px auto;
+	box-sizing: border-box;
 }
 .section-candidate-search-filter .text-001 {
 	float: left;
 	box-sizing: border-box;
 	width: 105px;
 	height: 40px;
-	color: #00bf4a;
+	color: #2ebd59;
 	font-weight: 660;
 	font-size: 1.1em;
 	margin-right: 30px;
@@ -6925,7 +6930,7 @@ body.employer .section-pagination {
 	cursor: pointer;
 }
 .section-candidate-search-filter .filter-info-box ul li .filter-category-list li:hover {
-	background-color: #00bf4a;
+	background-color: #2ebd59;
 	color: white;
 	transition: 400ms ease;
 }
@@ -6938,8 +6943,8 @@ body.employer .section-pagination {
 }
 .section-candidate-search-filter .filter-view-box .more-filter-btn {
 	box-sizing: border-box;
-	color: #00bf4a;
-	border: 1px solid #00bf4a;
+	color: white;
+	border: 1px solid #2ebd59;
 	width: 100px;
 	height: 30px;
 	line-height: 30px;
@@ -6947,7 +6952,7 @@ body.employer .section-pagination {
 	font-weight: 550;
 	cursor: pointer;
 	top: -5px;
-	background-color: white;
+	background-color: #2ebd59;
 }
 .section-candidate-search:after {
 	clear: both;
@@ -7060,15 +7065,15 @@ body.employer .section-pagination {
 	width: 90px;
 	height: 35px;
 	line-height: 35px;
-	background-color: #00bf4a;
+	background-color: #2ebd59;
 	color: white;
 	cursor: pointer;
 }
 .section-candidate-search .candidate-box-list .candidate-info-03 button:hover {
 	background-color: white;
-	color: #00bf4a;
+	color: #2ebd59;
 	transition: 0.3s ease;
-	border: 2px solid #00bf4a;
+	border: 2px solid #2ebd59;
 }
 
 /* community page */
@@ -7118,7 +7123,7 @@ body.employer .section-pagination {
 	width: 80px;
 	height: 45px;
 	line-height: 45px;
-	background-color: #00bf4a;
+	background-color: #2ebd59;
 	background-position-x: -20px;
 	background-position-y: -214px;
 }
@@ -7187,7 +7192,7 @@ body.employer .section-pagination {
 	width: 80px;
 	height: 45px;
 	line-height: 45px;
-	background-color: #00bf4a;
+	background-color: #2ebd59;
 	background-position-x: -20px;
 	background-position-y: -214px;
 }
@@ -7249,7 +7254,7 @@ body article#job-apply-page {
 	line-height: 1.5em;
 }
 .section-job-apply-info .text-003 {
-	color: #00bf4a;
+	color: #2ebd59;
 	font-size: 1.2em;
 	font-weight: 550;
 }
@@ -7345,7 +7350,7 @@ body article#job-apply-page {
 	background: linear-gradient(rgba(255, 255, 255, 0.001), white);
 }
 .section-job-apply-info .apply-job-info-box .button-more {
-	color: #00bf4a;
+	color: #2ebd59;
 	background-position-x: -235px;
 	background-position-y: -345px;
 	width: 60px;
@@ -7609,7 +7614,7 @@ body article#job-apply-page {
 	height: 45px;
 	line-height: 45px;
 	color: white;
-	background-color: #00bf4a;
+	background-color: #2ebd59;
 	text-align: center;
 	cursor: pointer;
 	letter-spacing: 0.2px;
@@ -7648,7 +7653,7 @@ body article#job-apply-page {
 	box-sizing: border-box;
 	width: 100%;
 	height: 340px;
-	border: 1px dashed #00bf4a;
+	border: 1px dashed #2ebd59;
 	text-align: center;
 	margin: 15px auto;
 	padding: 100px 0px 100px 0px;
@@ -7658,7 +7663,7 @@ body article#job-apply-page {
 	display: inline-block;
 	width: 40px;
 	height: 20px;
-	background-color: #00bf4a;
+	background-color: #2ebd59;
 	color: white;
 	margin-left: 20px;
 }
@@ -7673,7 +7678,7 @@ body article#job-apply-page {
 	height: 45px;
 	line-height: 45px;
 	color: white;
-	background-color: #00bf4a;
+	background-color: #2ebd59;
 	cursor: pointer;
 }
 .my-resume-box .left-info .add-resume form .drop-zone .browse-btn:hover {
@@ -8047,7 +8052,7 @@ body article#job-apply-page {
 	width: 130px;
 	height: 45px;
 	line-height: 45px;
-	background-color: #00bf4a;
+	background-color: #2ebd59;
 	color: white;
 	font-size: 1.1em;
 	font-weight: 440;
@@ -8615,8 +8620,8 @@ article.employer-login-page {
 	margin-top: 0px;
 }
 nav.employer-login-nav {
-	background-color: #00bf4a;
-	height: 80px;
+	background-color: #000;
+	height: 120px;
 	box-sizing: border-box;
 	width: 100%;
 }
@@ -8624,14 +8629,18 @@ nav.employer-login-nav .container-0 {
 	width: 100%;
 }
 nav.employer-login-nav a h1 {
+	top: 0px;
 	left: 20px;
-	background-position-y: -300px;
+	background-position-y: -885px;
+	margin-bottom: 0px;
 }
 nav.employer-login-nav .text-1 {
-	top: 20px;
+	position: absolute;
+	top: 80px;
+	left: 260px;
 	color: white;
-	font-size: 1.1em;
-	font-weight: 440;
+	font-size: 1.2em;
+	font-weight: 440;	
 }
 
 /* employer job ad page 10-1 */
@@ -8696,13 +8705,20 @@ nav.employer-login-nav .text-1 {
 	}
 	.section-candidate-search-filter {
 		width: 1200px;
-		margin: 30px auto;
+		margin: 30px auto 0px;
 	}
 	.section-candidate-search-filter .filter-info-box {
 		width: 880px;
 	}
 	.section-candidate-search-filter .filter-info-box ul li {
-		width: 160px;
+		width: 25%;
+		margin-right: 0px;
+	}
+	.section-candidate-search-filter .filter-info-box ul li:nth-of-type(7),
+	.section-candidate-search-filter .filter-info-box ul li:nth-of-type(8),
+	.section-candidate-search-filter .filter-info-box ul li:nth-of-type(9),
+	.section-candidate-search-filter .filter-info-box ul li:nth-of-type(10) {
+		margin-bottom: 15px;
 	}
 	/* applicant information */
 	.section-candidate-profile {
@@ -8880,7 +8896,7 @@ nav.employer-login-nav .text-1 {
 		top: 260px;
 	}
 	.section-job-info .button-apply-now {
-		background-color: #00bf4a;
+		background-color: #2ebd59;
 		color: white;
 		width: 180px;
 		height: 40px;
@@ -9371,6 +9387,35 @@ nav.employer-login-nav .text-1 {
 	.section-candidate-search .candidate-box-list {
 		margin-right: 0px;
 	}
+	.section-candidate-search-filter {
+		width: 610px;
+		margin-bottom: 20px;
+	}
+	.section-candidate-search-filter .text-001 {
+		float: none;
+		box-sizing: border-box;
+		width: 610px;
+		height: 45px;
+		line-height: 45px;
+		text-align: center;
+		color: #2ebd59;
+		background-color: inherit;
+		border: 1px solid #2ebd59;
+	}
+	.section-candidate-search-filter .filter-info-box {
+		box-sizing: border-box;
+		float: none;
+		width: 610px;
+		height: auto;
+		margin-top: 10px;
+		display: none;
+	}
+	.section-candidate-search-filter .filter-info-box ul li {
+		width: calc(100% / 3);
+	}
+	.section-candidate-search-filter .filter-view-box {
+		display: none;
+	}
 	
 	/* applicant information */
 	.section-candidate-profile {
@@ -9664,7 +9709,7 @@ nav.employer-login-nav .text-1 {
 		font-size: 1.3em;
 	}
 	nav.employer .container-0 .text-1 {
-		left: 280px;
+		left: 260px;
 	}
 	body.employer .section-applicants {
 		height: 500px;
@@ -9732,7 +9777,8 @@ nav.employer-login-nav .text-1 {
 	}
 	.employer-profile .employer-profile-nav .container-0 .text-1 {
 		font-size: 1.2em;
-		left: 230px;
+		left: 210px;
+		top: 73px;
 	}
 	.employer-profile .employer-profile-nav .container-1 {
 		width: 100%;
@@ -10287,19 +10333,19 @@ nav.employer-login-nav .text-1 {
 	}
 	.employer-profile nav.isMobile .container-0 {
 		box-sizing: border-box;
-		height: 80px;
-		background-color: #00bf4a;
+		height: 120px;
+		background-color: #000;
 	}
 	.employer-profile nav.isMobile .container-0 a h1 {
-		background-position-y: -300px;
-		transform: scale(0.7);
-		left: -20px;
-		top: -5px;
+		background-position-y: -885px;
+		left: 20px;
+		top: 0px;
 	}
 	.employer-profile nav.isMobile .container-0 .text-1 {
 		color: white;
-		top: 10px;
-		left: -70px;
+		position: absolute;
+		top: 80px;
+		left: 250px;
 	}
 	.employer-profile nav.isMobile .button-mobile-search {
 		width: 60px;
@@ -10318,6 +10364,7 @@ nav.employer-login-nav .text-1 {
 		width: 40px;
 		height: 40px;
 		margin: 20px 10px;
+		top: 20px;
 		background-position-x: -40px;
 		background-position-y: -217px;
 	}
@@ -10328,7 +10375,7 @@ nav.employer-login-nav .text-1 {
 		width: 60px;
 		height: 80px;
 		position: absolute;
-		top: 0;
+		top: 20px;
 		right: 0;
 		cursor: pointer;
 		transition: 0.3s;
@@ -10408,7 +10455,7 @@ nav.employer-login-nav .text-1 {
 		margin: 15px 0;
 	}
 	.employer-profile nav.isMobile .container-5 li.outside a {
-		color: #00bf4a;
+		color: #2ebd59;
 	}
 	.employer-profile nav.isMobile .container-5 li.portrait {
 		width: 80px;
@@ -10470,7 +10517,7 @@ nav.employer-login-nav .text-1 {
 		margin: 20px auto 0;
 		font-size: 1.1em;
 		font-weight: 550;
-		color: #00bf4a;
+		color: #2ebd59;
 	}
 	.employer-profile-info-mobile .profile-info-box {
 		margin-bottom: 0px;
@@ -10580,9 +10627,9 @@ nav.employer-login-nav .text-1 {
 		transform: scale(0.7);
 	}
 	.guide-nav .nav-back .text-1 {
-		left: 210px;
+		left: 200px;
 		font-size: 1em;
-		line-height: 65px;
+		top: 70px;
 	}
 	.guide-form-mobile {
 		box-sizing: border-box;
@@ -10608,7 +10655,7 @@ nav.employer-login-nav .text-1 {
 		color: #aaa;
 	}
 	.guide-form-mobile .guide-ad .map-ad-info-title {
-		border-bottom: 4px solid #00bf4a;
+		border-bottom: 4px solid #2ebd59;
 		color: black;
 	}
 	.guide-form-mobile .ad-info-box {
@@ -10637,7 +10684,7 @@ nav.employer-login-nav .text-1 {
 		height: 100%;
 		padding: 20px;
 		margin: 40px auto;
-		border: 1px solid #00bf4a;
+		border: 1px solid #2ebd59;
 	}
 	.guide-form-mobile .guide-ad-info-mobile img {
 		width: 500px;
@@ -10651,7 +10698,7 @@ nav.employer-login-nav .text-1 {
 		position: absolute;
 		border: 20px solid transparent;
 		border-top-width: 0;
-		border-bottom-color: #00bf4a;
+		border-bottom-color: #2ebd59;
 		top: -41px;
 		left: 50px;
 	}
@@ -10726,29 +10773,30 @@ nav.employer-login-nav .text-1 {
 	}
 	body.employer nav.isMobile .container-0 {
 		display: block;
-		background-color: #00bf4a;
+		background-color: #000;
 		z-index: 2;
 		box-sizing: border-box;
-		height: 80px;
+		height: 120px;
 	}
 	body.employer nav.isMobile .container-0 .stylesheet {
 		transform: scale(0.7);
-		top: -5px;
-		left: -10px;
-		background-position-y: -300px;
+		top: 0px;
+		left: -20px;
+		background-position-y: -885px;
 	}
 	body.employer nav.isMobile .container-0 .text-1 {
-		font-size: 0.9em;
+		font-size: 1em;
 		font-weight: 440;
-		top: 33px;
-		left: 210px;
+		top: 70px;
+		left: 180px;
 		color: white;
+		position: absolute;
 	}
 	body.employer nav.isMobile .button-mobile-menu {
 		width: 60px;
 		height: 80px;
 		position: absolute;
-		top: 0;
+		top: 20px;
 		right: 0;
 		cursor: pointer;
 		transition: 0.3s;
@@ -10828,7 +10876,7 @@ nav.employer-login-nav .text-1 {
 		margin: 15px 0;
 	}
 	body.employer nav.isMobile .container-5 li.outside a {
-		color: #00bf4a;
+		color: #2ebd59;
 	}
 	body.employer nav.isMobile .container-5 li.portrait {
 		width: 80px;
@@ -10870,7 +10918,7 @@ nav.employer-login-nav .text-1 {
 		padding: 0px 10px;
 	}
 	body.employer .section-recent-mobile-wrap .select-recent {
-		border: 1px solid #00bf4a;
+		border: 1px solid #2ebd59;
 		border-right: none;
 	}
 	body.employer .section-recent-mobile::after {
@@ -10893,7 +10941,7 @@ nav.employer-login-nav .text-1 {
 		float: right;
 	}
 	body.employer .section-recent-mobile .add-job-ad {
-		background-color: #00bf4a;
+		background-color: #2ebd59;
 		color: white;
 		text-align: center;
 		line-height: 120px;
@@ -10942,7 +10990,7 @@ nav.employer-login-nav .text-1 {
 		width: 100%;
 		height: 100%;
 		position: relative;
-		border: 1px solid #00bf4a;
+		border: 1px solid #2ebd59;
 		margin-top: 50px;
 		background-color: white;
 		padding-top: 10px;
@@ -11156,6 +11204,7 @@ nav.employer-login-nav .text-1 {
 	/* my account page(employer) */
 	#my-account-page-employer {
 		margin-top: 0;
+		top: 0px;
 	}
 	/* employer candidate search page */
 	.employer-candidate-search-page nav.isMobile .container-0 .stylesheet {
@@ -11242,6 +11291,10 @@ nav.employer-login-nav .text-1 {
 		left: 270px;
 	}
 	/* applied candidates */
+	article#applied-candidates {
+		top: 0px;
+		margin-top: 0px;
+	}
 	.candidate-info-wrap {
 		width: 100%;
 	}
@@ -11287,7 +11340,7 @@ nav.employer-login-nav .text-1 {
 		box-sizing: border-box;
 		width: 100%;
 		padding: 10px;
-		border-top: 5px solid #00bf4a;
+		border-top: 5px solid #2ebd59;
 		background-color: white;
 		margin-bottom: 20px;
 	}
@@ -11403,6 +11456,9 @@ nav.employer-login-nav .text-1 {
 	}
 }
 @media only screen and (max-width: 740px) {
+	body.employer article {
+		top: 0px;
+	}
 	article {
 		margin-top: 170px;
 	}
@@ -11446,8 +11502,8 @@ nav.employer-login-nav .text-1 {
 		padding-bottom: 15px;
 	}
 	nav .container-0 h1 {
-		transform: scale(0.7);
-		left: -20px;
+		transform: scale(0.6);
+		left: -30px;
 		top: -3px;
 		z-index: 3;
 	}
@@ -11455,7 +11511,7 @@ nav.employer-login-nav .text-1 {
 		width: 60px;
 		height: 80px;
 		position: absolute;
-		top: 0;
+		top: 20px;
 		right: 60px;
 		cursor: pointer;
 		transition: 0.3s;
@@ -11478,7 +11534,7 @@ nav.employer-login-nav .text-1 {
 		width: 60px;
 		height: 80px;
 		position: absolute;
-		top: 0;
+		top: 20px;
 		right: 0;
 		cursor: pointer;
 		transition: 0.3s;
@@ -11561,7 +11617,7 @@ nav.employer-login-nav .text-1 {
 		margin: 15px 0;
 	}
 	nav .container-5 li.outside a {
-		color: #00bf4a;
+		color: #2ebd59;
 	}
 	nav .container-5 li.portrait {
 		width: 80px;
@@ -11623,7 +11679,7 @@ nav.employer-login-nav .text-1 {
 		margin: 20px auto 0;
 		font-size: 1.1em;
 		font-weight: 550;
-		color: #00bf4a;
+		color: #2ebd59;
 	}
 	nav .container-7 {
 		height: 300px;
@@ -11679,17 +11735,19 @@ nav.employer-login-nav .text-1 {
 		height: 60px;
 		line-height: 60px;
 		text-indent: 60px;
+		top: -20px;
 	}
 	nav.isMobileMap .button-mobile-search .icon {
 		margin: 10px 0;
 		right: 0;
-		top: 0;
+		top: -20px;
 		position: absolute;
 	}
 	nav.isMobileMap .button-mobile-menu {
 		width: 50px;
 		height: 60px;
 		right: 20px;
+		top: 0px;
 	}
 	nav.isMobileMap .button-mobile-menu .bar:nth-of-type(1) {
 		top: 20px;
@@ -11758,7 +11816,7 @@ nav.employer-login-nav .text-1 {
 	}
 	nav.isMobileMap .container-6 .button-submit {
 		border-radius: 10px;
-		background-color: #00bf4a;
+		background-color: #2ebd59;
 		color: white;
 		background-position-y: 100px;
 		text-indent: 0;
@@ -11769,7 +11827,7 @@ nav.employer-login-nav .text-1 {
 		opacity: 0.5;
 	}
 	nav.employer.isMobile .container-0 {
-		background-color: #00bf4a;
+		background-color: #2ebd59;
 	}
 	nav.employer.isMobile .button-mobile-menu .bar {
 		background-color: #61d3bf;
@@ -11914,11 +11972,11 @@ nav.employer-login-nav .text-1 {
 	}
 	/* employer page */
 	body.employer article {
-		padding-top: 80px;
+		padding-top: 120px;
 	}
 	/* employer profile page */
-	.employer-profile article {
-		padding-top: 80px;
+	.employer-profile article#employer-profile-page {
+		padding-top: 120px;
 	}
 	/* history page */
 	body .my-history {
@@ -11926,7 +11984,7 @@ nav.employer-login-nav .text-1 {
 	}
 	/* my account page(seeker) */
 	#my-account-page {
-		margin-top: 0;
+		margin-top: 170px;
 	}
 	/* job information page */
 	article.isMap {
@@ -12050,7 +12108,7 @@ nav.employer-login-nav .text-1 {
 	}
 	/* suggestion page */
 	article#suggestion-page {
-		margin-top: 60px;
+		margin-top: 120px;
 	}
 	/* applied candidates page */
 	article#applied-candidates {
@@ -12281,23 +12339,6 @@ nav.employer-login-nav .text-1 {
 	.section-job-info .container-5 .category-icon {
 		top: 50px;
 	}
-	/* candidate search page */
-	.section-candidate-search {
-		width: 100%;
-		padding: 0 10px;
-	}
-	.section-candidate-search .candidate-box-list {
-		width: 100%;
-		height: auto;
-		padding-left: calc((100% - 455px) / 2);
-		padding-right: calc((100% - 455px) / 2);
-	}
-	.section-candidate-search .candidate-box-list .candidate-info-02 {
-		margin-right: 0px;
-	}
-	.section-candidate-search .candidate-box-list .candidate-info-03 {
-		display: none;
-	}
 	/* employer product page */
 	.section-product-page-info .text-001 {
 		font-size: 2em;
@@ -12331,6 +12372,35 @@ nav.employer-login-nav .text-1 {
 	}
 	.section-candidate-profile .candidate-profile-box .profile-career-history {
 		height: 220px;
+	}
+}
+@media only screen and (max-width: 630px) {
+	/* candidate search page */
+	.section-candidate-search {
+		width: 100%;
+		padding: 0 10px;
+	}
+	.section-candidate-search .candidate-box-list {
+		width: 100%;
+		height: auto;
+		padding-left: calc((100% - 455px) / 2);
+		padding-right: calc((100% - 455px) / 2);
+	}
+	.section-candidate-search .candidate-box-list .candidate-info-02 {
+		margin-right: 0px;
+	}
+	.section-candidate-search .candidate-box-list .candidate-info-03 {
+		display: none;
+	}
+	.section-candidate-search-filter {
+		width: 100%;
+		padding: 0px 10px;
+	}
+	.section-candidate-search-filter .text-001 {
+		width: 100%;
+	}
+	.section-candidate-search-filter .filter-info-box {
+		width: 100%;
 	}
 }
 @media only screen and (max-width: 620px) {
@@ -12519,6 +12589,10 @@ nav.employer-login-nav .text-1 {
 	}
 	.guide-form-mobile .Contact-btn {
 		width: 420px;
+	}
+	/* candidate search page */
+	.section-candidate-search-filter .filter-info-box ul li {
+		width: 50%;
 	}
 }
 @media only screen and (max-width: 540px) {
@@ -12817,6 +12891,7 @@ nav.employer-login-nav .text-1 {
 		display: none;
 	}
 	.jobSeeker {
+		margin-top: 120px;
 		padding: 100px 20px;
 	}
 	.jobSeeker_login {
@@ -12846,7 +12921,7 @@ nav.employer-login-nav .text-1 {
 	.jobSeeker_login_mobile form .text-001 {
 		font-size: 1.4em;
 		font-weight: 550;
-		color: #00bf4a;
+		color: #2ebd59;
 		margin-bottom: 30px;
 	}
 	.jobSeeker_login_mobile form input {
@@ -12865,7 +12940,7 @@ nav.employer-login-nav .text-1 {
 		font-size: 1.1em;
 		line-height: 40px;
 		color: white;
-		background-color: #00bf4a;
+		background-color: #2ebd59;
 	}
 	.jobSeeker_login_mobile form .pw-wrap {
 		margin-top: 20px;
@@ -12882,7 +12957,7 @@ nav.employer-login-nav .text-1 {
 	}
 	.jobSeeker_login_mobile form .pw-wrap a {
 		display: inline;
-		color: #00bf4a;
+		color: #2ebd59;
 		font-weight: 440;
 		font-size: 0.9em;
 	}
@@ -12916,13 +12991,11 @@ nav.employer-login-nav .text-1 {
 
 	/* guide page */
 	.guide-nav .nav-back .logo-white {
-		left: -40px;
-		transform: scale(0.5);
+		left: -20px;
 	}
 	.guide-nav .nav-back .text-1 {
-		left: 160px;
+		left: 180px;
 		font-size: 0.9em;
-		line-height: 60px;
 	}
 	/* history page */
 	.my-history .my-history-box-wrap .my-history-title-box p {
@@ -13041,11 +13114,11 @@ nav.employer-login-nav .text-1 {
 	/* employer page */
 	body.employer nav.isMobile .container-0 .stylesheet {
 		transform: scale(0.6);
-		left: -40px;
+		left: -30px;
 	}
 	body.employer nav.isMobile .container-0 .text-1 {
-		font-size: 0.7em;
-		left: 165px;
+		font-size: 0.8em;
+		left: 155px;
 	}
 	body.employer .section-recent-job .container-0 h4 {
 		font-size: 1.3em;
@@ -13138,6 +13211,7 @@ nav.employer-login-nav .text-1 {
 		display: none;
 	}
 	.jobSeeker {
+		margin-top: 120px;
 		padding: 100px 20px;
 	}
 	.jobSeeker_login {
@@ -13178,12 +13252,12 @@ nav.employer-login-nav .text-1 {
 		font-size: 1.1em;
 		line-height: 40px;
 		color: white;
-		background-color: #00bf4a;
+		background-color: #2ebd59;
 	}
 	.jobSeeker_login_mobile form .text-001 {
 		font-size: 1.2em;
 		font-weight: 550;
-		color: #00bf4a;
+		color: #2ebd59;
 		margin-bottom: 30px;
 	}
 	.jobSeeker_login_mobile form .pw-wrap {
@@ -13201,7 +13275,7 @@ nav.employer-login-nav .text-1 {
 	}
 	.jobSeeker_login_mobile form .pw-wrap a {
 		display: inline;
-		color: #00bf4a;
+		color: #2ebd59;
 		font-weight: 440;
 		font-size: 0.9em;
 	}
@@ -13378,10 +13452,6 @@ nav.employer-login-nav .text-1 {
 }
 @media only screen and (max-width: 360px) {
 	/* employer page */
-	/* .employer .container-0 .stylesheet {
-		transform: scale(0.5);
-		left: -55px;
-	} */
 	nav.employer .container-0 .text-1 {
 		left: 145px;
 	}

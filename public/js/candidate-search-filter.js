@@ -10,20 +10,10 @@ function filter() {
     }
 }
 
-// function cateClick() {
-//     document.querySelector('.filter-category-list').classList.toggle('displayNone');
-// }
-
-// $('.filter-category-box').on('click', function(e) {
-//     var cate = e.currentTarget;
-//     console.log('cate :', cate);
-//     $('#filter-category').value = cate;
-//     $(".filter-category-list").hide();
-// })
-// $('.filter-category-list').click(function(e) {
-//     categoryCheck(e.currentTarget);
-// })
-// function categoryCheck(el) {
-//     var el;
-//     console.log(el);
-// }
+$(function () {
+    if ($('.employer-candidate-search-page').outerWidth(true) <= '1280') {
+        $('.text-001').on('click', function () {
+            $('.filter-info-box').slideToggle(300);
+        })
+    }	
+})
