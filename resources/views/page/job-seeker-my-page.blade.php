@@ -10,7 +10,7 @@
 					<p class="text-002">-</p>
 					<p class="text-002">-</p>
 				</div>
-				<a href="" class="seeker-account-history">Apply history</a>
+				<a href="/apply-history" class="seeker-account-history">Apply history</a>
 			</div>
 		</section>
 		<section class="section-profile-img-modal displayNone">
@@ -391,35 +391,37 @@
 						<div class="add-preference displayNone">
 							<p class="text-001">About your next role</p>
 							<form method="POST" name="add-next-role" action="" accept-charset="utf-8">
-								<p class="text-002">Availability</p>
-								<div class="availability-box">
-									<span class="icon stylesheet gray-arrow"></span>
-									<input class="availability" type="text" placeholder="Select availability">
-								</div>
-								<p class="text-002">Preferred work types</p>
-								<div class="preference-box">
-									<div class="checkbox-wrap">
-										<input id="full-time" name="full-time" type="checkbox"><label for="full-time">Full time</label>
+								<div class="availability-wrap">
+									<p class="text-002">Availability</p>
+									<div class="availability-box">
+										<span class="icon stylesheet gray-arrow"></span>
+										<input class="availability" type="text" placeholder="Select availability">
 									</div>
-									<div class="checkbox-wrap">
-										<input id="part-time" name="part-time" type="checkbox"><label for="part-time">Part time</label>
+									<p class="text-002">Preferred work types</p>
+									<div class="preference-box">
+										<div class="checkbox-wrap">
+											<input id="full-time" name="full-time" type="checkbox"><label for="full-time">Full time</label>
+										</div>
+										<div class="checkbox-wrap">
+											<input id="part-time" name="part-time" type="checkbox"><label for="part-time">Part time</label>
+										</div>
+										<div class="checkbox-wrap">
+											<input id="contract" name="contract" type="checkbox"><label for="contract">Contract</label>
+										</div>
+										<div class="checkbox-wrap">
+											<input id="casual" name="casual" type="checkbox"><label for="casual">Casual</label>
+										</div>
 									</div>
-									<div class="checkbox-wrap">
-										<input id="contract" name="contract" type="checkbox"><label for="contract">Contract</label>
+									<div class="location-text-box">
+										<p class="text-002">Preferred location</p>
+										<p class="text-002">All Melbourne<span class="star-img-p"></span></p>
 									</div>
-									<div class="checkbox-wrap">
-										<input id="casual" name="casual" type="checkbox"><label for="casual">Casual</label>
+									<div class="location-select-box">
+										<span class="icon stylesheet gray-arrow"></span>
+										<input type="text" readonly="readonly" placeholder="Select location">
+										<span class="icon stylesheet gray-arrow"></span>
+										<input type="text" readonly="readonly" placeholder="Select sub-location">
 									</div>
-								</div>
-								<div class="location-text-box">
-									<p class="text-002">Preferred location</p>
-									<p class="text-002">All Melbourne<span class="star-img-p"></span></p>
-								</div>
-								<div class="location-select-box">
-									<span class="icon stylesheet gray-arrow"></span>
-									<input type="text" readonly="readonly" placeholder="Select location">
-									<span class="icon stylesheet gray-arrow"></span>
-									<input type="text" readonly="readonly" placeholder="Select sub-location">
 								</div>
 								<div class="salary-expectation">
 									<p class="text-002">Salary expectation</p>
@@ -459,11 +461,13 @@
 							<p class="text-003">Add your video resume</p>
 							<p><a class="add-btn" onClick="addVideoResume()">Add Resume</a></p>
 						</div>
-						<div class="video-resume-box"></div>
-						<div class="video-resume-box"></div>
-						<div class="video-resume-box"></div>
-						<div class="video-resume-box"></div>
-						<div class="video-resume-box"></div>
+						<div class="video-resume-wrap">
+							<div class="video-resume-box"></div>
+							<div class="video-resume-box"></div>
+							<div class="video-resume-box"></div>
+							<div class="video-resume-box"></div>
+							<div class="video-resume-box"></div>
+						</div>
 					</div>
 					<div class="add-video-resume displayNone">
 						<div class="add-video-resume-info">
@@ -486,30 +490,36 @@
 			</div>
 			<div class="seeker-info-right">
 				<div class="profile-1">
-					<div class="text-001">Profile visibility</div>
-					<p class="text-002">Your profile visibility setting controls if employers can approach you with job opportunities.</p>
-					<div class="text-wrap">
-						<div class="text-001">Limited</div>
-						<div class="text-select">Select<span class="icon stylesheet"></span></div>
+					<div class="profile-1-left">
+						<div class="text-001">Profile visibility</div>
+						<p class="text-002">Your profile visibility setting controls if employers can approach you with job opportunities.</p>
 					</div>
-					<p class="text-003">For all settings, your Profile including any verified credentials will be sent to the employer with your applications.</p>
-					<p><a class="text-004">Learn more about visibility</a></p>
+					<div class="profile-1-right">
+						<div class="text-wrap">
+							<div class="text-001">Limited</div>
+							<div class="text-select">Select<span class="icon stylesheet"></span></div>
+						</div>
+						<p class="text-003">For all settings, your Profile including any verified credentials will be sent to the employer with your applications.</p>
+						<p><a class="text-004">Learn more about visibility</a></p>
+					</div>
 				</div>
 				<div class="profile-2">
-					<div class="text-001">Profile Strength</div>
-					<div class="text-center">
-						<span class="star stylesheet"></span>
-						<ul id="progress">
-							<li><span class="square type1"></span></li>
-							<li>
-								<span class="square type2"></span>
-								<span class="square type1"></span>
-							</li>
-							<li><span class="square type2"></span></li>
-						</ul>
-						<p></p>
-						<div class="text-002">abcdefghijklmnopqrstuvwxyzabcdefghijklmnopqrstuvwxyzabcdefghijklmnopqrstuvwxyzabcdefghijklmnopqrstuvwxyz</div>
+					<div class="strength-box">
+						<div class="text-001">Profile Strength</div>
+						<div class="text-center">
+							<span class="star stylesheet"></span>
+							<ul id="progress">
+								<li><span class="square type1"></span></li>
+								<li>
+									<span class="square type2"></span>
+									<span class="square type1"></span>
+								</li>
+								<li><span class="square type2"></span></li>
+							</ul>
+							<p></p>
+						</div>
 					</div>
+					<div class="text-002">abcdefghijklmnopqrstuvwxyzabcdefghijklmnopqrstuvwxyzabcdefghijklmnopqrstuvwxyzabcdefghijklmnopqrstuvwxyz</div>
 				</div>
 			</div>
 		</section>
