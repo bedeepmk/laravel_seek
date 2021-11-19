@@ -3,6 +3,9 @@
 @section('content')
 	<article class="my-page-job-seeker">
 		<section class="section-seeker-prtrait">
+			<div class="mobile-profile-banner">
+				Profile
+			</div>
 			<div class="layout-100">
 				<img class="my-page-seeker-img">
 				<div class="seeker-account-info">

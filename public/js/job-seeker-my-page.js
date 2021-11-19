@@ -173,3 +173,12 @@ function postVideoResume() {
 	document.querySelector('.video-resume').classList.remove('displayNone');
 	document.querySelector('.add-video-resume').classList.add('displayNone');	
 }
+
+$(function () {
+	if ($('html').outerWidth(true) <= '768') {
+		$('.seeker-info-right .profile-1 .text-001').on('click', function() {
+			$('.seeker-info-right .profile-1 .text-001').toggleClass('clicked')
+			$('.seeker-info-right .profile-1 .profile-1-left .text-002').slideToggle('fast')
+		})
+	}
+})
