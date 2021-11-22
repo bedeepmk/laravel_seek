@@ -30,6 +30,9 @@ Route::post('/create-user', [AuthController::class, 'customSignup'])->name('user
 Route::get('/dashboard', [AuthController::class, 'dashboardView'])->name('dashboard');
 Route::get('/logout', [AuthController::class, 'logout'])->name('logout');
 
+Route::get('/profile', function () {
+    return view('page.profile');
+});
 Route::get('/guide', function () {
     return view('page.advertiser-guide-page');
 });
