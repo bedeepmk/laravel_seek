@@ -173,12 +173,54 @@ function postVideoResume() {
 	document.querySelector('.video-resume').classList.remove('displayNone');
 	document.querySelector('.add-video-resume').classList.add('displayNone');	
 }
+var height = $('.seeker-info-right').outerHeight(true)
+var height2 = ''
+var change = 0
 
 $(function () {
 	if ($('html').outerWidth(true) <= '768') {
-		$('.seeker-info-right .profile-1 .text-001').on('click', function() {
-			$('.seeker-info-right .profile-1 .text-001').toggleClass('clicked')
+		$('.cl1').on('click', function() {
+			$('.cl1').toggleClass('clicked')
 			$('.seeker-info-right .profile-1 .profile-1-left .text-002').slideToggle('fast')
+			height2 = $('.seeker-info-right').outerHeight(true)
+			console.log('height = ', height)
+			console.log('height2 = ', height2)
+			if (height != height2){
+				marginTop(height2)
+			}
 		})
+
+		$('.cl2').on('click', function() {
+			$('.cl2').toggleClass('clicked')
+			$('.limited-text-box').slideToggle('fast')
+			height2 = $('.seeker-info-right').outerHeight(true)
+			console.log('height = ', height)
+			console.log('height2 = ', height2)
+			if (height != height2){
+				marginTop(height2)
+			}
+		})
+
 	}
 })
+
+function marginTop(height) {
+	if (height == 228) {
+		$('.seeker-info-left').css({marginTop: '240px'})
+	} else if (height >= 261 & height < 300) {
+		$('.seeker-info-left').css({marginTop: '280px'})
+	} else if (height >= 342) {
+		$('.seeker-info-left').css({marginTop: '360px'})
+	} else {
+		$('.seeker-info-left').css({marginTop: '160px'})
+	}
+}
+// function setHeight(right, left) {
+// 	var objSet = document.getElementsByClassName(right);
+// 	var objHeight = document.getElementsByClassName(left).offsetHeight;
+// 	$(objSet).css({marginTop: objHeight})
+// }
+// 기본 : 160
+// 227 첫번째 하나 -> 240
+// 261 두번째 하나 -> 280
+// 342 두개 다 -> 360

@@ -8,6 +8,7 @@
 			</div>
 			<div class="layout-100">
 				<img class="my-page-seeker-img">
+				<span class="stylesheet img-plus-btn"></span>
 				<div class="seeker-account-info">
 					<p class="text-001">norahyoon@gmail.com</p>
 					<p class="text-002">-</p>
@@ -494,16 +495,18 @@
 			<div class="seeker-info-right">
 				<div class="profile-1">
 					<div class="profile-1-left">
-						<div class="text-001">Profile visibility</div>
+						<div class="text-001 cl1">Profile visibility</div>
 						<p class="text-002">Your profile visibility setting controls if employers can approach you with job opportunities.</p>
 					</div>
 					<div class="profile-1-right">
 						<div class="text-wrap">
-							<div class="text-001">Limited</div>
+							<div class="text-001 cl2">Limited</div>
 							<div class="text-select">Select<span class="icon stylesheet"></span></div>
 						</div>
-						<p class="text-003">For all settings, your Profile including any verified credentials will be sent to the employer with your applications.</p>
-						<p><a class="text-004">Learn more about visibility</a></p>
+						<div class="limited-text-box">
+							<p class="text-003">For all settings, your Profile including any verified credentials will be sent to the employer with your applications.</p>
+							<p><a class="text-004">Learn more about visibility</a></p>
+						</div>
 					</div>
 				</div>
 				<div class="profile-2">

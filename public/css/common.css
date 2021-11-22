@@ -627,6 +627,7 @@ footer .icon-0 {
 	height: 85px;
 	transform: scale(0.7);
 	margin-left: -40px;
+	top: -20px;
 }
 footer .button-adv {
 	height: 100%;
@@ -1656,7 +1657,7 @@ body .isMap {
 }
 /* employer page */
 .employer article {
-	margin-top: 250px;
+	margin-top: 165px;
 	background-color: rgba(0, 0, 0, 0.05);
 }
 .employer article#job-page {
@@ -2538,6 +2539,17 @@ body article#guide-page {
 }
 .my-page-job-seeker .section-seeker-prtrait .layout-100 .my-page-seeker-img {
 	cursor: pointer;
+}
+.my-page-job-seeker .section-seeker-prtrait .layout-100 .img-plus-btn {
+	box-sizing: border-box;
+	width: 13px;
+	height: 13px;
+	position: absolute;
+	top: 70px;
+	left: 70px;
+	background-position-x: -280px;
+	background-position-y: -353px;
+	transform: scale(2);
 }
 .my-page-job-seeker .section-seeker-prtrait .seeker-account-history {
 	box-sizing: border-box;
@@ -4709,7 +4721,7 @@ input#still-in-role {
 	font-weight: 440;
 	font-size: 1.4em;
 	left: 260px;
-	top: 35px;
+	bottom: 0px;
 }
 .employer-create-job-nav.employer-profile-nav .container-2 .layout-100::after {
 	clear: both;
@@ -11883,6 +11895,18 @@ nav.employer-login-nav .text-1 {
 	.section-video-interview-page .interview-info-left .interview-btn-wrap .interview-send-btn {
 		width: 140px;
 	}
+	/* classify role */
+	.employer-create-job .employer-create-job-nav .text-1 {
+		font-size: 1em;
+		left: 160px;
+		bottom: 33px;
+	}
+	.employer-create-job .employer-create-job-nav .container-0 h1 {
+		transform: scale(.6);
+		left: -30px;
+		top: -3px;
+	}
+
 	/* job seeker my page */
 	nav.my-page-job-seeker-nav .container-0 h1 {
 		transform: scale(.8);
@@ -11968,6 +11992,7 @@ nav.employer-login-nav .text-1 {
 		width: 100%;
 		margin: 0px;
 		padding: 0px;
+		height: auto;
 	}
 	.seeker-info-right .profile-1 .profile-1-left {
 		/* padding: 10px; */
@@ -11976,16 +12001,47 @@ nav.employer-login-nav .text-1 {
 	.seeker-info-right .profile-1 .profile-1-left .text-001 {
 		padding: 10px;
 		border-bottom: 1px solid #aaa;
-		margin-bottom: 5px;
+		margin-bottom: 0px;
+		font-size: 1.2em;
 	}
 	.seeker-info-right .profile-1 .profile-1-left .text-002 {
 		display: none;
 		padding: 10px;
+		border-bottom: 1px solid #aaa;
+		box-sizing: border-box;
+	}
+	.seeker-info-right .profile-1 .profile-1-right {
+		height: auto;
+	}
+	.seeker-info-right .profile-1 .text-wrap .text-select {
+		display: none;
+	}
+	.seeker-info-right .profile-1 .text-wrap .text-001 {
+		box-sizing: border-box;
+		width: 100%;
+		padding: 10px;
+		margin-bottom: 0px;
+		border-bottom: 1px solid #aaa;
+		font-size: 1.2em;
+	}
+	.seeker-info-right .profile-1 .text-003 {
+		padding: 10px;
+		margin-bottom: 0px;
+	}
+	.seeker-info-right .profile-1 .text-004 {
+		padding: 0px 10px 10px;
+	}
+	.seeker-info-right .profile-1 .profile-1-right .limited-text-box {
+		display: none;
+		border-bottom: 1px solid #aaa;
 	}
 
 	.seeker-info-right .profile-2 {
 		float: none;
 		width: 100%;
+		height: auto;
+		padding: 0px;
+		border-bottom: 1px solid #aaa;
 	}
 	.seeker-info-right .profile-2 .text-center p {
 		display: none;
@@ -11993,11 +12049,80 @@ nav.employer-login-nav .text-1 {
 	.seeker-info-right .profile-2 .text-002 {
 		display: none;
 	}
+	.seeker-info-right .profile-2 .strength-box:after {
+		clear: both;
+		content:'';
+		display: block;
+	}
+	.seeker-info-right .profile-2 .strength-box {
+		padding: 10px;
+		height: auto;
+	}
+	.seeker-info-right .profile-2 .strength-box .text-001 {
+		width: 150px;
+		margin: 0px;
+		font-size: 1.2em;
+		float: left;
+	}
+	.seeker-info-right .profile-2 .strength-box .text-center {
+		float: right;
+		top: 10px;
+		right: 10px;
+		width: 200px;
+		margin: 0px;
+	}
+	.seeker-info-right .profile-2 .strength-box .text-center .star {
+		position: absolute;
+		left: -15px;
+		margin: 0px;
+	}
+	.seeker-info-right .profile-2 .strength-box .text-center #progress {
+		width: 180px;
+	}
+
+
+
+
+
+
 
 	.my-page-job-seeker .seeker-wrap div.seeker-info-left {
 		box-sizing: border-box;
+		margin-top: 160px;
 	}
-	
+	.my-page-job-seeker .seeker-wrap div.seeker-info-left .step-box div:nth-last-of-type(1) {
+		display: none;
+	}
+	.my-page-job-seeker .seeker-wrap div.seeker-info-left .step-01 div {
+		width: calc(50% - 10px);
+		margin-right: 20px;
+	}
+	.my-page-job-seeker .seeker-wrap div.seeker-info-left .step-01 div:nth-of-type(even) {
+		margin-right: 0px;
+	}
+	.my-page-job-seeker .seeker-wrap div.seeker-info-left .step-01 {
+		padding: 10px;
+	}
+	/* .my-page-job-seeker .seeker-wrap div.seeker-info-left .step-01 .text-001 {
+		
+	} */
+	.my-page-job-seeker .seeker-wrap div.seeker-info-left .step-02 .right-info .preferences {
+		height: auto;
+	}
+	.my-page-job-seeker .seeker-wrap div.seeker-info-left .step-02 .right-info .preferences .preferences-info p {
+		width: 25%;
+		margin-right: 30px;
+		margin-bottom: 20px;
+	}
+	.right-info .preferences .preferences-info {
+		margin-bottom: 40px;
+	}
+	.right-info .preferences .preferences-btn {
+		bottom: 0px;
+	}
+	.my-page-job-seeker .seeker-wrap div.seeker-info-left .step-01-1 div:nth-last-of-type(1) {
+		width: 100%;
+	}
 }
 @media only screen and (max-width: 740px) {
 	body.employer article {
@@ -13312,6 +13437,10 @@ nav.employer-login-nav .text-1 {
 		top: 10px;
 		right: 10px;
 	}
+	/* job seeker my page */
+	.my-page-job-seeker .seeker-wrap div.seeker-info-left .step-01 div {
+		width: 100%;
+	}
 }
 @media only screen and (max-width: 510px) {
 	/* candidate search page */
@@ -13726,6 +13855,17 @@ nav.employer-login-nav .text-1 {
 	.my-history-nav .container-2 .layout-100 div.seeker-account-info .text-001 {
 		font-size: 1.1em;
 	}
+	/* classify role */
+	/* .employer-create-job .employer-create-job-nav .text-1 {
+		font-size: .8em;
+		left: 160px;
+		bottom: 33px;
+	}
+	.employer-create-job .employer-create-job-nav .container-0 h1 {
+		transform: scale(.6);
+		left: -30px;
+		top: -3px;
+	} */
 }
 @media only screen and (max-width: 400px) {
 	body.isMobileMap .section-map .container-map {

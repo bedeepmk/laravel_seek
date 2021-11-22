@@ -2,9 +2,11 @@
 @endcomponent 
 @yield('styles') 
 @yield('scripts_top') 
-<body class='employer-create-job'>
+{{-- <body class='employer-create-job'> --}}
+<body class='employer body-grey'>
 <container>
-@component('layouts.client.classify-role-header')
+{{-- @component('layouts.client.classify-role-header') --}}
+@component('layouts.client.employer-header2')
 @endcomponent 
 
 @yield('content')
