@@ -1,7 +1,7 @@
-@extends('layouts/client/classify-role')
+@extends('layouts/client/employer')
 @section('title', 'candidate-profile')
 @section('content')
-    <article>
+    <article id="candidate-profile">
         <section class="section-candidate-profile">
             <div class="candidate-profile-box">
                 <div class="candidate-profile-info personal-profile-box">

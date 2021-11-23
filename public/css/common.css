@@ -103,6 +103,9 @@ article {
 nav {
 	background-color: white;
 }
+nav.isPC .container-1 {
+	width: 100%;
+}
 nav.isMobile {
 	display: none;
 }
@@ -120,7 +123,7 @@ nav .container-0 h1 {
 	height: 85px;
 	text-indent: -99999px;
 	float: left;
-	left: 10px;
+	left: calc(50% - 110px);
 	background-position-y: -715px;
 }
 nav .container-0 h1.isOpened {
@@ -247,9 +250,10 @@ nav .container-0 .layer-menu-mypage .button-sign-out:hover {
 	background-color: rgba(0, 0, 0, 0.05);
 }
 nav .container-1 {
+	width: 100%;
 	height: 45px;
 	margin: 15px auto 0;
-	background-color: white;
+	/* background-color: white; */
 }
 nav .container-1 li {
 	width: 20%;
@@ -1372,7 +1376,7 @@ body .isMap {
 }
 .section-seeker-prtrait .seeker-account-info {
 	position: absolute;
-	top: 10px;
+	top: 5px;
 	left: 120px;
 }
 .section-seeker-prtrait .seeker-account-info p {
@@ -1697,7 +1701,7 @@ nav.employer .text-1 {
 	color: white;
 	position: absolute;
 	font-weight: 440;
-	left: 250px;
+	left: calc(50% + 120px);
 	top: 80px;
 	font-size: 1.2em;
 }
@@ -2545,9 +2549,9 @@ body article#guide-page {
 	width: 13px;
 	height: 13px;
 	position: absolute;
-	top: 70px;
-	left: 70px;
-	background-position-x: -280px;
+	top: 75px;
+	left: 75px;
+	background-position-x: -278px;
 	background-position-y: -353px;
 	transform: scale(2);
 }
@@ -3913,7 +3917,7 @@ input#still-in-role {
 	margin-right: 30px;
 }
 .video-resume-info {
-	margin-right: 100px !important;
+	margin-right: 100px;
 }
 .video-resume-info .add-btn {
 	box-sizing: border-box;
@@ -4413,6 +4417,10 @@ input#still-in-role {
 	display: none;
 }
 /* employer profile page */
+body.employer nav .container-1 {
+	width: 100%;
+	background: none;
+}
 .employer-profile article#employer-profile-page {
 	margin-top: 0;
 }
@@ -4426,10 +4434,6 @@ input#still-in-role {
 }
 .employer-profile .employer-profile-nav .container-1 li.selected {
 	background-color: #2ebd59;
-}
-.employer-profile .employer-profile-nav .container-1 {
-	background: none;
-	width: 980px;
 }
 .employer-profile .employer-profile-nav .container-1 li a {
 	color: white;
@@ -4448,7 +4452,7 @@ input#still-in-role {
 	position: absolute;
 	font-weight: 440;
 	font-size: 1.2em;
-	left: 250px;
+	left: calc(50% + 120px);
 	top: 80px;
 }
 .employer-profile-nav .container-2 .layout-100 .employer-profile-create-job-btn {
@@ -6005,6 +6009,9 @@ body.employer .section-pagination {
 }
 
 /* employer suggestion page */
+article#suggestion-page {
+	margin-top: 250px;
+}
 .section-suggestion-page {
 	box-sizing: border-box;
 	width: 920px;
@@ -6170,6 +6177,9 @@ body.employer .section-pagination {
 }
 
 /* video interview page */
+article#video-interview {
+	margin-top: 250px;
+}
 .section-video-interview-page {
 	box-sizing: border-box;
 	width: 100%;
@@ -6517,6 +6527,9 @@ body.employer .section-pagination {
 }
 
 /* candidate profile page */
+article#candidate-profile {
+	margin-top: 250px;
+}
 .section-candidate-profile:after {
 	clear: both;
 	content: '';
@@ -6973,6 +6986,9 @@ body.employer .section-pagination {
 	clear: both;
 	content: '';
 	display: block;
+}
+article.employer-candidate-search-page {
+	margin-top: 250px;
 }
 .section-candidate-search {
 	box-sizing: border-box;
@@ -8899,9 +8915,9 @@ nav.employer-login-nav .text-1 {
 		margin-right: 15px;
 	}
 	/* employer profile page */
-	.employer-profile .employer-profile-nav .container-1 {
+	/* .employer-profile .employer-profile-nav .container-1 {
 		width: 1200px;
-	}
+	} */
 	/* applied candidates */
 	.section-candidate-filter {
 		width: 800px;
@@ -9272,6 +9288,10 @@ nav.employer-login-nav .text-1 {
 	.my-page-job-seeker .seeker-wrap div.seeker-info-left .step-03 .video-resume .video-resume-wrap .video-resume-box{
 		float: none;
 		display: inline-block;
+		margin-right: 20px;
+	}
+	.my-page-job-seeker .seeker-wrap div.seeker-info-left .step-03 .video-resume .video-resume-wrap .video-resume-box:nth-last-of-type(1) {
+		margin-right: 0px;
 	}
 	
 }
@@ -9552,9 +9572,9 @@ nav.employer-login-nav .text-1 {
 		margin-right: 0px;
 	}
 	/* employer profile page */
-	.employer-profile .employer-profile-nav .container-1 {
+	/* .employer-profile .employer-profile-nav .container-1 {
 		width: 920px;
-	}
+	} */
 	/* employer job ad page 10-1 */
 	.section-board .ad-delete-btn {
 		width: 45px;
@@ -10217,9 +10237,6 @@ nav.employer-login-nav .text-1 {
 		left: 210px;
 		top: 73px;
 	}
-	.employer-profile .employer-profile-nav .container-1 {
-		width: 100%;
-	}
 	/* job apply page */
 	.section-job-apply-info {
 		width: 750px;
@@ -10779,14 +10796,15 @@ nav.employer-login-nav .text-1 {
 	}
 	.employer-profile nav.isMobile .container-0 a h1 {
 		background-position-y: -885px;
-		left: 20px;
+		left: 0px;
 		top: 0px;
+		transform: scale(.8);
 	}
 	.employer-profile nav.isMobile .container-0 .text-1 {
 		color: white;
 		position: absolute;
 		top: 80px;
-		left: 250px;
+		left: 210px;
 	}
 	.employer-profile nav.isMobile .button-mobile-search {
 		width: 60px;
@@ -11959,6 +11977,7 @@ nav.employer-login-nav .text-1 {
 		position: relative;
 		float: left;
 		text-align: left;
+		left: 0px;
 	}
 	.my-page-job-seeker .section-seeker-prtrait .layout-100 .seeker-account-info .text-001 {
 		color: black;
@@ -11973,6 +11992,10 @@ nav.employer-login-nav .text-1 {
 		background-color: #000;
 		color: white;
 		top: -125px;
+	}
+	.my-page-job-seeker .section-seeker-prtrait .layout-100 .img-plus-btn {
+		top: 90px;
+		left: 85px
 	}
 	
 	.my-page-job-seeker .seeker-wrap {
@@ -12122,6 +12145,9 @@ nav.employer-login-nav .text-1 {
 	}
 	.my-page-job-seeker .seeker-wrap div.seeker-info-left .step-01-1 div:nth-last-of-type(1) {
 		width: 100%;
+	}
+	.my-page-job-seeker .seeker-wrap div.seeker-info-left .video-resume-info {
+		margin-right: 30px;
 	}
 }
 @media only screen and (max-width: 740px) {

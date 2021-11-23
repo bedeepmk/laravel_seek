@@ -1,7 +1,7 @@
 @extends('layouts/client/employer')
 @section('title', 'video-interview')
 @section('content')
-    <article>
+    <article id="video-interview">
         <section class="section-video-interview-page">
             <div class="interview-info-left">
                 <div class="interview-info-box">
