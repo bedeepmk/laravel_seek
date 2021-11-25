@@ -1,4 +1,4 @@
-@extends('layouts/client/classify-role')
+@extends('layouts/client/employer2')
 @section('title', 'classify-role')
 @section('content')
     <article id="create-job-page" class="employer-create-job">

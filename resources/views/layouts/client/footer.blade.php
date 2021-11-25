@@ -1,11 +1,11 @@
 <footer>
-    <div class="container-0">
+    {{-- <div class="container-0">
         <a href="" class="button-adv layout-100">
             <img src="img/image-adv-0.png" />
             <span>Apple store</span>
             <span>Google play</span>
         </a>
-    </div>
+    </div> --}}
     <div class="container-1 layout-100">
         <div class="icon-0 stylesheet"></div>
         <a href="5.html" class="guideBtn">Advertiser page</a>

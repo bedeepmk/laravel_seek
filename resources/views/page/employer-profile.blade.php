@@ -1,4 +1,5 @@
-@extends('layouts/client/employer-profile')
+{{-- @extends('layouts/client/employer-profile') --}}
+@extends('layouts/client/employer2')
 @section('title', 'employer-profile')
 @section('content')
     <article id="employer-profile-page">

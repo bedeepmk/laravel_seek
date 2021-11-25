@@ -108,3 +108,6 @@ Route::get('/suggestion-page', function () {
 Route::get('/video-interview', function () {
     return view('page.video-interview');
 });
+Route::get('/employer', function () {
+    return view('page.employer-index');
+});

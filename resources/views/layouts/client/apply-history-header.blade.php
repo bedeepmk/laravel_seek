@@ -1,10 +1,10 @@
 @if (Route::has('login'))
     <nav class="my-history-nav">
         <div class="container-0">
-            <a href="/"><h1 class="stylesheet">farmnjobs</h1></a>
+            <a href=""><h1 class="stylesheet">farmnjobs</h1></a>
             <p class="text-0">
-                <a href="/login">nora yoon<span></span>
-                <a href="#">Sign out</a>
+                <a href="">nora yoon<span></span>
+                <a href="">Sign out</a>
             </p>
         </div>
         <ul class="container-1 layout-100">
@@ -14,5 +14,5 @@
             <li><a href="">Market</a></li>
             <li><a href="">Community</a></li>
         </ul>
-    </nav>    
+    </nav>
 @endif
